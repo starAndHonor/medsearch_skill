@@ -1,0 +1,38 @@
+{
+  "pmid": "16804517",
+  "pmcid": "PMC2360610",
+  "doi": "10.1038/sj.bjc.6603239",
+  "title": "Association of MUTYH and colorectal cancer.",
+  "abstract": "Mutations in the MUTYH gene have been reported to be associated with increased risk of developing colorectal cancer. In this study, we confirmed this association using original data on 928 colorectal cancer cases and 845 healthy controls from Scotland. We then conducted a meta-analysis from published data on the association between mutations at MUTYH and colorectal cancer risk. We show for the first time a small but significant mono-allelic effect with a genotype relative risk (GRR) of 1.27 (95% confidence interval (CI): 1.01-1.61), and confirm and give a more precise estimate of the strong bi-allelic effect with an estimated GRR of 117 (95% CI: 74-184). This study underscores the need for large sample sizes in order to identify small gene effects when the disease allele frequency is low.",
+  "journal": "British journal of cancer",
+  "year": "2006",
+  "authors": [
+    "Tenesa A",
+    "Campbell H",
+    "Barnetson R",
+    "Porteous M",
+    "Dunlop M",
+    "Farrington S M"
+  ],
+  "mesh_terms": [
+    "Colorectal Neoplasms",
+    "DNA Glycosylases",
+    "DNA Mutational Analysis",
+    "Databases as Topic",
+    "Humans",
+    "Mutation",
+    "Risk Factors",
+    "Scotland"
+  ],
+  "publication_types": [
+    "Comparative Study",
+    "Journal Article",
+    "Meta-Analysis",
+    "Research Support, Non-U.S. Gov't"
+  ],
+  "trial_ids": [],
+  "source": "pubmed",
+  "verified": true,
+  "verified_by": "pubmed",
+  "verified_on": "2026-08-06"
+}

@@ -1,0 +1,4 @@
+RankMHC is a computational method designed to rank structural models of Class I Peptide MHC complexes.
+It employs machine learning techniques to evaluate and prioritize these models based on their accuracy and relevance.
+By focusing on factors such as binding affinity and structural stability, RankMHC aids researchers in identifying the most accurate models for studying peptide MHC interactions, which is crucial for advancements in immunology, including vaccine development and understanding immune responses to diseases like cancer and autoimmune disorders.
+This tool enhances our ability to predict how peptides bind to MHC molecules, contributing significantly to molecular level insights into the immune system.

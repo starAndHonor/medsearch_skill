@@ -1,0 +1,43 @@
+{
+  "pmid": "17613544",
+  "pmcid": "PMC2637552",
+  "doi": "10.1093/hmg/ddl486",
+  "title": "TGF-beta signaling alterations and susceptibility to colorectal cancer.",
+  "abstract": "In 2006, more than 55,000 patients died of colorectal cancer in the US, accounting for approximately 10% of all cancer deaths. Despite significant progress in screening combined with the development of novel effective therapies, colorectal cancer ranks second to lung cancer as a cause of cancer death. Twin studies indicate that 35% of all colorectal cancers are inherited, but high-penetrance tumor susceptibility genes only account for approximately 3-6% of all cases. The remainder of the unexplained familial risk is presumably due to other high-penetrance genes, but polygenic mechanisms and low-penetrance tumor susceptibility genes are likely to account for a greater proportion of familial colorectal cancers. In this regard, there is growing evidence that a common hypomorphic variant of the type I TGF-beta receptor, TGFBR1*6A, may account for approximately 3% of all colorectal cancer cases, a fraction higher than that attributable to mismatch repair genes MLH1, MSH2, MSH6 and PMS2. Furthermore, TGFBR1*6A is emerging as a potent modifier of colorectal cancer risk among individuals with a strong family of colorectal cancer. The TGF-beta signaling pathway plays a central but paradoxical role in the predisposition and progression of colorectal cancer. TGF-beta is a potent inhibitor of normal colonic epithelial cells acting as a tumor suppressor. However, TGF-beta promotes the survival, invasion and metastasis of colorectal cancer cells, thereby acting as an oncogene. Understanding how selective alterations of the TGF-beta signaling pathway contribute to colorectal cancer development and progression will likely permit the identification of an additional fraction of inherited colorectal cancer cases and provide novel opportunities for therapeutic intervention.",
+  "journal": "Human molecular genetics",
+  "year": "2007",
+  "authors": [
+    "Xu Yanfei",
+    "Pasche Boris"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Colorectal Neoplasms",
+    "Humans",
+    "Models, Biological",
+    "Mutation",
+    "Oncogenes",
+    "Polymorphism, Genetic",
+    "Protein Isoforms",
+    "Protein Serine-Threonine Kinases",
+    "Receptor Cross-Talk",
+    "Receptor, Transforming Growth Factor-beta Type I",
+    "Receptor, Transforming Growth Factor-beta Type II",
+    "Receptors, Transforming Growth Factor beta",
+    "Signal Transduction",
+    "Smad Proteins",
+    "Transforming Growth Factor beta",
+    "Wnt Proteins"
+  ],
+  "publication_types": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Review"
+  ],
+  "trial_ids": [],
+  "source": "pubmed",
+  "verified": true,
+  "verified_by": "pubmed",
+  "verified_on": "2026-08-06"
+}

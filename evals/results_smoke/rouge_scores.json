@@ -1,0 +1,65 @@
+{
+  "evaluator": "Perl ROUGE-1.5.5 (official BioASQ ideal-answer scorer)",
+  "rouge_args": [
+    "-a",
+    "-n",
+    "2",
+    "-x",
+    "-m",
+    "-2",
+    "4",
+    "-u",
+    "-c",
+    "95",
+    "-r",
+    "1000",
+    "-f",
+    "A",
+    "-p",
+    "0.5",
+    "-t",
+    "0"
+  ],
+  "golden": "data/bioasq_13b_test_merged.json",
+  "benchmark": "evals/bioasq_13b_test_benchmark.json",
+  "work_dir": "evals/runs_smoke",
+  "n_scored": 1,
+  "n_total": 340,
+  "scored_at": "2026-08-06T10:34:27+00:00",
+  "scores": {
+    "rouge2": {
+      "recall": 0.0,
+      "recall_ci95": [
+        0.0,
+        0.0
+      ],
+      "precision": 0.0,
+      "precision_ci95": [
+        0.0,
+        0.0
+      ],
+      "f1": 0.0,
+      "f1_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "rouge_su4": {
+      "recall": 0.00013,
+      "recall_ci95": [
+        0.00013,
+        0.00013
+      ],
+      "precision": 0.0008,
+      "precision_ci95": [
+        0.0008,
+        0.0008
+      ],
+      "f1": 0.00022,
+      "f1_ci95": [
+        0.00022,
+        0.00022
+      ]
+    }
+  }
+}

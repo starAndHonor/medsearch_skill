@@ -1,0 +1,2 @@
+RankMHC is an advanced predictor designed to accurately rank the conformations of peptide-major histocompatibility complex (pMHC) structures.
+It surpasses traditional scoring functions and previous machine learning-based predictors in identifying the most accurate pMHC binding modes, making it a valuable tool for enhancing various pMHC structural modeling protocols.

@@ -1,0 +1,1967 @@
+{
+  "schema_version": "medlit-state/v0.1",
+  "question": "Pathophysiology of irritable bowel syndrome (IBS).",
+  "created_at": "2026-08-06T09:41:38+00:00",
+  "updated_at": "2026-08-06T09:42:22+00:00",
+  "status": "ready_to_stop",
+  "pico": {
+    "population": "Pathophysiology of irritable bowel syndrome (IBS).",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcome": "",
+    "study_designs": [
+      "randomized controlled trial",
+      "systematic review",
+      "meta-analysis"
+    ],
+    "notes": "Auto-generated from BioASQ question for batch evaluation."
+  },
+  "term_plan": {
+    "concepts": [
+      {
+        "name": "population",
+        "raw": "Pathophysiology of irritable bowel syndrome (IBS).",
+        "mesh_terms": [
+          "Pathophysiology Of Irritable Bowel Syndrome (ibs)."
+        ],
+        "title_abstract_terms": [
+          "Pathophysiology",
+          "Pathophysiology of irritable bowel syndrome (IBS).",
+          "irritable bowel syndrome IBS"
+        ],
+        "notes": "Initial term plan; validate MeSH before using [MeSH Terms]."
+      }
+    ],
+    "filters": {
+      "humans": true,
+      "language": "english"
+    },
+    "warnings": []
+  },
+  "mesh_validation": [
+    {
+      "candidate": "Pathophysiology Of Irritable Bowel Syndrome (ibs).",
+      "concept": "population",
+      "status": "fallback",
+      "preferred_term": "",
+      "entry_terms": [],
+      "tree_numbers": [],
+      "field_tag": "Title/Abstract",
+      "fallback_terms": [
+        "Pathophysiology",
+        "Pathophysiology of irritable bowel syndrome (IBS).",
+        "irritable bowel syndrome IBS"
+      ],
+      "warning": "No MeSH record returned."
+    }
+  ],
+  "query_ladder": [
+    {
+      "query_id": "Q1_broad_conceptual",
+      "purpose": "Broad concept query for recall",
+      "exact_query": "(\"Pathophysiology of irritable bowel syndrome (IBS).\"[Title/Abstract] OR \"Pathophysiology\"[Title/Abstract] OR \"irritable bowel syndrome IBS\"[Title/Abstract])",
+      "source": "tool_generated",
+      "executed": true
+    },
+    {
+      "query_id": "Q2_focused_primary",
+      "purpose": "Focused query with basic filters",
+      "exact_query": "(\"Pathophysiology of irritable bowel syndrome (IBS).\"[Title/Abstract] OR \"Pathophysiology\"[Title/Abstract] OR \"irritable bowel syndrome IBS\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]",
+      "source": "tool_generated",
+      "executed": false
+    },
+    {
+      "query_id": "Q4_reviews",
+      "purpose": "Systematic review/meta-analysis oriented query",
+      "exact_query": "((\"Pathophysiology of irritable bowel syndrome (IBS).\"[Title/Abstract] OR \"Pathophysiology\"[Title/Abstract] OR \"irritable bowel syndrome IBS\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]) AND (systematic review[Publication Type] OR meta-analysis[Publication Type])",
+      "source": "tool_generated",
+      "executed": false
+    },
+    {
+      "query_id": "Q5_trials",
+      "purpose": "Clinical trial oriented query",
+      "exact_query": "((\"Pathophysiology of irritable bowel syndrome (IBS).\"[Title/Abstract] OR \"Pathophysiology\"[Title/Abstract] OR \"irritable bowel syndrome IBS\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]) AND (clinical trial[Publication Type] OR randomized controlled trial[Publication Type])",
+      "source": "tool_generated",
+      "executed": false
+    }
+  ],
+  "retrieval_runs": [
+    {
+      "query_id": "Q1_broad_conceptual",
+      "query": "(\"Pathophysiology of irritable bowel syndrome (IBS).\"[Title/Abstract] OR \"Pathophysiology\"[Title/Abstract] OR \"irritable bowel syndrome IBS\"[Title/Abstract])",
+      "count": 227877,
+      "pmids": [
+        "37475846",
+        "33946961",
+        "32296140",
+        "36307180",
+        "27144627",
+        "41226634",
+        "37049488",
+        "28176047",
+        "35125827",
+        "34631603",
+        "18471139",
+        "28185025",
+        "34203002",
+        "38002788",
+        "37678185",
+        "37882441",
+        "35250873",
+        "42462748",
+        "17040359",
+        "28541989"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "pmid": "37475846",
+      "pmcid": "PMC10354571",
+      "doi": "10.3748/wjg.v29.i26.4120",
+      "title": "Irritable bowel syndrome: Epidemiology, overlap disorders, pathophysiology and treatment.",
+      "abstract": "Irritable bowel syndrome (IBS) is a common chronic gastrointestinal disease with a significant impact on patients' quality of life and a high socioeconomic burden. And the understanding of IBS has changed since the release of the Rome IV diagnosis in 2016. With the upcoming Rome V revision, it is necessary to review the results of IBS research in recent years. In this review of IBS, we can highlight future concerns by reviewing the results of IBS research on epidemiology, overlap disorders, pathophysiology, and treatment over the past decade and summarizing the latest research.",
+      "journal": "World journal of gastroenterology",
+      "year": "2023",
+      "authors": [
+        "Huang Kai-Yue",
+        "Wang Feng-Yun",
+        "Lv Mi",
+        "Ma Xiang-Xue",
+        "Tang Xu-Dong",
+        "Lv Lin"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Quality of Life",
+        "Prevalence",
+        "Severity of Illness Index"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "33946961",
+      "pmcid": "PMC8146452",
+      "doi": "10.3390/nu13051506",
+      "title": "Diarrhea Predominant-Irritable Bowel Syndrome (IBS-D): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms.",
+      "abstract": "Irritable Bowel Syndrome (IBS) is a chronic functional gastrointestinal disorder characterized by abdominal pain associated with defecation or a change in bowel habits. Gut microbiota, which acts as a real organ with well-defined functions, is in a mutualistic relationship with the host, harvesting additional energy and nutrients from the diet and protecting the host from pathogens; specific alterations in its composition seem to play a crucial role in IBS pathophysiology. It is well known that diet can significantly modulate the intestinal microbiota profile but it is less known how different nutritional approach effective in IBS patients, such as the low-FODMAP diet, could be responsible of intestinal microbiota changes, thus influencing the presence of gastrointestinal (GI) symptoms. The aim of this review was to explore the effects of different nutritional protocols (e.g., traditional nutritional advice, low-FODMAP diet, gluten-free diet, etc.) on IBS-D symptoms and on intestinal microbiota variations in both IBS-D patients and healthy subjects. To date, an ideal nutritional protocol does not exist for IBS-D patients but it seems crucial to consider the effect of the different nutritional approaches on the intestinal microbiota composition to better define an efficient strategy to manage this functional disorder.",
+      "journal": "Nutrients",
+      "year": "2021",
+      "authors": [
+        "Altomare Annamaria",
+        "Di Rosa Claudia",
+        "Imperia Elena",
+        "Emerenziani Sara",
+        "Cicala Michele",
+        "Guarino Michele Pier Luca"
+      ],
+      "mesh_terms": [
+        "Diarrhea",
+        "Diet",
+        "Dysbiosis",
+        "Gastrointestinal Microbiome",
+        "Humans",
+        "Irritable Bowel Syndrome"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "32296140",
+      "pmcid": "",
+      "doi": "10.1038/s41575-020-0286-8",
+      "title": "Global burden of irritable bowel syndrome: trends, predictions and risk factors.",
+      "abstract": "Irritable bowel syndrome (IBS) is one of the most common disorders of gut-brain interaction worldwide, defined according to patterns of gastrointestinal symptoms as described by the Rome diagnostic criteria. However, these criteria, developed with reference to research conducted largely in Western populations, might be limited in their applicability to other countries and cultures. Epidemiological data show a wide variation in the prevalence of IBS globally and more rigorous studies are needed to accurately determine any differences that might exist between countries as well as the potential explanations. The effects of IBS on the individual, in terms of their quality of life, and on health-care delivery and society, in terms of economic costs, are considerable. Although the magnitude of these effects seems to be comparable between nations, their precise nature can vary based on the existence of societal and cultural differences. The pathophysiology of IBS is complex and incompletely understood; genetics, diet and the gut microbiome are all recognized risk factors, but the part they play might be influenced by geography and culture, and hence their relative importance might vary between countries. This Review aims to provide an overview of the burden of IBS in a global context, to discuss future implications for the care of people with IBS worldwide, and to identify key areas for further research.",
+      "journal": "Nature reviews. Gastroenterology & hepatology",
+      "year": "2020",
+      "authors": [
+        "Black Christopher J",
+        "Ford Alexander C"
+      ],
+      "mesh_terms": [
+        "Absenteeism",
+        "Autonomic Nervous System",
+        "Cost of Illness",
+        "Diet",
+        "Dysbiosis",
+        "Gastrointestinal Microbiome",
+        "Genetic Predisposition to Disease",
+        "Global Health",
+        "Health Care Costs",
+        "Humans",
+        "Hypothalamo-Hypophyseal System",
+        "Intestinal Mucosa",
+        "Irritable Bowel Syndrome",
+        "Permeability",
+        "Prevalence",
+        "Quality of Life",
+        "Risk Factors"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "36307180",
+      "pmcid": "PMC9990119",
+      "doi": "10.1136/gutjnl-2022-328515",
+      "title": "Irritable bowel syndrome: treatment based on pathophysiology and biomarkers.",
+      "abstract": "OBJECTIVE: To appraise the evidence that pathophysiological mechanisms and individualised treatment directed at those mechanisms provide an alternative approach to the treatment of patients with irritable bowel syndrome (IBS).\nDESIGN: A PubMED-based literature review of mechanisms and treatment of IBS was conducted independently by the two authors, and any differences of perspective or interpretation of the literature were resolved following discussion.\nRESULTS: The availability of several noninvasive clinical tests can appraise the mechanisms responsible for symptom generation in IBS, including rectal evacuation disorders, abnormal transit, visceral hypersensitivity or hypervigilance, bile acid diarrhoea, sugar intolerances, barrier dysfunction, the microbiome, immune activation and chemicals released by the latter mechanism. The basic molecular mechanisms contributing to these pathophysiologies are increasingly recognised, offering opportunities to intervene with medications directed specifically to food components, receptors and potentially the microbiome. Although the evidence supporting interventions for each mechanism is not at the same level of proof, the current state-of-the-art provides the opportunity to advance the practice from treatment based on symptoms to individualisation of treatment guided by pathophysiology and clinically identified biomarkers.\nCONCLUSION: These advances augur well for the implementation of evidence-based individualised treatment for patients with IBS based on actionable biomarkers or psychological disturbances.",
+      "journal": "Gut",
+      "year": "2023",
+      "authors": [
+        "Camilleri Michael",
+        "Boeckxstaens Guy"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Diarrhea",
+        "Biomarkers"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "27144627",
+      "pmcid": "",
+      "doi": "10.1053/j.gastro.2016.02.031",
+      "title": "Bowel Disorders.",
+      "abstract": "Functional bowel disorders are highly prevalent disorders found worldwide. These disorders have the potential to affect all members of society, regardless of age, gender, race, creed, color or socioeconomic status. Improving our understanding of functional bowel disorders (FBD) is critical as they impose a negative economic impact to the global health care system in addition to reducing quality of life. Research in the basic and clinical sciences during the past decade has produced new information on the epidemiology, etiology, pathophysiology, diagnosis and treatment of FBDs. These important findings created a need to revise the Rome III criteria for FBDs, last published in 2006. This manuscript classifies the FBDs into five distinct categories: irritable bowel syndrome (IBS); functional constipation (FC); functional diarrhea (FDr); functional abdominal bloating/distention (FAB/D); and unspecified FBD (U-FBD). Also included in this article is a new sixth category, opioid induced constipation (OIC) which is distinct from the functional bowel disorders (FBDs). Each disorder will first be defined, followed by sections on epidemiology, rationale for changes from prior criteria, clinical evaluation, physiologic features, psychosocial features and treatment. It is the hope of this committee that this new information will assist both clinicians and researchers in the decade to come.",
+      "journal": "Gastroenterology",
+      "year": "2016",
+      "authors": [
+        "Mearin Fermín",
+        "Lacy Brian E",
+        "Chang Lin",
+        "Chey William D",
+        "Lembo Anthony J",
+        "Simren Magnus",
+        "Spiller Robin"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "41226634",
+      "pmcid": "PMC12607773",
+      "doi": "10.3390/ijms262110598",
+      "title": "Unraveling the Pathophysiology of Irritable Bowel Syndrome: Mechanisms and Insights.",
+      "abstract": "Irritable Bowel Syndrome (IBS) is one of the most prevalent gastrointestinal disorders, affecting about 11% of the global population and exerting a substantial burden on quality of life and healthcare systems. Despite the emerging interest in this disease, its pathophysiology remains elusive, reflecting the interplay between the brain-gut axis, neuroendocrine dysregulation, immune activation, barrier dysfunction, microbial imbalance, and environmental triggers. Disruptions in the hypothalamic-pituitary-adrenal axis, impaired serotonin signaling, bile acid malabsorption, and altered intestinal permeability collectively result in the emergence of abnormal motility, visceral hypersensitivity, and chronic inflammation. The gut microbiome further modulates these processes by influencing neurotransmitter metabolism, immune responses, and epithelial integrity, positioning it as both a driver of symptoms and a promising therapeutic target. The aim of this review is to synthesize current mechanistic insights into IBS, highlighting the interconnected roles of the brain-gut axis, immune modulation, and microbial dynamics, and to explore how these pathways may be translated into precision medicine approaches. This review integrates molecular, microbial, and neuroimmune perspectives to propose a systems-level understanding of IBS pathophysiology and its implications for precision medicine. By integrating host-microbe interactions, dietary influences, and genetic predispositions, we highlight the mechanistic complexity underlying IBS and the potential for translating these insights into personalized strategies for symptom control and improved quality of life.",
+      "journal": "International journal of molecular sciences",
+      "year": "2025",
+      "authors": [
+        "Aggeletopoulou Ioanna",
+        "Papantoniou Konstantinos",
+        "Pastras Ploutarchos",
+        "Triantos Christos"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Gastrointestinal Microbiome",
+        "Animals",
+        "Hypothalamo-Hypophyseal System",
+        "Quality of Life",
+        "Brain-Gut Axis"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "37049488",
+      "pmcid": "PMC10096616",
+      "doi": "10.3390/nu15071647",
+      "title": "Constipation-Predominant Irritable Bowel Syndrome (IBS-C): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms.",
+      "abstract": "Irritable bowel syndrome (IBS) is a chronic functional gastrointestinal disorder characterized by abdominal pain associated with defecation or a change in bowel habits. The pathogenesis of IBS is not completely clear, but it is known to be multifactorial and complex. Endogenous and exogenous factors such as abnormal GI motility, low-grade inflammation, increased epithelial permeability and visceral hypersensitivity, but diet and psychosocial aspects are also recognized as important actors. Furthermore, the interaction between diet and gut microbiota has gained interest as a potential contributor to the pathophysiology of IBS. To date, there is no specific diet for IBS with constipation (IBS-C); however, many studies show that fiber intake, especially soluble fiber such as inulin, could have a positive effect on symptoms. This review aims to evaluate the effects of some nutritional components such as fibers but also functional foods, prebiotics, probiotics and symbiotics on symptoms and microbiota in IBS-C subjects.",
+      "journal": "Nutrients",
+      "year": "2023",
+      "authors": [
+        "Di Rosa Claudia",
+        "Altomare Annamaria",
+        "Terrigno Vittoria",
+        "Carbone Florencia",
+        "Tack Jan",
+        "Cicala Michele",
+        "Guarino Michele Pier Luca"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Dysbiosis",
+        "Constipation",
+        "Probiotics",
+        "Prebiotics"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "28176047",
+      "pmcid": "",
+      "doi": "10.1007/164_2016_118",
+      "title": "Gastrointestinal Physiology and Function.",
+      "abstract": "The gastrointestinal (GI) system is responsible for the digestion and absorption of ingested food and liquids. Due to the complexity of the GI tract and the substantial volume of material that could be covered under the scope of GI physiology, this chapter briefly reviews the overall function of the GI tract, and discusses the major factors affecting GI physiology and function, including the intestinal microbiota, chronic stress, inflammation, and aging with a focus on the neural regulation of the GI tract and an emphasis on basic brain-gut interactions that serve to modulate the GI tract. GI diseases refer to diseases of the esophagus, stomach, small intestine, colon, and rectum. The major symptoms of common GI disorders include recurrent abdominal pain and bloating, heartburn, indigestion/dyspepsia, nausea and vomiting, diarrhea, and constipation. GI disorders rank among the most prevalent disorders, with the most common including esophageal and swallowing disorders, gastric and peptic ulcer disease, gastroparesis or delayed gastric emptying, irritable bowel syndrome (IBS), and inflammatory bowel disease (IBD). Many GI disorders are difficult to diagnose and their symptoms are not effectively managed. Thus, basic research is required to drive the development of novel therapeutics which are urgently needed. One approach is to enhance our understanding of gut physiology and pathophysiology especially as it relates to gut-brain communications since they have clinical relevance to a number of GI complaints and represent a therapeutic target for the treatment of conditions including inflammatory diseases of the GI tract such as IBD and functional gut disorders such as IBS.",
+      "journal": "Handbook of experimental pharmacology",
+      "year": "2017",
+      "authors": [
+        "Greenwood-Van Meerveld Beverley",
+        "Johnson Anthony C",
+        "Grundy David"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Enteric Nervous System",
+        "Gastric Juice",
+        "Gastrointestinal Absorption",
+        "Gastrointestinal Diseases",
+        "Gastrointestinal Motility",
+        "Gastrointestinal Tract",
+        "Humans",
+        "Intestinal Secretions"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "35125827",
+      "pmcid": "PMC8790555",
+      "doi": "10.3748/wjg.v28.i4.412",
+      "title": "Gut bless you: The microbiota-gut-brain axis in irritable bowel syndrome.",
+      "abstract": "Irritable bowel syndrome (IBS) is a common clinical label for medically unexplained gastrointestinal symptoms, recently described as a disturbance of the microbiota-gut-brain axis. Despite decades of research, the pathophysiology of this highly heterogeneous disorder remains elusive. However, a dramatic change in the understanding of the underlying pathophysiological mechanisms surfaced when the importance of gut microbiota protruded the scientific picture. Are we getting any closer to understanding IBS' etiology, or are we drowning in unspecific, conflicting data because we possess limited tools to unravel the cluster of secrets our gut microbiota is concealing? In this comprehensive review we are discussing some of the major important features of IBS and their interaction with gut microbiota, clinical microbiota-altering treatment such as the low FODMAP diet and fecal microbiota transplantation, neuroimaging and methods in microbiota analyses, and current and future challenges with big data analysis in IBS.",
+      "journal": "World journal of gastroenterology",
+      "year": "2022",
+      "authors": [
+        "Hillestad Eline Margrete Randulff",
+        "van der Meeren Aina",
+        "Nagaraja Bharat Halandur",
+        "Bjørsvik Ben René",
+        "Haleem Noman",
+        "Benitez-Paez Alfonso",
+        "Sanz Yolanda",
+        "Hausken Trygve",
+        "Lied Gülen Arslan",
+        "Lundervold Arvid",
+        "Berentsen Birgitte"
+      ],
+      "mesh_terms": [
+        "Brain-Gut Axis",
+        "Fecal Microbiota Transplantation",
+        "Gastrointestinal Microbiome",
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Microbiota"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "34631603",
+      "pmcid": "PMC8495119",
+      "doi": "10.3389/fcimb.2021.729346",
+      "title": "Gut Microbiota-Derived Metabolites in Irritable Bowel Syndrome.",
+      "abstract": "Irritable bowel syndrome (IBS) is the most common functional bowel disorder worldwide and is associated with visceral hypersensitivity, gut motility, immunomodulation, gut microbiota alterations, and dysfunction of the brain-gut axis; however, its pathophysiology remains poorly understood. Gut microbiota and its metabolites are proposed as possible etiological factors of IBS. The aim of our study was to investigate specific types of microbiota-derived metabolites, especially bile acids, short-chain fatty acids, vitamins, amino acids, serotonin and hypoxanthine, which are all implicated in the pathogenesis of IBS. Metabolites-focused research has identified multiple microbial targets relevant to IBS patients, important roles of microbiota-derived metabolites in the development of IBS symptoms have been established. Thus, we provide an overview of gut microbiota and their metabolites on the different subtypes of IBS (constipation-predominant IBS-C, diarrhea-predominant IBS-D) and present controversial views regarding the role of microbiota in IBS.",
+      "journal": "Frontiers in cellular and infection microbiology",
+      "year": "2021",
+      "authors": [
+        "Xiao Lin",
+        "Liu Qin",
+        "Luo Mei",
+        "Xiong Lishou"
+      ],
+      "mesh_terms": [
+        "Bile Acids and Salts",
+        "Fatty Acids, Volatile",
+        "Gastrointestinal Diseases",
+        "Gastrointestinal Microbiome",
+        "Humans",
+        "Irritable Bowel Syndrome"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "18471139",
+      "pmcid": "",
+      "doi": "10.1111/j.1365-2885.2008.00944.x",
+      "title": "Serotonin: a review.",
+      "abstract": "5-Hydroxytryptamine, or serotonin, is a biogenic amine most noted for its role as a neurotransmitter. Manipulation of serotonin in animal models was used as a tool for studying its role in humans. Through such research serotonin has been shown to modulate gastrointestinal motility, peripheral vascular tone, cerebral vascular tone, and platelet function and has been implicated in the pathophysiology of mood disorders, emesis, migraine, irritable bowel syndrome (IBS), and pulmonary and systemic hypertension. The knowledge gained is being directly applied back to animals in research on drugs that manipulate the serotonergic system in dogs and cats. Increasing use and availability of drugs that manipulate the serotonergic system has created a circumstance through which a novel toxicity was discovered in both humans and animals. Serotonin Syndrome describes the clinical picture seen in humans and animals with serotonin toxicity. This paper provides a review the physiology of serotonin and its involvement in the pathophysiologic mechanisms of various conditions, including the Serotonin Syndrome.",
+      "journal": "Journal of veterinary pharmacology and therapeutics",
+      "year": "2008",
+      "authors": [
+        "Mohammad-Zadeh L F",
+        "Moses L",
+        "Gwaltney-Brant S M"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Gastrointestinal Motility",
+        "Humans",
+        "Platelet Aggregation",
+        "Receptors, Serotonin",
+        "Serotonin",
+        "Serotonin Antagonists",
+        "Serotonin Receptor Agonists",
+        "Serotonin Syndrome",
+        "Veterinary Medicine"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "28185025",
+      "pmcid": "",
+      "doi": "10.1007/164_2016_111",
+      "title": "Constipation: Pathophysiology and Current Therapeutic Approaches.",
+      "abstract": "Chronic constipation is a common, persistent condition affecting many patients worldwide, presenting significant economic burden and resulting in substantial healthcare utilization. In addition to infrequent bowel movements, the definition of constipation includes excessive straining, a sense of incomplete evacuation, failed or lengthy attempts to defecate, use of digital manoeuvres for evacuation of stool, abdominal bloating, and hard consistency of stools. After excluding secondary causes of constipation, chronic idiopathic or primary constipation can be classified as functional defecation disorder, slow-transit constipation (STC), and constipation-predominant irritable bowel syndrome (IBS-C). These classifications are not mutually exclusive and significant overlap exists. Initial therapeutic approach to primary constipation, regardless of aetiology, consists of diet and lifestyle changes such as encouraging adequate fluid and fibre intake, regular exercise, and dietary modification. Laxatives are the mainstay of pharmacologic treatment for potential long-term therapy in patients who do not respond to lifestyle or dietary modification. After a failed empiric trial of laxatives, diagnostic testing is necessary to understand underlying anorectal and/or colonic pathophysiology. No single test provides a comprehensive assessment for primary constipation; therefore, multiple tests are used to provide complementary information to one another. Dyssynergic defecation, a functional defecation disorder, is an acquired behavioural disorder of defecation present in two-thirds of adult patients, where an inability to coordinate the abdominal, recto-anal, and pelvic floor muscles during attempted defecation exists. Biofeedback therapy is the mainstay treatment for dyssynergic defecation aimed at improving coordination of abdominal and anorectal muscles. A large percentage of patients with dyssynergic defecation also exhibit rectal hyposensitivity and may benefit from the addition of sensory retraining. Our understanding of the pathophysiology of STC is evolving. The advent of high-resolution colonic manometry allows for the improved identification of colonic motor patterns and may provide further insight into pathophysiological mechanisms. In a minority of cases of STC, identification of colonic neuropathy suggests a medically refractory condition, warranting consideration of colectomy. The pathophysiology of IBS-C is poorly understood with multiple etiological factors implicated. Pharmacological advances in the treatment of primary constipation have added therapeutic options to the armamentarium of this disorder. Drug development in the secretagogue, serotonergic prokinetic, and ileal bile acid transporter inhibition pathways has yielded current and future medical treatment options for primary chronic constipation.",
+      "journal": "Handbook of experimental pharmacology",
+      "year": "2017",
+      "authors": [
+        "Sharma Amol",
+        "Rao Satish"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Biofeedback, Psychology",
+        "Chronic Disease",
+        "Constipation",
+        "Defecation",
+        "Diet",
+        "Digestive System Surgical Procedures",
+        "Enteric Nervous System",
+        "Gastrointestinal Motility",
+        "Humans",
+        "Intestines",
+        "Laxatives",
+        "Recovery of Function",
+        "Risk Factors",
+        "Risk Reduction Behavior",
+        "Treatment Outcome"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "34203002",
+      "pmcid": "PMC8233736",
+      "doi": "10.3390/nu13062112",
+      "title": "Probiotics, Prebiotics, and Synbiotics: Implications and Beneficial Effects against Irritable Bowel Syndrome.",
+      "abstract": "Irritable bowel syndrome (IBS) is still a common functional gastrointestinal disease that presents chronic abdominal symptoms but with a pathophysiology that is not yet fully elucidated. Moreover, the use of the synergistic combination of prebiotics and probiotics, known as synbiotics, for IBS therapy is still in the early stages. Advancements in technology led to determining the important role played by probiotics in IBS, whereas the present paper focuses on the detailed review of the various pathophysiologic mechanisms of action of probiotics, prebiotics, and synbiotics via multidisciplinary domains involving the gastroenterology (microbiota modulation, alteration of gut barrier function, visceral hypersensitivity, and gastrointestinal dysmotility) immunology (intestinal immunological modulation), and neurology (microbiota-gut-brain axis communication and co-morbidities) in mitigating the symptoms of IBS. In addition, this review synthesizes literature about the mechanisms involved in the beneficial effects of prebiotics and synbiotics for patients with IBS, discussing clinical studies testing the efficiency and outcomes of synbiotics used as therapy for IBS.",
+      "journal": "Nutrients",
+      "year": "2021",
+      "authors": [
+        "Simon Elemer",
+        "Călinoiu Lavinia Florina",
+        "Mitrea Laura",
+        "Vodnar Dan Cristian"
+      ],
+      "mesh_terms": [
+        "Anxiety",
+        "Brain",
+        "Comorbidity",
+        "Depression",
+        "Gastrointestinal Microbiome",
+        "Gastrointestinal Motility",
+        "Humans",
+        "Intestinal Mucosa",
+        "Intestines",
+        "Irritable Bowel Syndrome",
+        "Prebiotics",
+        "Probiotics",
+        "Synbiotics"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "38002788",
+      "pmcid": "PMC10671958",
+      "doi": "10.3390/jcm12227176",
+      "title": "Endo Belly: What Is It and Why Does It Happen?-A Narrative Review.",
+      "abstract": "Endometriosis is a chronic inflammatory disease where endometrial-like lesions settle outside the uterus, resulting in extensive inflammatory reactions. It is a complex disease that presents with a range of symptoms, with pain and infertility being the most common. Along with severe dysmenorrhea, cyclic and acyclic lower abdominal pain, cyclic dysuria and dyschezia, dyspareunia, and infertility, there are also nonspecific complaints that can cause confusion and make endometriosis the chameleon among gynecological diseases. These symptoms include unspecific intestinal complaints, cyclic diarrhea, but also constipation, nausea, vomiting, and stomach complaints. It appears that in addition to general bowel symptoms, there are also specific symptoms related to endometriosis such as cyclic bloating of the abdomen, known as endo belly. During the second half of the menstrual cycle leading up to menstruation, the abdomen becomes increasingly bloated causing discomfort and pain due to elevated sensitivity of the intestinal wall. Patients with endometriosis exhibit a reduced stretch pain threshold of the intestinal wall. Here, we review the endo belly, for the first time, pathophysiology and the influence of other diseases (such as irritable bowel syndrome-IBS), microbiome, hormonal levels, inflammation, and diet on the presentation of this condition.",
+      "journal": "Journal of clinical medicine",
+      "year": "2023",
+      "authors": [
+        "Velho Renata Voltolini",
+        "Werner Franziska",
+        "Mechsner Sylvia"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "37678185",
+      "pmcid": "PMC10592107",
+      "doi": "10.1097/MOG.0000000000000972",
+      "title": "Intestinal proteases.",
+      "abstract": "PURPOSE OF REVIEW: Proteases constitute a group of enzymes that hydrolyze peptide bonds. Intestinal proteases are an integral part of gut homeostasis and digestion. This review discusses the broader classification of proteases, regulation of proteolytic activity (PA) in the intestinal tract, and how dysregulation of intestinal proteases contributes to the pathophysiology of conditions such as irritable bowel syndrome (IBS), inflammatory bowel disease (IBD), and celiac disease. We also discuss recent advancements in therapeutic modulation that directly or indirectly target intestinal proteases and can be utilized to treat these illnesses.\nRECENT FINDINGS: Host and microbiota derived proteases have been associated with symptoms in subsets of patients with IBS, IBD and celiac disease. Elevated PA mediates barrier dysfunction, visceral hypersensitivity as well as immune activation and inflammation. Recent mechanistic studies have revealed the nature of disease-associated proteases and mechanisms regulating their activity, particularly those driven by the microbiota. Advancements in activity-based probes have allowed novel ways of in vivo imaging of PA. Newer strategies targeting proteases include monoclonal antibodies, engineered microbiota as well as specific protease inhibitors.\nSUMMARY: Significant progresses made in the detection as well as regulation of PA is likely to provide therapeutic advancements for gastrointestinal diseases.",
+      "journal": "Current opinion in gastroenterology",
+      "year": "2023",
+      "authors": [
+        "Rao Sameer",
+        "Grover Madhusudan"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Peptide Hydrolases",
+        "Celiac Disease",
+        "Inflammatory Bowel Diseases",
+        "Inflammation"
+      ],
+      "publication_types": [
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "37882441",
+      "pmcid": "",
+      "doi": "",
+      "title": "[Irritable bowel syndrome].",
+      "abstract": "Irritable bowel syndrome (IBS) is a prevalent disorder of the gut-brain interaction, of which the multifactorial pathophysiology is still incompletely understood. IBS is a symptom-based diagnosis based on the Rome IV criteria, and additional diagnostics are only indicated when history or physical examination point towards the presence of other (organic) disorders. Diagnosis and treatment should take place in primary care. However, management of IBS can be challenging due to the heterogenous clinical presentation. Furthermore, a variety of treatment options are available, yet only effective in subgroups of patients. Early positive diagnosis, patient education, and shared-decision making are of utmost importance in order to limit individual disease burden and the socioeconomic impact of IBS. In this review we discuss diagnosis, indications for additional investigations or referral to secondary care, and treatment of IBS, based on both the recently updated Dutch guideline and general practice standard on IBS.",
+      "journal": "Nederlands tijdschrift voor geneeskunde",
+      "year": "2023",
+      "authors": [
+        "Vork Lisa",
+        "Mujagic Zlatan",
+        "Masclee Ad A M",
+        "Muris Jean W M"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Cost of Illness",
+        "General Practice",
+        "Referral and Consultation",
+        "Secondary Health Care"
+      ],
+      "publication_types": [
+        "Review",
+        "English Abstract",
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "35250873",
+      "pmcid": "PMC8888441",
+      "doi": "10.3389/fendo.2022.817100",
+      "title": "Neurotransmitter and Intestinal Interactions: Focus on the Microbiota-Gut-Brain Axis in Irritable Bowel Syndrome.",
+      "abstract": "Irritable bowel syndrome (IBS) is a functional gastrointestinal disorder of unknown etiology. IBS is caused by a disruption in the gut-brain axis. Given the importance of the gut microbiota in maintaining local and systemic homeostasis of immunity, endocrine, and other physiological processes, the microbiota-gut-brain axis has been proposed as a key regulator in IBS. Neurotransmitters have been shown to affect blood flow regulation, intestinal motility, nutrient absorption, the gastrointestinal immune system, and the microbiota in recent studies. It has the potential role to play a function in the pathophysiology of the gastrointestinal and neurological systems. Transmitters and their receptors, including 5-hydroxytryptamine, dopamine, γ-aminobutyric acid, and histamine, play an important role in IBS, especially in visceral sensitivity and gastrointestinal motility. Studies in this field have shed light on revealing the mechanism by which neurotransmitters act in the pathogenesis of IBS and discovering new therapeutic strategies based on traditional pharmacological approaches that target the nervous system or novel therapies that target the microbiota.",
+      "journal": "Frontiers in endocrinology",
+      "year": "2022",
+      "authors": [
+        "Chen Minjia",
+        "Ruan Guangcong",
+        "Chen Lu",
+        "Ying Senhong",
+        "Li Guanhu",
+        "Xu Fenghua",
+        "Xiao Zhifeng",
+        "Tian Yuting",
+        "Lv Linling",
+        "Ping Yi",
+        "Cheng Yi",
+        "Wei Yanling"
+      ],
+      "mesh_terms": [
+        "Brain-Gut Axis",
+        "Gastrointestinal Microbiome",
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Microbiota",
+        "Neurotransmitter Agents"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "42462748",
+      "pmcid": "",
+      "doi": "10.1016/S2468-1253(26)00148-2",
+      "title": "Pathophysiology of irritable bowel syndrome.",
+      "abstract": "Despite the continued absence of a definitive biomarker for irritable bowel syndrome (IBS), research over the last three decades has identified a wide range of underlying pathophysiological abnormalities. Peripheral mechanisms include gastrointestinal infection, changes in the gut microbiome, visceral hypersensitivity, increased intestinal permeability, low-grade mucosal inflammation and altered immune function, abnormal gastrointestinal motility, and the role of serotonin, bile acid metabolism, and carbohydrate metabolism. Central mechanisms include psychological health and altered central pain processing. These central and peripheral mechanisms can act in an integrated way to cause IBS symptoms, via the gut-brain axis, supporting the concept of IBS as a disorder of gut-brain interaction. Some mechanisms can be quantified using validated tests and questionnaires, including abnormal bile acid metabolism, accelerated colonic transit, and psychological comorbidity. However, more work is needed to translate most mechanisms into reliable tests able to identify specific targets for treatment. This Review discusses the current understanding of the pathophysiology of IBS in terms of peripheral, central, and integrated mechanisms.",
+      "journal": "The lancet. Gastroenterology & hepatology",
+      "year": "2026",
+      "authors": [
+        "Nasser Yasmin",
+        "Shin Andrea",
+        "Ford Alexander C",
+        "Camilleri Michael",
+        "Black Christopher J"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "17040359",
+      "pmcid": "PMC1761148",
+      "doi": "10.1111/j.1445-5994.2006.01217.x",
+      "title": "Irritable bowel syndrome.",
+      "abstract": "Conceptually, the irritable bowel syndrome (IBS) has been considered a brain-gut functional disorder, but this paradigm is under serious challenge. There is increasing evidence that organic disease of the gastrointestinal tract can be identified in subsets of patients who fulfil the Rome criteria for IBS. Evidence for subtle inflammatory bowel disease, serotonin dysregulation, bacterial overgrowth and central dysregulation continue to accumulate. The underlying causes of IBS remain to be adequately identified, but postinfectious IBS is a clear-cut entity. Furthermore, a genetic contribution to IBS also seems likely. Diagnosis continues to be based on the symptom profile and the absence of alarm features. A heightened awareness of coeliac disease masquerading as IBS is becoming accepted. Management remains largely based on symptomatic rather than on disease-modifying therapy, but this is likely to change in the near future. Here, recent advances in the pathophysiology and management of IBS are considered.",
+      "journal": "Internal medicine journal",
+      "year": "2006",
+      "authors": [
+        "Talley N J"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Irritable Bowel Syndrome"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "28541989",
+      "pmcid": "PMC5453305",
+      "doi": "10.1097/01.NAJ.0000520253.57459.01",
+      "title": "Irritable Bowel Syndrome.",
+      "abstract": ": Irritable bowel syndrome (IBS) is a common, chronic gastrointestinal (GI) condition characterized by disturbances in bowel habits and abdominal pain in the absence of known organic pathology. IBS reduces quality of life and is costly to treat. It is diagnosed using the symptom-based Rome criteria for functional GI disorders, which was recently updated and released as Rome IV. Both physiologic and psychological variables play a role in the etiology of IBS and perpetuate symptoms. Although research has shed light on IBS pathophysiology, therapeutic interventions remain symptom driven, employing both pharmacologic and nonpharmacologic approaches. Here, the authors review the epidemiology and pathophysiology of IBS, summarize diagnostic and treatment strategies, and discuss implications for nursing practice.",
+      "journal": "The American journal of nursing",
+      "year": "2017",
+      "authors": [
+        "Weaver Kristen Ronn",
+        "Melkus Gail DʼEramo",
+        "Henderson Wendy A"
+      ],
+      "mesh_terms": [
+        "Abdominal Pain",
+        "Clinical Protocols",
+        "Cognitive Behavioral Therapy",
+        "Humans",
+        "Irritable Bowel Syndrome",
+        "Mental Disorders",
+        "Nurse's Role",
+        "Quality of Life"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    }
+  ],
+  "fulltexts": [
+    {
+      "pmid": "37475846",
+      "doi": "10.3748/wjg.v29.i26.4120",
+      "pmcid": "PMC10354571",
+      "title": "Irritable bowel syndrome: Epidemiology, overlap disorders, pathophysiology and treatment.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10354571/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37475846/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37475846/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37475846/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "33946961",
+      "doi": "10.3390/nu13051506",
+      "pmcid": "PMC8146452",
+      "title": "Diarrhea Predominant-Irritable Bowel Syndrome (IBS-D): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8146452/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/33946961/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/33946961/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/33946961/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "32296140",
+      "doi": "10.1038/s41575-020-0286-8",
+      "pmcid": "",
+      "title": "Global burden of irritable bowel syndrome: trends, predictions and risk factors.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/32296140/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/32296140/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "36307180",
+      "doi": "10.1136/gutjnl-2022-328515",
+      "pmcid": "PMC9990119",
+      "title": "Irritable bowel syndrome: treatment based on pathophysiology and biomarkers.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "failed",
+          "reason": "HTTP 404: "
+        },
+        {
+          "source": "europe_pmc_pdf",
+          "status": "failed",
+          "reason": "Remote end closed connection without response"
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/36307180/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/36307180/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "27144627",
+      "doi": "10.1053/j.gastro.2016.02.031",
+      "pmcid": "",
+      "title": "Bowel Disorders.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/27144627/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/27144627/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "41226634",
+      "doi": "10.3390/ijms262110598",
+      "pmcid": "PMC12607773",
+      "title": "Unraveling the Pathophysiology of Irritable Bowel Syndrome: Mechanisms and Insights.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12607773/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/41226634/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/41226634/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/41226634/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "37049488",
+      "doi": "10.3390/nu15071647",
+      "pmcid": "PMC10096616",
+      "title": "Constipation-Predominant Irritable Bowel Syndrome (IBS-C): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10096616/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37049488/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37049488/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37049488/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "28176047",
+      "doi": "10.1007/164_2016_118",
+      "pmcid": "",
+      "title": "Gastrointestinal Physiology and Function.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28176047/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28176047/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "35125827",
+      "doi": "10.3748/wjg.v28.i4.412",
+      "pmcid": "PMC8790555",
+      "title": "Gut bless you: The microbiota-gut-brain axis in irritable bowel syndrome.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8790555/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35125827/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35125827/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35125827/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "34631603",
+      "doi": "10.3389/fcimb.2021.729346",
+      "pmcid": "PMC8495119",
+      "title": "Gut Microbiota-Derived Metabolites in Irritable Bowel Syndrome.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8495119/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34631603/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34631603/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34631603/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "18471139",
+      "doi": "10.1111/j.1365-2885.2008.00944.x",
+      "pmcid": "",
+      "title": "Serotonin: a review.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/18471139/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/18471139/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "28185025",
+      "doi": "10.1007/164_2016_111",
+      "pmcid": "",
+      "title": "Constipation: Pathophysiology and Current Therapeutic Approaches.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28185025/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28185025/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "34203002",
+      "doi": "10.3390/nu13062112",
+      "pmcid": "PMC8233736",
+      "title": "Probiotics, Prebiotics, and Synbiotics: Implications and Beneficial Effects against Irritable Bowel Syndrome.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8233736/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34203002/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34203002/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34203002/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "38002788",
+      "doi": "10.3390/jcm12227176",
+      "pmcid": "PMC10671958",
+      "title": "Endo Belly: What Is It and Why Does It Happen?-A Narrative Review.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10671958/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/38002788/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/38002788/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/38002788/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "37678185",
+      "doi": "10.1097/MOG.0000000000000972",
+      "pmcid": "PMC10592107",
+      "title": "Intestinal proteases.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "failed",
+          "reason": "HTTP 404: "
+        },
+        {
+          "source": "europe_pmc_pdf",
+          "status": "failed",
+          "reason": "Remote end closed connection without response"
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37678185/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37678185/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "37882441",
+      "doi": "",
+      "pmcid": "",
+      "title": "[Irritable bowel syndrome].",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37882441/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37882441/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "35250873",
+      "doi": "10.3389/fendo.2022.817100",
+      "pmcid": "PMC8888441",
+      "title": "Neurotransmitter and Intestinal Interactions: Focus on the Microbiota-Gut-Brain Axis in Irritable Bowel Syndrome.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8888441/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35250873/metadata.json",
+        "xml": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35250873/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35250873/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "42462748",
+      "doi": "10.1016/S2468-1253(26)00148-2",
+      "pmcid": "",
+      "title": "Pathophysiology of irritable bowel syndrome.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/42462748/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/42462748/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "17040359",
+      "doi": "10.1111/j.1445-5994.2006.01217.x",
+      "pmcid": "PMC1761148",
+      "title": "Irritable bowel syndrome.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "failed",
+          "reason": "HTTP 404: "
+        },
+        {
+          "source": "europe_pmc_pdf",
+          "status": "failed",
+          "reason": "Remote end closed connection without response"
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/17040359/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/17040359/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "28541989",
+      "doi": "10.1097/01.NAJ.0000520253.57459.01",
+      "pmcid": "PMC5453305",
+      "title": "Irritable Bowel Syndrome.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "failed",
+          "reason": "HTTP 404: "
+        },
+        {
+          "source": "europe_pmc_pdf",
+          "status": "failed",
+          "reason": "Remote end closed connection without response"
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28541989/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28541989/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    }
+  ],
+  "parsed_sources": [
+    {
+      "pmid": "37475846",
+      "doi": "10.3748/wjg.v29.i26.4120",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37475846/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "33946961",
+      "doi": "10.3390/nu13051506",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/33946961/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "32296140",
+      "doi": "10.1038/s41575-020-0286-8",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/32296140/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "36307180",
+      "doi": "10.1136/gutjnl-2022-328515",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/36307180/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "27144627",
+      "doi": "10.1053/j.gastro.2016.02.031",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/27144627/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "41226634",
+      "doi": "10.3390/ijms262110598",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/41226634/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "37049488",
+      "doi": "10.3390/nu15071647",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37049488/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "28176047",
+      "doi": "10.1007/164_2016_118",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28176047/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "35125827",
+      "doi": "10.3748/wjg.v28.i4.412",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35125827/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "34631603",
+      "doi": "10.3389/fcimb.2021.729346",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34631603/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "18471139",
+      "doi": "10.1111/j.1365-2885.2008.00944.x",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/18471139/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "28185025",
+      "doi": "10.1007/164_2016_111",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28185025/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "34203002",
+      "doi": "10.3390/nu13062112",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34203002/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "38002788",
+      "doi": "10.3390/jcm12227176",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/38002788/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "37678185",
+      "doi": "10.1097/MOG.0000000000000972",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37678185/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "37882441",
+      "doi": "",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37882441/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "35250873",
+      "doi": "10.3389/fendo.2022.817100",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35250873/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "42462748",
+      "doi": "10.1016/S2468-1253(26)00148-2",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/42462748/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "17040359",
+      "doi": "10.1111/j.1445-5994.2006.01217.x",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/17040359/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "28541989",
+      "doi": "10.1097/01.NAJ.0000520253.57459.01",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28541989/parsed_text.md",
+      "status": "parsed"
+    }
+  ],
+  "evidence": [
+    {
+      "paper_ref": "37475846",
+      "title": "Irritable bowel syndrome: Epidemiology, overlap disorders, pathophysiology and treatment.",
+      "source_granularity": "fulltext",
+      "study_design": "systematic_review_or_meta_analysis",
+      "population": "# Irritable bowel syndrome: Epidemiology, overlap disorders, pathophysiology and treatment ## INTRODUCTION Irritable bowel syndrome (IBS) is a chronic functional disease, and the changes that it causes in bowel function and abdominal pain seriously affect the patient's normal life and work.",
+      "methods": "The Rome Foundation Global Study[3] coverage across the country reported that the overall prevalence of IBS was 3.8% in Rome IV and 10.1% in Rome III.",
+      "main_results": "The Rome IV criteria, based on symptoms that have undergone a change in dynasty, suggest that the pathogenesis of IBS is associated with gut-brain interactions, which may be an overlapping pathogenesis between FGIDs.",
+      "numbers": [
+        "68.3%",
+        "55.3%",
+        "32.5%",
+        "35.5%",
+        "10.1%",
+        "6.98%",
+        "5.3%",
+        "1.3%",
+        "5.9%",
+        "3.8%",
+        "1.1%",
+        "2.3%"
+      ],
+      "limitations": "# Irritable bowel syndrome: Epidemiology, overlap disorders, pathophysiology and treatment ## INTRODUCTION Irritable bowel syndrome (IBS) is a chronic functional disease, and the changes that it causes in bowel function and abdominal pain seriously affect the patient's normal life and work.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37475846/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "33946961",
+      "title": "Diarrhea Predominant-Irritable Bowel Syndrome (IBS-D): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms.",
+      "source_granularity": "fulltext",
+      "study_design": "unclassified",
+      "population": "It affects between approximately 5% and 15% of the Western Population and it is predominant in women younger than 50 years old (11.2% prevalence) but it can occur at any age [2,3].",
+      "methods": "# Diarrhea Predominant-Irritable Bowel Syndrome (IBS-D): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms Keywords: Irritable Bowel Syndrome, IBS, IBS-D, diarrhea predominant IBS, microbiota and IBS, diet and IBS, low-FODMAP and IBS, low-FODMAP and microbiota, gluten-free diet and IBS, gluten-free diet and microbiota Received 2021 Apr 1; Accepted 2021 Apr 27; Collection date 2021 May.",
+      "main_results": "Introduction Irritable Bowel Syndrome (IBS) is a chronic functional gastrointestinal (GI) disorder characterized by abdominal pain associated with defecation or a change in bowel habits [1].",
+      "numbers": [
+        "11.2%",
+        "0.1%",
+        "95%",
+        "40%",
+        "25%",
+        "15%",
+        "5%"
+      ],
+      "limitations": "# Diarrhea Predominant-Irritable Bowel Syndrome (IBS-D): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms Keywords: Irritable Bowel Syndrome, IBS, IBS-D, diarrhea predominant IBS, microbiota and IBS, diet and IBS, low-FODMAP and IBS, low-FODMAP and microbiota, gluten-free diet and IBS, gluten-free diet and microbiota Received 2021 Apr 1; Accepted 2021 Apr 27; Collection date 2021 May.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/33946961/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "32296140",
+      "title": "Global burden of irritable bowel syndrome: trends, predictions and risk factors.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "However, these criteria, developed with reference to research conducted largely in Western populations, might be limited in their applicability to other countries and cultures.",
+      "methods": "# Global burden of irritable bowel syndrome: trends, predictions and risk factors.",
+      "main_results": "# Global burden of irritable bowel syndrome: trends, predictions and risk factors.",
+      "numbers": [],
+      "limitations": "# Global burden of irritable bowel syndrome: trends, predictions and risk factors.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/32296140/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "36307180",
+      "title": "Irritable bowel syndrome: treatment based on pathophysiology and biomarkers.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "## Abstract OBJECTIVE: To appraise the evidence that pathophysiological mechanisms and individualised treatment directed at those mechanisms provide an alternative approach to the treatment of patients with irritable bowel syndrome (IBS).",
+      "methods": "# Irritable bowel syndrome: treatment based on pathophysiology and biomarkers.",
+      "main_results": "RESULTS: The availability of several noninvasive clinical tests can appraise the mechanisms responsible for symptom generation in IBS, including rectal evacuation disorders, abnormal transit, visceral hypersensitivity or hypervigilance, bile acid diarrhoea, sugar intolerances, barrier dysfunction, the microbiome, immune activation and chemicals released by the latter mechanism.",
+      "numbers": [],
+      "limitations": "# Irritable bowel syndrome: treatment based on pathophysiology and biomarkers.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/36307180/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "27144627",
+      "title": "Bowel Disorders.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "# Bowel Disorders.",
+      "methods": "# Bowel Disorders.",
+      "main_results": "# Bowel Disorders.",
+      "numbers": [],
+      "limitations": "# Bowel Disorders.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/27144627/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "41226634",
+      "title": "Unraveling the Pathophysiology of Irritable Bowel Syndrome: Mechanisms and Insights.",
+      "source_granularity": "fulltext",
+      "study_design": "systematic_review_or_meta_analysis",
+      "population": "The condition significantly affects patients’ quality of life [1] and is generally considered female-predominant [3].",
+      "methods": "Mucoprotectants, such as xyloglucan, gelatin tannate, and pea protein–tannin complexes, are emerging therapeutic agents aiming at restoring barrier integrity and reducing mucosal inflammation in IBS-D, with early clinical trials reporting improvements in stool consistency and abdominal symptoms [52].",
+      "main_results": "The condition significantly affects patients’ quality of life [1] and is generally considered female-predominant [3].",
+      "numbers": [
+        "or 5",
+        "95%",
+        "60%",
+        "25%",
+        "11%",
+        "90%",
+        "20%"
+      ],
+      "limitations": "# Unraveling the Pathophysiology of Irritable Bowel Syndrome: Mechanisms and Insights ## 1.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/41226634/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "37049488",
+      "title": "Constipation-Predominant Irritable Bowel Syndrome (IBS-C): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms.",
+      "source_granularity": "fulltext",
+      "study_design": "clinical_trial",
+      "population": "IBS is more present in childhood, even if it seems to have the peak of prevalence in the early adulthood [2,7].",
+      "methods": "Although in the literature there is a lack of trials that evaluate the role of diet in the IBS-C subtype, this review aims to focus especially on the effects of fiber consumption on symptoms and microbiota.",
+      "main_results": "Introduction Irritable bowel syndrome (IBS) is a functional gastrointestinal disorder characterized by recurrent abdominal pain and discomfort associated with altered bowel habits that occur in the absence of structural and biochemical alterations or other organic gastrointestinal (GI) diseases [1,2,3].",
+      "numbers": [
+        "p = 0.0107",
+        "p < 0.0001",
+        "p = 0.0007",
+        "p = 0.002",
+        "p = 0.006",
+        "p = 0.007",
+        "p < 0.045",
+        "p < 0.01",
+        "p < 0.05",
+        "p = 0.01",
+        "n = 227",
+        "n = 232"
+      ],
+      "limitations": "# Constipation-Predominant Irritable Bowel Syndrome (IBS-C): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms Keywords: irritable bowel syndrome and diet, irritable bowel syndrome with constipation, IBS and diet, IBS and microbiota Received 2023 Feb 22; Revised 2023 Mar 23; Accepted 2023 Mar 27; Collection date 2023 Apr.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37049488/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "28176047",
+      "title": "Gastrointestinal Physiology and Function.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "# Gastrointestinal Physiology and Function.",
+      "methods": "# Gastrointestinal Physiology and Function.",
+      "main_results": "# Gastrointestinal Physiology and Function.",
+      "numbers": [],
+      "limitations": "# Gastrointestinal Physiology and Function.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28176047/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "35125827",
+      "title": "Gut bless you: The microbiota-gut-brain axis in irritable bowel syndrome.",
+      "source_granularity": "fulltext",
+      "study_design": "systematic_review_or_meta_analysis",
+      "population": "The condition affects 4%-10% of the global population and is associated with markedly reduced quality of life[2,3].",
+      "methods": "On the contrary, Hugerth et al[22] recently reported no distinct microbiota signature of IBS in a random Swedish population of 3556 participants.",
+      "main_results": "The condition affects 4%-10% of the global population and is associated with markedly reduced quality of life[2,3].",
+      "numbers": [
+        "10%",
+        "80%",
+        "20%",
+        "4%"
+      ],
+      "limitations": "# Gut bless you: The microbiota-gut-brain axis in irritable bowel syndrome Keywords: Microbiota, Neurogastroenterology, Irritable bowel syndrome, Microbiota-gut-brain axis, Structural and functional magnetic resonance imaging, Machine learning, Big data analysis Received 2021 Apr 17; Revised 2021 Jun 24; Accepted 2022 Jan 13; Issue date 2022 Jan 28.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35125827/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "34631603",
+      "title": "Gut Microbiota-Derived Metabolites in Irritable Bowel Syndrome.",
+      "source_granularity": "fulltext",
+      "study_design": "unclassified",
+      "population": "However, the proportion of IBS patients seeking clinical service in clinics is below 25% in China (Study Group of Functional Gastrointestinal Disorders et al., 2020).",
+      "methods": "Interestingly, women are more susceptible (1.67 times) than men (Study Group of Functional Gastrointestinal Disorders et al., 2020) to suffer from IBS.",
+      "main_results": "The pathogenesis of IBS is associated with disordered gastrointestinal motility, abnormal intestinal secretion, visceral hypersensitivity, altered gut-brain axis, and intestinal permeability, all of which can be affected by the gut microbial community (Jeffery et al., 2020).",
+      "numbers": [
+        "35.3%",
+        "24.5%",
+        "11.5%",
+        "95%",
+        "75%",
+        "25%",
+        "57%",
+        "15%"
+      ],
+      "limitations": "However, deciphering the relevant specific signaling pathways between the gut microbiota and host remains challenging, owing to the limitations of current proposed animal models.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34631603/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "18471139",
+      "title": "Serotonin: a review.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "# Serotonin: a review.",
+      "methods": "Manipulation of serotonin in animal models was used as a tool for studying its role in humans.",
+      "main_results": "# Serotonin: a review.",
+      "numbers": [],
+      "limitations": "# Serotonin: a review.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/18471139/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "28185025",
+      "title": "Constipation: Pathophysiology and Current Therapeutic Approaches.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "## Abstract Chronic constipation is a common, persistent condition affecting many patients worldwide, presenting significant economic burden and resulting in substantial healthcare utilization.",
+      "methods": "After a failed empiric trial of laxatives, diagnostic testing is necessary to understand underlying anorectal and/or colonic pathophysiology.",
+      "main_results": "## Abstract Chronic constipation is a common, persistent condition affecting many patients worldwide, presenting significant economic burden and resulting in substantial healthcare utilization.",
+      "numbers": [],
+      "limitations": "# Constipation: Pathophysiology and Current Therapeutic Approaches.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28185025/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "34203002",
+      "title": "Probiotics, Prebiotics, and Synbiotics: Implications and Beneficial Effects against Irritable Bowel Syndrome.",
+      "source_granularity": "fulltext",
+      "study_design": "unclassified",
+      "population": "Epidemiologic and demographic studies that investigated IBS suggest a heterogeneous worldwide prevalence of the disease that averages around 11% of the population [2], of which 55.0% (95% CI, 46.2–69.4%) of patients were women, and that the average age of IBS patients was 40 (95% CI, 31.2–50.0) years [3].",
+      "methods": "Another study showed an adhesion independent strain of L.",
+      "main_results": "IBS is a functional disorder associated with the sociologic, economic, and psychological burden and with a low quality of life (QOL), which can be comparable with suffering from anxiety or depression [4,5,6].",
+      "numbers": [
+        "95% CI, 46",
+        "95% CI, 31",
+        "69.4%",
+        "55.0%",
+        "95%",
+        "50%",
+        "11%"
+      ],
+      "limitations": "# Probiotics, Prebiotics, and Synbiotics: Implications and Beneficial Effects against Irritable Bowel Syndrome ## 1.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/34203002/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "38002788",
+      "title": "Endo Belly: What Is It and Why Does It Happen?-A Narrative Review.",
+      "source_granularity": "fulltext",
+      "study_design": "systematic_review_or_meta_analysis",
+      "population": "Therefore, the different symptomatology between patients with endometriosis is expected to result from the different genetic, epigenetic, and molecular regulations of different endometriosis subtypes.",
+      "methods": "Introduction Endometriosis is a chronic inflammatory disease where endometrial-like lesions settle outside the uterus, resulting in extensive inflammatory reactions [1,2,3].",
+      "main_results": "Introduction Endometriosis is a chronic inflammatory disease where endometrial-like lesions settle outside the uterus, resulting in extensive inflammatory reactions [1,2,3].",
+      "numbers": [
+        "n = 198",
+        "n = 14",
+        "n = 12",
+        "n = 66",
+        "23.4%",
+        "4.9%",
+        "95%",
+        "60%",
+        "43%",
+        "52%",
+        "90%"
+      ],
+      "limitations": "# Endo Belly: What Is It and Why Does It Happen?—A Narrative Review Keywords: endometriosis, enteric nervous system, intestinal disorder, irritable bowel syndrome, microbiome, diet Received 2023 Sep 22; Revised 2023 Nov 1; Accepted 2023 Nov 18; Collection date 2023 Nov.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/38002788/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "37678185",
+      "title": "Intestinal proteases.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "RECENT FINDINGS: Host and microbiota derived proteases have been associated with symptoms in subsets of patients with IBS, IBD and celiac disease.",
+      "methods": "# Intestinal proteases.",
+      "main_results": "RECENT FINDINGS: Host and microbiota derived proteases have been associated with symptoms in subsets of patients with IBS, IBD and celiac disease.",
+      "numbers": [],
+      "limitations": "# Intestinal proteases.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37678185/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "37882441",
+      "title": "[Irritable bowel syndrome].",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "Furthermore, a variety of treatment options are available, yet only effective in subgroups of patients.",
+      "methods": "# [Irritable bowel syndrome].",
+      "main_results": "# [Irritable bowel syndrome].",
+      "numbers": [],
+      "limitations": "# [Irritable bowel syndrome].",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/37882441/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "35250873",
+      "title": "Neurotransmitter and Intestinal Interactions: Focus on the Microbiota-Gut-Brain Axis in Irritable Bowel Syndrome.",
+      "source_granularity": "fulltext",
+      "study_design": "systematic_review_or_meta_analysis",
+      "population": "Meanwhile, patients with IBS often have neurological dysfunctions, such as anxiety, depression, and other symptoms (3).",
+      "methods": "Moreover, our previous studies also focused on the topic of the “microbiota-gut-brain axis”, and an open-label clinical study proved that children with autism spectrum disorders had a significant improvement in gastrointestinal as well as autistic symptoms after being given fresh feces by colonoscopy and fecal microbiota transplantation (FMT) capsules (11).Additionally, an animal study showed that ulcerative colitis (UC) animal models exhibited depressive symptoms, and rectal administration of the probiotic Roseburia intestinal is helpful in colon repair and the recovery of gastrointestinal function by restoring the gut microbiota (12), These alterations in gastrointestinal malfunctions are also followed by the alleviation of depressive-like behaviors through the gut-brain axis.",
+      "main_results": "The inflammatory mediators secreted by intestinal mast cells act on adjacent endocrine cells and nerve fibers to release neurotransmitters, which affect intestinal motility, and sensation and can transmit information to the nerve center, inducing high sensitivity of the visceral afferent nerve, the intestinal nerve, and the intestinal nervous system, resulting in intestinal dysfunction and IBS symptoms (7).",
+      "numbers": [
+        "95%"
+      ],
+      "limitations": "# Neurotransmitter and Intestinal Interactions: Focus on the Microbiota-Gut-Brain Axis in Irritable Bowel Syndrome Keywords: neurotransmitters, irritable bowel syndrome, microbiota-gut-brain axis, 5-HT, dopamine, GABA, histamine Received 2021 Nov 17; Accepted 2022 Jan 5; Collection date 2022.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/35250873/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "42462748",
+      "title": "Pathophysiology of irritable bowel syndrome.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "# Pathophysiology of irritable bowel syndrome.",
+      "methods": "# Pathophysiology of irritable bowel syndrome.",
+      "main_results": "# Pathophysiology of irritable bowel syndrome.",
+      "numbers": [],
+      "limitations": "# Pathophysiology of irritable bowel syndrome.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/42462748/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "17040359",
+      "title": "Irritable bowel syndrome.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "There is increasing evidence that organic disease of the gastrointestinal tract can be identified in subsets of patients who fulfil the Rome criteria for IBS.",
+      "methods": "# Irritable bowel syndrome.",
+      "main_results": "# Irritable bowel syndrome.",
+      "numbers": [],
+      "limitations": "# Irritable bowel syndrome.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/17040359/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "28541989",
+      "title": "Irritable Bowel Syndrome.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "# Irritable Bowel Syndrome.",
+      "methods": "# Irritable Bowel Syndrome.",
+      "main_results": "# Irritable Bowel Syndrome.",
+      "numbers": [],
+      "limitations": "# Irritable Bowel Syndrome.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67d722e818b1e36f2e000036/papers/28541989/parsed_text.md",
+      "extraction_status": "ok"
+    }
+  ],
+  "diagnostics": {
+    "status": "ready_to_report",
+    "termination_ready": true,
+    "blocked": false,
+    "reason": "",
+    "recommended_next_actions": [
+      "report",
+      "verify"
+    ],
+    "coverage": {
+      "population": true,
+      "intervention_or_exposure": false,
+      "comparator": true,
+      "outcome": false
+    },
+    "metrics": {
+      "records": 20,
+      "fulltexts": 20,
+      "fulltext_downloaded": 9,
+      "parsed_sources": 20,
+      "evidence_items": 20,
+      "fulltext_hit_rate": 0.45,
+      "pubmed_queries": 1,
+      "fulltext_attempts": 20
+    },
+    "hard_blockers": []
+  },
+  "evolution_memory": [],
+  "tasks": [],
+  "blockers": [],
+  "errors": [],
+  "budgets": {
+    "max_rounds": 3,
+    "max_pubmed_queries": 6,
+    "max_records": 50,
+    "max_fulltext_attempts": 30,
+    "max_same_blocker": 2
+  },
+  "counters": {
+    "round": 0,
+    "pubmed_queries": 1,
+    "fulltext_attempts": 20,
+    "same_blocker_repeats": {}
+  },
+  "report_path": "evals/runs_13b/67d722e818b1e36f2e000036/report.md",
+  "last_pmids": [
+    "37475846",
+    "33946961",
+    "32296140",
+    "36307180",
+    "27144627",
+    "41226634",
+    "37049488",
+    "28176047",
+    "35125827",
+    "34631603",
+    "18471139",
+    "28185025",
+    "34203002",
+    "38002788",
+    "37678185",
+    "37882441",
+    "35250873",
+    "42462748",
+    "17040359",
+    "28541989"
+  ],
+  "verification": {
+    "ok": true,
+    "errors": [],
+    "checked_records": 20,
+    "checked_evidence": 20
+  }
+}

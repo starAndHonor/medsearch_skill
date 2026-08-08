@@ -1,0 +1,5 @@
+# Peptide mass fingerprinting.
+
+## Abstract
+
+Peptide mass fingerprinting by MALDI-MS and sequencing by tandem mass spectrometry have evolved into the major methods for identification of proteins following separation by two-dimensional gel electrophoresis, SDS-PAGE or liquid chromatography. One main technological goal of proteome analyses beside high sensitivity and automation was the comprehensive analysis of proteins. Therefore, the protein species level with the essential information on co- and post-translational modifications must be achieved. The power of peptide mass fingerprinting for protein identification was described here, as exemplified by the identification of protein species with high molecular masses (spectrin alpha and beta), low molecular masses (elongation factor EF-TU fragments), splice variants (alpha A crystallin), aggregates with disulfide bridges (alkylhydroperoxide reductase), and phosphorylated proteins (heat shock protein 27). Helpful tools for these analyses were the use of the minimal protein identifier concept and the software program MS-Screener to remove mass peaks assignable to contaminants and neighbor spots.

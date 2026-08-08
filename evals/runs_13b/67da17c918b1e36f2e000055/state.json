@@ -1,0 +1,112 @@
+{
+  "schema_version": "medlit-state/v0.1",
+  "question": "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+  "created_at": "2026-08-06T09:42:22+00:00",
+  "updated_at": "2026-08-06T09:42:23+00:00",
+  "status": "running",
+  "pico": {
+    "population": "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcome": "",
+    "study_designs": [
+      "randomized controlled trial",
+      "systematic review",
+      "meta-analysis"
+    ],
+    "notes": "Auto-generated from BioASQ question for batch evaluation."
+  },
+  "term_plan": {
+    "concepts": [
+      {
+        "name": "population",
+        "raw": "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+        "mesh_terms": [
+          "What Is The Role Of The Receptor Tyrosine Kinase Axl In Malignancy?"
+        ],
+        "title_abstract_terms": [
+          "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+          "malignancy",
+          "receptor tyrosine kinase AXL"
+        ],
+        "notes": "Initial term plan; validate MeSH before using [MeSH Terms]."
+      }
+    ],
+    "filters": {
+      "humans": true,
+      "language": "english"
+    },
+    "warnings": []
+  },
+  "mesh_validation": [
+    {
+      "candidate": "What Is The Role Of The Receptor Tyrosine Kinase Axl In Malignancy?",
+      "concept": "population",
+      "status": "fallback",
+      "preferred_term": "",
+      "entry_terms": [],
+      "tree_numbers": [],
+      "field_tag": "Title/Abstract",
+      "fallback_terms": [
+        "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+        "malignancy",
+        "receptor tyrosine kinase AXL"
+      ],
+      "warning": "No MeSH record returned."
+    }
+  ],
+  "query_ladder": [
+    {
+      "query_id": "Q1_broad_conceptual",
+      "purpose": "Broad concept query for recall",
+      "exact_query": "(\"What is the role of the receptor tyrosine kinase AXL in malignancy?\"[Title/Abstract] OR \"malignancy\"[Title/Abstract] OR \"receptor tyrosine kinase AXL\"[Title/Abstract])",
+      "source": "tool_generated",
+      "executed": false
+    },
+    {
+      "query_id": "Q2_focused_primary",
+      "purpose": "Focused query with basic filters",
+      "exact_query": "(\"What is the role of the receptor tyrosine kinase AXL in malignancy?\"[Title/Abstract] OR \"malignancy\"[Title/Abstract] OR \"receptor tyrosine kinase AXL\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]",
+      "source": "tool_generated",
+      "executed": false
+    },
+    {
+      "query_id": "Q4_reviews",
+      "purpose": "Systematic review/meta-analysis oriented query",
+      "exact_query": "((\"What is the role of the receptor tyrosine kinase AXL in malignancy?\"[Title/Abstract] OR \"malignancy\"[Title/Abstract] OR \"receptor tyrosine kinase AXL\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]) AND (systematic review[Publication Type] OR meta-analysis[Publication Type])",
+      "source": "tool_generated",
+      "executed": false
+    },
+    {
+      "query_id": "Q5_trials",
+      "purpose": "Clinical trial oriented query",
+      "exact_query": "((\"What is the role of the receptor tyrosine kinase AXL in malignancy?\"[Title/Abstract] OR \"malignancy\"[Title/Abstract] OR \"receptor tyrosine kinase AXL\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]) AND (clinical trial[Publication Type] OR randomized controlled trial[Publication Type])",
+      "source": "tool_generated",
+      "executed": false
+    }
+  ],
+  "retrieval_runs": [],
+  "records": [],
+  "fulltexts": [],
+  "parsed_sources": [],
+  "evidence": [],
+  "diagnostics": {},
+  "evolution_memory": [],
+  "tasks": [],
+  "blockers": [],
+  "errors": [],
+  "budgets": {
+    "max_rounds": 3,
+    "max_pubmed_queries": 6,
+    "max_records": 50,
+    "max_fulltext_attempts": 30,
+    "max_same_blocker": 2
+  },
+  "counters": {
+    "round": 0,
+    "pubmed_queries": 0,
+    "fulltext_attempts": 0,
+    "same_blocker_repeats": {}
+  },
+  "report_path": ""
+}

@@ -1,0 +1,33 @@
+{
+  "pmid": "41226634",
+  "pmcid": "PMC12607773",
+  "doi": "10.3390/ijms262110598",
+  "title": "Unraveling the Pathophysiology of Irritable Bowel Syndrome: Mechanisms and Insights.",
+  "abstract": "Irritable Bowel Syndrome (IBS) is one of the most prevalent gastrointestinal disorders, affecting about 11% of the global population and exerting a substantial burden on quality of life and healthcare systems. Despite the emerging interest in this disease, its pathophysiology remains elusive, reflecting the interplay between the brain-gut axis, neuroendocrine dysregulation, immune activation, barrier dysfunction, microbial imbalance, and environmental triggers. Disruptions in the hypothalamic-pituitary-adrenal axis, impaired serotonin signaling, bile acid malabsorption, and altered intestinal permeability collectively result in the emergence of abnormal motility, visceral hypersensitivity, and chronic inflammation. The gut microbiome further modulates these processes by influencing neurotransmitter metabolism, immune responses, and epithelial integrity, positioning it as both a driver of symptoms and a promising therapeutic target. The aim of this review is to synthesize current mechanistic insights into IBS, highlighting the interconnected roles of the brain-gut axis, immune modulation, and microbial dynamics, and to explore how these pathways may be translated into precision medicine approaches. This review integrates molecular, microbial, and neuroimmune perspectives to propose a systems-level understanding of IBS pathophysiology and its implications for precision medicine. By integrating host-microbe interactions, dietary influences, and genetic predispositions, we highlight the mechanistic complexity underlying IBS and the potential for translating these insights into personalized strategies for symptom control and improved quality of life.",
+  "journal": "International journal of molecular sciences",
+  "year": "2025",
+  "authors": [
+    "Aggeletopoulou Ioanna",
+    "Papantoniou Konstantinos",
+    "Pastras Ploutarchos",
+    "Triantos Christos"
+  ],
+  "mesh_terms": [
+    "Humans",
+    "Irritable Bowel Syndrome",
+    "Gastrointestinal Microbiome",
+    "Animals",
+    "Hypothalamo-Hypophyseal System",
+    "Quality of Life",
+    "Brain-Gut Axis"
+  ],
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "trial_ids": [],
+  "source": "pubmed",
+  "verified": true,
+  "verified_by": "pubmed",
+  "verified_on": "2026-08-06"
+}

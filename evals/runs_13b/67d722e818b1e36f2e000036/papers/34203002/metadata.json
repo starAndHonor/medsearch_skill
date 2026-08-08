@@ -1,0 +1,39 @@
+{
+  "pmid": "34203002",
+  "pmcid": "PMC8233736",
+  "doi": "10.3390/nu13062112",
+  "title": "Probiotics, Prebiotics, and Synbiotics: Implications and Beneficial Effects against Irritable Bowel Syndrome.",
+  "abstract": "Irritable bowel syndrome (IBS) is still a common functional gastrointestinal disease that presents chronic abdominal symptoms but with a pathophysiology that is not yet fully elucidated. Moreover, the use of the synergistic combination of prebiotics and probiotics, known as synbiotics, for IBS therapy is still in the early stages. Advancements in technology led to determining the important role played by probiotics in IBS, whereas the present paper focuses on the detailed review of the various pathophysiologic mechanisms of action of probiotics, prebiotics, and synbiotics via multidisciplinary domains involving the gastroenterology (microbiota modulation, alteration of gut barrier function, visceral hypersensitivity, and gastrointestinal dysmotility) immunology (intestinal immunological modulation), and neurology (microbiota-gut-brain axis communication and co-morbidities) in mitigating the symptoms of IBS. In addition, this review synthesizes literature about the mechanisms involved in the beneficial effects of prebiotics and synbiotics for patients with IBS, discussing clinical studies testing the efficiency and outcomes of synbiotics used as therapy for IBS.",
+  "journal": "Nutrients",
+  "year": "2021",
+  "authors": [
+    "Simon Elemer",
+    "Călinoiu Lavinia Florina",
+    "Mitrea Laura",
+    "Vodnar Dan Cristian"
+  ],
+  "mesh_terms": [
+    "Anxiety",
+    "Brain",
+    "Comorbidity",
+    "Depression",
+    "Gastrointestinal Microbiome",
+    "Gastrointestinal Motility",
+    "Humans",
+    "Intestinal Mucosa",
+    "Intestines",
+    "Irritable Bowel Syndrome",
+    "Prebiotics",
+    "Probiotics",
+    "Synbiotics"
+  ],
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "trial_ids": [],
+  "source": "pubmed",
+  "verified": true,
+  "verified_by": "pubmed",
+  "verified_on": "2026-08-06"
+}

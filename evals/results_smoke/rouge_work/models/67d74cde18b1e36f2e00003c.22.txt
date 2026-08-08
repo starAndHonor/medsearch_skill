@@ -1,0 +1,4 @@
+RankMHC is a method for predicting peptide-MHC binding using a combination of structural and sequence features.
+It uses a support vector machine (SVM) to predict the binding of peptides to MHC class I and II molecules.
+The method is trained on a dataset of 1,000 peptides and 100 MHC molecules, and is able to predict the binding of peptides to MHC molecules with an accuracy of 80-90%.
+The method is also able to predict the binding of peptides to MHC molecules with a high degree of specificity, with a false positive rate of less than 1%.

@@ -1,0 +1,1 @@
+RankMHC is a Learning-to-Rank based predictor designed to identify the most accurate peptide binding modes in peptide-MHC structural models, improving the accuracy of identifying peptide antigens for immune response therapies.

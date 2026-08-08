@@ -1,0 +1,13 @@
+[
+  {
+    "id": "metformin-cv-mortality",
+    "question": "For adults with type 2 diabetes, does metformin reduce cardiovascular mortality?",
+    "checks": ["pico", "pubmed_query", "records_or_blocker", "diagnose"]
+  },
+  {
+    "id": "aml-flt3-inhibitors",
+    "question": "What clinical evidence supports FLT3 inhibitors in acute myeloid leukemia?",
+    "checks": ["pico", "pubmed_query", "fulltext_or_abstract_fallback", "report"]
+  }
+]
+

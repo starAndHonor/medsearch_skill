@@ -1,0 +1,48 @@
+{
+  "pmid": "18054869",
+  "pmcid": "",
+  "doi": "10.1016/S1470-2045(07)70349-2",
+  "title": "Translation, please.",
+  "abstract": "",
+  "journal": "The Lancet. Oncology",
+  "year": "2007",
+  "authors": [
+    "Bleiweiss Ira J",
+    "Raptis George"
+  ],
+  "mesh_terms": [
+    "Antineoplastic Combined Chemotherapy Protocols",
+    "Breast Neoplasms",
+    "Chemotherapy, Adjuvant",
+    "Cyclophosphamide",
+    "Disease-Free Survival",
+    "Docetaxel",
+    "Epirubicin",
+    "Female",
+    "Fluorouracil",
+    "Gene Expression Profiling",
+    "Gene Expression Regulation, Neoplastic",
+    "Genetic Testing",
+    "Humans",
+    "Neoadjuvant Therapy",
+    "Neoplasm Staging",
+    "Oligonucleotide Array Sequence Analysis",
+    "Patient Selection",
+    "Predictive Value of Tests",
+    "Receptors, Estrogen",
+    "Reproducibility of Results",
+    "Research Design",
+    "Sensitivity and Specificity",
+    "Taxoids",
+    "Treatment Outcome"
+  ],
+  "publication_types": [
+    "Letter",
+    "Comment"
+  ],
+  "trial_ids": [],
+  "source": "pubmed",
+  "verified": true,
+  "verified_by": "pubmed",
+  "verified_on": "2026-08-06"
+}

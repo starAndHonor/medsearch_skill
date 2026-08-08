@@ -1,0 +1,1698 @@
+{
+  "schema_version": "medlit-state/v0.1",
+  "question": "Please list the short half life Phosphodiesterase 5 inhibitors.",
+  "created_at": "2026-08-06T09:41:10+00:00",
+  "updated_at": "2026-08-06T09:41:38+00:00",
+  "status": "ready_to_stop",
+  "pico": {
+    "population": "Please list the short half life Phosphodiesterase 5 inhibitors.",
+    "intervention_or_exposure": "",
+    "comparator": "",
+    "outcome": "",
+    "study_designs": [
+      "randomized controlled trial",
+      "systematic review",
+      "meta-analysis"
+    ],
+    "notes": "Auto-generated from BioASQ question for batch evaluation."
+  },
+  "term_plan": {
+    "concepts": [
+      {
+        "name": "population",
+        "raw": "Please list the short half life Phosphodiesterase 5 inhibitors.",
+        "mesh_terms": [
+          "Please List The Short Half Life Phosphodiesterase 5 Inhibitors."
+        ],
+        "title_abstract_terms": [
+          "Please",
+          "Please list the short half life Phosphodiesterase 5 inhibitors.",
+          "short half life Phosphodiesterase 5 inhibitors"
+        ],
+        "notes": "Initial term plan; validate MeSH before using [MeSH Terms]."
+      }
+    ],
+    "filters": {
+      "humans": true,
+      "language": "english"
+    },
+    "warnings": []
+  },
+  "mesh_validation": [
+    {
+      "candidate": "Please List The Short Half Life Phosphodiesterase 5 Inhibitors.",
+      "concept": "population",
+      "status": "fallback",
+      "preferred_term": "",
+      "entry_terms": [],
+      "tree_numbers": [],
+      "field_tag": "Title/Abstract",
+      "fallback_terms": [
+        "Please",
+        "Please list the short half life Phosphodiesterase 5 inhibitors.",
+        "short half life Phosphodiesterase 5 inhibitors"
+      ],
+      "warning": "No MeSH record returned."
+    }
+  ],
+  "query_ladder": [
+    {
+      "query_id": "Q1_broad_conceptual",
+      "purpose": "Broad concept query for recall",
+      "exact_query": "(\"Please list the short half life Phosphodiesterase 5 inhibitors.\"[Title/Abstract] OR \"Please\"[Title/Abstract] OR \"short half life Phosphodiesterase 5 inhibitors\"[Title/Abstract])",
+      "source": "tool_generated",
+      "executed": true
+    },
+    {
+      "query_id": "Q2_focused_primary",
+      "purpose": "Focused query with basic filters",
+      "exact_query": "(\"Please list the short half life Phosphodiesterase 5 inhibitors.\"[Title/Abstract] OR \"Please\"[Title/Abstract] OR \"short half life Phosphodiesterase 5 inhibitors\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]",
+      "source": "tool_generated",
+      "executed": false
+    },
+    {
+      "query_id": "Q4_reviews",
+      "purpose": "Systematic review/meta-analysis oriented query",
+      "exact_query": "((\"Please list the short half life Phosphodiesterase 5 inhibitors.\"[Title/Abstract] OR \"Please\"[Title/Abstract] OR \"short half life Phosphodiesterase 5 inhibitors\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]) AND (systematic review[Publication Type] OR meta-analysis[Publication Type])",
+      "source": "tool_generated",
+      "executed": false
+    },
+    {
+      "query_id": "Q5_trials",
+      "purpose": "Clinical trial oriented query",
+      "exact_query": "((\"Please list the short half life Phosphodiesterase 5 inhibitors.\"[Title/Abstract] OR \"Please\"[Title/Abstract] OR \"short half life Phosphodiesterase 5 inhibitors\"[Title/Abstract]) AND humans[MeSH Terms] AND english[Language]) AND (clinical trial[Publication Type] OR randomized controlled trial[Publication Type])",
+      "source": "tool_generated",
+      "executed": false
+    }
+  ],
+  "retrieval_runs": [
+    {
+      "query_id": "Q1_broad_conceptual",
+      "query": "(\"Please list the short half life Phosphodiesterase 5 inhibitors.\"[Title/Abstract] OR \"Please\"[Title/Abstract] OR \"short half life Phosphodiesterase 5 inhibitors\"[Title/Abstract])",
+      "count": 17662,
+      "pmids": [
+        "29957311",
+        "29569611",
+        "27871698",
+        "39709540",
+        "30826033",
+        "37005984",
+        "24275398",
+        "24823857",
+        "24690748",
+        "33311657",
+        "40914591",
+        "18054869",
+        "25975116",
+        "27548853",
+        "40921042",
+        "24575554",
+        "41970611",
+        "32978557",
+        "34092443",
+        "36369144"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "pmid": "29957311",
+      "pmcid": "",
+      "doi": "10.1016/j.ajodo.2018.05.001",
+      "title": "No prejudices, please.",
+      "abstract": "",
+      "journal": "American journal of orthodontics and dentofacial orthopedics : official publication of the American Association of Orthodontists, its constituent societies, and the American Board of Orthodontics",
+      "year": "2018",
+      "authors": [
+        "Greco Peter M"
+      ],
+      "mesh_terms": [
+        "Advertising",
+        "Biomedical Research",
+        "Conflict of Interest",
+        "Dental Devices, Home Care",
+        "Ethics, Business",
+        "Humans",
+        "Industry",
+        "Oral Hygiene",
+        "Toothbrushing"
+      ],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "29569611",
+      "pmcid": "",
+      "doi": "10.1038/sj.bdj.2018.231",
+      "title": "Common sense please.",
+      "abstract": "",
+      "journal": "British dental journal",
+      "year": "2018",
+      "authors": [
+        "Waite Charlotte"
+      ],
+      "mesh_terms": [
+        "Fees, Dental",
+        "Healthcare Disparities",
+        "Humans",
+        "Organizational Objectives",
+        "Societies, Dental",
+        "State Medicine",
+        "United Kingdom"
+      ],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "27871698",
+      "pmcid": "",
+      "doi": "10.1016/j.ajodo.2016.09.001",
+      "title": "Your discretion, please.",
+      "abstract": "",
+      "journal": "American journal of orthodontics and dentofacial orthopedics : official publication of the American Association of Orthodontists, its constituent societies, and the American Board of Orthodontics",
+      "year": "2016",
+      "authors": [
+        "Greco Peter M"
+      ],
+      "mesh_terms": [
+        "Dentist-Patient Relations",
+        "Humans",
+        "Orthodontics"
+      ],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "39709540",
+      "pmcid": "",
+      "doi": "10.1002/jhm.13580",
+      "title": "Please.",
+      "abstract": "",
+      "journal": "Journal of hospital medicine",
+      "year": "2025",
+      "authors": [
+        "Katz Sydney"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "30826033",
+      "pmcid": "",
+      "doi": "10.1016/j.ajodo.2019.01.006",
+      "title": "Discretion, please.",
+      "abstract": "",
+      "journal": "American journal of orthodontics and dentofacial orthopedics : official publication of the American Association of Orthodontists, its constituent societies, and the American Board of Orthodontics",
+      "year": "2019",
+      "authors": [
+        "Greco Peter M"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "37005984",
+      "pmcid": "",
+      "doi": "10.4103/cjrm.cjrm_3_23",
+      "title": "Replace me... please?",
+      "abstract": "",
+      "journal": "Canadian journal of rural medicine : the official journal of the Society of Rural Physicians of Canada = Journal canadien de la medecine rurale : le journal officiel de la Societe de medecine rurale du Canada",
+      "year": "2023",
+      "authors": [
+        "Hutten-Czapski Peter"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "24275398",
+      "pmcid": "",
+      "doi": "10.1097/CCM.0b013e3182a1208c",
+      "title": "More, please.",
+      "abstract": "",
+      "journal": "Critical care medicine",
+      "year": "2013",
+      "authors": [
+        "Sevransky Jonathan E",
+        "Shorr Andrew"
+      ],
+      "mesh_terms": [
+        "Critical Care",
+        "Education, Medical, Graduate",
+        "Humans",
+        "Intensive Care Units",
+        "Physicians",
+        "Workforce"
+      ],
+      "publication_types": [
+        "Editorial",
+        "Comment"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "24823857",
+      "pmcid": "",
+      "doi": "10.3928/0147-7447-19840701-16",
+      "title": "Answer please.",
+      "abstract": "",
+      "journal": "Orthopedics",
+      "year": "1984",
+      "authors": [
+        "Yates C",
+        "Yngve D A",
+        "Herndon W A"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "24690748",
+      "pmcid": "",
+      "doi": "10.12968/bjon.2014.23.Sup6.S3",
+      "title": "Education saves lives.",
+      "abstract": "I was asked recently to run a one-day leg ulcer course. The expectation was that participants could do patient assessment and Doppler in the morning, bandaging in the afternoon and a competency test at the end (and could we finish by 3.30, please).",
+      "journal": "British journal of nursing (Mark Allen Publishing)",
+      "year": "2014",
+      "authors": [
+        "Anderson Irene"
+      ],
+      "mesh_terms": [
+        "Clinical Competence",
+        "Education, Nursing, Continuing",
+        "Humans",
+        "Leg Ulcer",
+        "Staff Development"
+      ],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "33311657",
+      "pmcid": "PMC7729676",
+      "doi": "10.1038/s41415-020-2460-3",
+      "title": "PPE consistency please.",
+      "abstract": "",
+      "journal": "British dental journal",
+      "year": "2020",
+      "authors": [
+        "Thomas E",
+        "Cunliffe D",
+        "Rees-Stoner O",
+        "Collard B"
+      ],
+      "mesh_terms": [
+        "Personal Protective Equipment"
+      ],
+      "publication_types": [
+        "Letter"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "40914591",
+      "pmcid": "",
+      "doi": "10.1016/S0140-6736(25)01767-2",
+      "title": "Offline: Help us, please.",
+      "abstract": "",
+      "journal": "Lancet (London, England)",
+      "year": "2025",
+      "authors": [
+        "Horton Richard"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "18054869",
+      "pmcid": "",
+      "doi": "10.1016/S1470-2045(07)70349-2",
+      "title": "Translation, please.",
+      "abstract": "",
+      "journal": "The Lancet. Oncology",
+      "year": "2007",
+      "authors": [
+        "Bleiweiss Ira J",
+        "Raptis George"
+      ],
+      "mesh_terms": [
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Breast Neoplasms",
+        "Chemotherapy, Adjuvant",
+        "Cyclophosphamide",
+        "Disease-Free Survival",
+        "Docetaxel",
+        "Epirubicin",
+        "Female",
+        "Fluorouracil",
+        "Gene Expression Profiling",
+        "Gene Expression Regulation, Neoplastic",
+        "Genetic Testing",
+        "Humans",
+        "Neoadjuvant Therapy",
+        "Neoplasm Staging",
+        "Oligonucleotide Array Sequence Analysis",
+        "Patient Selection",
+        "Predictive Value of Tests",
+        "Receptors, Estrogen",
+        "Reproducibility of Results",
+        "Research Design",
+        "Sensitivity and Specificity",
+        "Taxoids",
+        "Treatment Outcome"
+      ],
+      "publication_types": [
+        "Letter",
+        "Comment"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "25975116",
+      "pmcid": "",
+      "doi": "",
+      "title": "Leadership--more, please.",
+      "abstract": "",
+      "journal": "The Journal of the American College of Dentists",
+      "year": "2014",
+      "authors": [
+        "Chambers David W"
+      ],
+      "mesh_terms": [
+        "Age Factors",
+        "Aged",
+        "Dentists",
+        "Humans",
+        "Leadership",
+        "Middle Aged",
+        "Professional Practice",
+        "Schools, Dental",
+        "Societies, Dental"
+      ],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "27548853",
+      "pmcid": "",
+      "doi": "10.1111/jth.13422",
+      "title": "No P Please.",
+      "abstract": "",
+      "journal": "Journal of thrombosis and haemostasis : JTH",
+      "year": "2016",
+      "authors": [
+        "Rosendaal F R",
+        "Reitsma P H"
+      ],
+      "mesh_terms": [
+        "Biomedical Research",
+        "Cardiology",
+        "Data Interpretation, Statistical",
+        "Editorial Policies",
+        "Guidelines as Topic",
+        "Hematology",
+        "Humans",
+        "Models, Statistical",
+        "Periodicals as Topic"
+      ],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "40921042",
+      "pmcid": "",
+      "doi": "10.1097/ACM.0000000000006258",
+      "title": "\"Three Cookies Please\".",
+      "abstract": "",
+      "journal": "Academic medicine : journal of the Association of American Medical Colleges",
+      "year": "2025",
+      "authors": [
+        "Glaser Dylan S"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "24575554",
+      "pmcid": "",
+      "doi": "",
+      "title": "[Please enter].",
+      "abstract": "",
+      "journal": "Krankenpflege = Soins infirmiers",
+      "year": "2014",
+      "authors": [
+        "Redaktorin Camenzind Martina"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Socialization",
+        "Societies, Nursing",
+        "Students, Nursing",
+        "Switzerland"
+      ],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "41970611",
+      "pmcid": "PMC13069375",
+      "doi": "10.1016/j.artd.2026.102015",
+      "title": "Pay It Forward, Please.",
+      "abstract": "",
+      "journal": "Arthroplasty today",
+      "year": "2026",
+      "authors": [
+        "Levine Brett R"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "32978557",
+      "pmcid": "PMC7517746",
+      "doi": "10.1038/s41415-020-2186-2",
+      "title": "Photos please.",
+      "abstract": "",
+      "journal": "British dental journal",
+      "year": "2020",
+      "authors": [
+        "Zaki A A"
+      ],
+      "mesh_terms": [
+        "Photography"
+      ],
+      "publication_types": [
+        "Letter"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "34092443",
+      "pmcid": "",
+      "doi": "10.1016/j.jemermed.2021.03.013",
+      "title": "Please.",
+      "abstract": "",
+      "journal": "The Journal of emergency medicine",
+      "year": "2021",
+      "authors": [
+        "Anthony Nicole"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    },
+    {
+      "pmid": "36369144",
+      "pmcid": "",
+      "doi": "10.1016/j.clinph.2022.10.007",
+      "title": "\"DoC DoC\", your attention please!",
+      "abstract": "",
+      "journal": "Clinical neurophysiology : official journal of the International Federation of Clinical Neurophysiology",
+      "year": "2023",
+      "authors": [
+        "Rohaut Benjamin"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Editorial"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-08-06"
+    }
+  ],
+  "fulltexts": [
+    {
+      "pmid": "29957311",
+      "doi": "10.1016/j.ajodo.2018.05.001",
+      "pmcid": "",
+      "title": "No prejudices, please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/29957311/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "29569611",
+      "doi": "10.1038/sj.bdj.2018.231",
+      "pmcid": "",
+      "title": "Common sense please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/29569611/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "27871698",
+      "doi": "10.1016/j.ajodo.2016.09.001",
+      "pmcid": "",
+      "title": "Your discretion, please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/27871698/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "39709540",
+      "doi": "10.1002/jhm.13580",
+      "pmcid": "",
+      "title": "Please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/39709540/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "30826033",
+      "doi": "10.1016/j.ajodo.2019.01.006",
+      "pmcid": "",
+      "title": "Discretion, please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/30826033/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "37005984",
+      "doi": "10.4103/cjrm.cjrm_3_23",
+      "pmcid": "",
+      "title": "Replace me... please?",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/37005984/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "24275398",
+      "doi": "10.1097/CCM.0b013e3182a1208c",
+      "pmcid": "",
+      "title": "More, please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/24275398/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "24823857",
+      "doi": "10.3928/0147-7447-19840701-16",
+      "pmcid": "",
+      "title": "Answer please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/24823857/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "24690748",
+      "doi": "10.12968/bjon.2014.23.Sup6.S3",
+      "pmcid": "",
+      "title": "Education saves lives.",
+      "fulltext_status": "abstract_only",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        },
+        {
+          "source": "pubmed_abstract",
+          "status": "fallback",
+          "reason": "No open full text located; abstract is available."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/24690748/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/24690748/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "33311657",
+      "doi": "10.1038/s41415-020-2460-3",
+      "pmcid": "PMC7729676",
+      "title": "PPE consistency please.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7729676/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/33311657/metadata.json",
+        "xml": "evals/runs_13b/67cc973e81b1027333000011/papers/33311657/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/33311657/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "40914591",
+      "doi": "10.1016/S0140-6736(25)01767-2",
+      "pmcid": "",
+      "title": "Offline: Help us, please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/40914591/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "18054869",
+      "doi": "10.1016/S1470-2045(07)70349-2",
+      "pmcid": "",
+      "title": "Translation, please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/18054869/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "25975116",
+      "doi": "",
+      "pmcid": "",
+      "title": "Leadership--more, please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/25975116/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "27548853",
+      "doi": "10.1111/jth.13422",
+      "pmcid": "",
+      "title": "No P Please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/27548853/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "40921042",
+      "doi": "10.1097/ACM.0000000000006258",
+      "pmcid": "",
+      "title": "\"Three Cookies Please\".",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/40921042/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "24575554",
+      "doi": "",
+      "pmcid": "",
+      "title": "[Please enter].",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/24575554/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "41970611",
+      "doi": "10.1016/j.artd.2026.102015",
+      "pmcid": "PMC13069375",
+      "title": "Pay It Forward, Please.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13069375/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/41970611/metadata.json",
+        "xml": "evals/runs_13b/67cc973e81b1027333000011/papers/41970611/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/41970611/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "32978557",
+      "doi": "10.1038/s41415-020-2186-2",
+      "pmcid": "PMC7517746",
+      "title": "Photos please.",
+      "fulltext_status": "xml_downloaded",
+      "sources_tried": [
+        {
+          "source": "europe_pmc_fulltext_xml",
+          "status": "ok",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7517746/fullTextXML"
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/32978557/metadata.json",
+        "xml": "evals/runs_13b/67cc973e81b1027333000011/papers/32978557/fulltext.xml",
+        "html": "",
+        "pdf": "",
+        "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/32978557/parsed_text.md"
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "34092443",
+      "doi": "10.1016/j.jemermed.2021.03.013",
+      "pmcid": "",
+      "title": "Please.",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/34092443/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    },
+    {
+      "pmid": "36369144",
+      "doi": "10.1016/j.clinph.2022.10.007",
+      "pmcid": "",
+      "title": "\"DoC DoC\", your attention please!",
+      "fulltext_status": "unavailable",
+      "sources_tried": [
+        {
+          "source": "pmc_id_converter",
+          "status": "miss",
+          "reason": "No PMCID returned."
+        },
+        {
+          "source": "unpaywall",
+          "status": "skipped",
+          "reason": "Set UNPAYWALL_EMAIL or MEDLIT_EMAIL to use Unpaywall."
+        }
+      ],
+      "local_files": {
+        "metadata": "evals/runs_13b/67cc973e81b1027333000011/papers/36369144/metadata.json",
+        "xml": "",
+        "html": "",
+        "pdf": "",
+        "parsed_text": ""
+      },
+      "license": "",
+      "accessed_at": "2026-08-06"
+    }
+  ],
+  "parsed_sources": [
+    {
+      "pmid": "29957311",
+      "doi": "10.1016/j.ajodo.2018.05.001",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "29569611",
+      "doi": "10.1038/sj.bdj.2018.231",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "27871698",
+      "doi": "10.1016/j.ajodo.2016.09.001",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "39709540",
+      "doi": "10.1002/jhm.13580",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "30826033",
+      "doi": "10.1016/j.ajodo.2019.01.006",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "37005984",
+      "doi": "10.4103/cjrm.cjrm_3_23",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "24275398",
+      "doi": "10.1097/CCM.0b013e3182a1208c",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "24823857",
+      "doi": "10.3928/0147-7447-19840701-16",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "24690748",
+      "doi": "10.12968/bjon.2014.23.Sup6.S3",
+      "source_granularity": "abstract",
+      "parse_method": "abstract",
+      "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/24690748/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "33311657",
+      "doi": "10.1038/s41415-020-2460-3",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/33311657/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "40914591",
+      "doi": "10.1016/S0140-6736(25)01767-2",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "18054869",
+      "doi": "10.1016/S1470-2045(07)70349-2",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "25975116",
+      "doi": "",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "27548853",
+      "doi": "10.1111/jth.13422",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "40921042",
+      "doi": "10.1097/ACM.0000000000006258",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "24575554",
+      "doi": "",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "41970611",
+      "doi": "10.1016/j.artd.2026.102015",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/41970611/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "32978557",
+      "doi": "10.1038/s41415-020-2186-2",
+      "source_granularity": "fulltext",
+      "parse_method": "xml",
+      "parsed_text": "evals/runs_13b/67cc973e81b1027333000011/papers/32978557/parsed_text.md",
+      "status": "parsed"
+    },
+    {
+      "pmid": "34092443",
+      "doi": "10.1016/j.jemermed.2021.03.013",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    },
+    {
+      "pmid": "36369144",
+      "doi": "10.1016/j.clinph.2022.10.007",
+      "source_granularity": "abstract",
+      "parse_method": "unavailable",
+      "parsed_text": "",
+      "status": "unavailable"
+    }
+  ],
+  "evidence": [
+    {
+      "paper_ref": "29957311",
+      "title": "No prejudices, please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "29569611",
+      "title": "Common sense please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "27871698",
+      "title": "Your discretion, please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "39709540",
+      "title": "Please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "30826033",
+      "title": "Discretion, please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "37005984",
+      "title": "Replace me... please?",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "24275398",
+      "title": "More, please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "24823857",
+      "title": "Answer please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "24690748",
+      "title": "Education saves lives.",
+      "source_granularity": "abstract",
+      "study_design": "unclassified",
+      "population": "The expectation was that participants could do patient assessment and Doppler in the morning, bandaging in the afternoon and a competency test at the end (and could we finish by 3.30, please).",
+      "methods": "# Education saves lives.",
+      "main_results": "# Education saves lives.",
+      "numbers": [],
+      "limitations": "# Education saves lives.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67cc973e81b1027333000011/papers/24690748/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "33311657",
+      "title": "PPE consistency please.",
+      "source_granularity": "fulltext",
+      "study_design": "unclassified",
+      "population": "# PPE consistency please Issue date 2020.",
+      "methods": "# PPE consistency please Issue date 2020.",
+      "main_results": "# PPE consistency please Issue date 2020.",
+      "numbers": [],
+      "limitations": "# PPE consistency please Issue date 2020.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67cc973e81b1027333000011/papers/33311657/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "40914591",
+      "title": "Offline: Help us, please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "18054869",
+      "title": "Translation, please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "25975116",
+      "title": "Leadership--more, please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "27548853",
+      "title": "No P Please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "40921042",
+      "title": "\"Three Cookies Please\".",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "24575554",
+      "title": "[Please enter].",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "41970611",
+      "title": "Pay It Forward, Please.",
+      "source_granularity": "fulltext",
+      "study_design": "unclassified",
+      "population": "# Pay It Forward, Please ## Conflicts of interest The authors declare there are no conflicts of interest.",
+      "methods": "# Pay It Forward, Please ## Conflicts of interest The authors declare there are no conflicts of interest.",
+      "main_results": "# Pay It Forward, Please ## Conflicts of interest The authors declare there are no conflicts of interest.",
+      "numbers": [],
+      "limitations": "# Pay It Forward, Please ## Conflicts of interest The authors declare there are no conflicts of interest.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67cc973e81b1027333000011/papers/41970611/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "32978557",
+      "title": "Photos please.",
+      "source_granularity": "fulltext",
+      "study_design": "unclassified",
+      "population": "# Photos please Issue date 2020.",
+      "methods": "# Photos please Issue date 2020.",
+      "main_results": "# Photos please Issue date 2020.",
+      "numbers": [],
+      "limitations": "# Photos please Issue date 2020.",
+      "matched_pico": [],
+      "local_source": "evals/runs_13b/67cc973e81b1027333000011/papers/32978557/parsed_text.md",
+      "extraction_status": "ok"
+    },
+    {
+      "paper_ref": "34092443",
+      "title": "Please.",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    },
+    {
+      "paper_ref": "36369144",
+      "title": "\"DoC DoC\", your attention please!",
+      "source_granularity": "none",
+      "study_design": "",
+      "population": "",
+      "methods": "",
+      "main_results": "",
+      "numbers": [],
+      "limitations": "No parsed text file available.",
+      "matched_pico": [],
+      "local_source": "",
+      "extraction_status": "failed"
+    }
+  ],
+  "diagnostics": {
+    "status": "ready_to_report",
+    "termination_ready": true,
+    "blocked": false,
+    "reason": "",
+    "recommended_next_actions": [
+      "report",
+      "verify"
+    ],
+    "coverage": {
+      "population": true,
+      "intervention_or_exposure": false,
+      "comparator": true,
+      "outcome": false
+    },
+    "metrics": {
+      "records": 20,
+      "fulltexts": 20,
+      "fulltext_downloaded": 3,
+      "parsed_sources": 4,
+      "evidence_items": 4,
+      "fulltext_hit_rate": 0.15,
+      "pubmed_queries": 1,
+      "fulltext_attempts": 20
+    },
+    "hard_blockers": []
+  },
+  "evolution_memory": [],
+  "tasks": [],
+  "blockers": [],
+  "errors": [],
+  "budgets": {
+    "max_rounds": 3,
+    "max_pubmed_queries": 6,
+    "max_records": 50,
+    "max_fulltext_attempts": 30,
+    "max_same_blocker": 2
+  },
+  "counters": {
+    "round": 0,
+    "pubmed_queries": 1,
+    "fulltext_attempts": 20,
+    "same_blocker_repeats": {}
+  },
+  "report_path": "evals/runs_13b/67cc973e81b1027333000011/report.md",
+  "last_pmids": [
+    "29957311",
+    "29569611",
+    "27871698",
+    "39709540",
+    "30826033",
+    "37005984",
+    "24275398",
+    "24823857",
+    "24690748",
+    "33311657",
+    "40914591",
+    "18054869",
+    "25975116",
+    "27548853",
+    "40921042",
+    "24575554",
+    "41970611",
+    "32978557",
+    "34092443",
+    "36369144"
+  ],
+  "verification": {
+    "ok": true,
+    "errors": [],
+    "checked_records": 20,
+    "checked_evidence": 20
+  }
+}

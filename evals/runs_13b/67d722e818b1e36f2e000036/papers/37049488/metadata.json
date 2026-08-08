@@ -1,0 +1,35 @@
+{
+  "pmid": "37049488",
+  "pmcid": "PMC10096616",
+  "doi": "10.3390/nu15071647",
+  "title": "Constipation-Predominant Irritable Bowel Syndrome (IBS-C): Effects of Different Nutritional Patterns on Intestinal Dysbiosis and Symptoms.",
+  "abstract": "Irritable bowel syndrome (IBS) is a chronic functional gastrointestinal disorder characterized by abdominal pain associated with defecation or a change in bowel habits. The pathogenesis of IBS is not completely clear, but it is known to be multifactorial and complex. Endogenous and exogenous factors such as abnormal GI motility, low-grade inflammation, increased epithelial permeability and visceral hypersensitivity, but diet and psychosocial aspects are also recognized as important actors. Furthermore, the interaction between diet and gut microbiota has gained interest as a potential contributor to the pathophysiology of IBS. To date, there is no specific diet for IBS with constipation (IBS-C); however, many studies show that fiber intake, especially soluble fiber such as inulin, could have a positive effect on symptoms. This review aims to evaluate the effects of some nutritional components such as fibers but also functional foods, prebiotics, probiotics and symbiotics on symptoms and microbiota in IBS-C subjects.",
+  "journal": "Nutrients",
+  "year": "2023",
+  "authors": [
+    "Di Rosa Claudia",
+    "Altomare Annamaria",
+    "Terrigno Vittoria",
+    "Carbone Florencia",
+    "Tack Jan",
+    "Cicala Michele",
+    "Guarino Michele Pier Luca"
+  ],
+  "mesh_terms": [
+    "Humans",
+    "Irritable Bowel Syndrome",
+    "Dysbiosis",
+    "Constipation",
+    "Probiotics",
+    "Prebiotics"
+  ],
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "trial_ids": [],
+  "source": "pubmed",
+  "verified": true,
+  "verified_by": "pubmed",
+  "verified_on": "2026-08-06"
+}

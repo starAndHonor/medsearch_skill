@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://medlit-cli.local/research_state.schema.json",
+  "title": "medlit-cli research state",
+  "type": "object",
+  "required": ["schema_version", "question", "status", "records"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {"type": "string"},
+    "question": {"type": "string"},
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "status": {"type": "string", "enum": ["running", "blocked", "ready_to_stop", "done"]},
+    "pico": {"type": "object"},
+    "term_plan": {"type": "object"},
+    "mesh_validation": {"type": "array"},
+    "query_ladder": {"type": "array"},
+    "retrieval_runs": {"type": "array"},
+    "records": {"type": "array", "items": {"$ref": "#/$defs/record"}},
+    "fulltexts": {"type": "array", "items": {"$ref": "#/$defs/fulltext_manifest"}},
+    "parsed_sources": {"type": "array"},
+    "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+    "diagnostics": {"type": "object"},
+    "evolution_memory": {"type": "array"},
+    "blockers": {"type": "array"},
+    "errors": {"type": "array"},
+    "report_path": {"type": "string"}
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "required": ["pmid", "title", "source", "verified"],
+      "additionalProperties": true,
+      "properties": {
+        "pmid": {"type": "string"},
+        "pmcid": {"type": "string"},
+        "doi": {"type": "string"},
+        "title": {"type": "string"},
+        "abstract": {"type": "string"},
+        "journal": {"type": "string"},
+        "year": {"type": "string"},
+        "authors": {"type": "array", "items": {"type": "string"}},
+        "mesh_terms": {"type": "array", "items": {"type": "string"}},
+        "publication_types": {"type": "array", "items": {"type": "string"}},
+        "source": {"type": "string"},
+        "verified": {"type": "boolean"}
+      }
+    },
+    "fulltext_manifest": {
+      "type": "object",
+      "required": ["pmid", "fulltext_status", "sources_tried", "local_files"],
+      "additionalProperties": true,
+      "properties": {
+        "pmid": {"type": "string"},
+        "doi": {"type": "string"},
+        "pmcid": {"type": "string"},
+        "fulltext_status": {"type": "string"},
+        "sources_tried": {"type": "array"},
+        "local_files": {"type": "object"},
+        "license": {"type": "string"}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["paper_ref", "source_granularity", "extraction_status"],
+      "additionalProperties": true,
+      "properties": {
+        "paper_ref": {"type": "string"},
+        "title": {"type": "string"},
+        "source_granularity": {"type": "string"},
+        "study_design": {"type": "string"},
+        "methods": {"type": "string"},
+        "main_results": {"type": "string"},
+        "numbers": {"type": "array", "items": {"type": "string"}},
+        "limitations": {"type": "string"},
+        "local_source": {"type": "string"},
+        "extraction_status": {"type": "string"}
+      }
+    }
+  }
+}
+

@@ -1,0 +1,3 @@
+RankMHC is a computational tool designed to predict peptide-MHC binding modes and rank potential binding peptides to MHC molecules.
+It uses a Learning-to-Rank approach to identify the most accurate peptide-MHC binding mode from structural models, outperforming traditional scoring functions and previous machine learning predictors.
+Additionally, RankMHC evaluates interaction energies using statistical pairwise contact potentials, effectively identifying peptides with high binding potential without relying solely on allele-specific binding motifs.

@@ -1,0 +1,1 @@
+RankMHC is an LTR-based pMHC binding mode identification predictor, specifically trained to predict the most accurate ranking of an ensemble of pMHC conformations.

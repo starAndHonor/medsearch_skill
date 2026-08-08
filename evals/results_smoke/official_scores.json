@@ -1,0 +1,43 @@
+{
+  "evaluator": "BioASQ/Evaluation-Measures (official jar)",
+  "challenge_version": 9,
+  "golden": "data/bioasq_13b_test_merged.json",
+  "benchmark": "evals/bioasq_13b_test_benchmark.json",
+  "work_dir": "evals/runs_smoke",
+  "scored_at": "2026-08-06T10:34:27+00:00",
+  "phase_a": {
+    "concepts_mean_precision": 0.0,
+    "concepts_mean_recall": 0.0,
+    "concepts_mean_f1": 0.0,
+    "concepts_map": 0.0,
+    "concepts_gmap": 0.0,
+    "documents_mean_precision": 0.0029411764705882353,
+    "documents_mean_recall": 0.0029411764705882353,
+    "documents_mean_f1": 0.0029411764705882353,
+    "documents_map": 0.0029411764705882353,
+    "documents_gmap": 1.0344414041588983e-05,
+    "snippets_mean_precision": 0.0,
+    "snippets_mean_recall": 0.0,
+    "snippets_mean_f1": 0.0,
+    "snippets_map": 0.0,
+    "snippets_gmap": 1.0000000000000655e-05,
+    "triples_mean_precision": 0.0,
+    "triples_mean_recall": 0.0,
+    "triples_mean_f1": 0.0,
+    "triples_map": 0.0,
+    "triples_gmap": 0.0
+  },
+  "phase_b": {
+    "yesno_accuracy": 0.0,
+    "factoid_strict_accuracy": 0.0,
+    "factoid_lenient_accuracy": 0.0,
+    "factoid_mrr": 0.0,
+    "list_precision": 0.0,
+    "list_recall": 0.0,
+    "list_f1": 0.0,
+    "yesno_macro_f1": 0.0,
+    "yesno_f1_yes": 0.0,
+    "yesno_f1_no": 0.0
+  },
+  "combined_exact": 0.0
+}

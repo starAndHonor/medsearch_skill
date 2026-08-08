@@ -1,0 +1,5 @@
+# Irritable bowel syndrome.
+
+## Abstract
+
+Conceptually, the irritable bowel syndrome (IBS) has been considered a brain-gut functional disorder, but this paradigm is under serious challenge. There is increasing evidence that organic disease of the gastrointestinal tract can be identified in subsets of patients who fulfil the Rome criteria for IBS. Evidence for subtle inflammatory bowel disease, serotonin dysregulation, bacterial overgrowth and central dysregulation continue to accumulate. The underlying causes of IBS remain to be adequately identified, but postinfectious IBS is a clear-cut entity. Furthermore, a genetic contribution to IBS also seems likely. Diagnosis continues to be based on the symptom profile and the absence of alarm features. A heightened awareness of coeliac disease masquerading as IBS is becoming accepted. Management remains largely based on symptomatic rather than on disease-modifying therapy, but this is likely to change in the near future. Here, recent advances in the pathophysiology and management of IBS are considered.

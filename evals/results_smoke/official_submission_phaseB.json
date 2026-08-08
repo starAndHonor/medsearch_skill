@@ -1,0 +1,2304 @@
+{
+ "questions": [
+  {
+   "id": "67d74cde18b1e36f2e00003c",
+   "type": "summary",
+   "body": "Describe RankMHC",
+   "ideal_answer": "- State: ready_to_report - Records: 1 - Evidence items: 1 - Full-text hit rate: 1.0"
+  },
+  {
+   "id": "65f7741fc4010b4d78000027",
+   "type": "factoid",
+   "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cc973e81b1027333000011",
+   "type": "list",
+   "body": "Please list the short half life Phosphodiesterase 5 inhibitors.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d722e818b1e36f2e000036",
+   "type": "summary",
+   "body": "Pathophysiology of irritable bowel syndrome (IBS).",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67da17c918b1e36f2e000055",
+   "type": "summary",
+   "body": "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "66301d1d187cba990d000026",
+   "type": "yesno",
+   "body": "Are respiratory measurements correlated with disease severity in Duchenne Muscular Dystrophy?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d3518718b1e36f2e000008",
+   "type": "factoid",
+   "body": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "662154f0b9f8b89d7e000009",
+   "type": "factoid",
+   "body": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67c847f581b1027333000003",
+   "type": "yesno",
+   "body": "Is age an underlying factor in the eye disease AMD?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d7fe2618b1e36f2e000044",
+   "type": "factoid",
+   "body": "Vector of zika virus.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7503018b1e36f2e00003e",
+   "type": "list",
+   "body": "What are the main transcription factors driving the mesenchymal-like (MES-like) state of glioblastoma multiforme?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d34fb318b1e36f2e000007",
+   "type": "factoid",
+   "body": "Which role does AAAGG have in RFC1 repeat expansions?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "662fc277187cba990d000013",
+   "type": "yesno",
+   "body": "Does the consensus molecular subtype (CMS) classification for colorectal cancer any use in routine clinical practice?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67cddce881b102733300001c",
+   "type": "list",
+   "body": "Please list major complications of Clostridum Difficile infection.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d43cd218b1e36f2e000011",
+   "type": "list",
+   "body": "Symptoms of polycystic ovarian syndrome.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d9f6a418b1e36f2e000051",
+   "type": "list",
+   "body": "What are the lineage transcription factors of oligodendrocyte progenitor cells (OPCs)?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7531018b1e36f2e000041",
+   "type": "list",
+   "body": "Data from which clinical trials have been used to demonstrate use of knowledge graphs for NSCLC survival prediction?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "660999a0fdcbea915f00001a",
+   "type": "list",
+   "body": "What are the colorectal surgical options for patients with Familial Polyposis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67c7708481b1027333000002",
+   "type": "yesno",
+   "body": "Is mucopolysaccharidosis-plus syndrome (MPSPS) a X-linked disease?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d7201b18b1e36f2e00002c",
+   "type": "list",
+   "body": "Indications of cesarean section.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67da148418b1e36f2e000054",
+   "type": "list",
+   "body": "What are the main transcriptional cell states found in melanoma?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d3434d18b1e36f2e000002",
+   "type": "factoid",
+   "body": "Which biomedical challenge has been designed to facilitate interaction between biomedical experts and automated question-answering systems in order to promote COVID-19 research?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "662fc6aa187cba990d000017",
+   "type": "summary",
+   "body": "Why is Trifluridine/Tipiracil more active than other fluorpyrimidines in colorectal cancer patients?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67cc89fa81b102733300000c",
+   "type": "yesno",
+   "body": "Is the inactivation of the X chromsome linked to cognition?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d4354518b1e36f2e000010",
+   "type": "factoid",
+   "body": "Prevalence of Premenstrual Dysphoric Disorder",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d74a9b18b1e36f2e00003a",
+   "type": "yesno",
+   "body": "Are transcription factors of the GATA family found in the brain?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d41b8518b1e36f2e00000d",
+   "type": "yesno",
+   "body": "Is there any role between AGRN and Myasthenia gravis?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67cdbe0c81b1027333000019",
+   "type": "list",
+   "body": "Please list the 4 problems that are found in the tetrology of Fallot.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7238518b1e36f2e000038",
+   "type": "summary",
+   "body": "Regarding genetic transmission of bipolar disorder, has any specific gene/mutation been identified?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d74b0418b1e36f2e00003b",
+   "type": "summary",
+   "body": "How does hypoxia influence the cell states of glioblastoma multiforme (GBM)?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d496ed18b1e36f2e000019",
+   "type": "factoid",
+   "body": "What's the increase in CORE profiles in JASPAR 2024 compared to the previous version?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cdca3881b102733300001b",
+   "type": "summary",
+   "body": "What is the mode of action for baclofen?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d6bf9a18b1e36f2e000023",
+   "type": "list",
+   "body": "Adverse effects of metformin.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67c7392981b1027333000001",
+   "type": "list",
+   "body": "What are the main cell states of glioblastoma multiforme (GBM)?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d34ad518b1e36f2e000005",
+   "type": "yesno",
+   "body": "Is high WEE1 expression linked to PARP inhibition resistance?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67cc9e6381b1027333000016",
+   "type": "list",
+   "body": "Please list the surgical treatments for Pilomatrix carcinoma.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7fe1718b1e36f2e000043",
+   "type": "factoid",
+   "body": "Vector of dengue infection.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67da131f18b1e36f2e000053",
+   "type": "yesno",
+   "body": "Is there a shift in the cell states of glioblastoma during recurrence?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d45d5818b1e36f2e000012",
+   "type": "factoid",
+   "body": "In which population has it been described an association between the CUBN gene and T2DM genetic susceptibility?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cde99581b102733300001f",
+   "type": "yesno",
+   "body": "Can stem cell therapies be used to treat xerostomia",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d6bda918b1e36f2e000021",
+   "type": "factoid",
+   "body": "What is the cause of African trypanosomiasis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7506e18b1e36f2e00003f",
+   "type": "factoid",
+   "body": "What is the consensus binding site of the TEAD transcription factors?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d4854918b1e36f2e000014",
+   "type": "summary",
+   "body": "Describe Variant Ranker",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67cec6e781b1027333000021",
+   "type": "yesno",
+   "body": "Is creatinine usually elevated in Drug-induced intestinal neuropathy(DAIN)?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d721d118b1e36f2e000031",
+   "type": "yesno",
+   "body": "Are systemic beta lactams considered harmful to the human microbiome?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67da0c0f18b1e36f2e000052",
+   "type": "factoid",
+   "body": "What is the most common EGFR mutation in glioblastoma multiforme?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d486e118b1e36f2e000015",
+   "type": "list",
+   "body": "Which cardiovascular events are associated with ALOX12 gene polymorphisms?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cc9bef81b1027333000013",
+   "type": "factoid",
+   "body": "What is DRESS in the context of drug therapy?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d430f918b1e36f2e00000f",
+   "type": "list",
+   "body": "Adverse effects of statins.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d3460218b1e36f2e000004",
+   "type": "summary",
+   "body": "Describe oncoEnrichR",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67cc9ca681b1027333000014",
+   "type": "list",
+   "body": "What are the treatments for endometrioma/endometriosis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7fee818b1e36f2e000048",
+   "type": "summary",
+   "body": "Association between hypothyroidism and depression.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d48f6c18b1e36f2e000017",
+   "type": "factoid",
+   "body": "Which computational method exists for prediction of transcriptional condensate-associated genomic regions?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cf221a81b1027333000022",
+   "type": "factoid",
+   "body": "What tissue would be used to derive  Wharton's Jelly Mesenchymal Stem Cells?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d6c1bb18b1e36f2e000029",
+   "type": "list",
+   "body": "Causes of infectious myocardiopathy.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d49ade18b1e36f2e00001b",
+   "type": "summary",
+   "body": "What's the effect of germline-mediated immunoediting?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67cc94f681b102733300000e",
+   "type": "list",
+   "body": "Please list diseases that can be treated with MSCs, Human Mesenchymal Stem cells",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d723d918b1e36f2e000039",
+   "type": "summary",
+   "body": "Are there biomarkers of depression?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d34e2518b1e36f2e000006",
+   "type": "list",
+   "body": "What is caused by Biallelic CRELD1 variants?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cc960381b102733300000f",
+   "type": "factoid",
+   "body": "What are desflurane and sevoflurane?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7232418b1e36f2e000037",
+   "type": "summary",
+   "body": "Are there inflammatory markers of dysmenorrhea?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d751e418b1e36f2e000040",
+   "type": "factoid",
+   "body": "Which protein is silencing MIR139 in order to promote AML oncogenesis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cc97c481b1027333000012",
+   "type": "factoid",
+   "body": "On what part of the body is Fontan Palliation(AKA Fontan proceedure) performed?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d6b4e218b1e36f2e00001e",
+   "type": "yesno",
+   "body": "Is childhood asthma more common in highly polluted areas?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d4161318b1e36f2e00000a",
+   "type": "yesno",
+   "body": "Does nucleosomal DNA have topological memory?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67c9e84181b1027333000008",
+   "type": "factoid",
+   "body": "What cellular process is Listeriolysin associated with?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7203018b1e36f2e00002d",
+   "type": "factoid",
+   "body": "Estimated prevalence of postpartum psychosis.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d497c418b1e36f2e00001a",
+   "type": "factoid",
+   "body": "What's the effect of liver RBFOX2?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cc826c81b102733300000b",
+   "type": "yesno",
+   "body": "Is Geographic Atrophy(GA) found in the hand or foot?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d7fe6a18b1e36f2e000046",
+   "type": "summary",
+   "body": "Manifestations of herpes genital infection.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d352e918b1e36f2e000009",
+   "type": "list",
+   "body": "What is caused by heterozygous loss of function SPTAN1?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cc969581b1027333000010",
+   "type": "summary",
+   "body": "Whats is the effect of berberine in ischemic stroke?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d7fe9318b1e36f2e000047",
+   "type": "summary",
+   "body": "Association between eating disorders and ADHD.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d418f418b1e36f2e00000c",
+   "type": "summary",
+   "body": "What is the association of ORM1 and cell-free DNA?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67cc9d4c81b1027333000015",
+   "type": "yesno",
+   "body": "Are ameleographics (AKA tooth prints) useful for forensic identification?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d81c7218b1e36f2e00004d",
+   "type": "list",
+   "body": "Characteristics of prion diseases.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d4903418b1e36f2e000018",
+   "type": "factoid",
+   "body": "Which gene shapes the 3D enhancer network of the developing T cell genome?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67c9e48f81b1027333000005",
+   "type": "summary",
+   "body": "How is a  neoantigen created?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d7219018b1e36f2e000030",
+   "type": "list",
+   "body": "Causes of sudden deafness.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d74dd718b1e36f2e00003d",
+   "type": "list",
+   "body": "Which types of data does the EURO-NMD registry capture?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cdbdb981b1027333000018",
+   "type": "factoid",
+   "body": "What tissue is the origin of adnexal masses.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7228818b1e36f2e000034",
+   "type": "factoid",
+   "body": "Mean survival after a diagnosis of multiple sclerosis.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d49cf318b1e36f2e00001c",
+   "type": "summary",
+   "body": "Describe the SEQUOIA tool for predicting cancer transcriptomics profiles from histology images",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67c9e75881b1027333000006",
+   "type": "factoid",
+   "body": "What is the function of CD47",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d6c10618b1e36f2e000027",
+   "type": "yesno",
+   "body": "Is the use of surfactant restricted to neonatology?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67dedd6818b1e36f2e000061",
+   "type": "factoid",
+   "body": "Which ensemble machine-learning framework has been developed harnessing UK biobank data?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6b93718b1e36f2e0000be",
+   "type": "summary",
+   "body": "What is the mechanism of action of nipocalimab?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67ded51918b1e36f2e00005e",
+   "type": "summary",
+   "body": "What are theragnostics?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e2cfa918b1e36f2e000099",
+   "type": "summary",
+   "body": "What is the effect of knee steroid injection?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67eaf2cd18b1e36f2e0000e1",
+   "type": "summary",
+   "body": "How do cancer-associated fibroblasts (CAFs) contribute to immune evasion in tumors?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e2d75118b1e36f2e00009d",
+   "type": "summary",
+   "body": "Describe Mantis-ML 2.0",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e6bf8818b1e36f2e0000c5",
+   "type": "factoid",
+   "body": "What is the target of Zodasiran?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e1356018b1e36f2e000070",
+   "type": "factoid",
+   "body": "Where in the body would the  sublci and gyri be found?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e28ded18b1e36f2e000080",
+   "type": "factoid",
+   "body": "Most common reversible cause of infertility in men.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eaf29c18b1e36f2e0000e0",
+   "type": "factoid",
+   "body": "What mutation is found in about 50% of melanomas?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6cf7218b1e36f2e0000d1",
+   "type": "list",
+   "body": "Which novel potential biomarkers have been identified in basal cell carcinoma from MR-PheWAS?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e5530418b1e36f2e0000aa",
+   "type": "yesno",
+   "body": "Does Plozasiran reduce the risk of pancreatitis?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e0533418b1e36f2e000069",
+   "type": "list",
+   "body": "Please list the symptoms of Chikungunya virus infection",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e40c0f18b1e36f2e0000a2",
+   "type": "factoid",
+   "body": "Prevention of maternal transmission of CMV infection.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb822e18b1e36f2e0000f1",
+   "type": "factoid",
+   "body": "What is a characteristic family of enzymes that are responsible for DNA demethylation?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67df18f518b1e36f2e000064",
+   "type": "yesno",
+   "body": "Is MAP3K15 associated with obesity?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e69d2718b1e36f2e0000b6",
+   "type": "summary",
+   "body": "What is the mechanism of action of Remibrutinib?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e1359918b1e36f2e000071",
+   "type": "summary",
+   "body": "Please summarize pendelluft.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e2abdf18b1e36f2e000089",
+   "type": "list",
+   "body": "Complications of elective abortion.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb70ee18b1e36f2e0000eb",
+   "type": "yesno",
+   "body": "Does glioblastoma commonly metastasize outside the central nervous system (CNS)?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e7df6118b1e36f2e0000d8",
+   "type": "factoid",
+   "body": "Which database serves as a catalogue of full-length 16S rRNA gene sequences from bacteria in wastewater treatment plants?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6c4dd18b1e36f2e0000ca",
+   "type": "list",
+   "body": "What are features of the WHIM syndrome?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e85c4318b1e36f2e0000d9",
+   "type": "list",
+   "body": "The percutaneous thermal ablation techniques that aresuitable for the treatment of bone oligometastases",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e270d318b1e36f2e000075",
+   "type": "factoid",
+   "body": "Most common infectious cause of congenital deafness.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb6ea518b1e36f2e0000e9",
+   "type": "yesno",
+   "body": "Can melanoma occur in areas not exposed to sunlight?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67dc452018b1e36f2e00005a",
+   "type": "yesno",
+   "body": "Is CYLD an extracellular matrix regulator?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e6c2fa18b1e36f2e0000c8",
+   "type": "yesno",
+   "body": "Can gepotidacin be used for meningitis?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67cf3f6481b1027333000025",
+   "type": "factoid",
+   "body": "What is the indication for bromocriptine?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2b8a818b1e36f2e000091",
+   "type": "yesno",
+   "body": "Are biologics used in pancreatic cancer?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67eb713518b1e36f2e0000ed",
+   "type": "yesno",
+   "body": "Does MGMT (O6-methylguanine-DNA methyltransferase) promoter methylation predict a better response to temozolomide?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e7db2918b1e36f2e0000d6",
+   "type": "factoid",
+   "body": "What is currently the number of germline associations with clonal hematopoiesis in European-ancestry populations?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6c3f918b1e36f2e0000c9",
+   "type": "list",
+   "body": "What are active ingredients of Exblifep?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67decf2a18b1e36f2e00005c",
+   "type": "list",
+   "body": "What are the current interventions for congenital talipes equinovarus?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2b26318b1e36f2e00008c",
+   "type": "list",
+   "body": "Which biologic drugs are used in respiratory diseases?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb559518b1e36f2e0000e5",
+   "type": "summary",
+   "body": "What is the significance of the IDH1/IDH2 mutations in gliomas, and how do they impact prognosis?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67df1a1d18b1e36f2e000065",
+   "type": "factoid",
+   "body": "Which missense variant in SPDL1 is associated with IPF?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6be3118b1e36f2e0000c3",
+   "type": "factoid",
+   "body": "What disease can be treated with Fidanacogene elaparvovec?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e3113d18b1e36f2e00009f",
+   "type": "summary",
+   "body": "What is the Pringle manuever used for?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e2942a18b1e36f2e000082",
+   "type": "summary",
+   "body": "Which environment favors Histoplasma capsulatum?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67eb569718b1e36f2e0000e8",
+   "type": "list",
+   "body": "Which immune checkpoint proteins do tumors often exploit to evade immune responses?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6c9d518b1e36f2e0000cd",
+   "type": "factoid",
+   "body": "How many individuals were selected for generation of whole-genome sequencing data in the Mexico City Prospective Study?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6c6fa18b1e36f2e0000cb",
+   "type": "list",
+   "body": "What are features of Samter's Triad?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e014c918b1e36f2e000068",
+   "type": "factoid",
+   "body": "What is the mode of action of Bempedoic acid?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2c03d18b1e36f2e000094",
+   "type": "summary",
+   "body": "Long term effects of obesity during adolescence.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67eb817c18b1e36f2e0000f0",
+   "type": "factoid",
+   "body": "What is the median survival time for glioblastoma patients with standard treatment?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67dede2918b1e36f2e000062",
+   "type": "factoid",
+   "body": "Which ensemble machine-learning framework has been developed for predicting druggability?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6b63118b1e36f2e0000bc",
+   "type": "summary",
+   "body": "What is the clinical significance of the Eiffel-by-Night Sign?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d0396281b1027333000027",
+   "type": "summary",
+   "body": "What is the current hypothesis for the cause of Guillian-Barre syndrome?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e2849218b1e36f2e00007a",
+   "type": "factoid",
+   "body": "What is the most common genetic variant of cystic fibrosis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eaf28f18b1e36f2e0000df",
+   "type": "list",
+   "body": "What are the key components of the glioblastoma tumor microenvironment?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2944218b1e36f2e000083",
+   "type": "factoid",
+   "body": "Which cytoscape application has been developed for the study of metabolic pathway evolution?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6d06918b1e36f2e0000d2",
+   "type": "yesno",
+   "body": "Can Galcanezumab be used for Vestibular Migraine?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67dec8fb18b1e36f2e00005b",
+   "type": "summary",
+   "body": "Summerize the relationship betweeen kisspeptin and cancer",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e40a2418b1e36f2e0000a1",
+   "type": "list",
+   "body": "Infections caused by Klebsiella spp.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb55d818b1e36f2e0000e6",
+   "type": "yesno",
+   "body": "Does DNA methylation always lead to gene silencing?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e7dbc518b1e36f2e0000d7",
+   "type": "summary",
+   "body": "Describe Gene-SCOUT",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e69e7918b1e36f2e0000b7",
+   "type": "yesno",
+   "body": "Is Inebilizumab effective for the IgG4-Related Disease?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67ded55318b1e36f2e00005f",
+   "type": "yesno",
+   "body": "Is botulism toxin A used to treat arthritis?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e40e9418b1e36f2e0000a4",
+   "type": "list",
+   "body": "Diseases that are screened in the neonate with the heel prick test.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb55f418b1e36f2e0000e7",
+   "type": "factoid",
+   "body": "What is the most common genetic alteration in primary glioblastoma?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67df10be18b1e36f2e000063",
+   "type": "summary",
+   "body": "Describe gwRVIS",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e56e1e18b1e36f2e0000af",
+   "type": "summary",
+   "body": "What is the mechanism of action of NTLA-2002?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e133f118b1e36f2e00006f",
+   "type": "factoid",
+   "body": "Why is Calabash chalk consumed by pregnant women?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e288d518b1e36f2e00007c",
+   "type": "factoid",
+   "body": "Country with the highest incidence of African Trypanosomiasis (sleeping sickness).",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67ea538318b1e36f2e0000dd",
+   "type": "summary",
+   "body": "What is the role of the tumor microenvironment in the MES-like state of glioblastoma multiforme (GBM)?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67dc41a618b1e36f2e000059",
+   "type": "yesno",
+   "body": "Does loss of the tumour suppressor LKB1/STK11 contribute to cancer resistance?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e6bdc618b1e36f2e0000c2",
+   "type": "factoid",
+   "body": "What is the target of Tulisokibart?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cf365781b1027333000023",
+   "type": "list",
+   "body": "What are the symptoms of Landau-Klettner syndrome?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2c4b618b1e36f2e000095",
+   "type": "list",
+   "body": "Consequences of environmental exposure to lead poisoning.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb557218b1e36f2e0000e4",
+   "type": "summary",
+   "body": "What is the role of glioblastoma stem-like cells (GSCs) in tumor progression and therapy resistance?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e28a8418b1e36f2e00007d",
+   "type": "list",
+   "body": "What are the main advantages of mirnovo compared to existing tools?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e56b5418b1e36f2e0000ad",
+   "type": "factoid",
+   "body": "What is the target of Abelacimab?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e94f4418b1e36f2e0000dc",
+   "type": "yesno",
+   "body": "Is Ameloblastoma a malignant type of cancer?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e2cd8b18b1e36f2e000097",
+   "type": "factoid",
+   "body": "What is the treatment for paracetamol intoxication?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67eb7cf718b1e36f2e0000ef",
+   "type": "list",
+   "body": "What are some immunosuppressive cytokines secreted by tumors to induce the activation of regulatory T-cells and evade the immune system?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2d99318b1e36f2e00009e",
+   "type": "yesno",
+   "body": "Do CNVs contribute to the genetic architecture of familial generalized and focal epilepsies?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e5712e18b1e36f2e0000b2",
+   "type": "factoid",
+   "body": "Plaques en Prairie Fauchée are specific to which disease?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d1a0de81b102733300002a",
+   "type": "list",
+   "body": "Please list the complications associaated with Plastic Multilayer Closure(PMC) when used for surgery",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e4165d18b1e36f2e0000a6",
+   "type": "yesno",
+   "body": "Are biologicals safe during pregnancy?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67eaf32618b1e36f2e0000e3",
+   "type": "summary",
+   "body": "What is an E-box and what is its role in gene regulation of cancer?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67dc40da18b1e36f2e000058",
+   "type": "summary",
+   "body": "Describe StarGazer",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e6ba8e18b1e36f2e0000bf",
+   "type": "list",
+   "body": "What are the targets of Ivonescimab?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e08afd18b1e36f2e00006a",
+   "type": "factoid",
+   "body": "Eptinezumab is a monclonal antibody direct againest what protein?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e299b618b1e36f2e000087",
+   "type": "summary",
+   "body": "What is ophthalmologic loa-loa?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67eb86d618b1e36f2e0000f2",
+   "type": "yesno",
+   "body": "Can a single gene be regulated by multiple enhancers?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e6ce6e18b1e36f2e0000cf",
+   "type": "factoid",
+   "body": "How many primary genetic associations were identified through pQTL mapping within the Pharma Proteomics Project?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6a05c18b1e36f2e0000b8",
+   "type": "summary",
+   "body": "What is the mechanism of action of Imlunestrant?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e12bc718b1e36f2e00006e",
+   "type": "yesno",
+   "body": "Can the temporomandibular joint be successfully replaced?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fbe85d18b1e36f2e000122",
+   "type": "summary",
+   "body": "Have brain abnormalities been found in people with anxiety?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fc2f7818b1e36f2e00012c",
+   "type": "yesno",
+   "body": "Does PTEN loss in GBM contribute to resistance against immunotherapy?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d49e0c18b1e36f2e00001d",
+   "type": "list",
+   "body": "List highlighted genes by RJH-Metastasis 1.0 for colorectal cancer with liver metastasis (CRCLM)",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6b34318b1e36f2e0000b9",
+   "type": "factoid",
+   "body": "rVSV-ZEBOV-GP is used for which disease?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e0906c18b1e36f2e00006b",
+   "type": "factoid",
+   "body": "What is a seroma?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fbe2f318b1e36f2e000117",
+   "type": "yesno",
+   "body": "Does pilates reduce pelvic pain?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67f6f13618b1e36f2e0000ff",
+   "type": "list",
+   "body": "What transcription factors drive epithelial-to-mesenchymal transition (EMT)?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e296bc18b1e36f2e000085",
+   "type": "factoid",
+   "body": "How many exomes did the largest whole-exome sequencing study of epilepsy to date involve?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e4590e18b1e36f2e0000a9",
+   "type": "factoid",
+   "body": "Westermark’s Sign is specific to which condition?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fafe7318b1e36f2e00010b",
+   "type": "yesno",
+   "body": "Is Faecalibacterium prausnitzii, a butyrate-producing bacteria in the human colon, an aerobic bacteria?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67ed634018b1e36f2e0000fa",
+   "type": "list",
+   "body": "Which new measles vaccines are being investigated?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fd734e18b1e36f2e00013f",
+   "type": "yesno",
+   "body": "Do CD8+ T cells and NK cells both express cytotoxic granules like perforin and granzyme B?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e6d1b518b1e36f2e0000d3",
+   "type": "factoid",
+   "body": "Which association in clonal haematopoiesis has been identified in the UK biobank proteogenomics study?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e56ff018b1e36f2e0000b1",
+   "type": "list",
+   "body": "What are the targets of zenocutuzumab?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fc555a18b1e36f2e000131",
+   "type": "factoid",
+   "body": "What organ is evaluated by Hysterosalpingography (HSG)?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fbe68c18b1e36f2e00011e",
+   "type": "factoid",
+   "body": "At which age should men start prostate cancer screening?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67f6f14118b1e36f2e000100",
+   "type": "yesno",
+   "body": "Do mesenchymal-like glioblastoma cells show increased immune evasion?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d45fbc18b1e36f2e000013",
+   "type": "list",
+   "body": "Which CARD8 variants confer decreased risk in diabetic nephropathy?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6c0f618b1e36f2e0000c7",
+   "type": "yesno",
+   "body": "Can Fasudil be used for subarachnoid haemorrhage?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67f8584b18b1e36f2e000106",
+   "type": "summary",
+   "body": "Please explain how  activation likelihood estimation (ALE) is used",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fbe1a118b1e36f2e000112",
+   "type": "list",
+   "body": "Which mutations increase the risk for pancreatic cancer?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fc380c18b1e36f2e00012e",
+   "type": "summary",
+   "body": "How does GBM heterogeneity affect treatment response?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d48d1118b1e36f2e000016",
+   "type": "summary",
+   "body": "Describe FINDbase",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e6b72818b1e36f2e0000bd",
+   "type": "list",
+   "body": "What is included in the VRd regiment for myeloma?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67daf71018b1e36f2e000057",
+   "type": "yesno",
+   "body": "Is pollinosis another name for allergies to tree or grass pollen?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67ed64e118b1e36f2e0000fd",
+   "type": "summary",
+   "body": "Which diet is recommended for people with Irritable Bowel Syndrome?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67f6f1c218b1e36f2e000102",
+   "type": "summary",
+   "body": "How do macrophages influence the glioblastoma microenvironment?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67dae2d018b1e36f2e000056",
+   "type": "list",
+   "body": "Which are the main findings from the AURA3 trial on acquired resistance to osimertinib?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6cd6a18b1e36f2e0000ce",
+   "type": "yesno",
+   "body": "Is Luvadaxistat effective for Friedreich's Ataxia?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d1a36781b102733300002b",
+   "type": "summary",
+   "body": "Please summarize the relationship between Xylazine and illicit drug use.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fbe25118b1e36f2e000115",
+   "type": "yesno",
+   "body": "Is obesity a familial syndrome?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fbee9818b1e36f2e000124",
+   "type": "factoid",
+   "body": "What proportion of the cells in GBM are typically macrophages/microglia?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e28bdd18b1e36f2e00007e",
+   "type": "summary",
+   "body": "Describe Chimira",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e5541718b1e36f2e0000ab",
+   "type": "summary",
+   "body": "What is the mechanism of action of Talquetamab?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67f8ea8318b1e36f2e000107",
+   "type": "factoid",
+   "body": "What is the difference in action between fomoterol and salmeterol?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fbe3cf18b1e36f2e00011a",
+   "type": "yesno",
+   "body": "Is there any biomarker for borderline personality disorder?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fd6fe418b1e36f2e00013d",
+   "type": "summary",
+   "body": "What is the main function of plasmacytoid dendritic cells (pDCs)?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d4179618b1e36f2e00000b",
+   "type": "list",
+   "body": "List primary sclerosing cholangitis effector genes and biological mechanisms",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e56c7418b1e36f2e0000ae",
+   "type": "list",
+   "body": "What are targets of Tirzepatide?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67faf34018b1e36f2e00010a",
+   "type": "yesno",
+   "body": "Have high values of blood pressure, body mass index (BMI), and non-high-density lipoprotein (HDL) cholesterol been associated with increased dementia risk in late life?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fbe3a518b1e36f2e000119",
+   "type": "list",
+   "body": "What are indications for autologous blood use?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fd73dd18b1e36f2e000140",
+   "type": "list",
+   "body": "What are some commonly used markers to identify exhausted T cells?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e7d88f18b1e36f2e0000d5",
+   "type": "list",
+   "body": "Which approaches are used for selecting the right target in kidney disease?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e5731918b1e36f2e0000b3",
+   "type": "list",
+   "body": "Which drugs are included in the epclusa pill?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67f8f45518b1e36f2e000108",
+   "type": "list",
+   "body": "What proteins are measured in a blood test for Alzheimers disease?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67ed4bdf18b1e36f2e0000f3",
+   "type": "summary",
+   "body": "How many types of poliovirus vaccines are currently used?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fd7a0218b1e36f2e000141",
+   "type": "factoid",
+   "body": "What type of T cell memory subset is characterized by high CD45RO and CCR7 expression?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6b4cb18b1e36f2e0000bb",
+   "type": "summary",
+   "body": "What is the mechanism of action of Xalnesiran?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67ded26a18b1e36f2e00005d",
+   "type": "summary",
+   "body": "What is Tenecteplase?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67ed4c9018b1e36f2e0000f5",
+   "type": "yesno",
+   "body": "Is there any DNA vaccine approved for use in humans?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fce38c18b1e36f2e000135",
+   "type": "list",
+   "body": "What are the glioblastoma stem cell (GSC) states identified through chromatin accessibility profiling?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6d27518b1e36f2e0000d4",
+   "type": "factoid",
+   "body": "What is the target of Zolbetuximab?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cf3b6381b1027333000024",
+   "type": "list",
+   "body": "Please list the active compounds that can be extracted from Sophora tonkinensis",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67ed57e718b1e36f2e0000f9",
+   "type": "list",
+   "body": "What are the main causes of iatrogenic mortality?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fd5d6e18b1e36f2e000139",
+   "type": "factoid",
+   "body": "What is a frequently lost chromosomal region in secondary glioblastoma?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6b43e18b1e36f2e0000ba",
+   "type": "summary",
+   "body": "What is the mechanism of action of Nexiguran Ziclumeran?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d01cc581b1027333000026",
+   "type": "yesno",
+   "body": "Is suicide ideation associated with GLP-1 agonists?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fbe7b818b1e36f2e00011f",
+   "type": "yesno",
+   "body": "Are physicians at higher risk of suicide than the general population?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67f6f20618b1e36f2e000103",
+   "type": "factoid",
+   "body": "What chemokine is involved in recruiting myeloid-derived suppressor cells to GBM?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e573f418b1e36f2e0000b4",
+   "type": "yesno",
+   "body": "Is Infigratinib effective for Achondroplasia?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e9342618b1e36f2e0000da",
+   "type": "summary",
+   "body": "What is anthropogenic gadolinium?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e3cf4318b1e36f2e0000a0",
+   "type": "list",
+   "body": "Causes of testicular torsion.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fce47a18b1e36f2e000136",
+   "type": "yesno",
+   "body": "Does neuroblastoma share mesenchymal-like transcriptional programs with triple-negative breast cancer (TNBC)?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e4571218b1e36f2e0000a7",
+   "type": "yesno",
+   "body": "Is perampanel associated with homicidal ideation?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fbe21f18b1e36f2e000114",
+   "type": "summary",
+   "body": "Please sumarize the symptoms of Ankylosing Spondylitis",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fbe09d18b1e36f2e000110",
+   "type": "summary",
+   "body": "Presentation of ADHD in girls.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fc323818b1e36f2e00012d",
+   "type": "factoid",
+   "body": "What is the term for when a structural rearrangement places an oncogene under the control of a foreign enhancer?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e457ed18b1e36f2e0000a8",
+   "type": "summary",
+   "body": "What is the mechanism of action of Vutrisiran?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67ded64018b1e36f2e000060",
+   "type": "factoid",
+   "body": "What is a payload in the context of a drug?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fbe49218b1e36f2e00011b",
+   "type": "yesno",
+   "body": "Can schizophrenia be diagnosed after 50?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67eb711718b1e36f2e0000ec",
+   "type": "summary",
+   "body": "What is the purpose of tumor-treating fields (TTFields) in GBM therapy?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e6bed318b1e36f2e0000c4",
+   "type": "factoid",
+   "body": "What is the target of axatilimab?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fd087218b1e36f2e000137",
+   "type": "summary",
+   "body": "How are molecular polaritons made?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67ed650c18b1e36f2e0000fe",
+   "type": "yesno",
+   "body": "Has any single infectious agent been identified as the cause of irritable bowel syndrome?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67f6f18918b1e36f2e000101",
+   "type": "factoid",
+   "body": "Where do infiltrating macrophages in GBM derive from?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6c8dd18b1e36f2e0000cc",
+   "type": "list",
+   "body": "What medications are included in the CAPIRI regimen?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fb064318b1e36f2e00010d",
+   "type": "factoid",
+   "body": "What are aptamers made of?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2b5fb18b1e36f2e00008e",
+   "type": "yesno",
+   "body": "Can a mother positive for Hepatitis B breastfeed?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67eb701618b1e36f2e0000ea",
+   "type": "list",
+   "body": "How do tumors evade immune responses?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6bd0e18b1e36f2e0000c1",
+   "type": "factoid",
+   "body": "Lenacapavir is tested in which disease?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d03a2581b1027333000028",
+   "type": "yesno",
+   "body": "is Anopheles the genus of a parasitic fly?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67ed575b18b1e36f2e0000f7",
+   "type": "list",
+   "body": "What is the treatment for restless leg syndrome?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e6cf2618b1e36f2e0000d0",
+   "type": "yesno",
+   "body": "Should Zotiraciclib be used for glioblastoma?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680d5e47353a4a2e6b000005",
+   "type": "factoid",
+   "body": "Is bronchiectasis a chronic or acute condition?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680f4a68353a4a2e6b000007",
+   "type": "yesno",
+   "body": "Do biopharmaceuticals have a role in the treatment of depression?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680a083218b1e36f2e00014d",
+   "type": "yesno",
+   "body": "Are microglia involved in synaptic pruning during development?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e5557c18b1e36f2e0000ac",
+   "type": "factoid",
+   "body": "What is the target of fezolinetant?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "6810fef8353a4a2e6b000016",
+   "type": "factoid",
+   "body": "What complication of pregnancy was treated with  Diethylstilbestrol",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "6810cb23353a4a2e6b000012",
+   "type": "factoid",
+   "body": "Biopharmaceuticals for pediatric bronchiolitis.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680bc7a718b1e36f2e000156",
+   "type": "summary",
+   "body": "What is the cancer-immunity cycle?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e56f2018b1e36f2e0000b0",
+   "type": "summary",
+   "body": "What is the mechanism of action of Iptacopan?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fe5f0918b1e36f2e000144",
+   "type": "factoid",
+   "body": "What is the previous acronym for Metabolic Dysfunction-Associated Steatotic Liver Diasease  (MASLD)?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fbe4d718b1e36f2e00011d",
+   "type": "summary",
+   "body": "What is the genetic basis of addiction?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "680a079718b1e36f2e000147",
+   "type": "yesno",
+   "body": "Do natural killer (NK) cells require antigen presentation to eliminate cancer cells?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e5749b18b1e36f2e0000b5",
+   "type": "list",
+   "body": "What are the targets of blinatumomab?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680d5f2a353a4a2e6b000006",
+   "type": "summary",
+   "body": "What is the relationship between bronchiectasis and Erdosteine?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "6810f6f0353a4a2e6b000015",
+   "type": "yesno",
+   "body": "Can GLP-1 receptor agonists be used for obesity in children under 10 years of age?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680a237618b1e36f2e000152",
+   "type": "yesno",
+   "body": "Are radiomic features useful in predicting survival in glioblastoma patients?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "68110110353a4a2e6b000018",
+   "type": "yesno",
+   "body": "In patients with acute liver failure associated with  paracetamol overdose does  N‐acetylcysteine treatment improve survival?.",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680f4c63353a4a2e6b00000d",
+   "type": "factoid",
+   "body": "What is the pharmacological treatment of urinary schistosomiasis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680a087218b1e36f2e00014f",
+   "type": "list",
+   "body": "What types of features are typically extracted in radiomics?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "6810daad353a4a2e6b000013",
+   "type": "list",
+   "body": "What diseases are treated with fecal transplants?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "6810c27b353a4a2e6b000010",
+   "type": "yesno",
+   "body": "Can sertraline be used in children under 10?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680a07a418b1e36f2e000148",
+   "type": "factoid",
+   "body": "Which cells are the primary antigen-presenting cells?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fbd58c18b1e36f2e00010e",
+   "type": "yesno",
+   "body": "Do misfolded and aggregated proteins build up in neurodegenerative illnesses, which causes neuronal dysfunction and ultimately neuronal death?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fbe10618b1e36f2e000111",
+   "type": "list",
+   "body": "Differential traits of autism spectrum disorders in girls.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680fcb72353a4a2e6b00000e",
+   "type": "list",
+   "body": "What are the major classes of immunoglobulins?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "6805568118b1e36f2e000145",
+   "type": "list",
+   "body": "Please list the DORA type drugs",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e26b0b18b1e36f2e000073",
+   "type": "yesno",
+   "body": "Is takotsubo cardiomyopathy more common in men?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680a080b18b1e36f2e00014b",
+   "type": "summary",
+   "body": "What is radiomics?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "6810db0a353a4a2e6b000014",
+   "type": "factoid",
+   "body": "What is the cause of Fibromyalgia?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2cfcf18b1e36f2e00009a",
+   "type": "list",
+   "body": "Recommended prevention of osteoporosis in postmenopausal women.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680a081d18b1e36f2e00014c",
+   "type": "summary",
+   "body": "What are the functions of astrocytes in the CNS?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "6810ff8f353a4a2e6b000017",
+   "type": "yesno",
+   "body": "Is Laparoscopic salpingectomy used to treat testicular cancer?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fbe21818b1e36f2e000113",
+   "type": "list",
+   "body": "Factors that are associated with thyroid cancer.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fc20ee18b1e36f2e00012a",
+   "type": "yesno",
+   "body": "Do glioblastoma tumors have a high degree of lymphocyte infiltration?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67f8527318b1e36f2e000104",
+   "type": "list",
+   "body": "Please list the types of Videolaryngoscopy for adults undergoing tracheal intubation",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680f4ae9353a4a2e6b000009",
+   "type": "yesno",
+   "body": "Is Electroconvulsive Therapy used for any type of epilepsy?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67fd922518b1e36f2e000143",
+   "type": "summary",
+   "body": "What are the characteristics of the M1/M2 macrophage polarization paradigm in the tumor microenvironment?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fc1a3818b1e36f2e000129",
+   "type": "factoid",
+   "body": "What is Nissen fundoplication",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e285b018b1e36f2e00007b",
+   "type": "factoid",
+   "body": "What are the genetic variants in Turner syndrome?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680a07f918b1e36f2e00014a",
+   "type": "factoid",
+   "body": "What organelle is responsible for ATP production?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cdc78381b102733300001a",
+   "type": "factoid",
+   "body": "What age group is commonly affected by biliary atresia?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d7ff2c18b1e36f2e000049",
+   "type": "list",
+   "body": "Manifestations of gluten allergy/intolerance.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680a084018b1e36f2e00014e",
+   "type": "yesno",
+   "body": "Do T cells enter the CNS in healthy individuals?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67cde41a81b102733300001d",
+   "type": "yesno",
+   "body": "Is urolithiasis the same thing as kidney stones?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e2b80618b1e36f2e00008f",
+   "type": "summary",
+   "body": "How do you acquire Legionella pneumophila?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "680a21ff18b1e36f2e000151",
+   "type": "summary",
+   "body": "What is the role of the choroid plexus in immune surveillance?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fc546c18b1e36f2e000130",
+   "type": "yesno",
+   "body": "Has Antibiotic use induced hiccups?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680f4aa6353a4a2e6b000008",
+   "type": "summary",
+   "body": "What do snake antivenoms contain?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "680a078618b1e36f2e000146",
+   "type": "yesno",
+   "body": "Are microglia derived from the same lineage as peripheral macrophages?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e098cb18b1e36f2e00006d",
+   "type": "summary",
+   "body": "How does a gastric pacemaker work?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d6be8a18b1e36f2e000022",
+   "type": "yesno",
+   "body": "Can newborns have glaucoma?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680bc74618b1e36f2e000155",
+   "type": "list",
+   "body": "What are some recent advances in cancer immunotherapy?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67f857eb18b1e36f2e000105",
+   "type": "yesno",
+   "body": "Is delirium a frequent complication after cardiac surgery?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e291a718b1e36f2e000081",
+   "type": "list",
+   "body": "Phobias affecting humans.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680b7f4818b1e36f2e000154",
+   "type": "summary",
+   "body": "How can convolutional neural networks (CNNs) be utilized in radiomics?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67cde43c81b102733300001e",
+   "type": "summary",
+   "body": "Please summarize Graves disease",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67e2958018b1e36f2e000084",
+   "type": "yesno",
+   "body": "Are there any studies on the genetics of suicide?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680c174d353a4a2e6b000001",
+   "type": "list",
+   "body": "What are some common post-translational modifications of proteins?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e0053118b1e36f2e000067",
+   "type": "yesno",
+   "body": "Do MiOXSYS and OxiSperm measure ROS(Reactive Oxygen Species) in sperm?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67e2a8d618b1e36f2e000088",
+   "type": "list",
+   "body": "Which parasitic infections can cause anemia?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680a07ed18b1e36f2e000149",
+   "type": "factoid",
+   "body": "What neurotransmitter is most associated with muscle activation?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e93f2d18b1e36f2e0000db",
+   "type": "factoid",
+   "body": "What medical proceedure causes nephrogenic systemic fibrosis?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2bde318b1e36f2e000093",
+   "type": "yesno",
+   "body": "Is obesity a risk factor for sleep apnea?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680c137818b1e36f2e000158",
+   "type": "list",
+   "body": "What cancer hallmarks are characteristically promoted by tumor microenvironment components, such as pericytes?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67ca061181b102733300000a",
+   "type": "factoid",
+   "body": "XIST proteins mediate what cellular process?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e26d6218b1e36f2e000074",
+   "type": "factoid",
+   "body": "Typical age range of onset of systemic scleroderma.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "680a21eb18b1e36f2e000150",
+   "type": "factoid",
+   "body": "What glial cells are responsible for myelination in the CNS?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fa3c5818b1e36f2e000109",
+   "type": "factoid",
+   "body": "What is BIONDA",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "6810c54b353a4a2e6b000011",
+   "type": "list",
+   "body": "Indications for Electro-convulsive therapy.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fd5d6518b1e36f2e000138",
+   "type": "factoid",
+   "body": "What is a common chromosome-level gain in glioblastoma?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67fb046e18b1e36f2e00010c",
+   "type": "factoid",
+   "body": "What is the gene target for  Zanidatamab?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67d6bbfa18b1e36f2e000020",
+   "type": "summary",
+   "body": "How do you diagnose HIV infection?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "680fe1e3353a4a2e6b00000f",
+   "type": "yesno",
+   "body": "Is a single-nucleotide polymorphism (SNP) the same as a mutation?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "680d5dd8353a4a2e6b000004",
+   "type": "summary",
+   "body": "Is Melatonin found in human milk?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67d7208218b1e36f2e00002e",
+   "type": "summary",
+   "body": "Physiopathology of alopecia.",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fc381f18b1e36f2e00012f",
+   "type": "summary",
+   "body": "What is phenotype switching in melanoma?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67c9e46881b1027333000004",
+   "type": "summary",
+   "body": "What is a neoantigen?",
+   "ideal_answer": ""
+  },
+  {
+   "id": "67fbe2ab18b1e36f2e000116",
+   "type": "yesno",
+   "body": "Do hyaluronic acid injections improve knee pain?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67eaf14c18b1e36f2e0000de",
+   "type": "list",
+   "body": "Which transcription factors are important to define human astrocyte identity?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67c9e7ee81b1027333000007",
+   "type": "yesno",
+   "body": "Is Peto's Paradox associated with cancer rates?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d71d8f18b1e36f2e00002b",
+   "type": "factoid",
+   "body": "Is Clostridioides difficile an aerobe or a anaerobe bacterium?",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67cdb26a81b1027333000017",
+   "type": "list",
+   "body": "Please list the benefits of sodium-glucose cotransporter 2 inhibitors",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e2b0a018b1e36f2e00008b",
+   "type": "factoid",
+   "body": "Bacteria that most commonly causes urinary tract infection.",
+   "ideal_answer": "",
+   "exact_answer": []
+  },
+  {
+   "id": "67e090be18b1e36f2e00006c",
+   "type": "yesno",
+   "body": "Is Bacillus Clausii a probiotic?",
+   "ideal_answer": "",
+   "exact_answer": ""
+  },
+  {
+   "id": "67d7fded18b1e36f2e000042",
+   "type": "list",
+   "body": "Symptoms of chlamydia genital infection in women.",
+   "ideal_answer": "",
+   "exact_answer": []
+  }
+ ]
+}

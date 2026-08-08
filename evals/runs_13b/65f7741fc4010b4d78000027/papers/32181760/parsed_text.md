@@ -1,0 +1,5 @@
+# [Therapeutic aspects of inherited colorectal cancer syndromes].
+
+## Abstract
+
+Inherited colorectal cancer syndromes account for 6-10% of all cases. The diagnosis of the polypoid forms is easier due to their phenotypes, compared to the non-polypoid cases. The evaluation of the MSI/MMR status of the already developed colorectal cancer cases could help in the recognition and screening of the latter forms. This screening method is much more sensitive than that solely based on family anamnestic data. The MSI/MMR status of the tumor also could help in adjuvant or palliative treatment planning, therefore it is recommended in all colorectal cancer cases. Here we review the available information regarding the inherited colorectal cancer syndromes, and the role of MSI/MMR status in the management of colorectal cancers.

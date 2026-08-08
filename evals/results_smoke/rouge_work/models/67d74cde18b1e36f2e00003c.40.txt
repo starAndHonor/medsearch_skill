@@ -1,0 +1,4 @@
+RankMHC is a Learning-to-Rank (LTR) based predictor designed to identify the most accurate peptide binding pose in class-I Peptide-Major Histocompatibility Complex (pMHC) structural models.
+It ranks an ensemble of pMHC conformations, outperforming traditional scoring functions and previous Machine Learning-based predictors.
+Notably, RankMHC is versatile and compatible with various pMHC structural modeling tools and protocols, enhancing its utility in predicting optimal pMHC conformations.
+This capability can be leveraged to improve the identification of peptide antigens, potentially aiding in the development of therapies for diseases such as bacterial and viral infections, and cancer.

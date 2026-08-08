@@ -1,0 +1,7 @@
+# Intestinal proteases.
+
+## Abstract
+
+PURPOSE OF REVIEW: Proteases constitute a group of enzymes that hydrolyze peptide bonds. Intestinal proteases are an integral part of gut homeostasis and digestion. This review discusses the broader classification of proteases, regulation of proteolytic activity (PA) in the intestinal tract, and how dysregulation of intestinal proteases contributes to the pathophysiology of conditions such as irritable bowel syndrome (IBS), inflammatory bowel disease (IBD), and celiac disease. We also discuss recent advancements in therapeutic modulation that directly or indirectly target intestinal proteases and can be utilized to treat these illnesses.
+RECENT FINDINGS: Host and microbiota derived proteases have been associated with symptoms in subsets of patients with IBS, IBD and celiac disease. Elevated PA mediates barrier dysfunction, visceral hypersensitivity as well as immune activation and inflammation. Recent mechanistic studies have revealed the nature of disease-associated proteases and mechanisms regulating their activity, particularly those driven by the microbiota. Advancements in activity-based probes have allowed novel ways of in vivo imaging of PA. Newer strategies targeting proteases include monoclonal antibodies, engineered microbiota as well as specific protease inhibitors.
+SUMMARY: Significant progresses made in the detection as well as regulation of PA is likely to provide therapeutic advancements for gastrointestinal diseases.
