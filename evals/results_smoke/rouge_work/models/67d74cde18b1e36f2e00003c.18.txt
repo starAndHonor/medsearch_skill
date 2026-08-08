@@ -1,3 +1,0 @@
-RankMHC is a computational tool used for predicting and ranking peptide-MHC (Major Histocompatibility Complex) binding affinities.
-It is designed to help identify potential epitopes for vaccine development and immunotherapy by evaluating how well different peptides bind to MHC molecules.
-RankMHC uses machine learning algorithms and large datasets of known peptide-MHC interactions to provide accurate predictions, aiding researchers in understanding immune responses and designing targeted treatments.

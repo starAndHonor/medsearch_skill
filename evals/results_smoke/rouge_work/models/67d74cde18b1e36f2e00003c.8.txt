@@ -1,1 +1,0 @@
-RankMHC is a computational tool used to predict the binding affinity of peptides to major histocompatibility complex (MHC) molecules, aiding in the identification of potential T-cell epitopes for immunological research and vaccine development.

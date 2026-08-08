@@ -1,1 +1,0 @@
-RankMHC is a Learning to Rank-based tool that predicts the most accurate ranking of peptide-Major Histocompatibility Complex (pMHC) structural models, outperforming traditional scoring functions and previous ML-based predictors, with the versatility to work with various pMHC modeling tools and protocols.

@@ -1,1 +1,0 @@
-RankMHC is a Learning-to-Rank based predictor designed to identify peptide binding modes in class-I MHC structural models, outperforming traditional scoring functions and previous machine learning-based predictors.

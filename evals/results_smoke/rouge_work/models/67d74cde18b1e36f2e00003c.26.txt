@@ -1,2 +1,0 @@
-RankMHC is a Learning-to-Rank predictor that identifies the most accurate peptide-MHC binding mode from multiple conformations, outperforming traditional and previous ML-based methods.
-Compatible with various pMHC modeling tools, it enhances peptide antigen identification, crucial for developing effective therapies against bacterial and viral infections, and cancer, by providing more accurate pMHC structural analysis for improved immune response treatments.

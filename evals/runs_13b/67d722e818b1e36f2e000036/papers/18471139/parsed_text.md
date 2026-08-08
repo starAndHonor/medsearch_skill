@@ -1,5 +1,0 @@
-# Serotonin: a review.
-
-## Abstract
-
-5-Hydroxytryptamine, or serotonin, is a biogenic amine most noted for its role as a neurotransmitter. Manipulation of serotonin in animal models was used as a tool for studying its role in humans. Through such research serotonin has been shown to modulate gastrointestinal motility, peripheral vascular tone, cerebral vascular tone, and platelet function and has been implicated in the pathophysiology of mood disorders, emesis, migraine, irritable bowel syndrome (IBS), and pulmonary and systemic hypertension. The knowledge gained is being directly applied back to animals in research on drugs that manipulate the serotonergic system in dogs and cats. Increasing use and availability of drugs that manipulate the serotonergic system has created a circumstance through which a novel toxicity was discovered in both humans and animals. Serotonin Syndrome describes the clinical picture seen in humans and animals with serotonin toxicity. This paper provides a review the physiology of serotonin and its involvement in the pathophysiologic mechanisms of various conditions, including the Serotonin Syndrome.

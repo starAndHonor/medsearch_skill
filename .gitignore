@@ -25,6 +25,10 @@ htmlcov/
 # Project runtime artifacts (run state, HTTP caches, local config)
 evals/cache/
 evals/__pycache__/
+evals/runs_13b/
+evals/runs_smoke/
+evals/results/
+evals/results_smoke/
 workspace/
 .medlit_agent/
 

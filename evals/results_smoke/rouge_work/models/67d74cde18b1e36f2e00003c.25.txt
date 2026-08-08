@@ -1,4 +1,0 @@
-RankMHC is a machine learning-based method that aims to identify the most accurate binding mode (or pose) of a peptide to a class-I major histocompatibility complex (MHC) receptor from an ensemble of candidate peptide-MHC structural models.
-It frames the problem as a learning-to-rank task, where it is trained to predict the ranking of the peptide-MHC conformations such that the top-ranked conformation is closest to the native binding structure.
-RankMHC outperforms traditional protein-ligand scoring functions and previous machine learning methods for this task.
-It can be used with different structural modeling tools that generate ensembles of peptide-MHC models.

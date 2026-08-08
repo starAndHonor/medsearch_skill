@@ -1,3 +1,0 @@
-RankMHC is a machine learning-based predictor that can accurately rank an ensemble of peptide-MHC (pMHC) structural models to identify the most likely binding mode.
-It outperforms traditional peptide-ligand scoring functions and previous ML-based binding pose predictors.
-RankMHC can be used with various pMHC structural modeling tools that employ different modeling protocols.

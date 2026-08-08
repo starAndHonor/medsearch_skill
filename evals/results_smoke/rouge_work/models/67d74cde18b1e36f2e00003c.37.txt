@@ -1,3 +1,0 @@
-RankMHC is a machine learning-based computational tool designed to predict and rank peptide-MHC (pMHC) binding conformations.
-Using a Learning to Rank (LTR) approach, it can accurately identify the most probable structural models of peptide-MHC interactions.
-The method outperforms traditional peptide-ligand scoring functions and previous machine learning predictors, and has the flexibility to work with multiple structural modeling protocols for peptide-MHC complexes.

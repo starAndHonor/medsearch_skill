@@ -1,5 +1,0 @@
-# [Irritable bowel syndrome].
-
-## Abstract
-
-Irritable bowel syndrome (IBS) is a prevalent disorder of the gut-brain interaction, of which the multifactorial pathophysiology is still incompletely understood. IBS is a symptom-based diagnosis based on the Rome IV criteria, and additional diagnostics are only indicated when history or physical examination point towards the presence of other (organic) disorders. Diagnosis and treatment should take place in primary care. However, management of IBS can be challenging due to the heterogenous clinical presentation. Furthermore, a variety of treatment options are available, yet only effective in subgroups of patients. Early positive diagnosis, patient education, and shared-decision making are of utmost importance in order to limit individual disease burden and the socioeconomic impact of IBS. In this review we discuss diagnosis, indications for additional investigations or referral to secondary care, and treatment of IBS, based on both the recently updated Dutch guideline and general practice standard on IBS.

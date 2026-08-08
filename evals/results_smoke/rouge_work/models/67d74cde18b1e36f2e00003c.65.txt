@@ -1,2 +1,0 @@
-RankMHC is a computational tool designed to rank Class-I peptide-MHC (Major Histocompatibility Complex) structural models.
-It uses machine learning techniques to evaluate and prioritize the binding affinity and structural compatibility of peptides with MHC molecules, which is crucial for understanding immune responses and developing immunotherapies.

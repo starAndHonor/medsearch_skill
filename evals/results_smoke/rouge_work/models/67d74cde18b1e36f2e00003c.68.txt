@@ -1,4 +1,0 @@
-RankMHC is a computational approach designed to evaluate and rank the structural models of Class I peptide MHC (Major Histocompatibility Complex) complexes.
-This method employs machine learning techniques to assess how effectively these complexes can present antigens for recognition by T cells, which is crucial for immune response modulation.
-By analyzing the 3D structures of peptide MHC interactions, RankMHC predicts their functional effectiveness, such as antigen presentation efficiency and stability.
-This tool is particularly valuable in immunology research for applications like vaccine development and understanding immune system dynamics.

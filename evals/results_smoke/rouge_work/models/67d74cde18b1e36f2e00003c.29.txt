@@ -1,5 +1,0 @@
-RankMHC is an LTR-based pMHC binding mode identification predictor that is specifically trained to predict the most accurate ranking of an ensemble of pMHC conformations.
-It is designed to identify the binding modes of peptide-MHC (pMHC) complexes, which are crucial for immune recognition and T-cell activation.
-According to recent studies, Class I Major Histocompatibility Complex (MHC) molecules play a central role in immunology by binding to intracellular peptides and displaying them at the cell surface for recognition by T-cells.
-RankMHC aims to predict the correct ranking of pMHC conformations, which is essential for understanding the interactions between T-cells and pMHC complexes, and has the potential to facilitate the design of novel therapeutic strategies targeting these complexes.
-By accurately predicting the binding modes of pMHC complexes, RankMHC can contribute to a better understanding of immune recognition and the development of new treatments for diseases.
