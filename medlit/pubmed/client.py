@@ -20,8 +20,14 @@ class PubMedClient:
     http: HttpClient
     retmax: int = 20
 
-    def search(self, query: str, retmax: int | None = None) -> dict[str, Any]:
-        params = {"db": "pubmed", "term": query, "retmax": retmax or self.retmax, "retmode": "json", "sort": "relevance"}
+    def search(self, query: str, retmax: int | None = None, maxdate: str = "") -> dict[str, Any]:
+        term = query
+        if maxdate:
+            # The maxdate query parameter is unreliable for ahead-of-print records
+            # (NCBI ignores it there); an explicit [dp] range in the term is enforced
+            # for every record. Wrap the original query so the filter binds last.
+            term = f'({query}) AND ("1900/01/01"[Date - Publication] : "{maxdate}"[Date - Publication])'
+        params = {"db": "pubmed", "term": term, "retmax": retmax or self.retmax, "retmode": "json", "sort": "relevance"}
         params.update(ncbi_identity())
         url = f"{EUTILS_BASE}/esearch.fcgi?{urlencode(params)}"
         data = self.http.get_json(url)

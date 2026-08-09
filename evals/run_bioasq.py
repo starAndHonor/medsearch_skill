@@ -33,6 +33,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--clear-cache", action="store_true", help="Clear HTTP cache before running.")
     parser.add_argument("--pico-dir", default="", help="Directory containing pre-generated PICO JSON files named <question-id>.json.")
     parser.add_argument("--retmax", type=int, default=20, help="retmax for search-pubmed.")
+    parser.add_argument(
+        "--default-max-date",
+        default="",
+        help="Fallback max publication date (YYYY/MM/DD) for search-pubmed when a question has no question_date.",
+    )
     return parser.parse_args(argv)
 
 
@@ -98,6 +103,7 @@ def run_pipeline(
     work_dir: Path,
     pico_dir: Path | None,
     retmax: int,
+    max_date: str,
     env: dict[str, str],
     console: Console,
 ) -> dict[str, Any]:
@@ -131,11 +137,22 @@ def run_pipeline(
         (["build-query", "--state", str(state_path)], True),
     ])
 
-    # 4. retrieval
-    steps.extend([
-        (["search-pubmed", "--retmax", str(retmax), "--state", str(state_path)], False),
-        (["fetch-records", "--state", str(state_path)], False),
-    ])
+    # 4. retrieval; cap publication date so questions never see post-question literature.
+    # Execute every ladder query (broad, AND, drugclass) and merge PMIDs so
+    # gold papers ranking highly in any variant are kept.
+    cutoff = str(question.get("question_date", "")).strip() or max_date
+    ladder_qids = ["Q1_broad_conceptual", "Q1b_and_terms", "Q1c_drugclass_property", "Q2_focused_primary"]
+    search_cmds = []
+    for qid in ladder_qids:
+        cmd = ["search-pubmed", "--query-id", qid, "--retmax", str(retmax), "--state", str(state_path)]
+        if cutoff:
+            cmd += ["--max-date", cutoff]
+        search_cmds.append((cmd, False))
+    steps.extend(search_cmds)
+    steps.append((["fetch-records", "--state", str(state_path)], False))
+    # retrieval steps are non-critical: empty results are expected for
+    # narrow AND queries, so don't let them abort the pipeline
+    retrieval_step_names = {"search-pubmed", "fetch-records"}
 
     # 5. fulltext and evidence extraction
     steps.extend([
@@ -163,6 +180,10 @@ def run_pipeline(
                 state = StateStore(state_path).load()
                 blocked = bool(state.get("blockers"))
             except Exception:
+                blocked = False
+            # Retrieval steps are non-critical: empty results are expected
+            # for narrow AND queries, so don't let them abort the pipeline.
+            if cmd[0] in retrieval_step_names:
                 blocked = False
             if critical or blocked:
                 stop_reason = f"step_failed:{cmd[0]}"
@@ -252,7 +273,10 @@ def main(argv: list[str] | None = None) -> int:
             console.ok(f"[{qid}] already terminal; skipping")
             continue
 
-        result = run_pipeline(question, work_dir, pico_dir, args.retmax, env, console)
+        result = run_pipeline(question, work_dir, pico_dir, args.retmax, args.default_max_date, env, console)
+        # Use the actual question id, not the last search query id.
+        result["id"] = qid
+        result["safe_id"] = safe_id(qid)
         runs.append(result)
         processed_ids.add(qid)
 

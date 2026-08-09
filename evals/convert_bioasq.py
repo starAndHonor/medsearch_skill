@@ -24,6 +24,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default="",
         help="Source label for each question (e.g. BioASQ-2024-training). If empty, inferred from input file name.",
     )
+    parser.add_argument(
+        "--question-date",
+        default="",
+        help="Retrieval cutoff date (YYYY/MM/DD) stamped onto every question, e.g. the date the "
+        "benchmark questions were frozen. If empty, inferred as 12/31 of the BioASQ task year.",
+    )
     return parser.parse_args(argv)
 
 
@@ -151,6 +157,19 @@ def infer_source_name(path: Path, provided: str) -> str:
     return "BioASQ"
 
 
+# BioASQ task number -> the year that edition was held. Used to cap retrieval
+# so evaluation questions never see literature published after the task closed.
+TASK_YEAR = {str(n): 2013 + n - 1 for n in range(1, 14)}
+
+
+def infer_task_year(source: str) -> int | None:
+    """Infer the BioASQ edition year from a source label (e.g. BioASQ-13B -> 2025)."""
+    m = re.search(r"(\d+)", source)
+    if not m:
+        return None
+    return TASK_YEAR.get(m.group(1))
+
+
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     in_path = Path(args.input)
@@ -160,10 +179,17 @@ def main(argv: list[str] | None = None) -> int:
     raw = load_raw(in_path)
     questions = [convert_question(q, source) for q in raw.get("questions", [])]
 
+    task_year = infer_task_year(source)
+    question_date = args.question_date or (f"{task_year}/12/31" if task_year else "")
+    if question_date:
+        for q in questions:
+            q["question_date"] = question_date
+
     benchmark = {
         "name": f"bioasq-{source.lower().replace(' ', '-')}",
         "created_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source": source,
+        "question_date": question_date,
         "count": len(questions),
         "questions": questions,
     }

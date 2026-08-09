@@ -73,6 +73,7 @@ def build_parser() -> argparse.ArgumentParser:
     sp = sub.add_parser("search-pubmed", help="Execute one query from the query ladder.")
     sp.add_argument("--query-id", default="", help="Query id to execute; default first unexecuted query.")
     sp.add_argument("--retmax", type=int, default=20)
+    sp.add_argument("--max-date", default="", help="Only include papers published on or before this date (YYYY/MM/DD).")
     sp.set_defaults(func=cmd_search_pubmed)
 
     sp = sub.add_parser("merge-task-output", help="Merge a subagent task output JSON into state.")
@@ -160,7 +161,7 @@ def cmd_search_pubmed(args: argparse.Namespace, console: Console) -> int:
         return 5
     console.step(f"searching PubMed with {query['query_id']}")
     try:
-        result = PubMedClient(HttpClient(), retmax=args.retmax).search(query["exact_query"], retmax=args.retmax)
+        result = PubMedClient(HttpClient(), retmax=args.retmax).search(query["exact_query"], retmax=args.retmax, maxdate=args.max_date)
     except NetworkBlockedError as exc:
         StateOps.add_blocker(state, "network_unavailable", str(exc), stage="search-pubmed", advice="Check network/proxy or run with cached records.")
         store.save(state)
@@ -184,11 +185,14 @@ def cmd_search_pubmed(args: argparse.Namespace, console: Console) -> int:
 def cmd_fetch_records(args: argparse.Namespace, console: Console) -> int:
     store = StateStore(args.state)
     state = store.load()
-    pmids = list(dict.fromkeys(state.get("last_pmids", [])))
+    # Merge PMIDs from all executed retrieval runs so multi-query ladders
+    # contribute every hit, not just the last search.
+    pmids = []
+    for run in state.get("retrieval_runs", []):
+        pmids.extend(run.get("pmids", []))
+    pmids = list(dict.fromkeys(pmids))
     if not pmids:
-        for run in state.get("retrieval_runs", []):
-            pmids.extend(run.get("pmids", []))
-        pmids = list(dict.fromkeys(pmids))
+        pmids = list(dict.fromkeys(state.get("last_pmids", [])))
     if not pmids:
         console.blocked("no PMIDs available to fetch")
         StateOps.add_blocker(state, "missing_pmids", "No PMIDs in state.", stage="fetch-records", advice="Run search-pubmed first.")
