@@ -14,6 +14,7 @@ from typing import Any
 
 # Ensure the repository root is on path so we can import medlit if needed.
 ROOT = Path(__file__).resolve().parents[1]
+PLUGIN_ROOT = ROOT / "plugins" / "medlit-cli"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -32,7 +33,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--resume", action="store_true", help="Skip questions already in a terminal state.")
     parser.add_argument("--clear-cache", action="store_true", help="Clear HTTP cache before running.")
     parser.add_argument("--pico-dir", default="", help="Directory containing pre-generated PICO JSON files named <question-id>.json.")
-    parser.add_argument("--retmax", type=int, default=20, help="retmax for search-pubmed.")
+    parser.add_argument("--retmax", type=int, default=100, help="Per-lane retrieval depth (validated balanced default: 100).")
     parser.add_argument(
         "--default-max-date",
         default="",
@@ -57,6 +58,7 @@ def heuristic_pico(question: str) -> dict[str, Any]:
     term planner can still extract controlled terms from the full text.
     """
     return {
+        "question": question,
         "population": question,
         "intervention_or_exposure": "",
         "comparator": "",
@@ -84,9 +86,9 @@ def run_cli_command(args: list[str], env: dict[str, str]) -> tuple[int, str]:
         state_value = args[state_idx + 1]
         subcommand_args = args[:state_idx] + args[state_idx + 2:]
         result = subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "medlit_cli.py"), "--state", state_value] + subcommand_args,
+            [sys.executable, str(PLUGIN_ROOT / "scripts" / "medlit_cli.py"), "--state", state_value] + subcommand_args,
             cwd=str(ROOT),
-            env={**env, "PYTHONPATH": str(ROOT)},
+            env={**env, "PYTHONPATH": str(PLUGIN_ROOT)},
             capture_output=True,
             text=True,
             timeout=300,
@@ -141,7 +143,7 @@ def run_pipeline(
     # Execute every ladder query (broad, AND, drugclass) and merge PMIDs so
     # gold papers ranking highly in any variant are kept.
     cutoff = str(question.get("question_date", "")).strip() or max_date
-    ladder_qids = ["Q1_broad_conceptual", "Q1b_and_terms", "Q1c_drugclass_property", "Q2_focused_primary"]
+    ladder_qids = ["Q0_cleaned_natural", "Q1_structured_recall", "Q1b_entity_anchor", "Q2_explicit_filters"]
     search_cmds = []
     for qid in ladder_qids:
         cmd = ["search-pubmed", "--query-id", qid, "--retmax", str(retmax), "--state", str(state_path)]

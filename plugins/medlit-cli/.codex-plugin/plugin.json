@@ -1,0 +1,33 @@
+{
+  "name": "medlit-cli",
+  "version": "0.2.0+codex.20260816082918",
+  "description": "Run a stateful biomedical literature workflow with PubMed retrieval, open-access localization, evidence extraction, and report integrity checks.",
+  "author": {
+    "name": "MedLit CLI contributors",
+    "url": "https://github.com/starAndHonor/medsearch_skill"
+  },
+  "homepage": "https://github.com/starAndHonor/medsearch_skill",
+  "repository": "https://github.com/starAndHonor/medsearch_skill",
+  "keywords": [
+    "biomedical-literature",
+    "pubmed",
+    "evidence-retrieval"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MedLit CLI",
+    "shortDescription": "Run stateful biomedical literature workflows.",
+    "longDescription": "Operate the bundled MedLit workflow from Codex: plan and run PubMed searches, fetch records, locate open-access sources, extract evidence, and create an integrity-checked report.",
+    "developerName": "MedLit CLI contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Network"
+    ],
+    "defaultPrompt": [
+      "Use $medlit-cli to research a biomedical literature question.",
+      "Use $medlit-cli to resume a saved MedLit research state."
+    ]
+  }
+}

@@ -38,7 +38,10 @@ def safe_id(raw_id: str) -> str:
 
 
 def pred_pmids_from_state(state: dict[str, Any]) -> list[str]:
-    """Return ranked, de-duplicated predicted PMIDs from retrieval_runs."""
+    """Return the plugin's final fused ranking, with v0.1 fallback."""
+    fused = [str(pmid) for pmid in state.get("final_ranked_pmids", []) if str(pmid)]
+    if fused:
+        return list(dict.fromkeys(fused))
     seen: set[str] = set()
     out: list[str] = []
     for run in state.get("retrieval_runs", []):

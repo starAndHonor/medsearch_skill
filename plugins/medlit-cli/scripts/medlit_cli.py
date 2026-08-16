@@ -7,14 +7,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PLUGIN_ROOT = ROOT / "plugins" / "medlit-cli"
-if not PLUGIN_ROOT.is_dir():
-    raise SystemExit(f"MedLit plugin runtime not found: {PLUGIN_ROOT}")
-sys.path.insert(0, str(PLUGIN_ROOT))
+sys.path.insert(0, str(ROOT))
 
 from medlit.cli import main
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

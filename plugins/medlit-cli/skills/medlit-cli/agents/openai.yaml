@@ -1,0 +1,7 @@
+interface:
+  display_name: "MedLit CLI"
+  short_description: "Run stateful biomedical literature workflows"
+  default_prompt: "Use $medlit-cli to research a biomedical literature question with the bundled workflow."
+
+policy:
+  allow_implicit_invocation: false
