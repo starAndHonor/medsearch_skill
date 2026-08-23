@@ -83,7 +83,11 @@ def load_json(path: Path) -> dict[str, Any]:
 
 
 def pred_pmids_from_state(state: dict[str, Any]) -> list[str]:
-    """Ranked, de-duplicated predicted PMIDs from retrieval_runs."""
+    """Use the plugin's final fused ranking, with v0.1 state fallback."""
+    fused = [str(pmid).strip() for pmid in state.get("final_ranked_pmids", [])]
+    fused = [pmid for pmid in fused if pmid and pmid.isdigit()]
+    if fused:
+        return list(dict.fromkeys(fused))
     out: list[str] = []
     seen: set[str] = set()
     for run in state.get("retrieval_runs", []) or []:

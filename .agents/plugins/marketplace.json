@@ -1,0 +1,20 @@
+{
+  "name": "medlit-local",
+  "interface": {
+    "displayName": "MedLit Local"
+  },
+  "plugins": [
+    {
+      "name": "medlit-cli",
+      "source": {
+        "source": "local",
+        "path": "./plugins/medlit-cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

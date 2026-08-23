@@ -1,5 +1,2 @@
-# MVP is stdlib-only.
-# Optional future PDF backends:
-pymupdf>=1.24
-pdfplumber>=0.10
+# Runtime uses only the Python 3.10+ standard library.
 

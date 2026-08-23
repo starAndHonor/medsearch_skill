@@ -37,3 +37,17 @@ workspace/
 Thumbs.db
 .idea/
 .vscode/
+
+# Local review documents
+doc/
+
+# Keep frozen eval inputs and runners; exclude reproducible run outputs.
+evals/**/cache/
+evals/**/cli_smoke/
+evals/r1_smoke/results.json
+evals/r2_validation/before.json
+evals/r2_validation/after_ablation.json
+
+# Local black-box acceptance and HTTP cache artifacts
+blackbox-smoke/
+.medlit-cache/
