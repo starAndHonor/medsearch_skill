@@ -93,6 +93,20 @@ Do not use `evolve`, `spawn-tasks`, or `merge-task-output` as part of the
 default research workflow. They are separate helpers and are not required to
 produce or verify a report.
 
+## Supporting references
+
+Load supporting material only when entering the relevant stage:
+
+- Before term planning, query construction, MeSH experiments, or PubMed
+  retrieval, read [references/pubmed_query_rules.md](references/pubmed_query_rules.md).
+- Before localization, parsing, or evidence extraction, read
+  [references/fulltext_download_policy.md](references/fulltext_download_policy.md).
+- When `status` or `diagnose` reports a blocker, degradation, exhausted budget,
+  or readiness to report, read
+  [references/termination_policy.md](references/termination_policy.md).
+- Only when the user explicitly requests file-based worker/task helpers, read
+  [references/subagents_design.md](references/subagents_design.md).
+
 ## Evidence and reporting rules
 
 - Treat PMID, DOI, and local file paths in state as provenance. Do not invent
@@ -170,30 +184,15 @@ diagnosed next stage. Do not overwrite it with `init`.
   starting a new run.
 - **Missing PICO file:** `decompose` records `codex_required` and exits 8.
   Create or obtain explicit PICO JSON rather than claiming local decomposition.
-- **Incomplete PICO:** `diagnose` blocks when population, intervention/exposure,
-  or outcome is absent. Ask for or infer only information justified by the
-  request, then update the PICO file explicitly.
-- **MeSH service failure:** validation entries may fall back to
-  Title/Abstract terms. Report the degradation; do not describe fallback terms
-  as validated MeSH headings.
-- **No query or PMIDs:** search/fetch commands exit 5 and add a blocker. Return
-  to the preceding stage instead of fabricating results.
-- **Network or API failure:** network failures exit 7; PubMed API failures exit
-  6 and are recorded as recoverable errors. Retry only when the network or
-  configuration has changed, and respect the stored budgets.
-- **No open-access full text:** localization can still exit 0 with
-  `abstract_only` or `unavailable` items. Continue only with the provenance that
-  actually exists and disclose abstract-only evidence.
-- **Unpaywall email absent:** DOI-based Unpaywall retrieval is skipped unless
-  `UNPAYWALL_EMAIL` or `MEDLIT_EMAIL` is configured.
-- **Localized PDF:** the parser creates `pdf_placeholder`, not extracted text.
-  Exclude the placeholder from evidence and use an actual abstract or supported
-  XML/HTML source instead.
-- **Zero parsed or extracted items:** parse and extraction commands can exit 0
-  even when no usable items were produced. Inspect counts and state, then use
-  `diagnose`; never equate exit code 0 with research success.
+- **No searchable PICO:** `diagnose` blocks when population,
+  intervention/exposure, and outcome are all blank. A comparator may be blank.
+  Ask for or infer only information justified by the request, then update the
+  PICO file explicitly.
+- **Retrieval, MeSH, network, or budget issue:** use the PubMed and termination
+  references above; never fabricate records or loop past a diagnosed blocker.
+- **Full-text or parsing issue:** use the full-text reference above and preserve
+  the actual XML, PDF-placeholder, abstract-only, or unavailable provenance.
+- **Zero usable parsed or extracted items:** inspect counts and state, then run
+  `diagnose`; exit code 0 alone does not establish research success.
 - **Verification issues:** exit code 9 means referential-integrity problems.
   Fix state provenance before presenting the report as verified.
-- **Budget exhaustion or repeated blockers:** stop when `diagnose` reports a
-  blocked state. Return the partial supported result and the exact unresolved
-  blocker instead of looping.

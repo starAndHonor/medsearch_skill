@@ -15,7 +15,9 @@ class StrategyEvolver:
         coverage = diagnostics.get("coverage", {})
         suggestions = []
         if metrics.get("records", 0) == 0:
-            suggestions.append("Use Q1_broad_conceptual or remove strict publication type/date filters.")
+            suggestions.append(
+                "Keep or broaden Q0_cleaned_natural and remove only explicitly configured strict filters."
+            )
         if metrics.get("records", 0) > state.get("budgets", {}).get("max_records", 50):
             suggestions.append("Prefer focused query and add outcome or study-design terms.")
         missing = [k for k, ok in coverage.items() if not ok]

@@ -241,7 +241,7 @@ class QueryBuilder:
         if natural:
             ladder.append(self._lane("Q0_cleaned_natural", "Untagged cleaned question using PubMed ATM", natural))
         if base:
-            ladder.append(self._lane("Q1_structured_recall", "Validated MeSH plus conservative Title/Abstract entities", base))
+            ladder.append(self._lane("Q1_structured_recall", "Conservative Title/Abstract entities with optional validated MeSH", base))
 
         anchor_query = self._anchor_query(ta_by_concept)
         if anchor_query and anchor_query != base:

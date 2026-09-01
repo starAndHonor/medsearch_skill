@@ -1,6 +1,6 @@
 {
   "name": "medlit-cli",
-  "version": "0.2.0+codex.20260816082918",
+  "version": "0.2.0+codex.20260831005430",
   "description": "Run a stateful biomedical literature workflow with PubMed retrieval, open-access localization, evidence extraction, and report integrity checks.",
   "author": {
     "name": "MedLit CLI contributors",
