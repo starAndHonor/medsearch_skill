@@ -14,6 +14,7 @@
 | Perl ROUGE | `ls evals/tools/ROUGE-1.5.5/RELEASE-1.5.5/data/WordNet-2.0.exc.db` | WordNet 例外库已构建 |
 | 测试集 | `ls data/bioasq_13b_test_merged.json` | 13B 四批合并 golden（340 题） |
 | benchmark | `ls evals/bioasq_13b_test_benchmark.json` | convert_bioasq.py 转换产物 |
+| Agent queries | `ls evals/agent_queries` | 每题一份完整 PubMed query JSON，文件名为 question ID |
 
 若 WordNet 例外库缺失，重建命令：
 
@@ -49,6 +50,7 @@ codex exec --full-auto "按 evals/RUN_WITH_CODEX.md 的命令序列执行 BioASQ
 # 1. 跑题（340 题，--resume 跳过已完成题，可中断重跑）
 python3 evals/run_bioasq.py \
   --benchmark evals/bioasq_13b_test_benchmark.json \
+  --query-dir evals/agent_queries \
   --work-dir evals/runs_13b \
   --resume
 
@@ -79,6 +81,7 @@ python3 evals/rouge_score.py \
 ```bash
 python3 evals/run_bioasq.py \
   --benchmark evals/bioasq_13b_test_benchmark.json \
+  --query-dir evals/agent_queries \
   --work-dir evals/runs_smoke --max-questions 1
 # 然后把上面第 2-4 步的 --work-dir 换成 evals/runs_smoke、--output-dir 换成 evals/results_smoke
 ```
@@ -93,18 +96,18 @@ python3 evals/run_bioasq.py \
 | `--max-questions N` | 0 = 全部 | 冒烟用 |
 | `--resume` | 关 | 跳过 status ∈ {done, blocked, ready_to_stop} 的题 |
 | `--clear-cache` | 关 | 跑前清空 HTTP 缓存 |
-| `--pico-dir` | 无 | 预生成 PICO JSON 目录（<question-id>.json） |
-| `--retmax` | 20 | search-pubmed 每次检索条数 |
+| `--query-dir` | 必填 | Agent 生成的完整 PubMed query JSON 目录（<question-id>.json） |
+| `--retmax` | 100 | accepted query 的检索条数 |
 
-每题执行 13 步管线：init → decompose → plan-terms → validate-mesh → build-query →
-search-pubmed → fetch-records → localize-fulltext → parse-fulltext → extract-evidence →
-diagnose → report → verify。关键步骤（init/decompose/plan-terms/build-query）失败即中止该题，
+每题读取 Agent 已生成的单条 query，执行 init → search-pubmed → accept-query →
+fetch-records → localize-fulltext → parse-fulltext → extract-evidence → diagnose →
+report → verify。query 文件缺失或查询无法接受时中止该题，
 其余步骤失败但无 blocker 则继续；每步命令与输出截断（2000 字符）记入 runs.json。
 
 ## 产物清单（全程留痕，无需任何 keep 参数）
 
 ### 过程层 `evals/runs_13b/`
-- `<qid>/state.json` —— PICO、查询阶梯、检索结果、全文、证据、诊断、错误全记录
+- `<qid>/state.json` —— query attempt、accepted query、检索结果、全文、证据、诊断、错误全记录
 - `<qid>/report.md` —— 报告（Phase B 答案来源）
 - `<qid>/papers/<pmid>/` —— fulltext.xml + parsed_text.md + metadata.json
 - `runs.json` —— 每题 status / stop_reason / 13 步命令+退出码+输出

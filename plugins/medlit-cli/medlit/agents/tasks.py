@@ -14,8 +14,12 @@ class TaskQueue:
 
     def spawn_tasks(self, state: dict[str, Any]) -> list[dict[str, Any]]:
         tasks = []
-        if state.get("query_ladder") and not state.get("records"):
-            tasks.append(self._task("search_planner", "Review query ladder and suggest safer PubMed query variants.", {"query_ladder": state.get("query_ladder", [])}))
+        if state.get("query_attempts") and not state.get("accepted_query_attempt_id"):
+            tasks.append(self._task(
+                "search_planner",
+                "Review PubMed query attempts and choose whether to accept or rewrite the query.",
+                {"query_attempts": state.get("query_attempts", [])},
+            ))
         for record in state.get("records", []):
             pmid = record.get("pmid")
             if pmid and not any(f.get("pmid") == pmid for f in state.get("fulltexts", [])):

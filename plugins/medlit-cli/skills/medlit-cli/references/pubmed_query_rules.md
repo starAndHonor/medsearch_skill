@@ -1,62 +1,69 @@
-# PubMed retrieval rules
+# PubMed query rules
 
-Read this reference before running `plan-terms`, `validate-mesh`, `build-query`,
-or `search-pubmed`.
+Read this reference before authoring or revising a query.
 
-## Current retrieval contract
+## Author the query
 
-The PICO JSON is an explicit input prepared by Codex or supplied by the user.
-`plan-terms` does not perform PICO decomposition and does not call a model or a
-network service. It deterministically cleans the PICO fields, protects
-distinctive entities from adjacent generic words, and produces a term plan.
+Write one complete PubMed query for the current attempt. The CLI sends
+exact_query unchanged to ESearch after checking only definite structural
+errors.
 
-The default path is recall-oriented:
+Start from discriminative biomedical entities explicitly present in the
+question:
 
-1. Run `plan-terms`.
-2. Skip `validate-mesh` unless MeSH is explicitly requested as an experiment.
-3. Run `build-query`, or `build-query --use-mesh` only after MeSH validation.
-4. Execute every applicable query lane.
-5. Use the stored reciprocal rank fusion result in `final_ranked_pmids`.
+- genes, proteins, variants, drugs, diseases, phenotypes, named methods, and
+  biological processes;
+- direct aliases, acronyms, spelling variants, or hyphen variants when they
+  are genuinely useful;
+- contextual nouns only when they distinguish the requested relationship.
 
-## Query lanes
+Use OR for equivalent forms of one concept and AND when separate concepts must
+co-occur. Prefer [Title/Abstract] when explicit lexical co-occurrence is the
+intended behavior. Quotes, field tags, wildcards, proximity expressions, MeSH,
+and other PubMed syntax remain available when justified.
 
-`build-query` may create these complementary lanes:
+Do not submit the untouched natural-language question. Remove instructions and
+question scaffolding such as describe, list, what is, which, and how. Do not
+turn every remaining word into a required condition.
 
-- `Q0_cleaned_natural`: a lightly cleaned, untagged question. Keep this lane so
-  PubMed Automatic Term Mapping can interpret the full context.
-- `Q1_structured_recall`: conservative Title/Abstract terms grouped with `OR`
-  inside each PICO concept and joined with `AND` across available population,
-  intervention/exposure, and outcome concepts. Validated MeSH headings are
-  added only in explicit MeSH mode.
-- `Q1b_entity_anchor`: distinctive entity phrases from separate concepts are
-  required to co-occur. This lane protects rare drugs, genes, abbreviations,
-  and named methods from generic question wording.
-- `Q2_explicit_filters`: created only when the input explicitly requests human
-  or language filters.
-- `Q3_with_comparator`: created only when a comparator exists and adds a query
-  distinct from the main structured lane.
+## Control expansion
 
-Do not replace these lanes with a single mechanically ANDed PICO query. Do not
-remove the untagged lane merely because structured terms exist.
+For every query term not visibly present in the user's question, record term,
+source_term, and reason in added_terms.
 
-## MeSH and filters
+Acceptable additions are direct aliases and lexical variants. Do not add:
 
-- Treat generated MeSH strings as candidates, not validated headings.
-- Use `[MeSH Terms]` only for `valid` or `entry_term` validation results.
-- Failed validation falls back to Title/Abstract terms and must not block the
-  default workflow.
-- Human and language filters are opt-in. Never add them solely because the task
-  is biomedical or written in English.
+- a possible answer or a term learned from a known answer;
+- a guessed mechanism, phenotype, target, disease, or drug class;
+- a generic term merely because it is medically related;
+- human, language, date, publication-type, or study-design filters that the
+  user did not request.
 
-## Retrieval and fusion
+The audit record does not mechanically prove semantic correctness. It forces
+the Agent to make each expansion explicit and reviewable.
 
-Each lane is sent independently to PubMed. The balanced default retrieves up
-to 100 PMIDs per lane; `--retmax` may be changed when the task or evaluation
-requires another depth. PubMed supplies each lane's relevance order. MedLit
-then combines the lane ranks with reciprocal rank fusion (RRF). Re-running a
-lane replaces its previous result rather than giving that lane duplicate
-weight.
+## Read PubMed feedback
 
-Inspect `query_ladder`, PubMed query translations, every retrieval run, and
-`final_ranked_pmids`. Do not report a query as executed merely because it was
-generated.
+After each search, inspect:
+
+- count and the ranked PMID list;
+- query_translation and translationset;
+- warninglist and errorlist;
+- the returned top titles and abstracts.
+
+Revise when PubMed mapped a term to an unintended author or journal, ignored a
+critical phrase, returned no records, required too many weak terms together, or
+ranked mostly unrelated records.
+
+Do not narrow solely because count is large. A rare entity may still place the
+right papers first. Do not broaden solely because count is small. A unique
+result may be exactly the intended paper.
+
+## Revise or accept
+
+Each new attempt is a complete replacement proposal, not a lane. Make a
+materially justified change and use a new attempt ID. Earlier attempts may
+inform judgment but are never merged.
+
+When one result ranking is suitable, run accept-query for that attempt. Only
+the accepted PMID order is consumed by fetch-records and later stages.

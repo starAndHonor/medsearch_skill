@@ -33,17 +33,6 @@ class Diagnoser:
         fulltext_success = [f for f in fulltexts if str(f.get("fulltext_status", "")).endswith("downloaded")]
         parsed_ok = [p for p in parsed if p.get("status") == "parsed"]
         evidence_ok = [e for e in evidence if e.get("extraction_status") == "ok"]
-        mesh_required = bool(
-            state.get("query_configuration", {}).get("mesh_enabled", False)
-        )
-        mesh_status = state.get("mesh_validation_status", {}) or {}
-        if "completed" in mesh_status:
-            mesh_validation_completed = bool(mesh_status.get("completed"))
-        else:
-            # Compatibility for states created before explicit completion was
-            # recorded: a non-empty validation list proves the stage ran.
-            mesh_validation_completed = bool(state.get("mesh_validation"))
-
         coverage = self._coverage(state)
         status = "needs_initialization"
         actions = []
@@ -56,36 +45,25 @@ class Diagnoser:
             blocked = True
             reason = "Unresolved infrastructure/config blocker before retrieval."
             actions = ["fix_environment_or_config"]
-        elif not state.get("pico"):
-            status = "needs_pico"
-            actions = ["decompose"]
-        elif not any(str(state.get("pico", {}).get(key, "")).strip() for key in ("population", "intervention_or_exposure", "outcome")):
+        elif not str(state.get("question", "")).strip():
             status = "needs_question_clarification"
             blocked = True
-            reason = "The input does not look like a usable biomedical research question."
+            reason = "The biomedical research question is empty."
             actions = ["ask_user_for_medical_research_question"]
-        elif not state.get("term_plan", {}).get("concepts"):
-            status = "needs_term_plan"
-            actions = ["plan-terms"]
-        elif state.get("term_plan", {}).get("concepts") == [] and state.get("pico"):
-            status = "needs_question_clarification"
-            blocked = True
-            reason = "No searchable biomedical concepts could be planned from the question."
-            actions = ["ask_user_for_medical_research_question"]
-        elif mesh_required and not mesh_validation_completed:
-            status = "needs_mesh_validation"
-            actions = ["validate-mesh"]
-        elif not state.get("query_ladder"):
-            status = "needs_query"
-            actions = ["build-query --use-mesh" if mesh_required else "build-query"]
-        elif not records and pubmed_queries >= int(budgets.get("max_pubmed_queries", 6)):
+        elif not state.get("query_attempts"):
+            status = "needs_pubmed_query"
+            actions = ["author_and_run_pubmed_query"]
+        elif not state.get("accepted_query_attempt_id"):
+            status = "needs_query_decision"
+            actions = ["inspect_query_attempts", "run_another_query_or_accept-query"]
+        elif not self._accepted_attempt(state):
             status = "blocked"
             blocked = True
-            reason = "PubMed query budget exhausted without records."
-            actions = ["report_failure"]
+            reason = "The accepted query attempt is missing from state."
+            actions = ["repair_accepted_query_attempt_id"]
         elif not records:
-            status = "needs_pubmed_search"
-            actions = ["search-pubmed", "fetch-records"]
+            status = "needs_records"
+            actions = ["fetch-records"]
         elif not fulltexts and fulltext_attempts >= int(budgets.get("max_fulltext_attempts", 30)):
             status = "fulltext_budget_exhausted"
             actions = ["parse-fulltext"]
@@ -133,22 +111,29 @@ class Diagnoser:
             },
             "hard_blockers": hard_blockers,
             "workflow": {
-                "mesh_required": mesh_required,
-                "mesh_validation_completed": mesh_validation_completed,
+                "query_attempts": len(state.get("query_attempts", [])),
+                "accepted_query_attempt_id": state.get(
+                    "accepted_query_attempt_id", ""
+                ),
             },
         }
 
     def _coverage(self, state: dict[str, Any]) -> dict[str, bool]:
-        pico = state.get("pico", {})
-        term_plan = state.get("term_plan", {})
-        query_text = " ".join(q.get("exact_query", "") for q in state.get("query_ladder", []))
-        evidence_text = " ".join(str(e) for e in state.get("evidence", []))
-        out = {}
-        for field in ("population", "intervention_or_exposure", "comparator", "outcome"):
-            value = str(pico.get(field, "")).lower()
-            if not value:
-                out[field] = field == "comparator"
-                continue
-            tokens = [t for t in value.split() if len(t) > 2]
-            out[field] = any(t in query_text.lower() or t in evidence_text.lower() for t in tokens)
-        return out
+        attempt = self._accepted_attempt(state)
+        return {
+            "accepted_query": bool(attempt),
+            "ranked_pmids": bool(state.get("final_ranked_pmids")),
+            "records": bool(state.get("records")),
+            "evidence": bool(state.get("evidence")),
+        }
+
+    def _accepted_attempt(self, state: dict[str, Any]) -> dict[str, Any] | None:
+        accepted_id = state.get("accepted_query_attempt_id", "")
+        return next(
+            (
+                item
+                for item in state.get("query_attempts", [])
+                if item.get("attempt_id") == accepted_id
+            ),
+            None,
+        )

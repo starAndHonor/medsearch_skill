@@ -83,20 +83,10 @@ def load_json(path: Path) -> dict[str, Any]:
 
 
 def pred_pmids_from_state(state: dict[str, Any]) -> list[str]:
-    """Use the plugin's final fused ranking, with v0.1 state fallback."""
-    fused = [str(pmid).strip() for pmid in state.get("final_ranked_pmids", [])]
-    fused = [pmid for pmid in fused if pmid and pmid.isdigit()]
-    if fused:
-        return list(dict.fromkeys(fused))
-    out: list[str] = []
-    seen: set[str] = set()
-    for run in state.get("retrieval_runs", []) or []:
-        for pmid in run.get("pmids", []) or []:
-            p = str(pmid).strip()
-            if p and p.isdigit() and p not in seen:
-                seen.add(p)
-                out.append(p)
-    return out
+    """Use the accepted Agent query's PubMed ranking."""
+    ranked = [str(pmid).strip() for pmid in state.get("final_ranked_pmids", [])]
+    ranked = [pmid for pmid in ranked if pmid and pmid.isdigit()]
+    return list(dict.fromkeys(ranked))
 
 
 def extract_report_answer(report_md: str) -> str:

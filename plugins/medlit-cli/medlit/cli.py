@@ -15,11 +15,9 @@ from medlit.fulltext.localizer import FulltextLocalizer
 from medlit.fulltext.parser import FulltextParser
 from medlit.http import ApiError, HttpClient, NetworkBlockedError
 from medlit.pubmed.client import PubMedClient
-from medlit.pubmed.mesh import MeshValidator
-from medlit.pubmed.query import QueryBuilder, TermPlanner
-from medlit.retrieval.fusion import reciprocal_rank_fusion
+from medlit.pubmed.query import validate_query_submission
 from medlit.report import ReportWriter, Verifier
-from medlit.state.store import DEFAULT_STATE, StateOps, StateStore
+from medlit.state.store import DEFAULT_STATE, StateOps, StateStore, utc_now
 from medlit.terminal.ui import Console
 
 
@@ -48,10 +46,6 @@ def build_parser() -> argparse.ArgumentParser:
     p.set_defaults(func=cmd_init)
 
     for name, help_text, func in [
-        ("decompose", "Set PICO from a Codex/user-provided JSON file; no local heuristic.", cmd_decompose),
-        ("plan-terms", "Create initial term plan from PICO.", cmd_plan_terms),
-        ("validate-mesh", "Validate MeSH candidates against NCBI MeSH.", cmd_validate_mesh),
-        ("build-query", "Build PubMed query ladder.", cmd_build_query),
         ("fetch-records", "Fetch PubMed records for current PMIDs.", cmd_fetch_records),
         ("localize-fulltext", "Try open-access full-text localization.", cmd_localize_fulltext),
         ("parse-fulltext", "Parse localized full text or abstract fallback.", cmd_parse_fulltext),
@@ -66,23 +60,16 @@ def build_parser() -> argparse.ArgumentParser:
         sp = sub.add_parser(name, help=help_text)
         sp.set_defaults(func=func)
 
-    # Add an optional argument to the decompose subparser after creation.
-    for action in sub.choices.values():
-        if action.prog.endswith(" decompose"):
-            action.add_argument("--pico-file", default="", help="JSON file containing Codex/user-generated PICO.")
-        if action.prog.endswith(" build-query"):
-            action.add_argument(
-                "--use-mesh",
-                action="store_true",
-                help="Experimental: include only successfully validated MeSH terms.",
-            )
-
-    sp = sub.add_parser("search-pubmed", help="Execute one query from the query ladder.")
-    sp.add_argument("--query-id", default="", help="Query id to execute; default first unexecuted query.")
-    sp.add_argument("--retmax", type=int, default=100, help="Candidate depth for this lane (balanced default: 100).")
+    sp = sub.add_parser("search-pubmed", help="Execute one Agent-authored PubMed query.")
+    sp.add_argument("--query-file", required=True, help="JSON file containing exact_query and optional audit metadata.")
+    sp.add_argument("--retmax", type=int, default=100, help="Number of ranked PMIDs to return.")
     sp.add_argument("--max-date", default="", help="Optional publication cutoff (YYYY/MM/DD).")
-    sp.add_argument("--rrf-k", type=int, default=60, help="RRF constant used to fuse executed lanes.")
+    sp.add_argument("--feedback-records", type=int, default=10, help="Top records returned for Agent review.")
     sp.set_defaults(func=cmd_search_pubmed)
+
+    sp = sub.add_parser("accept-query", help="Select one query attempt for downstream processing.")
+    sp.add_argument("--attempt-id", required=True, help="Attempt id returned by search-pubmed.")
+    sp.set_defaults(func=cmd_accept_query)
 
     sp = sub.add_parser("merge-task-output", help="Merge a subagent task output JSON into state.")
     sp.add_argument("--file", required=True)
@@ -95,116 +82,34 @@ def cmd_init(args: argparse.Namespace, console: Console) -> int:
     console.step("initializing state")
     state = StateStore(args.state).init(args.question)
     console.ok(f"state created: {args.state}")
-    console.json({"state": args.state, "question": state["question"], "next": "decompose"})
-    return 0
-
-
-def cmd_decompose(args: argparse.Namespace, console: Console) -> int:
-    store = StateStore(args.state)
-    state = store.load()
-    if not getattr(args, "pico_file", ""):
-        console.blocked("PICO decomposition requires Codex or an explicit --pico-file")
-        StateOps.add_blocker(
-            state,
-            "codex_required",
-            "No local heuristic PICO decomposition is available.",
-            stage="decompose",
-            advice="Use project main.py with external-codex login, or provide --pico-file from a trusted agent.",
-        )
-        store.save(state)
-        console.json({"blocked": True, "reason": "codex_required", "next": "Use external Codex or --pico-file."})
-        return 8
-    console.step("setting PICO from external JSON")
-    pico = json.loads(Path(args.pico_file).read_text(encoding="utf-8"))
-    state["pico"] = pico
-    store.save(state)
-    console.ok("PICO updated")
-    console.json(pico)
-    return 0
-
-
-def cmd_plan_terms(args: argparse.Namespace, console: Console) -> int:
-    store = StateStore(args.state)
-    state = store.load()
-    console.step("planning MeSH and Title/Abstract terms")
-    state["term_plan"] = TermPlanner().plan(state.get("pico", {}))
-    # A new term plan invalidates validation and queries derived from the old one.
-    state["mesh_validation"] = []
-    state["mesh_validation_status"] = {"completed": False}
-    state["query_ladder"] = []
-    state.pop("diagnostics", None)
-    store.save(state)
-    console.ok(f"{len(state['term_plan']['concepts'])} concepts planned")
-    console.json(state["term_plan"])
-    return 0
-
-
-def cmd_validate_mesh(args: argparse.Namespace, console: Console) -> int:
-    store = StateStore(args.state)
-    state = store.load()
-    console.step("validating MeSH candidates")
-    validator = MeshValidator(HttpClient())
-    validations = validator.validate_term_plan(state.get("term_plan", {}))
-    state["mesh_validation"] = validations
-    state["mesh_validation_status"] = {
-        "completed": True,
-        "candidate_count": len(validations),
-    }
-    state.pop("diagnostics", None)
-    store.save(state)
-    console.ok(f"{len(validations)} MeSH candidates checked")
-    console.json(validations)
-    return 0
-
-
-def cmd_build_query(args: argparse.Namespace, console: Console) -> int:
-    store = StateStore(args.state)
-    state = store.load()
-    state["query_configuration"] = {
-        "mesh_enabled": bool(args.use_mesh),
-        "filters": state.get("term_plan", {}).get("filters", {}),
-    }
-    state.pop("diagnostics", None)
-    mesh_status = state.get("mesh_validation_status", {}) or {}
-    mesh_completed = bool(mesh_status.get("completed"))
-    if "completed" not in mesh_status:
-        mesh_completed = bool(state.get("mesh_validation"))
-    if args.use_mesh and not mesh_completed:
-        state["query_ladder"] = []
-        store.save(state)
-        console.blocked("MeSH-enabled query construction requires validate-mesh first")
-        console.json({
-            "blocked": True,
-            "reason": "needs_mesh_validation",
-            "next": ["validate-mesh", "build-query --use-mesh"],
-        })
-        return 5
-
-    console.step("building PubMed query ladder")
-    mesh_validation = state.get("mesh_validation", []) if args.use_mesh else []
-    state["query_ladder"] = QueryBuilder().build(
-        state.get("term_plan", {}), mesh_validation
-    )
-    store.save(state)
-    console.ok(f"{len(state['query_ladder'])} query versions available")
-    console.json(state["query_ladder"])
+    console.json({"state": args.state, "question": state["question"], "next": "search-pubmed --query-file <query.json>"})
     return 0
 
 
 def cmd_search_pubmed(args: argparse.Namespace, console: Console) -> int:
     store = StateStore(args.state)
     state = store.load()
-    query = _select_query(state, args.query_id)
-    if not query:
-        console.blocked("no query available")
-        StateOps.add_blocker(state, "missing_query", "No query in query_ladder.", stage="search-pubmed", advice="Run build-query first.")
-        store.save(state)
-        return 5
-    console.step(f"searching PubMed with {query['query_id']}")
     try:
-        result = PubMedClient(HttpClient(), retmax=args.retmax).search(
-            query["exact_query"], retmax=args.retmax, maxdate=args.max_date
-        )
+        raw_submission = json.loads(Path(args.query_file).read_text(encoding="utf-8"))
+        submission = validate_query_submission(raw_submission)
+    except (json.JSONDecodeError, ValueError) as exc:
+        console.fail(f"invalid query file: {exc}")
+        return 4
+
+    attempts = state.setdefault("query_attempts", [])
+    attempt_id = submission["attempt_id"] or f"q{len(attempts) + 1:03d}"
+    if any(item.get("attempt_id") == attempt_id for item in attempts):
+        console.fail(f"query attempt already exists: {attempt_id}")
+        return 4
+    if args.retmax < 1 or args.feedback_records < 0:
+        console.fail("retmax must be positive and feedback-records cannot be negative")
+        return 4
+
+    query = submission["exact_query"]
+    console.step(f"searching PubMed with {attempt_id}")
+    try:
+        client = PubMedClient(HttpClient(), retmax=args.retmax)
+        result = client.search(query, retmax=args.retmax, maxdate=args.max_date)
     except NetworkBlockedError as exc:
         StateOps.add_blocker(state, "network_unavailable", str(exc), stage="search-pubmed", advice="Check network/proxy or run with cached records.")
         store.save(state)
@@ -215,34 +120,86 @@ def cmd_search_pubmed(args: argparse.Namespace, console: Console) -> int:
         store.save(state)
         console.fail("PubMed API error")
         return 6
-    query["executed"] = True
-    retrieval_run = {
-        "query_id": query["query_id"],
-        "query": query["exact_query"],
-        "effective_query": result.get("effective_query", query["exact_query"]),
+
+    feedback_records: list[dict[str, Any]] = []
+    feedback_error = ""
+    feedback_pmids = result["pmids"][:args.feedback_records]
+    if feedback_pmids:
+        try:
+            feedback_records = client.fetch_records(feedback_pmids)
+        except (NetworkBlockedError, ApiError) as exc:
+            feedback_error = str(exc)
+
+    attempt = {
+        "attempt_id": attempt_id,
+        "exact_query": query,
+        "reasoning": submission["reasoning"],
+        "added_terms": submission["added_terms"],
+        "lint_warnings": submission["lint"]["warnings"],
+        "effective_query": result.get("effective_query", query),
         "query_translation": result.get("query_translation", ""),
         "translationset": result.get("translationset", []),
+        "warninglist": result.get("warninglist", {}),
+        "errorlist": result.get("errorlist", {}),
         "count": result["count"],
         "retmax": result.get("retmax", args.retmax),
+        "sort": result.get("sort", "relevance"),
+        "max_date": args.max_date,
         "pmids": result["pmids"],
+        "feedback_records": feedback_records,
+        "feedback_error": feedback_error,
+        "executed_at": utc_now(),
     }
-    # Re-running a lane replaces it instead of receiving duplicate fusion weight.
-    state["retrieval_runs"] = StateOps.replace_by_key(
-        state.get("retrieval_runs", []), [retrieval_run], "query_id"
-    )
+    attempts.append(attempt)
     state.setdefault("counters", {})["pubmed_queries"] = int(state.get("counters", {}).get("pubmed_queries", 0)) + 1
     state["last_pmids"] = result["pmids"]
-    state["final_ranked_pmids"] = reciprocal_rank_fusion(state["retrieval_runs"], k=args.rrf_k)
-    state["fusion"] = {
-        "method": "reciprocal_rank_fusion",
-        "rrf_k": args.rrf_k,
-        "query_ids": [run.get("query_id", "") for run in state["retrieval_runs"]],
-        "candidate_count": len(state["final_ranked_pmids"]),
-    }
+    state["diagnostics"] = {}
     store.save(state)
     console.ok(f"{result['count']} total hits; {len(result['pmids'])} PMIDs returned")
-    console.json(result)
-    return 0 if result["pmids"] else 5
+    console.json(attempt)
+    return 0
+
+
+def cmd_accept_query(args: argparse.Namespace, console: Console) -> int:
+    store = StateStore(args.state)
+    state = store.load()
+    attempt = next(
+        (
+            item
+            for item in state.get("query_attempts", [])
+            if item.get("attempt_id") == args.attempt_id
+        ),
+        None,
+    )
+    if attempt is None:
+        console.fail(f"query attempt not found: {args.attempt_id}")
+        return 4
+    if not attempt.get("pmids"):
+        console.blocked("cannot accept a query attempt with no PMIDs")
+        return 5
+
+    pmids = list(dict.fromkeys(str(pmid) for pmid in attempt["pmids"] if str(pmid)))
+    if (
+        state.get("accepted_query_attempt_id") == args.attempt_id
+        and state.get("final_ranked_pmids") == pmids
+    ):
+        console.ok(f"query already accepted: {args.attempt_id}")
+        console.json({"attempt_id": args.attempt_id, "pmids": len(pmids)})
+        return 0
+
+    StateOps.clear_downstream(state)
+    state["accepted_query_attempt_id"] = args.attempt_id
+    state["final_ranked_pmids"] = pmids
+    state["last_pmids"] = pmids
+    store.save(state)
+    console.ok(f"accepted {args.attempt_id} with {len(pmids)} ranked PMIDs")
+    console.json({
+        "attempt_id": args.attempt_id,
+        "exact_query": attempt.get("exact_query", ""),
+        "pmids": len(pmids),
+        "next": "fetch-records",
+    })
+    return 0
 
 
 def cmd_fetch_records(args: argparse.Namespace, console: Console) -> int:
@@ -250,14 +207,14 @@ def cmd_fetch_records(args: argparse.Namespace, console: Console) -> int:
     state = store.load()
     pmids = list(dict.fromkeys(state.get("final_ranked_pmids", [])))
     if not pmids:
-        for run in state.get("retrieval_runs", []):
-            pmids.extend(run.get("pmids", []))
-        pmids = list(dict.fromkeys(pmids))
-    if not pmids:
-        pmids = list(dict.fromkeys(state.get("last_pmids", [])))
-    if not pmids:
         console.blocked("no PMIDs available to fetch")
-        StateOps.add_blocker(state, "missing_pmids", "No PMIDs in state.", stage="fetch-records", advice="Run search-pubmed first.")
+        StateOps.add_blocker(
+            state,
+            "missing_pmids",
+            "No accepted PubMed query is available.",
+            stage="fetch-records",
+            advice="Inspect query attempts and run accept-query first.",
+        )
         store.save(state)
         return 5
     console.step(f"fetching {len(pmids)} PubMed records")
@@ -273,7 +230,7 @@ def cmd_fetch_records(args: argparse.Namespace, console: Console) -> int:
         store.save(state)
         console.fail("PubMed fetch API error")
         return 6
-    state["records"] = StateOps.replace_by_key(state.get("records", []), records, "pmid")
+    state["records"] = records
     store.save(state)
     console.ok(f"{len(records)} records fetched")
     console.json(records)
@@ -409,9 +366,9 @@ def cmd_status(args: argparse.Namespace, console: Console) -> int:
         "evidence": len(state.get("evidence", [])),
         "blockers": len(state.get("blockers", [])),
         "report_path": state.get("report_path", ""),
-        "mesh_enabled": workflow.get("mesh_required", False),
-        "mesh_validation_completed": workflow.get(
-            "mesh_validation_completed", False
+        "query_attempts": workflow.get("query_attempts", 0),
+        "accepted_query_attempt_id": workflow.get(
+            "accepted_query_attempt_id", ""
         ),
     })
     return 0
@@ -437,16 +394,3 @@ def cmd_merge_task_output(args: argparse.Namespace, console: Console) -> int:
     console.ok("task output merged")
     console.json(result)
     return 0
-
-
-def _select_query(state: dict[str, Any], query_id: str) -> dict[str, Any] | None:
-    ladder = state.get("query_ladder", [])
-    if query_id:
-        for query in ladder:
-            if query.get("query_id") == query_id:
-                return query
-        return None
-    for query in ladder:
-        if not query.get("executed"):
-            return query
-    return ladder[0] if ladder else None
