@@ -1,0 +1,7 @@
+[OK] accepted q001 with 5 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(UCHL1[Title/Abstract]) AND (heterozygous[Title/Abstract]) AND (loss-of-function[Title/Abstract] OR loss of function[Title/Abstract])",
+  "pmids": 5,
+  "next": "fetch-records"
+}

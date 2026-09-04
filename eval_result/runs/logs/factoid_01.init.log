@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/factoid_01.json
+{
+  "state": "eval_result/runs/states/factoid_01.json",
+  "question": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?",
+  "next": "search-pubmed --query-file <query.json>"
+}

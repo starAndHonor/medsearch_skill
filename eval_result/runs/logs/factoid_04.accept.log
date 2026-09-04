@@ -1,0 +1,7 @@
+[OK] accepted q001 with 76 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(colorectal cancer[Title/Abstract]) AND (liver metastasis[Title/Abstract] OR liver metastases[Title/Abstract]) AND (conversion therapy[Title/Abstract])",
+  "pmids": 76,
+  "next": "fetch-records"
+}

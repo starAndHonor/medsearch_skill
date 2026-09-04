@@ -1,0 +1,7 @@
+[OK] accepted q001 with 17 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(colorectal cancer[Title/Abstract]) AND (consensus molecular subtype[Title/Abstract] OR CMS[Title/Abstract]) AND (routine clinical practice[Title/Abstract] OR clinical practice[Title/Abstract])",
+  "pmids": 17,
+  "next": "fetch-records"
+}

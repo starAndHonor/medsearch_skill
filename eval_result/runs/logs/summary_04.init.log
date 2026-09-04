@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/summary_04.json
+{
+  "state": "eval_result/runs/states/summary_04.json",
+  "question": "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+  "next": "search-pubmed --query-file <query.json>"
+}

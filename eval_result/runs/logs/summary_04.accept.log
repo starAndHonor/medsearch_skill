@@ -1,0 +1,7 @@
+[OK] accepted q001 with 82 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(AXL[Title/Abstract] OR receptor tyrosine kinase AXL[Title/Abstract]) AND (malignancy[Title/Abstract])",
+  "pmids": 82,
+  "next": "fetch-records"
+}

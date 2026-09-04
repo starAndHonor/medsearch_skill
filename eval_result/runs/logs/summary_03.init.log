@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/summary_03.json
+{
+  "state": "eval_result/runs/states/summary_03.json",
+  "question": "Pathophysiology of irritable bowel syndrome (IBS).",
+  "next": "search-pubmed --query-file <query.json>"
+}

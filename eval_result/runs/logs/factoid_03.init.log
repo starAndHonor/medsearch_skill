@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/factoid_03.json
+{
+  "state": "eval_result/runs/states/factoid_03.json",
+  "question": "Vector of zika virus.",
+  "next": "search-pubmed --query-file <query.json>"
+}

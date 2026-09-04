@@ -1,0 +1,1 @@
+{"test_id":"factoid_03","question":"Vector of zika virus.","exact_query":"(Zika virus[Title/Abstract]) AND (vector[Title/Abstract])","reasoning":"Co-occur the virus and vector terms.","added_terms":[]}

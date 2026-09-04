@@ -1,0 +1,1 @@
+{"test_id":"factoid_01","question":"Which disease is caused by heterozygous UCHL1 loss-of-function variants?","exact_query":"(UCHL1[Title/Abstract]) AND (heterozygous[Title/Abstract]) AND (loss-of-function[Title/Abstract] OR loss of function[Title/Abstract])","reasoning":"Co-occur the gene, inheritance state, and variant consequence.","added_terms":[]}

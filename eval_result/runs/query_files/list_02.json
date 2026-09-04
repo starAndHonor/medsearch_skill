@@ -1,0 +1,1 @@
+{"test_id":"list_02","question":"What are the targets of ivonescimab?","exact_query":"(ivonescimab[Title/Abstract]) AND (target[Title/Abstract] OR targets[Title/Abstract])","reasoning":"Search the named drug and target relationship.","added_terms":[]}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "medlit-state/v0.2",
+  "question": "What is the clinical significance of the Eiffel-by-Night Sign?",
+  "created_at": "2026-09-04T07:24:00+00:00",
+  "updated_at": "2026-09-04T07:26:08+00:00",
+  "status": "running",
+  "query_attempts": [
+    {
+      "attempt_id": "q001",
+      "exact_query": "(Eiffel-by-Night Sign[Title/Abstract] OR Eiffel by Night Sign[Title/Abstract])",
+      "reasoning": "Search the named clinical sign and hyphen variant.",
+      "added_terms": [
+        {
+          "term": "Eiffel by Night Sign",
+          "source_term": "Eiffel-by-Night Sign",
+          "reason": "Direct punctuation variant."
+        }
+      ],
+      "lint_warnings": [],
+      "effective_query": "(Eiffel-by-Night Sign[Title/Abstract] OR Eiffel by Night Sign[Title/Abstract])",
+      "query_translation": "\"eiffel by night sign\"[Title/Abstract]\"",
+      "translationset": [],
+      "warninglist": {},
+      "errorlist": {},
+      "count": 1,
+      "retmax": 100,
+      "sort": "relevance",
+      "max_date": "",
+      "pmids": [
+        "41455465"
+      ],
+      "feedback_records": [
+        {
+          "pmid": "41455465",
+          "pmcid": "",
+          "doi": "10.1016/j.clineuro.2025.109291",
+          "title": "\"Eiffel-by-night\" sign in hypertrophic pachymeningitis: Clinical and radiological correlates.",
+          "abstract": "OBJECTIVE: To evaluate the clinical significance of the \"Eiffel-by-night\" (EBN) sign in hypertrophic pachymeningitis, focusing on its frequency, etiological associations, and prognostic value for recurrence, which improves diagnostic workflows, facilitating earlier, targeted therapeutic interventions.\nMETHODS: We conducted a retrospective observational study at the Autoimmune Meningitis Outpatient Clinic at Hospital das Clínicas, Universidade de São Paulo (Brazil), from January 2024 to April 2025, including patients with HP confirmed by MRI dural thickening and enhancement, excluding infectious and neoplastic cases. Clinical, cerebrospinal fluid (CSF), and imaging data were obtained from medical records. Two independent raters assessed the presence of the EBN sign on post-contrast T1-weighted on baseline and follow-up MRIs, comparing EBN+ and EBN- groups.\nRESULTS: Forty-five patients fulfilled eligibility criteria; 8 (17.7 %) of whom were EBN+, mostly middle-aged women. EBN sign was more common in idiopathic HP (62.5 %), and less so in IgG4-related disease, neurosarcoidosis, and ANCA-associated vasculitis. Clinical and CSF profiles were similar between groups, except for two male EBN+ patients, with marked pleocytosis. Most EBN+ patients (75 %) had a relapsing disease course. The sign persisted in 86 % of cases on the last follow-up.\nCONCLUSION: The EBN sign occurred in fewer than one-fifth of HP cases, primarily in idiopathic disease. Despite no clear clinical or CSF distinctions, its persistence correlated with frequent relapse.",
+          "journal": "Clinical neurology and neurosurgery",
+          "year": "2026",
+          "authors": [
+            "Brescovit Daniela Ohlweiler",
+            "Lucato Leandro Tavares",
+            "Castro Luiz Henrique Martins",
+            "Marie Suely Kazue Nagahashi",
+            "Silva Guilherme Diogo"
+          ],
+          "mesh_terms": [
+            "Humans",
+            "Female",
+            "Male",
+            "Meningitis",
+            "Middle Aged",
+            "Retrospective Studies",
+            "Adult",
+            "Magnetic Resonance Imaging",
+            "Hypertrophy",
+            "Aged",
+            "Autoimmune Diseases"
+          ],
+          "publication_types": [
+            "Journal Article",
+            "Observational Study"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-04"
+        }
+      ],
+      "feedback_error": "",
+      "executed_at": "2026-09-04T07:24:54+00:00"
+    }
+  ],
+  "accepted_query_attempt_id": "q001",
+  "last_pmids": [
+    "41455465"
+  ],
+  "final_ranked_pmids": [
+    "41455465"
+  ],
+  "records": [],
+  "fulltexts": [],
+  "parsed_sources": [],
+  "evidence": [],
+  "diagnostics": {},
+  "evolution_memory": [],
+  "tasks": [],
+  "blockers": [],
+  "errors": [],
+  "budgets": {
+    "max_rounds": 3,
+    "max_records": 50,
+    "max_fulltext_attempts": 30,
+    "max_same_blocker": 2
+  },
+  "counters": {
+    "round": 0,
+    "pubmed_queries": 1,
+    "fulltext_attempts": 0,
+    "same_blocker_repeats": {}
+  },
+  "report_path": ""
+}

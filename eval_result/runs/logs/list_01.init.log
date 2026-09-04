@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/list_01.json
+{
+  "state": "eval_result/runs/states/list_01.json",
+  "question": "What is caused by biallelic CRELD1 variants?",
+  "next": "search-pubmed --query-file <query.json>"
+}

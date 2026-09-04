@@ -1,0 +1,301 @@
+{
+  "schema_version": "medlit-state/v0.2",
+  "question": "Please list the short half life phosphodiesterase 5 inhibitors.",
+  "created_at": "2026-09-04T07:23:58+00:00",
+  "updated_at": "2026-09-04T07:26:08+00:00",
+  "status": "running",
+  "query_attempts": [
+    {
+      "attempt_id": "q001",
+      "exact_query": "(phosphodiesterase 5[Title/Abstract] OR PDE5[Title/Abstract]) AND (inhibitor[Title/Abstract] OR inhibitors[Title/Abstract]) AND (short half-life[Title/Abstract] OR short half life[Title/Abstract])",
+      "reasoning": "Co-occur PDE5 inhibitor terminology with the requested half-life descriptor.",
+      "added_terms": [],
+      "lint_warnings": [],
+      "effective_query": "(phosphodiesterase 5[Title/Abstract] OR PDE5[Title/Abstract]) AND (inhibitor[Title/Abstract] OR inhibitors[Title/Abstract]) AND (short half-life[Title/Abstract] OR short half life[Title/Abstract])",
+      "query_translation": "(\"phosphodiesterase 5\"[Title/Abstract] OR \"PDE5\"[Title/Abstract]) AND (\"inhibitor\"[Title/Abstract] OR \"inhibitors\"[Title/Abstract]) AND (\"short half life\"[Title/Abstract] OR \"short half life\"[Title/Abstract])",
+      "translationset": [],
+      "warninglist": {},
+      "errorlist": {},
+      "count": 6,
+      "retmax": 100,
+      "sort": "relevance",
+      "max_date": "",
+      "pmids": [
+        "38423706",
+        "39844934",
+        "8858389",
+        "16959227",
+        "27034723",
+        "20407377"
+      ],
+      "feedback_records": [
+        {
+          "pmid": "38423706",
+          "pmcid": "",
+          "doi": "10.1016/bs.podrm.2023.11.006",
+          "title": "Avanafil: A comprehensive drug profile.",
+          "abstract": "Avanafil is an oral medication used to treat erectile dysfunction (ED). As a phosphodiesterase type 5 (PDE5) inhibitor, it functions by inhibiting the PDE5 enzyme, which ultimately results in increased levels of cyclic guanosine monophosphate (cGMP) and improved blood flow to the penis. Approved by the FDA in 2012, avanafil is recognised for its rapid onset of action, short half-life, and favourable side-effects profile. While it has been explored for other potential therapeutic applications, its current approved use is limited to ED and should be used as prescribed by a medical professional. This chapter provides a comprehensive review of avanafil, encompassing its nomenclature, physicochemical properties, methods of preparation, and identification. Various techniques for analysing avanafil, such as electrochemical analysis, spectrophotometric, spectrofluorimetric, and chromatographic techniques, are discussed. The pharmacology of avanafil, including its pharmacokinetics and pharmacodynamics, is also examined.",
+          "journal": "Profiles of drug substances, excipients, and related methodology",
+          "year": "2024",
+          "authors": [
+            "Al-Majed Abdulrahman A",
+            "AlKhairallah Amer",
+            "Attwa Mohamed W",
+            "Alkahtani Hamad M",
+            "El-Azab Adel S",
+            "Abdel-Aziz Alaa A-M",
+            "Alkhider Ayman",
+            "Hassan Sawsan Bushra",
+            "Bakheit Ahmed H"
+          ],
+          "mesh_terms": [
+            "Male",
+            "Humans",
+            "Erectile Dysfunction",
+            "Phosphodiesterase 5 Inhibitors",
+            "Pyrimidines",
+            "Hemodynamics"
+          ],
+          "publication_types": [
+            "Review",
+            "Journal Article"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-04"
+        },
+        {
+          "pmid": "39844934",
+          "pmcid": "PMC11751502",
+          "doi": "10.1016/j.eclinm.2024.103035",
+          "title": "Effect of long and short half-life PDE5 inhibitors on HbA1c levels: a systematic review and meta-analysis.",
+          "abstract": "BACKGROUND: Phosphodiesterase 5 (PDE5) inhibitors, owing to their mechanism of action, have been gaining recognition as a potential case of drug repurposing and combination therapy for diabetes treatment. We aimed to examine the effect of long and short half-life PDE5 inhibitors have on Haemoglobin A1c (HbA1c) levels.\nMETHODS: A systematic review and meta-analysis was conducted of randomised controlled trials (RCTs) in people with elevated HbA1c (>6%) to assess mean difference in HbA1c levels from baseline versus controls after any PDE5 inhibitor intervention of ≥4 weeks, excluding multiple interventions. Cochrane CENTRAL, PMC Medline, ClinicalTrials.gov, and WHO ICTRP were searched without language restrictions up to September 30, 2024. Summary data from published data were extracted. PRISMA and Cochrane guidelines used to extract and assess data using a random-effects meta-analysis. This study is registered with the Research Registry, reviewregistry1733.\nFINDINGS: Among 1096 studies identified, in analysis of 13 studies with 1083 baseline patients, long half-life PDE5 inhibitors (tadalafil, PF-00489791) had decreases in HbA1c while short half-life PDE5 inhibitors (sildenafil, avanafil) had no change. Five (38.5%) studies had a low risk of bias, and eight (61.5%) had some concerns. Long half-life inhibitors had significant mean decrease of -0.40% ([-0.66, -0.14], p = 0.002, I2 = 82%, 7.70% baseline HbA1c). Short half-life inhibitors had insignificant mean difference of +0.08% ([-0.16, 0.33], p = 0.51, I2 = 40%, 7.73% baseline HbA1c). In ≥8-week trials with participants with type 2 diabetes (T2D) and mean HbA1c ≥ 6.5%, long half-life inhibitors had significant mean decrease of -0.50% ([-0.83, -0.17], I2 = 88%, p = 0.003); short half-life inhibitors had significant mean increase of +0.36% ([0.03, 0.68], I2 = 3%, p = 0.03).\nINTERPRETATION: At the well-controlled HbA1c of the participants, previous literature shows current diabetes treatments have similar HbA1c decreases, so the HbA1c mean difference of long half-life PDE5 inhibitors may indeed be clinically relevant. This suggests future investigation into PDE5 inhibitors as part of combination therapy or as therapy for high HbA1c individuals is needed, especially because of variable risk of biases, homogeneity, and sample sizes in our study.\nFUNDING: None.",
+          "journal": "EClinicalMedicine",
+          "year": "2025",
+          "authors": [
+            "Kim Joseph",
+            "Zhao Rui",
+            "Kleinberg Lawrence Richard",
+            "Kim Kitai"
+          ],
+          "mesh_terms": [],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-04"
+        },
+        {
+          "pmid": "8858389",
+          "pmcid": "",
+          "doi": "",
+          "title": "Sildenafil: an orally active type 5 cyclic GMP-specific phosphodiesterase inhibitor for the treatment of penile erectile dysfunction.",
+          "abstract": "Sildenafil (Viagra, UK-92,480) is a novel oral agent under development for the treatment of penile erectile dysfunction. Erection is dependent on nitric oxide and its second messenger, cyclic guanosine monophosphate (cGMP). However, the relative importance of phosphodiesterase (PDE) isozymes is not clear. We have identified both cGMP- and cyclic adenosine monophosphate-specific phosphodiesterases (PDEs) in human corpora cavernosa in vitro. The main PDE activity in this tissue was due to PDE5, with PDE2 and 3 also identified. Sildenafil is a selective inhibitor of PDE5 with a mean IC50 of 0.0039 microM. In human volunteers, we have shown sildenafil to have suitable pharmacokinetic and pharmacodynamic properties (rapid absorption, relatively short half-life, no significant effect on heart rate and blood pressure) for an oral agent to be taken, as required, prior to sexual activity. Moreover, in a clinical study of 12 patients with erectile dysfunction without an established organic cause, we have shown sildenafil to enhance the erectile response (duration and rigidity of erection) to visual sexual stimulation, thus highlighting the important role of PDE5 in human penile erection. Sildenafil holds promise as a new effective oral treatment for penile erectile dysfunction.",
+          "journal": "International journal of impotence research",
+          "year": "1996",
+          "authors": [
+            "Boolell M",
+            "Allen M J",
+            "Ballard S A",
+            "Gepi-Attee S",
+            "Muirhead G J",
+            "Naylor A M",
+            "Osterloh I H",
+            "Gingell C"
+          ],
+          "mesh_terms": [
+            "Administration, Oral",
+            "Cross-Over Studies",
+            "Cyclic GMP",
+            "Double-Blind Method",
+            "Enzyme Inhibitors",
+            "Erectile Dysfunction",
+            "Humans",
+            "Isoenzymes",
+            "Male",
+            "Middle Aged",
+            "Penis",
+            "Phosphodiesterase Inhibitors",
+            "Phosphoric Diester Hydrolases",
+            "Piperazines",
+            "Purines",
+            "Sildenafil Citrate",
+            "Sulfones",
+            "Treatment Outcome"
+          ],
+          "publication_types": [
+            "Clinical Trial",
+            "Journal Article",
+            "Randomized Controlled Trial"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-04"
+        },
+        {
+          "pmid": "16959227",
+          "pmcid": "",
+          "doi": "10.1016/j.brainres.2006.08.028",
+          "title": "Tadalafil, a long-acting type 5 phosphodiesterase isoenzyme inhibitor, improves neurological functional recovery in a rat model of embolic stroke.",
+          "abstract": "Sildenafil, a type 5 phosphodiesterase isoenzyme (PDE5) inhibitor with a short half-life, increases brain cyclic guanosine monophosphate (cGMP) levels and improves neurological functional recovery when administered after stroke. In the present study, we investigated the effects of tadalafil (Cialis), a long acting PDE5 inhibitor, on brain cGMP levels, neurogenesis, angiogenesis, and neurological function during stroke recovery in a rat model of embolic stroke. Male Wistar rats (n=28) were subjected to embolic middle cerebral artery (MCA) occlusion. Tadalafil was orally administered every 48 h at a dose of 2 mg/kg or 10 mg/kg for 6 consecutive days starting 24 h after stroke onset. Control animals received the equivalent volume of saline at the same time points. For mitotic labeling, bromodeoxyuridine (BrdU, 100 mg/kg) was administered twice a day at 5, 6, and 7 days after stroke. ELISA assays were performed to evaluate the specificity of the effect of tadalafil on cGMP. Treatment with tadalafil at a dose of 2 or 10 mg/kg significantly improved neurological functional recovery compared with saline-treated rats. In addition, tadalafil treatment increased cerebral vascular density and the percentage of BrdU-positive endothelial cells around the ischemic boundary compared with saline-treated rats. Moreover, tadalafil-treated rats showed greater ipsilateral SVZ cell proliferation than saline-treated rats. However, treatment with tadalafil did not reduce infarct volume when compared to the saline group. Tadalafil selectively increased cGMP but not cyclic adenosine monophosphate (cAMP) in brain. Our data demonstrate that treatment of ischemic stroke with tadalafil improved functional recovery, which was associated with increases of brain cGMP levels and enhancement of angiogenesis and neurogenesis.",
+          "journal": "Brain research",
+          "year": "2006",
+          "authors": [
+            "Zhang Li",
+            "Zhang Zhenggang",
+            "Zhang Rui Lan",
+            "Cui Yisheng",
+            "LaPointe Margot C",
+            "Silver Brian",
+            "Chopp Michael"
+          ],
+          "mesh_terms": [
+            "3',5'-Cyclic-GMP Phosphodiesterases",
+            "Animals",
+            "Brain",
+            "Carbolines",
+            "Cell Proliferation",
+            "Cerebral Arteries",
+            "Cyclic AMP",
+            "Cyclic GMP",
+            "Cyclic Nucleotide Phosphodiesterases, Type 5",
+            "Disease Models, Animal",
+            "Dose-Response Relationship, Drug",
+            "Endothelial Cells",
+            "Intracranial Embolism",
+            "Isoenzymes",
+            "Male",
+            "Microcirculation",
+            "Neovascularization, Physiologic",
+            "Neurons",
+            "Phosphodiesterase Inhibitors",
+            "Rats",
+            "Rats, Wistar",
+            "Recovery of Function",
+            "Stem Cells",
+            "Stroke",
+            "Tadalafil",
+            "Treatment Outcome"
+          ],
+          "publication_types": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-04"
+        },
+        {
+          "pmid": "27034723",
+          "pmcid": "PMC4772359",
+          "doi": "10.1177/1756287215625408",
+          "title": "A review of the efficacy and safety of mirodenafil in the management of erectile dysfunction.",
+          "abstract": "Erectile dysfunction (ED) is a common disorder that can jeopardize quality of life and the partnership of patients and their sexual partners. The advent of oral phosphodiesterase type 5 inhibitors (PDE5Is) has revolutionized a treatment for ED, and they are recognized as the first-line therapy for ED, regardless of its etiology. Mirodenafil, a second-generation PDE5I, has biochemical profiles such as high affinity for PDE5 and high selectivity for PDE5 over other PDE isoforms, compared to other existing PDE5Is such as sildenafil, vardenafil and tadalafil. Available evidence has suggested that doses of 50 and 100 mg mirodenafil effectively improve ED [with improvements in the erectile function domain of the International Index of Erectile Function (IIEF-EF) scores, positive responses to questions 2 of the Sexual Encounter Profiles (SEP2) and questions 3 of the Sexual Encounter Profiles (SEP3): 7.6-11.6 points, 27.72-38.98% and 44.20-67.33%, respectively] in a broad range of patient populations with ED of a variety of underlying etiologies, severities and ages, without any serious treatment-related adverse effects. In the treatment of diabetic ED, a traditionally difficult-to-treat population, 100 mg mirodenafil has been reported to offer favorable efficacy (with improvements in the IIEF-EF scores, and positive responses to the SEP2 and the SEP3: 9.3 points, 36.1% and 61.8%, respectively) and tolerability (mild adverse effects of less than 19.6%), which are comparable with results from clinical studies on other PDE5Is. Mirodenafil appears to be effective, safe and well tolerated in men with both ED and hypertension or lower urinary tract symptoms (LUTS)/benign prostatic hyperplasia (BPH) who are taking concomitant antihypertensive medications or α1-blockers. Furthermore, recent evidence has indicated that mirodenafil may be a potential option for chronic dosing in the treatment of ED despite its short half-life (T 1/2). Most of the available clinical studies have reported that adverse effects (up to 53.7%) caused by 50 and 100 mg mirodenafil are mild or moderate in severity, with headache (1.8-14.8%) and flushing (6.7-24.1%) being the most common. Due to the pharmacodynamic profiles of mirodenafil, its tolerability is expected to be somewhat better than those of the other PDE5Is. However, further well designed studies with larger cohorts of different ethnicities, flexible dosing schedules and long-term follow up are necessary to confirm the favorable efficacy and tolerability profiles of mirodenafil for the treatment of ED.",
+          "journal": "Therapeutic advances in urology",
+          "year": "2016",
+          "authors": [
+            "Cho Min Chul",
+            "Paick Jae-Seung"
+          ],
+          "mesh_terms": [],
+          "publication_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-04"
+        },
+        {
+          "pmid": "20407377",
+          "pmcid": "",
+          "doi": "10.1097/SPC.0b013e328338c1e0",
+          "title": "Management of dyspnea in advanced pulmonary arterial hypertension.",
+          "abstract": "PURPOSE OF REVIEW: Pulmonary hypertension leads to progressive increase in pulmonary vascular resistance, heart failure, and death. Pulmonary arterial hypertension (PAH) is a subset of pulmonary hypertension affecting small pulmonary arteries and not associated with underlying heart or lung disease. Dyspnea and exercise intolerance are hallmarks of PAH and are used to monitor disease progression. This review focuses on recent advances in the pathophysiology and treatment of dyspnea in PAH.\nRECENT FINDINGS: The etiological classification of pulmonary hypertension and World Health Organization functional class clinical classification, as used to guide management, have recently been revised. Dyspnea and PAH disease progression are best assessed by cardiopulmonary exercise testing and the six-minute walk test. Understanding of the molecular pathogenesis of PAH has led to new classes of treatments, including prostacyclin analogues, endothelin receptor antagonists, and phosphodiesterase-5 inhibitors. Prostanoids have the longest track record in treatment of PAH but a short half-life and cumbersome delivery systems limit their utility. More convenient endothelin receptor antagonists are becoming mainstream in PAH management. Phosphodiesterase-5 inhibitors improve exercise capacity and quality of life, although long-term outcome data are pending. Combination therapy with different medication classes appears promising for progressive disease.\nSUMMARY: Establishing the cause and clinical severity of pulmonary hypertension is critical for management. The pathophysiology of dyspnea in PAH is complex and related to pulmonary vascular resistance. Although disease-specific treatments are now available, a cure for PAH remains elusive and trials of combination treatments to improve symptoms and outcomes are ongoing.",
+          "journal": "Current opinion in supportive and palliative care",
+          "year": "2010",
+          "authors": [
+            "Sajkov Dimitar",
+            "Petrovsky Nikolai",
+            "Palange Paolo"
+          ],
+          "mesh_terms": [
+            "Calcium Channel Blockers",
+            "Dyspnea",
+            "Endothelin Receptor Antagonists",
+            "Exercise Therapy",
+            "Exercise Tolerance",
+            "Heart-Lung Transplantation",
+            "Humans",
+            "Hypertension, Pulmonary",
+            "Palliative Care",
+            "Phosphodiesterase 5 Inhibitors",
+            "Phosphodiesterase Inhibitors",
+            "Prostaglandins"
+          ],
+          "publication_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-04"
+        }
+      ],
+      "feedback_error": "",
+      "executed_at": "2026-09-04T07:24:47+00:00"
+    }
+  ],
+  "accepted_query_attempt_id": "q001",
+  "last_pmids": [
+    "38423706",
+    "39844934",
+    "8858389",
+    "16959227",
+    "27034723",
+    "20407377"
+  ],
+  "final_ranked_pmids": [
+    "38423706",
+    "39844934",
+    "8858389",
+    "16959227",
+    "27034723",
+    "20407377"
+  ],
+  "records": [],
+  "fulltexts": [],
+  "parsed_sources": [],
+  "evidence": [],
+  "diagnostics": {},
+  "evolution_memory": [],
+  "tasks": [],
+  "blockers": [],
+  "errors": [],
+  "budgets": {
+    "max_rounds": 3,
+    "max_records": 50,
+    "max_fulltext_attempts": 30,
+    "max_same_blocker": 2
+  },
+  "counters": {
+    "round": 0,
+    "pubmed_queries": 1,
+    "fulltext_attempts": 0,
+    "same_blocker_repeats": {}
+  },
+  "report_path": ""
+}

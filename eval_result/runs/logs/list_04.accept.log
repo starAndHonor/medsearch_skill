@@ -1,0 +1,7 @@
+[OK] accepted q001 with 100 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(Clostridium difficile[Title/Abstract] OR Clostridioides difficile[Title/Abstract]) AND (infection[Title/Abstract]) AND (complication[Title/Abstract] OR complications[Title/Abstract])",
+  "pmids": 100,
+  "next": "fetch-records"
+}

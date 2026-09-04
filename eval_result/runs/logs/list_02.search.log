@@ -1,0 +1,422 @@
+[..] searching PubMed with q001
+[OK] 18 total hits; 18 PMIDs returned
+{
+  "attempt_id": "q001",
+  "exact_query": "(ivonescimab[Title/Abstract]) AND (target[Title/Abstract] OR targets[Title/Abstract])",
+  "reasoning": "Search the named drug and target relationship.",
+  "added_terms": [],
+  "lint_warnings": [],
+  "effective_query": "(ivonescimab[Title/Abstract]) AND (target[Title/Abstract] OR targets[Title/Abstract])",
+  "query_translation": "\"ivonescimab\"[Title/Abstract] AND (\"target\"[Title/Abstract] OR \"targets\"[Title/Abstract])",
+  "translationset": [],
+  "warninglist": {},
+  "errorlist": {},
+  "count": 18,
+  "retmax": 100,
+  "sort": "relevance",
+  "max_date": "",
+  "pmids": [
+    "40528044",
+    "40114411",
+    "41182411",
+    "41388342",
+    "41333457",
+    "41476945",
+    "42446735",
+    "40397846",
+    "41452570",
+    "42409321",
+    "42267193",
+    "41383506",
+    "42395618",
+    "41730505",
+    "40277763",
+    "41982608",
+    "42669571",
+    "42636833"
+  ],
+  "feedback_records": [
+    {
+      "pmid": "40528044",
+      "pmcid": "",
+      "doi": "10.1038/s41571-025-01035-9",
+      "title": "The next generation of immunotherapies for lung cancers.",
+      "abstract": "Immunotherapies, specifically immune-checkpoint inhibitors (ICIs) targeting PD-(L)1 or CTLA4, have revolutionized the treatment of lung cancer; however, many patients do not have a response to ICIs and most of those with an initial tumour response eventually have disease progression owing to acquired resistance. Over the past few years, numerous therapeutic strategies have been explored to address the problems of intrinsic and acquired resistance to ICIs. In 2024, regulatory approvals of the bispecific PD-1 × VEGF antibody ivonescimab for the treatment of non-small-cell lung cancer in China and the bispecific DLL3 × CD3 T cell engager tarlatamab for patients with small cell lung cancer in the USA provided clinical proof-of-concept for overcoming the challenge of ICI resistance using novel immunotherapeutic agents, thereby increasing enthusiasm for the exploration of next-generation immunotherapies for lung cancer. A large variety of immunotherapies with diverse targets and mechanisms of action are currently being tested in clinical trials involving patients with lung cancer. In this Review, we provide an overview of these emerging immunotherapies in clinical development for non-small-cell lung cancer and/or small cell lung cancer, including novel immune-checkpoint modulators, immune cell engagers, adoptive cell therapies and therapeutic cancer vaccines. We describe the designs of these agents and the mechanisms by which they might overcome resistance to the current generation of ICIs. We also discuss hurdles impeding the clinical translation of each immunotherapeutic modality and potential strategies to address these challenges, using representative examples of agents that have entered the later phases of clinical testing.",
+      "journal": "Nature reviews. Clinical oncology",
+      "year": "2025",
+      "authors": [
+        "Zhao Shen",
+        "Zhao Hongyun",
+        "Yang Weiwei",
+        "Zhang Li"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Lung Neoplasms",
+        "Immunotherapy",
+        "Immune Checkpoint Inhibitors",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Drug Resistance, Neoplasm"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "40114411",
+      "pmcid": "PMC11925807",
+      "doi": "10.1002/cam4.70653",
+      "title": "Safety, Pharmacokinetics, and Pharmacodynamics Evaluation of Ivonescimab, a Novel Bispecific Antibody Targeting PD-1 and VEGF, in Chinese Patients With Advanced Solid Tumors.",
+      "abstract": "BACKGROUND: Ivonescimab (AK112) is a first-in-class bispecific antibody that simultaneously targets programmed death-1 (PD-1) and vascular endothelial growth factor (VEGF) with cooperative binding. We report the safety, pharmacokinetics (PK), and pharmacodynamics (PD) profiles of ivonescimab in patients suffered from advanced solid tumors.\nMETHODS: A multicenter, open-label, dose-escalation, phase I study was conducted in five hospitals in China. Ivonescimab was used as a monotherapy. The dose of ivonescimab intravenously administered was 3, 5, 10, 20, and 30 mg/kg every 2 weeks (Q2W), and 10 and 20 mg/kg every 3 weeks (Q3W). Safety, PK, and PD of ivonescimab were evaluated.\nRESULTS: A total of 59 patients treated in the study. Only one dose-limiting toxicity (DLT) occurred in 1 out of 9 patients in the 10 mg/kg Q2W cohort, indicating that no maximum tolerated dose was reached. Among the participants, 53 patients (89.8%) experienced treatment-related adverse events (TRAEs), with the most common being proteinuria (33.9%), aspartate aminotransferase elevation (27.1%), white blood cell count decrease (22.0%), alanine aminotransferase elevation (20.3%), and anemia (20.3%). Fourteen patients (23.7%) had ≥ Grade 3 TRAEs, and 7 patients (11.9%) experienced serious TRAEs. Notably, there were no reported deaths associated with the TRAEs, and no dose-dependent increase in adverse events was observed. The half-life of ivonescimab ranged from 5.0 to 7.3 days following single-dose administration across all dose levels. The serum concentrations of ivonescimab increased with escalating doses in an approximately dose-proportional manner. Following multiple doses, the accumulation ratio ranged from 1.1 to 1.7, suggesting mild accumulation of ivonescimab. The steady state was achieved after 5 doses. Ivonescimab occupancy on PD-1 sustained over 80% across the treatment period. Serum VEGF level was rapidly down-regulated after each administration.\nCONCLUSIONS: In patients with advanced solid tumors, ivonescimab monotherapy was well-tolerated and demonstrated a linear PK characteristics. PD profiles showed the promising potential of ivonescimab for the management of advanced solid tumors.\nTRIAL REGISTRATION: ClinicalTrials.gov (NCT04597541).",
+      "journal": "Cancer medicine",
+      "year": "2025",
+      "authors": [
+        "Wang Fenghua",
+        "Wei Xiaoli",
+        "Zheng Yulong",
+        "Wang Jing",
+        "Ying Jieer",
+        "Chen Xiaozhong",
+        "Luo Suxia",
+        "Luo Huiyan",
+        "Yu Xufang",
+        "Chen Benchao",
+        "Ma Lei",
+        "Xu Ruihua"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Antibodies, Bispecific",
+        "China",
+        "Dose-Response Relationship, Drug",
+        "Maximum Tolerated Dose",
+        "Neoplasms",
+        "Programmed Cell Death 1 Receptor",
+        "Vascular Endothelial Growth Factor A",
+        "East Asian People"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Clinical Trial, Phase I",
+        "Multicenter Study"
+      ],
+      "trial_ids": [
+        "NCT04597541"
+      ],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "41182411",
+      "pmcid": "PMC12583355",
+      "doi": "10.1007/s00262-025-04213-x",
+      "title": "MS4A1 regulates M1-polarized tumor-associated macrophage infiltration, angiogenesis, and cancer progression through the HIPPO pathway in lung adenocarcinoma.",
+      "abstract": "Lung adenocarcinoma (LUAD) treatment remains a substantial clinical challenge, warranting a thorough investigation of the molecular mechanisms underlying tumor progression. In our study, the expression patterns and clinical implications of the macrophage M1 related gene, membrane spanning 4-domains A1 (MS4A1) were assessed using quantitative real-time PCR (RT-qPCR), western blotting, and immunohistochemistry in LUAD. A co-culture system involving LUAD cells and macrophages assessed macrophage polarization and recruitment using RT-qPCR, flow cytometry, immunofluorescence, and macrophage chemotaxis assay. Additionally, transcriptome sequencing, tube formation, and co-immunoprecipitation assays demonstrated the roles and mechanisms underlying MS4A1 in HIPPO pathway and angiogenesis in cancer progression and M1 polarization. Furthermore, the efficacy of antagonists against angiogenesis and HIPPO pathway including ivonescimab and verteporfin was assessed in MS4A1 low tumor-bearing mouse receiving immunotherapy. Results showed that the significant prognostic association of MS4A1 expression was specific to LUAD. Furthermore, MS4A1 facilitated the malignant progression of LUAD by modulating macrophage M1 polarization, migration, and angiogenesis. Mechanistically, MS4A1 interacted with Yes-associated protein to regulate macrophage polarization and cancer progression through the HIPPO pathway. In vivo experiments also demonstrated that verteporfin inhibited the in-situ tumor progression and ivonescimab enhanced the efficacy of immunotherapy in MS4A1 low tumor-bearing mouse. The MS4A1/M1 macrophage axis was identified as a crucial regulator of malignancy in LUAD, indicating MS4A1 as a promising novel therapeutic target for advanced LUAD treatment.",
+      "journal": "Cancer immunology, immunotherapy : CII",
+      "year": "2025",
+      "authors": [
+        "Gao Weitong",
+        "Wang Ruqiong",
+        "Yang Shuangshuang",
+        "Shi Yingnan",
+        "Cui Mengen",
+        "Jiang Renjie",
+        "Li Rou",
+        "Yu Yan",
+        "Jia Dexin",
+        "Che Dehai"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Animals",
+        "Mice",
+        "Neovascularization, Pathologic",
+        "Tumor-Associated Macrophages",
+        "Lung Neoplasms",
+        "Adenocarcinoma of Lung",
+        "Disease Progression",
+        "Hippo Signaling Pathway",
+        "Protein Serine-Threonine Kinases",
+        "Female",
+        "Signal Transduction",
+        "Cell Line, Tumor",
+        "Mice, Inbred BALB C",
+        "Male",
+        "Angiogenesis"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "41388342",
+      "pmcid": "PMC12701126",
+      "doi": "10.1002/cam4.71432",
+      "title": "The Landscape of Bispecific Antibodies in Solid Tumor Oncology: Trends, Challenges, and Opportunities.",
+      "abstract": "BACKGROUND: Bispecific Antibodies (BsAbs) represent a novel class of immunoglobulins that can target and bind to two distinct antigens simultaneously. The global BsAbs market, valued at approximately USD 8.65 billion in 2023, reflects tremendous promise and substantial growth. Here, we present a comprehensive analysis of the current BsAbs research pipeline in solid tumors.\nMETHODS: Data were extracted from LARVOL CLIN, an outcomes database storing over 130,000 trials, to analyze the number of BsAbs including the number of trials per company, the timeline of trial initiation, phases, specific molecules, targets, and associated biomarkers. LARVOL CLIN leverages regular expression-based text mining to extract data from major trial registries, including ClinicalTrials.gov, EudraCT, the Australian registry ANZCTR and the Asian Registries ChiCTR and UMIN.\nRESULTS: Our analysis identified 681 registered clinical trials in ClinicalTrials.gov, a number that has doubled since 2019, each with a known target and phase, evaluating a total of 183 BsAbs. Solid tumors, particularly gastrointestinal, lung, gynecological and breast cancer, have emerged as primary focuses. A significant trend is the strong focus on immune checkpoint bispecific targets, particularly PD1-CTLA4 (n = 216 trials, 31.7%, 4 BsAbs), PD1-VEGF (n = 56 trials, 8.2%, 3 BsAbs), followed by oncogene targets like EGFR-MET (n = 34 trials, 5%, 3 BsAbs). The distribution of clinical molecules also reflects such focus, with dual PD1-CTLA4 inhibitors (Cadonilimab, Volrustomig, Danviostomig) leading the highest number of trials (n = 208, 30.5%). Other promising molecules include Ivonescimab (n = 51, 7.5%), targeting PD1-VEGF, and Amivantamab-vmjw (n = 29, 4.3%), targeting EGFR-MET. Clinical trials investigating PD1-CTLA4 BsAbs showed improved overall survival (OS) and progression-free survival (PFS) with tolerable adverse effects when combined with standard chemotherapy. Only 38% of trials, n = 258, specified a biomarker inclusion. Among oncogene-targeted BsAbs, EGFR is the most prevalent (n = 80, 31%), followed by HER2 (n = 77, 29.8%), and ALK (n = 41, 15.8%). Gene-specific alterations were also represented; HER2-positive alterations garnered the most attention in n = 35 trials. BsAbs development is primarily driven by biotechnology companies (Akesobio, Alphamab, Biokin Pharma, etc.) compared to large pharmaceutical companies (J&J, AstraZeneca, and Boehringer Ingelheim). Geographically, the United States, China and the European Union have the highest number of trials available.\nCONCLUSION: Since the first BsAb approval in 2014, the field has rapidly expanded, with solid tumor oncology advancing dynamically. The major focus has been on combining BsAbs with immunotherapy strategies, followed by targeting known oncogenic pathways. The shift toward biotechnology-led innovation underscores the growing therapeutic and financial interest in this field. Optimizing the efficacy and safety of these molecules is key to paving the way for the next era of immune and precision oncology.",
+      "journal": "Cancer medicine",
+      "year": "2025",
+      "authors": [
+        "ElBeblawy Rafik",
+        "Jani Chinmay",
+        "Pérez-Granado Judith",
+        "Gramling Mark",
+        "Desai Aakash"
+      ],
+      "mesh_terms": [
+        "Antibodies, Bispecific",
+        "Humans",
+        "Neoplasms",
+        "Clinical Trials as Topic",
+        "Antineoplastic Agents, Immunological",
+        "Biomarkers, Tumor"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "41333457",
+      "pmcid": "PMC12665695",
+      "doi": "10.3389/fimmu.2025.1599181",
+      "title": "Unlocking new horizons in oncology: ivonescimab's dual-target approach to anti-VEGF/PD-1(L1) therapy.",
+      "abstract": "Dual blockade of the PD-1/PD-L1 axis, enabling tumor immune evasion, and the VEGF pathway, driving immunosuppression, represents a promising cancer immunotherapy strategy. Combining immune checkpoint inhibitors (ICIs) with antiangiogenics faces toxicity and cost limitations. Bispecific antibodies (BsAbs) targeting both pathways offer a solution. Preclinical and clinical studies demonstrate that simultaneous inhibition enhances antitumor immunity by reversing T-cell exhaustion, normalizing vasculature, and countering immunosuppression. Ivonescimab, a first-in-class PD-1/VEGF BsAb, exemplifies this approach. Approved in China (NMPA, May 2024) for EGFR-mutant non-squamous NSCLC post-TKI failure and included in national insurance (November 2024), it is under global evaluation in solid tumors. PD-1(L1)/VEGF BsAbs like ivonescimab represent a novel therapeutic strategy with potential for improved efficacy and mitigated toxicity compared to combination therapies. Ongoing trials will define broader applications.",
+      "journal": "Frontiers in immunology",
+      "year": "2025",
+      "authors": [
+        "Shi Fan",
+        "Yang Luying",
+        "Gao Ye",
+        "Hou Yan",
+        "Lv Qianxin",
+        "Cao Feng",
+        "Chen Xi",
+        "Zhang Jianying",
+        "Wang Le"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Vascular Endothelial Growth Factor A",
+        "Antibodies, Bispecific",
+        "B7-H1 Antigen",
+        "Programmed Cell Death 1 Receptor",
+        "Immune Checkpoint Inhibitors",
+        "Neoplasms",
+        "Animals"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "41476945",
+      "pmcid": "PMC12752755",
+      "doi": "10.1016/j.isci.2025.114203",
+      "title": "Advances in the clinical application of bispecific antibodies in cancer therapy.",
+      "abstract": "Cancer immunotherapy has emerged as one of the most groundbreaking advancements. However, the tumor microenvironment (TME) is often dominated by various immunosuppressive factors, compromising the efficacy of single-target therapies, leading to non-responsiveness or resistance. Bispecific antibodies (BsAbs) represent an innovative immunotherapeutic strategy with enormous potential for improving cancer treatment outcomes. Unlike monoclonal antibodies, BsAbs can concurrently inhibit multiple pro-tumor pathways, target immune checkpoints to mitigate resistance, and bind to two distinct antigens, thereby enhancing specificity while minimizing off-target effects. Moreover, BsAbs are more cost-efficient and less toxic compared to the use of two separate monoclonal antibodies in combination. In recent decades, BsAbs have made remarkable progress in clinical development. Several BsAbs, such as blinatumomab, mosunetuzumab, teclistamab, glofitamab, epcoritamab, talquetamab, ivonescimab, cadonilimab, tarlatamab, zenocutuzumab, and catumaxomab, have achieved notable success in clinical trials. This review highlights clinically approved BsAbs and provides a comprehensive summary of their therapeutic applications in cancer treatment.",
+      "journal": "iScience",
+      "year": "2025",
+      "authors": [
+        "Zhou Shiqi",
+        "Li Feng",
+        "Niu Mengke",
+        "Wu Kongming",
+        "Li Tianye",
+        "Yi Ming"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "42446735",
+      "pmcid": "",
+      "doi": "10.1007/s00262-026-04434-8",
+      "title": "Pilot report of an anti-PD-1/VEGF bispecific antibody for treating recurrent H3K27M-mutant diffuse midline gliomas.",
+      "abstract": "BACKGROUND: H3K27M-mutant diffuse midline gliomas (DMGs) are highly aggressive, immunosuppressive tumors that are resistant to conventional therapies. Median overall survival is typically 8-11 months after diagnosis; fewer than 10% of patients survive beyond 2 years, and the 5-year survival rate is generally below 1%. Ivonescimab, a novel bispecific antibody that simultaneously targets PD-1 and VEGF, may help overcome this resistance by restoring T cell immunity and normalizing tumor vasculature. We report the first use of ivonescimab as salvage therapy for recurrent DMG.\nMETHODS: Two patients with recurrent H3K27M-mutant DMG who experienced rapid progression after standard first-line chemoradiotherapy received off-label ivonescimab (10 mg/kg) plus chemotherapy intravenously every 3 weeks for 5-6 cycles.\nRESULTS: After only three cycles, MRI revealed marked tumor shrinkage and substantial improvement in Karnofsky Performance Status (KPS). At treatment completion, both patients achieved partial remission (PR, tumor volume decreased at 66.7% and 68.7%, respectively). Both patients maintained progression-free survival (PFS) of more than 8 months and overall survival (OS) of more than 16 months, and both were alive more than 10 months after recurrence. Furthermore, treatment was well tolerated, the most common adverse event was fatigue, hematology toxicity and nausea vomiting, and no grade 3 or higher adverse events were observed.\nCONCLUSIONS: These preliminary findings demonstrate the tolerability of concurrent anti-PD-1/VEGF bispecific antibody with chemotherapy for recurrent DMG, who do not fit for reRT, and suggests that combination therapy may offer survival benefit. However, larger and more rigorous studies are needed to validate these initial observations and to define the efficacy and safety of this strategy in the clinical management of DMG.",
+      "journal": "Cancer immunology, immunotherapy : CII",
+      "year": "2026",
+      "authors": [
+        "Yanchu Li",
+        "Hongbin Wang",
+        "Xiaoli Yuan",
+        "Li Zhang",
+        "Jun Wang",
+        "Meiling Ren",
+        "Xiaoyan Yang",
+        "Lei Liu",
+        "Feng Wang"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "40397846",
+      "pmcid": "",
+      "doi": "10.1200/EDBK-25-472792",
+      "title": "Bispecific Antibodies in Non-Small Cell Lung Cancer: From Targeted Innovation to Real-World Integration.",
+      "abstract": "Bispecific antibodies have ushered in a transformative era in treating non-small cell lung cancer (NSCLC), enabling dual-pathway targeting with promising clinical outcomes in previously refractory disease subsets. Recent US Food and Drug Administration approvals-including amivantamab, an epidermal growth factor receptor (EGFR)/mesenchymal-epithelial transition factor-targeting monoclonal antibody for EGFR exon 20 insertions and frontline EGFR-mutant (Exon 19 and 21) NSCLC, and zenocutuzumab for tumors harboring neuregulin 1 fusions-highlight their expanding therapeutic footprint. However, a new spectrum of on-target toxicities and implementation challenges are essential considerations as part of this innovation. This review dissects the evolving clinical data for bispecific antibodies in NSCLC, focusing on amivantamab, and provides a practical framework for managing dermatologic, infusion-related, and class-specific adverse events. We explore quality-of-life outcomes, financial toxicity, and the role of subcutaneous formulations in improving patient adherence and treatment experience. Furthermore, we highlight an emerging PD-1/vascular endothelial growth factor-A bispecific antibody (ivonescimab) and its potential to reshape frontline therapy paradigms in NSCLC. By integrating clinical trial evidence with real-world considerations, this review aims to equip oncologists with the tools to optimize the use of bispecific antibodies in NSCLC and guide future therapeutic integration.",
+      "journal": "American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting",
+      "year": "2025",
+      "authors": [
+        "Carlisle Jennifer W",
+        "Wolner Zachary",
+        "Pannu Sagal",
+        "Mitchell Carley",
+        "Hsu Melinda",
+        "Aijaz Ayesha",
+        "Johnson Melissa",
+        "Naqash Abdul Rafeh"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Antibodies, Bispecific",
+        "Carcinoma, Non-Small-Cell Lung",
+        "Lung Neoplasms",
+        "Molecular Targeted Therapy"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "41452570",
+      "pmcid": "",
+      "doi": "10.1007/s12032-025-03208-z",
+      "title": "Emerging Anti-Cancer and Repurposed Therapies for Overcoming Multidrug Resistance in Lung Cancer.",
+      "abstract": "Multidrug resistance (MDR) still constitutes a significant barrier to the effective treatment of lung cancer and makes a significant contribution to the poor clinical results. MDR is explained by a set of mechanisms; increase of drug efflux, metabolism, increase of DNA repair potential, inhibition of apoptotic signals, mutation or post-translational modification of drug targets. These cell intrinsic mechanisms are even aggravated by tumour-microenvironment-induced factors, epigenetics dysregulation, survival of cancer stem cells and intratumour heterogeneity, which has made resistance highly adaptive and multifactorial. In order to address this complexity emerging therapeutic strategy is dual. The former element deals with new targeted agents which are able to counter an oncogene-mediated resistance. These include next-generation tyrosine kinase inhibitors (TKIs), KRAS12C inhibitors, bispecific antibodies including ivonescimab, and they all are specific to inhibit predominant signalling cascades that promote tumoral proliferation and resistance. The second element is drug repurposing whereby it exploits already established pharmacological drugs with already a clear safety record to attack non-oncogenic vulnerabilities linked with MDR. Pharmacological modulators of autophagy including statins, disulfiram, and lysosomotropic agents (e.g., chloroquine) target metabolic vulnerabilities such as mitochondrial bioenergetics and redox homeostasis. By mitigating oxidative stress and immune evasion, these compounds act as chemo sensitizers that potentiate the efficacy of tyrosine kinase inhibitors (TKIs) and immunotherapies, effectively overcoming adaptive drug resistance. Real-time monitoring of resistance evolution can be achieved with liquid biopsies, such as circulating tumor DNA and exosomal cargo, whereas MDR-related biomarkers can be used to stratify a patient. Analytical models that are built using artificial-intelligence also guide rational combination-therapy design and the chosen selection of treatments that are personalized. Also, inhalable nano formulations and targeted drug-delivery systems optimize the bioavailability of the formulation by pulmonary determination and ameliorates the systemic toxicity. A combination of these therapeutic approaches will provide a more accurate and flexible way of conquering MDR in lung cancer.",
+      "journal": "Medical oncology (Northwood, London, England)",
+      "year": "2025",
+      "authors": [
+        "Solanki Nilay",
+        "Shah Pratham",
+        "Kewalramani Sargam",
+        "Shah Umang",
+        "Patel Mehul",
+        "Patel Swayamprakash",
+        "Maheshwari Rajesh"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Lung Neoplasms",
+        "Drug Resistance, Neoplasm",
+        "Drug Repositioning",
+        "Drug Resistance, Multiple",
+        "Antineoplastic Agents"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    },
+    {
+      "pmid": "42409321",
+      "pmcid": "",
+      "doi": "10.1016/j.jhep.2026.06.033",
+      "title": "Ivonescimab plus gemcitabine and cisplatin as first-line therapy for advanced biliary tract cancer: A multicenter, open-label phase II trial.",
+      "abstract": "BACKGROUND & AIMS: Patients with advanced biliary tract cancers (aBTC) are in urgent need of additional treatment options. We aimed to assess the efficacy and safety of ivonescimab plus chemotherapy in patients with aBTC.\nMETHODS: In this multicenter, open-label, phase II study, 30 patients with treatment-naive unresectable locally advanced or metastatic BTC received ivonescimab (20 mg/kg or 30 mg/kg) combined with gemcitabine (1,000 mg/m2) and cisplatin (25 mg/m2) every 3 weeks for up to eight cycles, followed by ivonescimab maintenance. The primary endpoint was the investigator-assessed objective response rate and safety. Pretreatment tumor specimens available from the trial were subjected to a post hoc exploratory proteomic analysis. The correlation between MAP2K7 levels and ivonescimab efficacy was assessed using BTC tumor cell-T-cell co-culture and BTC organoid-T-cell co-culture models.\nRESULTS: At data cut-off, one patient achieved complete response and 19 patients achieved partial response, yielding an objective response rate of 66.7% (95% CI 47.2-82.7). The disease control rate was 100%. The median progression-free survival was 8.5 months (95% CI 7.6-10.5) and the median overall survival was 16.8 months (95% CI 11.1-22.5). Treatment-related adverse events occurred in all patients, with the most common being anemia (25, 83.3%), decreased neutrophil count (23, 76.7%), decreased white blood cell count (22, 73.3%), and decreased platelet count (22, 73.3%). No treatment-related deaths occurred. Additionally, exploratory proteomic and functional analyses identified MAP2K7 as a resistance-associated biomarker. MAP2K7 was upregulated in non-responders, and MAP2K7 suppression enhanced ivonescimab-mediated antitumor activity in immune co-culture models.\nCONCLUSIONS: Ivonescimab plus chemotherapy demonstrated potential antitumor activity and a tolerable safety profile as a first-line treatment for patients with aBTC. Exploratory analyses suggest that MAP2K7 may serve as a candidate biomarker of resistance and a potential therapeutic target for optimizing ivonescimab-based therapy in patients with aBTC.\nIMPACT AND IMPLICATIONS: Currently, the standard of care for first-line treatment of patients with advanced biliary tract cancer is the addition of immune checkpoint inhibitors to chemotherapy, based on the TOPAZ-1 and KEYNOTE-966 trials. However, the clinical benefit of these regimens remains limited, with a median overall survival improvement of less than 2 months compared with chemotherapy alone. In this study, ivonescimab plus chemotherapy demonstrated an objective response rate of 66.7%, a disease control rate of 100%, and a median overall survival of 16.8 months. These findings suggest that ivonescimab plus chemotherapy warrants further investigation as a potential first-line treatment option for patients with treatment-naive, unresectable locally advanced or metastatic BTC.\nCLINICAL TRIAL NUMBER: NCT05214482 and NCT06048289.",
+      "journal": "Journal of hepatology",
+      "year": "2026",
+      "authors": [
+        "Xu Qi",
+        "Zhou Shurui",
+        "Zhang Chenbo",
+        "Zhou Yiwen",
+        "He Yatong",
+        "Jiang Yvchao",
+        "Li Jingjing",
+        "Yi Tienan",
+        "Luo Cong",
+        "Zhang Lei",
+        "Wu Jia",
+        "Zhang Yuhua",
+        "Wu Minhua",
+        "Wei Qing",
+        "Li Qi",
+        "Liu Bo",
+        "Chen Xiangming",
+        "Yao Yinye",
+        "Yu Chengkun",
+        "Li Jijuan",
+        "Ren Yan",
+        "Zhuo Wei",
+        "Yuan Li",
+        "Li Wenting",
+        "Wang Zhongmin Maxwell",
+        "Li Baiyong",
+        "Xia Michelle",
+        "Xie Yanru",
+        "Wu Kui",
+        "Ying Jieer"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [
+        "NCT05214482",
+        "NCT06048289"
+      ],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    }
+  ],
+  "feedback_error": "",
+  "executed_at": "2026-09-04T07:24:45+00:00"
+}

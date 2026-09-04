@@ -1,0 +1,7 @@
+[OK] accepted q001 with 18 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(ivonescimab[Title/Abstract]) AND (target[Title/Abstract] OR targets[Title/Abstract])",
+  "pmids": 18,
+  "next": "fetch-records"
+}

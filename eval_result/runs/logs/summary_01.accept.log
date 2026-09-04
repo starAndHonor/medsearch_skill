@@ -1,0 +1,7 @@
+[OK] accepted q001 with 1 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "RankMHC[Title/Abstract]",
+  "pmids": 1,
+  "next": "fetch-records"
+}

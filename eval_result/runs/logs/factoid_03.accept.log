@@ -1,0 +1,7 @@
+[OK] accepted q001 with 100 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(Zika virus[Title/Abstract]) AND (vector[Title/Abstract])",
+  "pmids": 100,
+  "next": "fetch-records"
+}

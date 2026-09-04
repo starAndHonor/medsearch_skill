@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/list_04.json
+{
+  "state": "eval_result/runs/states/list_04.json",
+  "question": "Please list major complications of Clostridium difficile infection.",
+  "next": "search-pubmed --query-file <query.json>"
+}

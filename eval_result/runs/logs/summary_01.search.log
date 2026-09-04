@@ -1,0 +1,56 @@
+[..] searching PubMed with q001
+[OK] 1 total hits; 1 PMIDs returned
+{
+  "attempt_id": "q001",
+  "exact_query": "RankMHC[Title/Abstract]",
+  "reasoning": "Search the named method directly.",
+  "added_terms": [],
+  "lint_warnings": [],
+  "effective_query": "RankMHC[Title/Abstract]",
+  "query_translation": "\"RankMHC\"[Title/Abstract]",
+  "translationset": [],
+  "warninglist": {},
+  "errorlist": {},
+  "count": 1,
+  "retmax": 100,
+  "sort": "relevance",
+  "max_date": "",
+  "pmids": [
+    "39555889"
+  ],
+  "feedback_records": [
+    {
+      "pmid": "39555889",
+      "pmcid": "PMC11633655",
+      "doi": "10.1021/acs.jcim.4c01278",
+      "title": "RankMHC: Learning to Rank Class-I Peptide-MHC Structural Models.",
+      "abstract": "The binding of peptides to class-I Major Histocompability Complex (MHC) receptors and their subsequent recognition downstream by T-cell receptors are crucial processes for most multicellular organisms to be able to fight various diseases. Thus, the identification of peptide antigens that can elicit an immune response is of immense importance for developing successful therapies for bacterial and viral infections, even cancer. Recently, studies have demonstrated the importance of peptide-MHC (pMHC) structural analysis, with pMHC structural modeling methods gradually becoming more popular in peptide antigen identification workflows. Most of the pMHC structural modeling tools provide an ensemble of candidate peptide poses in the MHC-I cleft, each associated with a score stemming from a scoring function, with the top scoring pose assumed to be the most representative of the ensemble. However, identifying the binding mode, that is, the peptide pose from the ensemble that is closer to an unavailable native structure, is not trivial. Oftentimes, the peptide poses characterized as best by a protein-ligand scoring function are not the ones that are the most representative of the actual structure. In this work, we frame the peptide binding pose identification problem as a Learning-to-Rank (LTR) problem. We present RankMHC, an LTR-based pMHC binding mode identification predictor, which is specifically trained to predict the most accurate ranking of an ensemble of pMHC conformations. RankMHC outperforms classical peptide-ligand scoring functions, as well as previous Machine Learning (ML)-based binding pose predictors. We further demonstrate that RankMHC can be used with many pMHC structural modeling tools that use different structural modeling protocols.",
+      "journal": "Journal of chemical information and modeling",
+      "year": "2024",
+      "authors": [
+        "Fasoulis Romanos",
+        "Paliouras Georgios",
+        "Kavraki Lydia E"
+      ],
+      "mesh_terms": [
+        "Peptides",
+        "Histocompatibility Antigens Class I",
+        "Protein Conformation",
+        "Models, Molecular",
+        "Protein Binding",
+        "Machine Learning",
+        "Humans"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-04"
+    }
+  ],
+  "feedback_error": "",
+  "executed_at": "2026-09-04T07:24:52+00:00"
+}
