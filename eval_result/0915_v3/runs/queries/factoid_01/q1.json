@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "UCHL1[Title/Abstract] AND heterozygous[Title/Abstract]",
+  "reasoning": "Use the question's distinctive entities and relationship; omit question scaffolding and avoid guessing the answer. Wildcards cover lexical endings.",
+  "added_terms": []
+}

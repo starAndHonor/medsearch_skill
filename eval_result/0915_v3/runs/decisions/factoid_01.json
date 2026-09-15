@@ -1,0 +1,6 @@
+{
+  "test_id": "factoid_01",
+  "accepted_attempt_id": "q1",
+  "reason": "首位记录直接研究题目中的基因、杂合及功能丧失关系；其他反馈包括相关遗传病例，也有背景噪声。字段翻译保留原意，已有合适结果，不再缩窄。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

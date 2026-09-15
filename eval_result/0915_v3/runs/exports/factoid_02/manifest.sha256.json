@@ -1,0 +1,20 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "result.json",
+      "sha256": "0e414e69bd8d0ca70b5a6efce6e2bf75ccac8d648faf4cfaddea44914a3d67a2",
+      "size": 995831
+    },
+    {
+      "path": "state_snapshot.json",
+      "sha256": "02ef74e658a5e5fef97e291469d3a83c240ae5a4e6aa0cf08b8b4bfb0c7fd9cb",
+      "size": 997928
+    },
+    {
+      "path": "integrity_check.json",
+      "sha256": "387ed67ce01a0251c1c85a1c5d4dca79bc0cfa9c9074aebde1a33988a2fae3fd",
+      "size": 85
+    }
+  ]
+}

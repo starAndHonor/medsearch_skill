@@ -1,0 +1,8 @@
+{
+  "status": "no_state",
+  "next": [
+    "init"
+  ],
+  "message": "No research state exists yet. Start with a question or run init.",
+  "state": "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\yesno_01.json"
+}

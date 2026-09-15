@@ -1,0 +1,5 @@
+{
+  "output_dir": "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_v3\\runs\\exports\\factoid_02",
+  "ranking_count": 100,
+  "integrity": "passed"
+}

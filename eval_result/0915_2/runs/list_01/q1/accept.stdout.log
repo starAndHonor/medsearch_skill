@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "CRELD1[Title/Abstract] AND biallelic[Title/Abstract]",
+  "pmids": 3,
+  "next": "fetch-records"
+}

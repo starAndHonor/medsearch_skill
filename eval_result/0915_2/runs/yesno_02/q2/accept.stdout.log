@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "\"mucopolysaccharidosis-plus syndrome\"[Title/Abstract]",
+  "pmids": 10,
+  "next": "fetch-records"
+}

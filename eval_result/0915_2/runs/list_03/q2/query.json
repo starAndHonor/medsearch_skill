@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "(\"phosphodiesterase 5 inhibitors\"[Title/Abstract] OR \"PDE5 inhibitors\"[Title/Abstract]) AND \"half life\"[Title/Abstract]",
+  "reasoning": "基础设施恢复尝试，非语义修订：q1发生HTTP 500且无PubMed结果，之后其余题目调用连续成功；按新ID重试一次相同查询，不将工具失败当作零命中。",
+  "added_terms": [
+    {
+      "term": "PDE5 inhibitors",
+      "source_term": "phosphodiesterase 5 inhibitors",
+      "reason": "直接缩写。"
+    }
+  ]
+}

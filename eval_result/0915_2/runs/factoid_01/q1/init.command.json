@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:\\Users\\CGOMI\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\CGOMI\\.codex\\plugins\\cache\\medlit-local\\medlit-cli\\0.2.0+codex.20260915113715\\scripts\\medlit_cli.py",
+    "--state",
+    "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\factoid_01.json",
+    "init",
+    "--question",
+    "Which disease is caused by heterozygous UCHL1 loss-of-function variants?"
+  ],
+  "started_at": "2026-09-15T13:59:27.796051+00:00",
+  "finished_at": "2026-09-15T13:59:27.965496+00:00",
+  "exit_code": 0
+}

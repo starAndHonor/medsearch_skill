@@ -1,0 +1,301 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "WEE1[Title/Abstract] AND PARP[Title/Abstract] AND resistan*[Title/Abstract] AND expression[Title/Abstract]",
+  "reasoning": "q1\u524d\u5217\u591a\u6570\u8ba8\u8bba\u836f\u7269\u8054\u5408\u548c\u9006\u8f6c\u8010\u836f\uff0c\u4e0d\u76f4\u63a5\u8ba8\u8bbaWEE1\u8868\u8fbe\u6c34\u5e73\uff1b\u589e\u52a0\u9898\u76ee\u5df2\u6709expression\u4ee5\u805a\u7126\u8868\u8fbe\u4e0e\u8010\u836f\u5173\u7cfb\u3002",
+  "added_terms": [
+    {
+      "term": "resistan*",
+      "source_term": "resistance",
+      "reason": "\u8986\u76d6resistance\u548cresistant\u3002"
+    }
+  ],
+  "lint_warnings": [],
+  "effective_query": "WEE1[Title/Abstract] AND PARP[Title/Abstract] AND resistan*[Title/Abstract] AND expression[Title/Abstract]",
+  "query_translation": "\"WEE1\"[Title/Abstract] AND \"PARP\"[Title/Abstract] AND \"resistan*\"[Title/Abstract] AND \"expression\"[Title/Abstract]",
+  "translationset": [],
+  "warninglist": {},
+  "errorlist": {},
+  "count": 7,
+  "retmax": 100,
+  "sort": "relevance",
+  "max_date": "",
+  "pmids": [
+    "42446852",
+    "24536047",
+    "39558144",
+    "33425022",
+    "26054341",
+    "39004472",
+    "31850215"
+  ],
+  "feedback_records": [
+    {
+      "pmid": "42446852",
+      "pmcid": "",
+      "doi": "10.1007/s12672-026-05581-1",
+      "title": "Chk1 inhibition emerges as the most effective partner for PARP inhibition in BRCA-proficient pancreatic cancer.",
+      "abstract": "BACKGROUND: PARP inhibitors have shown limited efficacy in pancreatic cancer, partly due to the low prevalence of BRCA mutations, which restricts their clinical use. Because DNA damage checkpoint kinases play critical roles in managing replication stress and DNA damage responses, we investigated whether ATR, Chk1, and WEE1 inhibitors enhance the antitumor activity of olaparib in pancreatic cancer cells, including gemcitabine-resistant clones, and compared these effects with standard chemotherapeutic agents.\nMETHODS: Cell viability was evaluated in pancreatic cancer cell lines treated with olaparib in combination with various agents using an MTT assay. Apoptosis was assessed by annexin V and propidium iodide double staining followed by flow cytometry. The combinatorial effects were further examined using an in vivo mouse xenograft model. In addition, the effects of combination therapy were evaluated in gemcitabine-resistant cell clones (BxG140 and BxG400) overexpressing ribonucleotide reductase M1 (RRM1).\nRESULTS: Co-treatment with olaparib and DNA damage checkpoint inhibitors led to a greater reduction in cell viability than combinations with conventional chemotherapeutics. Notably, olaparib combined with the Chk1 inhibitor prexasertib elicited strong synergistic cytotoxicity in BRCA1/2 wild-type MIA PaCa-2 and BxPC-3 cells, whereas the effect was minimal in BRCA2-deficient Capan-1 cells. Compared with monotherapy, combination therapy markedly enhanced apoptosis and suppressed tumor growth in xenograft models. In gemcitabine-resistant clones, olaparib plus prexasertib downregulated RRM1 expression and restored drug sensitivity through enhanced apoptotic cell death.\nCONCLUSION: Combined PARP and Chk1 inhibition exerts potent antitumor activity both in vitro and in vivo in pancreatic cancer models, including BRCA-proficient tumors.",
+      "journal": "Discover oncology",
+      "year": "2026",
+      "authors": [
+        "Morimoto Yoshihito",
+        "Musha Yohei",
+        "Takeuchi Osamu",
+        "Inano Hiroshi",
+        "Watanabe Kazuhiro",
+        "Hirohara Masayoshi",
+        "Masuda Yutaka"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "24536047",
+      "pmcid": "PMC4353573",
+      "doi": "10.1158/0008-5472.CAN-13-1915",
+      "title": "HuR posttranscriptionally regulates WEE1: implications for the DNA damage response in pancreatic cancer cells.",
+      "abstract": "HuR (ELAV1), an RNA-binding protein abundant in cancer cells, primarily resides in the nucleus, but under specific stress (e.g., gemcitabine), HuR translocates to the cytoplasm in which it tightly modulates the expression of mRNA survival cargo. Here, we demonstrate for the first time that stressing pancreatic ductal adenocarcinoma (PDA) cells by treatment with DNA-damaging anticancer agents (mitomycin C, oxaliplatin, cisplatin, carboplatin, and a PARP inhibitor) results in HuR's translocation from the nucleus to the cytoplasm. Importantly, silencing HuR in PDA cells sensitized the cells to these agents, whereas overexpressing HuR caused resistance. HuR's role in the efficacy of DNA-damaging agents in PDA cells was, in part, attributed to the acute upregulation of WEE1 by HuR. WEE1, a mitotic inhibitor kinase, regulates the DNA damage repair pathway, and therapeutic inhibition of WEE1 in combination with chemotherapy is currently in early phase trials for the treatment of cancer. We validate WEE1 as a HuR target in vitro and in vivo by demonstrating (i) direct binding of HuR to WEE1's mRNA (a discrete 56-bp region residing in the 3' untranslated region) and (ii) HuR siRNA silencing and overexpression directly affects the protein levels of WEE1, especially after DNA damage. HuR's positive regulation of WEE1 increases \u03b3-H2AX levels, induces Cdk1 phosphorylation, and promotes cell-cycle arrest at the G2-M transition. We describe a novel mechanism that PDA cells use to protect against DNA damage in which HuR posttranscriptionally regulates the expression and downstream function of WEE1 upon exposure to DNA-damaging agents.",
+      "journal": "Cancer research",
+      "year": "2014",
+      "authors": [
+        "Lal Shruti",
+        "Burkhart Richard A",
+        "Beeharry Neil",
+        "Bhattacharjee Vikram",
+        "Londin Eric R",
+        "Cozzitorto Joseph A",
+        "Romeo Carmella",
+        "Jimbo Masaya",
+        "Norris Zo\u00eb A",
+        "Yeo Charles J",
+        "Sawicki Janet A",
+        "Winter Jordan M",
+        "Rigoutsos Isidore",
+        "Yen Timothy J",
+        "Brody Jonathan R"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Antineoplastic Agents",
+        "Carcinoma, Pancreatic Ductal",
+        "Cell Cycle Proteins",
+        "DNA Damage",
+        "ELAV Proteins",
+        "Gene Expression Regulation, Neoplastic",
+        "Humans",
+        "Mice",
+        "Nuclear Proteins",
+        "Pancreatic Neoplasms",
+        "Protein Transport",
+        "Protein-Tyrosine Kinases",
+        "RNA Interference",
+        "Tumor Cells, Cultured"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "39558144",
+      "pmcid": "PMC11574300",
+      "doi": "10.1038/s41698-024-00702-x",
+      "title": "Understanding tumour growth variability in breast cancer xenograft models identifies PARP inhibition resistance biomarkers.",
+      "abstract": "Understanding the mechanisms of resistance to PARP inhibitors (PARPi) is a clinical priority, especially in breast cancer. We developed a novel mathematical framework accounting for intrinsic resistance to olaparib, identified by fitting the model to tumour growth metrics from breast cancer patient-derived xenograft (PDX) data. Pre-treatment transcriptomic profiles were used with the calculated resistance to identify baseline biomarkers of resistance, including potential combination targets. The model provided both a classification of responses, as well as a continuous description of resistance, allowing for more robust biomarker associations and capturing the observed variability. Thirty-six resistance gene markers were identified, including multiple homologous recombination repair (HRR) pathway genes. High WEE1 expression was also linked to resistance, highlighting an opportunity for combining PARP and WEE1 inhibitors. This framework facilitates a fully automated way of capturing intrinsic resistance, and accounts for the pharmacological response variability captured within PDX studies and hence provides a precision medicine approach.",
+      "journal": "NPJ precision oncology",
+      "year": "2024",
+      "authors": [
+        "Voulgarelis D",
+        "Forment J V",
+        "Herencia Ropero A",
+        "Polychronopoulos D",
+        "Cohen-Setton J",
+        "Bender A",
+        "Serra V",
+        "O'Connor M J",
+        "Yates J W T",
+        "Bulusu K C"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "33425022",
+      "pmcid": "PMC7758562",
+      "doi": "10.1177/1758835920974201",
+      "title": "XRCC1 deficient triple negative breast cancers are sensitive to ATR, ATM and Wee1 inhibitor either alone or in combination with olaparib.",
+      "abstract": "BACKGROUND: PARP inhibitor (PARPi) monotherapy is a new strategy in BRCA germ-line deficient triple negative breast cancer (TNBC). However, not all patients respond, and the development of resistance limits the use of PARPi monotherapy. Therefore, the development of alternative synthetic lethality strategy, including in sporadic TNBC, is a priority. XRCC1, a key player in base excision repair, single strand break repair, nucleotide excision repair and alternative non-homologous end joining, interacts with PARP1 and coordinates DNA repair. ATR, ATM and Wee1 have essential roles in DNA repair and cell cycle regulation.\nMETHODS: Highly selective inhibitors of ATR (AZD6738), ATM (AZ31) and Wee1 (AZD1775) either alone or in combination with olaparib were tested for synthetic lethality in XRCC1 deficient TNBC or HeLa cells. Clinicopathological significance of ATR, ATM or Wee1 co-expression in XRCC1 proficient or deficient tumours was evaluated in a large cohort of 1650 human breast cancers.\nRESULTS: ATR (AZD6738), ATM (AZ31) or Wee1 (AZD1775) monotherapy was selectively toxic in XRCC1 deficient cells. Selective synergistic toxicity was evident when olaparib was combined with AZD6738, AZ31 or AZD1775. The most potent synergistic interaction was evident with the AZD6738 and olaparib combination therapy. In clinical cohorts, ATR, ATM or Wee1 overexpression in XRCC1 deficient breast cancer was associated with poor outcomes.\nCONCLUSION: XRCC1 stratified DNA repair targeted combinatorial approach is feasible and warrants further clinical evaluation in breast cancer.",
+      "journal": "Therapeutic advances in medical oncology",
+      "year": "2020",
+      "authors": [
+        "Ali Reem",
+        "Alblihy Adel",
+        "Toss Michael S",
+        "Algethami Mashael",
+        "Al Sunni Rabab",
+        "Green Andrew R",
+        "Rakha Emad A",
+        "Madhusudan Srinivasan"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "26054341",
+      "pmcid": "PMC4460948",
+      "doi": "10.1186/s12885-015-1474-8",
+      "title": "Combined inhibition of the cell cycle related proteins Wee1 and Chk1/2 induces synergistic anti-cancer effect in melanoma.",
+      "abstract": "BACKGROUND: Malignant melanoma has an increasing incidence rate and the metastatic disease is notoriously resistant to standard chemotherapy. Loss of cell cycle checkpoints is frequently found in many cancer types and makes the cells reliant on compensatory mechanisms to control progression. This feature may be exploited in therapy, and kinases involved in checkpoint regulation, such as Wee1 and Chk1/2, have thus become attractive therapeutic targets.\nMETHODS: In the present study we combined a Wee1 inhibitor (MK1775) with Chk1/2 inhibitor (AZD7762) in malignant melanoma cell lines grown in vitro (2D and 3D cultures) and in xenografts models.\nRESULTS: Our in vitro studies showed that combined inhibition of Wee1 and Chk1/2 synergistically decreased viability and increased apoptosis (cleavage of caspase 3 and PARP), which may be explained by accumulation of DNA-damage (increased expression of \u03b3-H2A.X)--and premature mitosis of S-phase cells. Compared to either inhibitor used as single agents, combined treatment reduced spheroid growth and led to greater tumour growth inhibition in melanoma xenografts.\nCONCLUSIONS: These data provide a rationale for further evaluation of the combination of Wee1 and Chk1/2 inhibitors in malignant melanoma.",
+      "journal": "BMC cancer",
+      "year": "2015",
+      "authors": [
+        "Magnussen Gry Irene",
+        "Emilsen Elisabeth",
+        "Giller Fleten Karianne",
+        "Enges\u00e6ter Birgit",
+        "N\u00e4hse-Kumpf Viola",
+        "Fj\u00e6r Roar",
+        "Slipicevic Ana",
+        "Fl\u00f8renes Vivi Ann"
+      ],
+      "mesh_terms": [
+        "Animals",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Apoptosis",
+        "Cell Cycle Checkpoints",
+        "Cell Cycle Proteins",
+        "Cell Line, Tumor",
+        "Cell Proliferation",
+        "Checkpoint Kinase 2",
+        "Drug Synergism",
+        "Humans",
+        "Melanoma",
+        "Mice",
+        "Nuclear Proteins",
+        "Protein Kinase Inhibitors",
+        "Protein-Tyrosine Kinases",
+        "Pyrazoles",
+        "Pyrimidines",
+        "Pyrimidinones",
+        "Skin Neoplasms",
+        "Thiophenes",
+        "Urea",
+        "Xenograft Model Antitumor Assays",
+        "Cutaneous Malignant Melanoma"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "39004472",
+      "pmcid": "",
+      "doi": "10.1016/j.tjog.2024.05.006",
+      "title": "Evolving treatment paradigms for platinum-resistant ovarian cancer: An update narrative review.",
+      "abstract": "Platinum-resistant ovarian cancer (PROC) refers to disease progression within 6 months after the completion of platinum-based chemotherapy. Historically, treatment options for PROC were limited with a poor prognosis and non-platinum single agent plus bevacizumab has been the mainstay of treatment. Fortunately, there have been notable advancements in recent years, leading to an advance in treatment paradigms for this challenging disease. Various combinations of chemotherapy, targeted agents such as poly (ADP-ribose) polymerase (PARP) inhibitors, and immunotherapy are being explored for an improved treatment outcome. Antibody-drug conjugates targeting folate receptor alpha, which deliver a cytotoxic payload directly to cancer cells, have emerged as a promising therapeutic approach for PROC. WEE1 inhibitors, such as adavosertib, function by inhibiting the WEE1 kinase activity, leading to premature entry of a cell into mitosis phase and thus increased DNA damage. It has been observed that cancer cells with TP53 mutations may be more sensitive to WEE1 inhibitors. Biomarker testing such as analysis of the expression level of folate receptor alpha or mutation in TP53 may be applicable for identifying patients who are more likely to respond to the specific therapy, enabling a more personalized treatment approach. This overview summarizes key clinical findings on the efficacy and safety of theses novel biomarker-driven therapeutic approaches.",
+      "journal": "Taiwanese journal of obstetrics & gynecology",
+      "year": "2024",
+      "authors": [
+        "Lin Hao",
+        "Wu Chen-Hsuan",
+        "Fu Hung-Chun",
+        "Ou Yu-Che"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Female",
+        "Drug Resistance, Neoplasm",
+        "Ovarian Neoplasms",
+        "Protein-Tyrosine Kinases",
+        "Antineoplastic Agents",
+        "Folate Receptor 1",
+        "Cell Cycle Proteins",
+        "Poly(ADP-ribose) Polymerase Inhibitors",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Immunotherapy",
+        "Immunoconjugates",
+        "Pyrazoles",
+        "Tumor Suppressor Protein p53",
+        "Pyrimidinones"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "31850215",
+      "pmcid": "PMC6896845",
+      "doi": "10.3389/fonc.2019.01327",
+      "title": "Systematic Evaluation of Gastric Tumor Cell Index and Two-Drug Combination Therapy via 3-Dimensional High-Throughput Drug Screening.",
+      "abstract": "Tumor heterogeneity greatly limits personalized treatment of cancer. Patient-derived tumor cell (PDC) models precisely recapitulate the molecular properties and biology of the disease, making them effective preclinical tools for assessing anti-cancer drug activities. Accurate estimation of tumor purity is essential for performing high-throughput drug screening (HTS). In the present study, we measured and predicted the tumor population index in PDC models for two-drug combinational strategies using HTS system. Gastric cancer cell-lines and PDCs were subjected to multi-color immunofluorescence analysis against EpCAM and vimentin to evaluate the tumor cell index based on EpCAM expression levels. We generated a tumor purity prediction model using five different gastric cancer cell-lines (AGS, KATO-III, MKN-45, NCI-N87, SNU-216) with fluorescence intensity-based techniques. Afterwards, stage IV gastric cancer PDC models were evaluated using a micropillar/microwell chip-based HTS system. HER2/CCNE1-amplified PDCs were considerably resistant to an HER2 inhibitor, while combinational treatment consisting of an HER2 inhibitor with anti-WEE1 compound substantially suppressed tumor cellular growth. Moreover, PDCs with BRCA1/2 mutations were synergistically sensitive to HER2 and PARP inhibition therapy. Finally, somatic mutations in TP53 and CDKN2A with MYC amplification rendered PDCs susceptible to the drug combination of WEE1 and HER2. Collectively, our systematic method of high-throughput drug sensitivity screening is an integral pre-clinical platform for evaluating potential two-drug combinational approaches for personalized treatment of cancer.",
+      "journal": "Frontiers in oncology",
+      "year": "2019",
+      "authors": [
+        "Lim Sung Hee",
+        "Sa Jason K",
+        "Lee Dong Woo",
+        "Kim Jusun",
+        "Kim Seung Tae",
+        "Park Se Hoon",
+        "Ku Bosung",
+        "Park Joon Oh",
+        "Park Young Suk",
+        "Lim Hoyeong",
+        "Kang Won Ki",
+        "Nam Do-Hyun",
+        "Lee Jeeyun"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    }
+  ],
+  "feedback_error": "",
+  "executed_at": "2026-09-15T14:04:33+00:00"
+}

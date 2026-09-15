@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "\"colorectal cancer\"[Title/Abstract] AND \"conversion therapy\"[Title/Abstract] AND (\"liver metastasis\"[Title/Abstract] OR \"liver metastases\"[Title/Abstract]) AND systemic[Title/Abstract]",
+  "reasoning": "q1前10篇多为预测模型、影像、预后及手术研究；增加题目已有systemic以聚焦全身治疗。",
+  "added_terms": [
+    {
+      "term": "liver metastases",
+      "source_term": "liver metastasis",
+      "reason": "复数形式。"
+    }
+  ]
+}

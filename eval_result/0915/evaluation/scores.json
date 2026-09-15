@@ -1,0 +1,655 @@
+{
+  "validation": "passed: sealed hashes, 16 questions, raw search rankings, accepted attempts",
+  "metadata": {
+    "skill": "pubmed-database",
+    "skill_root": "C:/Users/CGOMI/.codex/skills/pubmed_database",
+    "model": "GPT-6 (Codex; exact runtime identifier unavailable)",
+    "started_at": "2026-09-15T21:29:51.5223214+08:00",
+    "finished_at": "2026-09-15T21:38:35.397811+08:00",
+    "retmax": 100,
+    "sort": "relevance",
+    "max_date": "",
+    "feedback_records": 10,
+    "environment_notes": "User authorized system Python and continuation without optional NCBI_API_KEY/USER_EMAIL, overriding credential stop prerequisite. Python 3.12.1; polite-http 0.1.3 installed in workspace .runtime/python-deps; python-dotenv available. All PubMed requests use the unmodified installed wrapper; no uv. Optional credentials removed from subprocess environment; dotenv disabled. No date cutoff. Earlier preflight blocking is documented in observations.md. First attempt had a GBK console display failure after both API responses were saved successfully; display switched to UTF-8 and original feedback reread without API rerun. Some wrapper-returned titles are blank or truncated and some abstracts are null; original responses retained unchanged. No surfaced network/rate-limit failures.",
+    "retrieval_started_at": "2026-09-15T21:33:20.218731+08:00",
+    "search_attempts": 20,
+    "abstract_records_fetched": 183
+  },
+  "summary": {
+    "science": {
+      "hit@10": 0.875,
+      "precision@10": 0.2015625,
+      "recall@10": 0.4707589285714286,
+      "recall@20": 0.49714781746031744,
+      "f1@10": 0.2406277073459736,
+      "map@10": 0.308343962585034,
+      "hit@20": 0.9375,
+      "recall@100": 0.6079055059523809,
+      "hit@100": 1.0
+    },
+    "medlit_0904": {
+      "hit@10": 0.625,
+      "precision@10": 0.175,
+      "recall@10": 0.3094246031746032,
+      "recall@20": 0.39379340277777775,
+      "f1@10": 0.19550420339894023,
+      "map@10": 0.25028521825396827,
+      "hit@20": 0.8125,
+      "recall@100": 0.46122271825396827,
+      "hit@100": 0.875
+    }
+  },
+  "paired_ap10": {
+    "wins": 6,
+    "ties": 6,
+    "losses": 4
+  },
+  "by_type": {
+    "factoid": {
+      "hit@10": 1.0,
+      "precision@10": 0.125,
+      "recall@10": 0.43273809523809526,
+      "recall@20": 0.43273809523809526,
+      "f1@10": 0.1466466282255756,
+      "map@10": 0.3724702380952381,
+      "hit@20": 1.0,
+      "recall@100": 0.5589285714285714,
+      "hit@100": 1.0
+    },
+    "list": {
+      "hit@10": 0.75,
+      "precision@10": 0.1375,
+      "recall@10": 0.38571428571428573,
+      "recall@20": 0.4857142857142857,
+      "f1@10": 0.19607843137254902,
+      "map@10": 0.2967687074829932,
+      "hit@20": 0.75,
+      "recall@100": 0.5435267857142857,
+      "hit@100": 1.0
+    },
+    "summary": {
+      "hit@10": 0.75,
+      "precision@10": 0.36875,
+      "recall@10": 0.5055555555555555,
+      "recall@20": 0.5111111111111111,
+      "f1@10": 0.39545454545454545,
+      "map@10": 0.34791666666666665,
+      "hit@20": 1.0,
+      "recall@100": 0.5444444444444444,
+      "hit@100": 1.0
+    },
+    "yesno": {
+      "hit@10": 1.0,
+      "precision@10": 0.175,
+      "recall@10": 0.5590277777777778,
+      "recall@20": 0.5590277777777778,
+      "f1@10": 0.22433122433122432,
+      "map@10": 0.21622023809523808,
+      "hit@20": 1.0,
+      "recall@100": 0.7847222222222222,
+      "hit@100": 1.0
+    }
+  },
+  "questions": [
+    {
+      "test_id": "factoid_01",
+      "type": "factoid",
+      "question_match": "exact",
+      "gold_count": 1,
+      "candidate_count": 18,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 0.18181818181818182,
+        "map@10": 1.0,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.2,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 0.33333333333333337,
+        "map@10": 1.0,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 1
+      }
+    },
+    {
+      "test_id": "factoid_02",
+      "type": "factoid",
+      "question_match": "exact",
+      "gold_count": 3,
+      "candidate_count": 100,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.2,
+        "recall@10": 0.6666666666666666,
+        "recall@20": 0.6666666666666666,
+        "f1@10": 0.30769230769230765,
+        "map@10": 0.4666666666666666,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.2,
+        "recall@10": 0.6666666666666666,
+        "recall@20": 0.6666666666666666,
+        "f1@10": 0.30769230769230765,
+        "map@10": 0.4666666666666666,
+        "hit@20": 1,
+        "recall@100": 0.6666666666666666,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 2,
+        "20": 2,
+        "100": 3
+      }
+    },
+    {
+      "test_id": "factoid_03",
+      "type": "factoid",
+      "question_match": "exact",
+      "gold_count": 35,
+      "candidate_count": 100,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 0.02857142857142857,
+        "recall@20": 0.02857142857142857,
+        "f1@10": 0.04444444444444444,
+        "map@10": 0.014285714285714285,
+        "hit@20": 1,
+        "recall@100": 0.05714285714285714,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 0.0,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 0,
+        "recall@100": 0.08571428571428572,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 2
+      }
+    },
+    {
+      "test_id": "factoid_04",
+      "type": "factoid",
+      "question_match": "exact",
+      "gold_count": 28,
+      "candidate_count": 100,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 0.03571428571428571,
+        "recall@20": 0.03571428571428571,
+        "f1@10": 0.05263157894736841,
+        "map@10": 0.008928571428571428,
+        "hit@20": 1,
+        "recall@100": 0.17857142857142858,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 0.03571428571428571,
+        "recall@20": 0.10714285714285714,
+        "f1@10": 0.05263157894736841,
+        "map@10": 0.011904761904761904,
+        "hit@20": 1,
+        "recall@100": 0.2857142857142857,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 5
+      }
+    },
+    {
+      "test_id": "list_01",
+      "type": "list",
+      "question_match": "normalized",
+      "gold_count": 1,
+      "candidate_count": 4,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.25,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 0.4,
+        "map@10": 1.0,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.3333333333333333,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 0.5,
+        "map@10": 1.0,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 1
+      }
+    },
+    {
+      "test_id": "list_02",
+      "type": "list",
+      "question_match": "normalized",
+      "gold_count": 5,
+      "candidate_count": 82,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.2,
+        "recall@10": 0.4,
+        "recall@20": 0.8,
+        "f1@10": 0.26666666666666666,
+        "map@10": 0.16666666666666666,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 0.0,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 0,
+        "recall@100": 0.0,
+        "hit@100": 0
+      },
+      "hits": {
+        "10": 2,
+        "20": 4,
+        "100": 5
+      }
+    },
+    {
+      "test_id": "list_03",
+      "type": "list",
+      "question_match": "normalized",
+      "gold_count": 7,
+      "candidate_count": 30,
+      "attempt_count": 2,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 0.14285714285714285,
+        "recall@20": 0.14285714285714285,
+        "f1@10": 0.11764705882352941,
+        "map@10": 0.02040816326530612,
+        "hit@20": 1,
+        "recall@100": 0.14285714285714285,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.16666666666666666,
+        "recall@10": 0.14285714285714285,
+        "recall@20": 0.14285714285714285,
+        "f1@10": 0.15384615384615383,
+        "map@10": 0.03571428571428571,
+        "hit@20": 1,
+        "recall@100": 0.14285714285714285,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 1
+      }
+    },
+    {
+      "test_id": "list_04",
+      "type": "list",
+      "question_match": "fuzzy-audited",
+      "gold_count": 32,
+      "candidate_count": 100,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 0.0,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 0,
+        "recall@100": 0.03125,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 0.03125,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 1,
+        "recall@100": 0.0625,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 0,
+        "20": 0,
+        "100": 1
+      }
+    },
+    {
+      "test_id": "summary_01",
+      "type": "summary",
+      "question_match": "normalized",
+      "gold_count": 1,
+      "candidate_count": 1,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 1.0,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 1.0,
+        "map@10": 1.0,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 1.0,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 1.0,
+        "map@10": 1.0,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 1
+      }
+    },
+    {
+      "test_id": "summary_02",
+      "type": "summary",
+      "question_match": "exact",
+      "gold_count": 3,
+      "candidate_count": 8,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.375,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 0.5454545454545454,
+        "map@10": 0.36944444444444446,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 0.0,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 0,
+        "recall@100": 0.0,
+        "hit@100": 0
+      },
+      "hits": {
+        "10": 3,
+        "20": 3,
+        "100": 3
+      }
+    },
+    {
+      "test_id": "summary_03",
+      "type": "summary",
+      "question_match": "exact",
+      "gold_count": 45,
+      "candidate_count": 100,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 0.022222222222222223,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 1,
+        "recall@100": 0.1111111111111111,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 0.022222222222222223,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 1,
+        "recall@100": 0.17777777777777778,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 0,
+        "20": 1,
+        "100": 5
+      }
+    },
+    {
+      "test_id": "summary_04",
+      "type": "summary",
+      "question_match": "exact",
+      "gold_count": 45,
+      "candidate_count": 100,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 0.022222222222222223,
+        "recall@20": 0.022222222222222223,
+        "f1@10": 0.03636363636363636,
+        "map@10": 0.022222222222222223,
+        "hit@20": 1,
+        "recall@100": 0.06666666666666667,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 0.022222222222222223,
+        "recall@20": 0.06666666666666667,
+        "f1@10": 0.03636363636363636,
+        "map@10": 0.002777777777777778,
+        "hit@20": 1,
+        "recall@100": 0.1111111111111111,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 3
+      }
+    },
+    {
+      "test_id": "yesno_01",
+      "type": "yesno",
+      "question_match": "exact",
+      "gold_count": 1,
+      "candidate_count": 14,
+      "attempt_count": 2,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 0.18181818181818182,
+        "map@10": 0.3333333333333333,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 0,
+        "precision@10": 0.0,
+        "recall@10": 0.0,
+        "recall@20": 1.0,
+        "f1@10": 0.0,
+        "map@10": 0.0,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 1
+      }
+    },
+    {
+      "test_id": "yesno_02",
+      "type": "yesno",
+      "question_match": "fuzzy-audited",
+      "gold_count": 3,
+      "candidate_count": 11,
+      "attempt_count": 2,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.3,
+        "recall@10": 1.0,
+        "recall@20": 1.0,
+        "f1@10": 0.4615384615384615,
+        "map@10": 0.49999999999999994,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.2,
+        "recall@10": 0.6666666666666666,
+        "recall@20": 0.6666666666666666,
+        "f1@10": 0.30769230769230765,
+        "map@10": 0.38888888888888884,
+        "hit@20": 1,
+        "recall@100": 1.0,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 3,
+        "20": 3,
+        "100": 3
+      }
+    },
+    {
+      "test_id": "yesno_03",
+      "type": "yesno",
+      "question_match": "normalized",
+      "gold_count": 8,
+      "candidate_count": 100,
+      "attempt_count": 2,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.1,
+        "recall@10": 0.125,
+        "recall@20": 0.125,
+        "f1@10": 0.11111111111111112,
+        "map@10": 0.0125,
+        "hit@20": 1,
+        "recall@100": 0.75,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.2,
+        "recall@10": 0.25,
+        "recall@20": 0.375,
+        "f1@10": 0.22222222222222224,
+        "map@10": 0.04583333333333334,
+        "hit@20": 1,
+        "recall@100": 0.625,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 1,
+        "20": 1,
+        "100": 6
+      }
+    },
+    {
+      "test_id": "yesno_04",
+      "type": "yesno",
+      "question_match": "fuzzy-audited",
+      "gold_count": 18,
+      "candidate_count": 100,
+      "attempt_count": 1,
+      "science": {
+        "hit@10": 1,
+        "precision@10": 0.2,
+        "recall@10": 0.1111111111111111,
+        "recall@20": 0.1111111111111111,
+        "f1@10": 0.14285714285714285,
+        "map@10": 0.01904761904761905,
+        "hit@20": 1,
+        "recall@100": 0.3888888888888889,
+        "hit@100": 1
+      },
+      "medlit_0904": {
+        "hit@10": 1,
+        "precision@10": 0.3,
+        "recall@10": 0.16666666666666666,
+        "recall@20": 0.2222222222222222,
+        "f1@10": 0.21428571428571427,
+        "map@10": 0.05277777777777778,
+        "hit@20": 1,
+        "recall@100": 0.2222222222222222,
+        "hit@100": 1
+      },
+      "hits": {
+        "10": 2,
+        "20": 2,
+        "100": 7
+      }
+    }
+  ]
+}

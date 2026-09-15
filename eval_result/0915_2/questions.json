@@ -1,0 +1,86 @@
+{
+  "name": "medlit_astra_blind_same16",
+  "description": "Same 16 natural-language questions; no reference answers or relevance labels.",
+  "questions": [
+    {
+      "test_id": "factoid_01",
+      "type": "factoid",
+      "question": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?"
+    },
+    {
+      "test_id": "factoid_02",
+      "type": "factoid",
+      "question": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?"
+    },
+    {
+      "test_id": "factoid_03",
+      "type": "factoid",
+      "question": "Vector of zika virus."
+    },
+    {
+      "test_id": "factoid_04",
+      "type": "factoid",
+      "question": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?"
+    },
+    {
+      "test_id": "list_01",
+      "type": "list",
+      "question": "What is caused by biallelic CRELD1 variants?"
+    },
+    {
+      "test_id": "list_02",
+      "type": "list",
+      "question": "What are the targets of ivonescimab?"
+    },
+    {
+      "test_id": "list_03",
+      "type": "list",
+      "question": "Please list the short half life phosphodiesterase 5 inhibitors."
+    },
+    {
+      "test_id": "list_04",
+      "type": "list",
+      "question": "Please list major complications of Clostridium difficile infection."
+    },
+    {
+      "test_id": "summary_01",
+      "type": "summary",
+      "question": "Describe RankMHC."
+    },
+    {
+      "test_id": "summary_02",
+      "type": "summary",
+      "question": "What is the clinical significance of the Eiffel-by-Night Sign?"
+    },
+    {
+      "test_id": "summary_03",
+      "type": "summary",
+      "question": "Pathophysiology of irritable bowel syndrome (IBS)."
+    },
+    {
+      "test_id": "summary_04",
+      "type": "summary",
+      "question": "What is the role of the receptor tyrosine kinase AXL in malignancy?"
+    },
+    {
+      "test_id": "yesno_01",
+      "type": "yesno",
+      "question": "Is high WEE1 expression linked to PARP inhibition resistance?"
+    },
+    {
+      "test_id": "yesno_02",
+      "type": "yesno",
+      "question": "Is mucopolysaccharidosis-plus syndrome (MPSPS) an X-linked disease?"
+    },
+    {
+      "test_id": "yesno_03",
+      "type": "yesno",
+      "question": "Are respiratory measurements correlated with disease severity in Duchenne muscular dystrophy?"
+    },
+    {
+      "test_id": "yesno_04",
+      "type": "yesno",
+      "question": "Does the consensus molecular subtype (CMS) classification for colorectal cancer have any use in routine clinical practice?"
+    }
+  ]
+}

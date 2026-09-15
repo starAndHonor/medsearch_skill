@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"Eiffel-by-Night\"[Title/Abstract]",
+  "pmids": 6,
+  "next": "fetch-records"
+}

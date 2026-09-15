@@ -1,0 +1,5 @@
+usage: medlit-cli recover-feedback [-h] --attempt-id ATTEMPT_ID
+
+options:
+  -h, --help            show this help message and exit
+  --attempt-id ATTEMPT_ID

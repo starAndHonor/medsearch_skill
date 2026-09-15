@@ -1,0 +1,2 @@
+[..] searching PubMed with q4
+[OK] 98 total hits; 98 PMIDs returned

@@ -1,0 +1,795 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-15T14:39:32.451127+00:00",
+  "expected_tests": 16,
+  "actual_tests": 16,
+  "all_test_ids_match": true,
+  "unfinished_test_ids": [],
+  "query_attempt_count": 23,
+  "feedback_recovery_count": 3,
+  "issues": [],
+  "warnings": [
+    {
+      "test_id": "factoid_01",
+      "attempt_id": "q1",
+      "kind": "returned_without_abstract",
+      "pmids": [
+        "37650884"
+      ],
+      "accepted": true
+    },
+    {
+      "test_id": "factoid_04",
+      "attempt_id": "q1",
+      "kind": "returned_without_abstract",
+      "pmids": [
+        "34629317"
+      ],
+      "accepted": false
+    },
+    {
+      "test_id": "list_03",
+      "attempt_id": "q1",
+      "kind": "missing_feedback",
+      "pmids": [
+        "20641200"
+      ],
+      "recovery_count": 1,
+      "accepted": false
+    },
+    {
+      "test_id": "list_03",
+      "attempt_id": "q2",
+      "kind": "missing_feedback",
+      "pmids": [
+        "20641200"
+      ],
+      "recovery_count": 1,
+      "accepted": true
+    },
+    {
+      "test_id": "list_04",
+      "attempt_id": "q1",
+      "kind": "missing_feedback",
+      "pmids": [
+        "29262007"
+      ],
+      "recovery_count": 1,
+      "accepted": false
+    },
+    {
+      "test_id": "summary_02",
+      "attempt_id": "q1",
+      "kind": "returned_without_abstract",
+      "pmids": [
+        "39555834",
+        "38519435"
+      ],
+      "accepted": true
+    },
+    {
+      "test_id": "yesno_01",
+      "attempt_id": "q1",
+      "kind": "returned_without_abstract",
+      "pmids": [
+        "38318945"
+      ],
+      "accepted": false
+    }
+  ],
+  "tests": [
+    {
+      "test_id": "factoid_01",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/factoid_01/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_01/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_01/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "factoid_02",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/factoid_02/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_02/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_02/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "factoid_03",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/factoid_03/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_03/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_03/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "factoid_04",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "q2_query_matches_file": true,
+        "q2_parameters": true,
+        "q2_original_esearch_order": true,
+        "q2_top10_requested": true,
+        "q2_at_most_one_recovery": true,
+        "q2_log_stdout.txt": true,
+        "q2_log_stderr.txt": true,
+        "q2_log_command.json": true,
+        "q3_query_matches_file": true,
+        "q3_parameters": true,
+        "q3_original_esearch_order": true,
+        "q3_top10_requested": true,
+        "q3_at_most_one_recovery": true,
+        "q3_log_stdout.txt": true,
+        "q3_log_stderr.txt": true,
+        "q3_log_command.json": true,
+        "q4_query_matches_file": true,
+        "q4_parameters": true,
+        "q4_original_esearch_order": true,
+        "q4_top10_requested": true,
+        "q4_at_most_one_recovery": true,
+        "q4_log_stdout.txt": true,
+        "q4_log_stderr.txt": true,
+        "q4_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/factoid_04/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_04/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/factoid_04/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "list_01",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/list_01/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_01/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_01/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "list_02",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/list_02/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_02/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_02/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "list_03",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "q2_query_matches_file": true,
+        "q2_parameters": true,
+        "q2_original_esearch_order": true,
+        "q2_top10_requested": true,
+        "q2_at_most_one_recovery": true,
+        "q2_log_stdout.txt": true,
+        "q2_log_stderr.txt": true,
+        "q2_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/list_03/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_03/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_03/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "list_04",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "q2_query_matches_file": true,
+        "q2_parameters": true,
+        "q2_original_esearch_order": true,
+        "q2_top10_requested": true,
+        "q2_at_most_one_recovery": true,
+        "q2_log_stdout.txt": true,
+        "q2_log_stderr.txt": true,
+        "q2_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/list_04/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_04/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/list_04/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "summary_01",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/summary_01/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_01/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_01/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "summary_02",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/summary_02/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_02/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_02/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "summary_03",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/summary_03/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_03/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_03/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "summary_04",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/summary_04/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_04/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/summary_04/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "yesno_01",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "q2_query_matches_file": true,
+        "q2_parameters": true,
+        "q2_original_esearch_order": true,
+        "q2_top10_requested": true,
+        "q2_at_most_one_recovery": true,
+        "q2_log_stdout.txt": true,
+        "q2_log_stderr.txt": true,
+        "q2_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/yesno_01/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_01/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_01/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "yesno_02",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "q2_query_matches_file": true,
+        "q2_parameters": true,
+        "q2_original_esearch_order": true,
+        "q2_top10_requested": true,
+        "q2_at_most_one_recovery": true,
+        "q2_log_stdout.txt": true,
+        "q2_log_stderr.txt": true,
+        "q2_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/yesno_02/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_02/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_02/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "yesno_03",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/yesno_03/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_03/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_03/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "test_id": "yesno_04",
+      "checks": {
+        "question_matches": true,
+        "retrieval_mode": true,
+        "accepted_attempt_matches": true,
+        "final_query_matches": true,
+        "original_ranking_matches": true,
+        "all_attempts_preserved": true,
+        "no_fulltext_or_evidence": true,
+        "empty_compatibility_fields": true,
+        "search_counter_matches": true,
+        "q1_query_matches_file": true,
+        "q1_parameters": true,
+        "q1_original_esearch_order": true,
+        "q1_top10_requested": true,
+        "q1_at_most_one_recovery": true,
+        "q1_log_stdout.txt": true,
+        "q1_log_stderr.txt": true,
+        "q1_log_command.json": true,
+        "hash_result.json": true,
+        "hash_state_snapshot.json": true,
+        "hash_integrity_check.json": true,
+        "plugin_integrity_passed": true
+      },
+      "export_hashes": [
+        {
+          "path": "runs/exports/yesno_04/result.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_04/state_snapshot.json",
+          "passed": true
+        },
+        {
+          "path": "runs/exports/yesno_04/integrity_check.json",
+          "passed": true
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "note": "Integrity pass verifies artifacts and ranking preservation, not clinical relevance or complete feedback availability. Live state export markers may differ from snapshot."
+}

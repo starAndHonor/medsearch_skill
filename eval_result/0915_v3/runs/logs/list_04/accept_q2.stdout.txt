@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "(\"Clostridium difficile\"[Title] OR \"Clostridioides difficile\"[Title]) AND complication*[Title/Abstract]",
+  "pmids": 100,
+  "next": "fetch-records"
+}

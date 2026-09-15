@@ -1,0 +1,6 @@
+{
+  "test_id": "list_02",
+  "accepted_attempt_id": "q1",
+  "reason": "药物开发概述、机制研究及试验反馈中直接描述靶点；独特药名已足够，未添加猜测靶点。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

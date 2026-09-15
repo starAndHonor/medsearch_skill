@@ -163,6 +163,7 @@ class StateOps:
         state["diagnostics"] = {}
         state["report_path"] = ""
         state.pop("verification", None)
+        state.pop("retrieval_export", None)
         state["status"] = "running"
         counters = state.setdefault("counters", {})
         counters["fulltext_attempts"] = 0

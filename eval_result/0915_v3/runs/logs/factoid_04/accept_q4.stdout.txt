@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q4",
+  "exact_query": "colorectal[Title/Abstract] AND liver[Title/Abstract] AND \"potentially resectable\"[Title/Abstract] AND (treatment[Title/Abstract] OR therapy[Title/Abstract])",
+  "pmids": 98,
+  "next": "fetch-records"
+}

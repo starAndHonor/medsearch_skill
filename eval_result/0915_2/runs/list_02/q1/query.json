@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "ivonescimab[Title/Abstract]",
+  "reasoning": "药物名称具有区分度；靶点可能在摘要以其他词表达，因此不强制targets。",
+  "added_terms": []
+}

@@ -1,0 +1,317 @@
+{
+  "schema_version": "medlit-state/v0.2",
+  "question": "What is the clinical significance of the Eiffel-by-Night Sign?",
+  "created_at": "2026-09-15T14:34:11+00:00",
+  "updated_at": "2026-09-15T14:38:19+00:00",
+  "status": "running",
+  "query_attempts": [
+    {
+      "attempt_id": "q1",
+      "exact_query": "\"Eiffel-by-Night\"[Title/Abstract]",
+      "reasoning": "Use the question's distinctive entities and relationship; omit question scaffolding and avoid guessing the answer. Wildcards cover lexical endings.",
+      "added_terms": [],
+      "lint_warnings": [],
+      "effective_query": "\"Eiffel-by-Night\"[Title/Abstract]",
+      "query_translation": "\"Eiffel-by-Night\"[Title/Abstract]",
+      "translationset": [],
+      "warninglist": {},
+      "errorlist": {},
+      "count": 6,
+      "retmax": 100,
+      "sort": "relevance",
+      "max_date": "",
+      "pmids": [
+        "39555834",
+        "41455465",
+        "38519435",
+        "24299643",
+        "25703277",
+        "38759113"
+      ],
+      "feedback_records": [
+        {
+          "pmid": "39555834",
+          "pmcid": "",
+          "doi": "10.1056/NEJMicm2408573",
+          "title": "Eiffel-by-Night Sign.",
+          "abstract": "",
+          "journal": "The New England journal of medicine",
+          "year": "2024",
+          "authors": [
+            "Guo Kundian",
+            "Hong Zhen"
+          ],
+          "mesh_terms": [],
+          "publication_types": [
+            "Case Reports",
+            "Journal Article"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-15"
+        },
+        {
+          "pmid": "41455465",
+          "pmcid": "",
+          "doi": "10.1016/j.clineuro.2025.109291",
+          "title": "\"Eiffel-by-night\" sign in hypertrophic pachymeningitis: Clinical and radiological correlates.",
+          "abstract": "OBJECTIVE: To evaluate the clinical significance of the \"Eiffel-by-night\" (EBN) sign in hypertrophic pachymeningitis, focusing on its frequency, etiological associations, and prognostic value for recurrence, which improves diagnostic workflows, facilitating earlier, targeted therapeutic interventions.\nMETHODS: We conducted a retrospective observational study at the Autoimmune Meningitis Outpatient Clinic at Hospital das Clínicas, Universidade de São Paulo (Brazil), from January 2024 to April 2025, including patients with HP confirmed by MRI dural thickening and enhancement, excluding infectious and neoplastic cases. Clinical, cerebrospinal fluid (CSF), and imaging data were obtained from medical records. Two independent raters assessed the presence of the EBN sign on post-contrast T1-weighted on baseline and follow-up MRIs, comparing EBN+ and EBN- groups.\nRESULTS: Forty-five patients fulfilled eligibility criteria; 8 (17.7 %) of whom were EBN+, mostly middle-aged women. EBN sign was more common in idiopathic HP (62.5 %), and less so in IgG4-related disease, neurosarcoidosis, and ANCA-associated vasculitis. Clinical and CSF profiles were similar between groups, except for two male EBN+ patients, with marked pleocytosis. Most EBN+ patients (75 %) had a relapsing disease course. The sign persisted in 86 % of cases on the last follow-up.\nCONCLUSION: The EBN sign occurred in fewer than one-fifth of HP cases, primarily in idiopathic disease. Despite no clear clinical or CSF distinctions, its persistence correlated with frequent relapse.",
+          "journal": "Clinical neurology and neurosurgery",
+          "year": "2026",
+          "authors": [
+            "Brescovit Daniela Ohlweiler",
+            "Lucato Leandro Tavares",
+            "Castro Luiz Henrique Martins",
+            "Marie Suely Kazue Nagahashi",
+            "Silva Guilherme Diogo"
+          ],
+          "mesh_terms": [
+            "Humans",
+            "Female",
+            "Male",
+            "Meningitis",
+            "Middle Aged",
+            "Retrospective Studies",
+            "Adult",
+            "Magnetic Resonance Imaging",
+            "Hypertrophy",
+            "Aged",
+            "Autoimmune Diseases"
+          ],
+          "publication_types": [
+            "Journal Article",
+            "Observational Study"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-15"
+        },
+        {
+          "pmid": "38519435",
+          "pmcid": "",
+          "doi": "10.1111/1756-185X.15133",
+          "title": "The Eiffel-by-night sign in granulomatosis with polyangiitis-associated hypertrophic pachymeningitis.",
+          "abstract": "",
+          "journal": "International journal of rheumatic diseases",
+          "year": "2024",
+          "authors": [
+            "Martín-Nares Eduardo",
+            "Hinojosa-Azaola Andrea"
+          ],
+          "mesh_terms": [
+            "Humans",
+            "Granulomatosis with Polyangiitis",
+            "Meningitis",
+            "Hypertrophy",
+            "Antibodies, Antineutrophil Cytoplasmic"
+          ],
+          "publication_types": [
+            "Case Reports",
+            "Journal Article"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-15"
+        },
+        {
+          "pmid": "24299643",
+          "pmcid": "",
+          "doi": "10.1177/197140090702000211",
+          "title": "'Eiffel-by-Night': A New MR Sign Demonstrating Reactivation in Idiopathic Hypertrophic Pachymeningitis.",
+          "abstract": "A forty- seven-year-old man presented with chronic headache with lower cranial nerve palsies of ten year duration with recent aggravation of symptoms. MRI revealed hypointensity - predominantly of the posterior falx cerebri and the tentorium cerebelli - on all sequences with intense peripheral contrast enhancement on CE SE T1, which on coronal images mimicked the illuminated Eiffel tower by night.",
+          "journal": "The neuroradiology journal",
+          "year": "2007",
+          "authors": [
+            "Thomas B",
+            "Thamburaj K",
+            "Kesavadas C"
+          ],
+          "mesh_terms": [],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-15"
+        },
+        {
+          "pmid": "25703277",
+          "pmcid": "",
+          "doi": "10.1016/j.jns.2015.02.013",
+          "title": "Clinico-radiological spectrum and outcome in idiopathic hypertrophic pachymeningitis.",
+          "abstract": "OBJECTIVE: To elucidate the clinico-radiological features, treatment response and outcome of a large cohort of patients (n=20) with idiopathic hypertrophic pachymeningitis (IHP) and to examine if any of these features could differentiate between IHP and secondary causes of hypertrophic pachymeningitis (SHP).\nMETHODS: 20 patients with IHP diagnosed between 1998 and 2009 formed the study cohort. We adopted a validated clinical score to quantitatively assess and document their neurological disability and to compare their pre- and post-treatment outcomes. Appropriate statistical analysis was done to look for any clinical and/or radiological features to differentiate IHP from SHP.\nRESULTS: Out of the twenty eight consecutive patients with pachymeningitis, 20 were having IHP and 8 were having SHP (Tuberculosis-5, Sarcoidosis-2, Wegener's granulomatosis-1). In IHP, headache and visual symptoms dominated the clinical symptomatology (80% and 75%). In MRI, the peripheral pattern of contrast enhancement was more common with IHP (p=0.03). The posterior falx and tentorium showing a hypointense center (\"fibrosis\") and enhancing periphery (\"active inflammation\") together mimicking \"Eiffel-by-night\" sign was found to be more commonly associated with IHP (60% vs 12.5%, p=0.03). Biopsy was done in 9 patients. At a mean follow-up of 51 months (range 24-144 months), the mean pretreatment clinical score improved from 6.55 to 1.80 in 20 patients with IHP (p<0.001).\nCONCLUSIONS: Our data on the largest cohort of patients with IHP would shed light into its clinico-radiological spectrum, treatment and outcome. The prognosis is satisfactory if managed appropriately. We have highlighted the role of MRI in differentiating between IHP and other causes of SHP.",
+          "journal": "Journal of the neurological sciences",
+          "year": "2015",
+          "authors": [
+            "Dash Gopal Krishna",
+            "Thomas Bejoy",
+            "Nair Muralidharan",
+            "Radhakrishnan Ashalatha"
+          ],
+          "mesh_terms": [
+            "Adult",
+            "Aged",
+            "Aged, 80 and over",
+            "Cohort Studies",
+            "Female",
+            "Follow-Up Studies",
+            "Humans",
+            "Hypertrophy",
+            "Male",
+            "Meningitis",
+            "Middle Aged",
+            "Radiography",
+            "Treatment Outcome"
+          ],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-15"
+        },
+        {
+          "pmid": "38759113",
+          "pmcid": "",
+          "doi": "10.1093/rheumatology/keae293",
+          "title": "Distinct features of ANCA-associated hypertrophic pachymeningitis compared with other etiologies: findings from a study of 74 patients.",
+          "abstract": "OBJECTIVES: We aimed to characterize the clinical and radiological features, and outcomes, of a large cohort of hypertrophic pachymeningitis (HP) patients from a single centre.\nMETHODS: We conducted a retrospective study at a tertiary referral centre, encompassing patients diagnosed with HP between 2003 and 2022. The diagnosis of HP relied on the identification of thickening of the dura mater via MRI of the brain or spine.\nRESULTS: We included 74 patients, with a mean age of 43.6 ± 14.2 years, of whom 37 (50%) were male. Among the 74, 32 (43.2%) had an immune-mediated origin, including 21 with granulomatosis with polyangiitis (GPA) (predominantly PR3-ANCA positive), four with SLE, three with IgG4-related disease, three with idiopathic HP, and one with RA. Non-immune-mediated HP accounted for 45 cases (56.8%). Within this category, 21 (28.4%) were infectious cases, with 14 having Mycobacterium tuberculosis infection (TB-HP), and 21 (28.4%) having malignancy-associated HP. The clinical and MRI characteristics exhibited variations among the four etiological groups. Hypoglycorrhachia was primarily observed in infectious HP and malignancy-associated HP. Immune-mediated HP was associated with a peripheral pattern of contrast enhancement and the Eiffel-by-night sign. MRI features strongly indicative of TB-HP included leptomeningeal involvement, brain parenchymal lesions, and arterial stroke. MPO-ANCA GPA was associated with a higher prevalence of spinal HP.\nCONCLUSIOS: Within our cohort, GPA and Mycobacterium tuberculosis emerged as the predominant causes of HP. We identified significant disparities in clinical and radiological features among the various etiologies, which could have implications for diagnosis.",
+          "journal": "Rheumatology (Oxford, England)",
+          "year": "2025",
+          "authors": [
+            "Martín-Nares Eduardo",
+            "Romero-Sánchez Griselda",
+            "Cortez-Domínguez Edwin Ulises",
+            "Cano-Cruz Lilian Guadalupe",
+            "Hinojosa-Azaola Andrea"
+          ],
+          "mesh_terms": [
+            "Humans",
+            "Male",
+            "Female",
+            "Meningitis",
+            "Retrospective Studies",
+            "Adult",
+            "Middle Aged",
+            "Magnetic Resonance Imaging",
+            "Antibodies, Antineutrophil Cytoplasmic",
+            "Hypertrophy",
+            "Granulomatosis with Polyangiitis",
+            "Dura Mater",
+            "Aged"
+          ],
+          "publication_types": [
+            "Journal Article"
+          ],
+          "trial_ids": [],
+          "source": "pubmed",
+          "verified": true,
+          "verified_by": "pubmed",
+          "verified_on": "2026-09-15"
+        }
+      ],
+      "feedback_error": "",
+      "executed_at": "2026-09-15T14:34:14+00:00",
+      "started_at": "2026-09-15T14:34:11+00:00",
+      "finished_at": "2026-09-15T14:34:14+00:00",
+      "elapsed_seconds": 3.125,
+      "status": "success",
+      "feedback_coverage": {
+        "requested_pmids": [
+          "39555834",
+          "41455465",
+          "38519435",
+          "24299643",
+          "25703277",
+          "38759113"
+        ],
+        "returned_pmids": [
+          "39555834",
+          "41455465",
+          "38519435",
+          "24299643",
+          "25703277",
+          "38759113"
+        ],
+        "missing_pmids": [],
+        "no_abstract_pmids": [
+          "39555834",
+          "38519435"
+        ],
+        "complete": true
+      },
+      "raw_esearch": {
+        "header": {
+          "type": "esearch",
+          "version": "0.3"
+        },
+        "esearchresult": {
+          "count": "6",
+          "retmax": "6",
+          "retstart": "0",
+          "idlist": [
+            "39555834",
+            "41455465",
+            "38519435",
+            "24299643",
+            "25703277",
+            "38759113"
+          ],
+          "translationset": [],
+          "querytranslation": "\"Eiffel-by-Night\"[Title/Abstract]"
+        }
+      },
+      "raw_feedback_xml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"In-Process\" Owner=\"NLM\"><PMID Version=\"1\">39555834</PMID><DateRevised><Year>2024</Year><Month>11</Month><Day>20</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1533-4406</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>391</Volume><Issue>20</Issue><PubDate><Year>2024</Year><Month>Nov</Month><Day>21</Day></PubDate></JournalIssue><Title>The New England journal of medicine</Title><ISOAbbreviation>N Engl J Med</ISOAbbreviation></Journal><ArticleTitle>Eiffel-by-Night Sign.</ArticleTitle><Pagination><StartPage>1936</StartPage><MedlinePgn>1936</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1056/NEJMicm2408573</ELocationID><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Guo</LastName><ForeName>Kundian</ForeName><Initials>K</Initials><Identifier Source=\"ORCID\">0000-0003-4512-4296</Identifier><AffiliationInfo><Affiliation>Sichuan University West China Hospital, Chengdu, China hongzhengoog@aliyun.com.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hong</LastName><ForeName>Zhen</ForeName><Initials>Z</Initials><Identifier Source=\"ORCID\">0000-0002-0014-6873</Identifier><AffiliationInfo><Affiliation>Sichuan University West China Hospital, Chengdu, China hongzhengoog@aliyun.com.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D002363\">Case Reports</PublicationType><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2024</Year><Month>11</Month><Day>16</Day></ArticleDate></Article><MedlineJournalInfo><Country>United States</Country><MedlineTA>N Engl J Med</MedlineTA><NlmUniqueID>0255562</NlmUniqueID><ISSNLinking>0028-4793</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"pubmed\"><Year>2024</Year><Month>11</Month><Day>18</Day><Hour>13</Hour><Minute>19</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2024</Year><Month>11</Month><Day>18</Day><Hour>13</Hour><Minute>19</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2024</Year><Month>11</Month><Day>18</Day><Hour>8</Hour><Minute>23</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">39555834</ArticleId><ArticleId IdType=\"doi\">10.1056/NEJMicm2408573</ArticleId></ArticleIdList></PubmedData></PubmedArticle><PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Curated\"><PMID Version=\"1\">41455465</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>26</Day></DateCompleted><DateRevised><Year>2026</Year><Month>04</Month><Day>27</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1872-6968</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>262</Volume><PubDate><Year>2026</Year><Month>Mar</Month></PubDate></JournalIssue><Title>Clinical neurology and neurosurgery</Title><ISOAbbreviation>Clin Neurol Neurosurg</ISOAbbreviation></Journal><ArticleTitle>\"Eiffel-by-night\" sign in hypertrophic pachymeningitis: Clinical and radiological correlates.</ArticleTitle><Pagination><StartPage>109291</StartPage><MedlinePgn>109291</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1016/j.clineuro.2025.109291</ELocationID><ELocationID EIdType=\"pii\" ValidYN=\"Y\">S0303-8467(25)00574-8</ELocationID><Abstract><AbstractText Label=\"OBJECTIVE\">To evaluate the clinical significance of the \"Eiffel-by-night\" (EBN) sign in hypertrophic pachymeningitis, focusing on its frequency, etiological associations, and prognostic value for recurrence, which improves diagnostic workflows, facilitating earlier, targeted therapeutic interventions.</AbstractText><AbstractText Label=\"METHODS\">We conducted a retrospective observational study at the Autoimmune Meningitis Outpatient Clinic at Hospital das Cl&#xed;nicas, Universidade de S&#xe3;o Paulo (Brazil), from January 2024 to April 2025, including patients with HP confirmed by MRI dural thickening and enhancement, excluding infectious and neoplastic cases. Clinical, cerebrospinal fluid (CSF), and imaging data were obtained from medical records. Two independent raters assessed the presence of the EBN sign on post-contrast T1-weighted on baseline and follow-up MRIs, comparing EBN+ and EBN- groups.</AbstractText><AbstractText Label=\"RESULTS\">Forty-five patients fulfilled eligibility criteria; 8 (17.7&#x202f;%) of whom were EBN+, mostly middle-aged women. EBN sign was more common in idiopathic HP (62.5&#x202f;%), and less so in IgG4-related disease, neurosarcoidosis, and ANCA-associated vasculitis. Clinical and CSF profiles were similar between groups, except for two male EBN+&#x202f;patients, with marked pleocytosis. Most EBN+&#x202f;patients (75&#x202f;%) had a relapsing disease course. The sign persisted in 86&#x202f;% of cases on the last follow-up.</AbstractText><AbstractText Label=\"CONCLUSION\">The EBN sign occurred in fewer than one-fifth of HP cases, primarily in idiopathic disease. Despite no clear clinical or CSF distinctions, its persistence correlated with frequent relapse.</AbstractText><CopyrightInformation>Copyright &#xa9; 2025 Elsevier B.V. All rights reserved.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Brescovit</LastName><ForeName>Daniela Ohlweiler</ForeName><Initials>DO</Initials><AffiliationInfo><Affiliation>Departamento de Neurologia, Faculdade de Medicina, Universidade de Sao Paulo, Sao Paulo, SP, Brazil. Electronic address: danielaohlweiler@usp.br.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Lucato</LastName><ForeName>Leandro Tavares</ForeName><Initials>LT</Initials><AffiliationInfo><Affiliation>Departamento de Radiologia, Instituto de Radiologia, Hospital das Clinicas HCFMUSP, Faculdade de Medicina, Universidade de Sao Paulo, Sao Paulo, SP, Brazil. Electronic address: leandro.lucato@hc.fm.usp.br.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Castro</LastName><ForeName>Luiz Henrique Martins</ForeName><Initials>LHM</Initials><AffiliationInfo><Affiliation>Departamento de Neurologia, Faculdade de Medicina, Universidade de Sao Paulo, Sao Paulo, SP, Brazil. Electronic address: luiz.castro@fm.usp.br.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Marie</LastName><ForeName>Suely Kazue Nagahashi</ForeName><Initials>SKN</Initials><AffiliationInfo><Affiliation>Departamento de Neurologia, Faculdade de Medicina, Universidade de Sao Paulo, Sao Paulo, SP, Brazil. Electronic address: sknmarie@usp.br.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Silva</LastName><ForeName>Guilherme Diogo</ForeName><Initials>GD</Initials><AffiliationInfo><Affiliation>Departamento de Neurologia, Faculdade de Medicina, Universidade de Sao Paulo, Sao Paulo, SP, Brazil. Electronic address: guilherme.diogo@hc.fm.usp.br.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType><PublicationType UI=\"D064888\">Observational Study</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2025</Year><Month>12</Month><Day>24</Day></ArticleDate></Article><MedlineJournalInfo><Country>Netherlands</Country><MedlineTA>Clin Neurol Neurosurg</MedlineTA><NlmUniqueID>7502039</NlmUniqueID><ISSNLinking>0303-8467</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D005260\" MajorTopicYN=\"N\">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008297\" MajorTopicYN=\"N\">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008581\" MajorTopicYN=\"Y\">Meningitis</DescriptorName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"N\">diagnostic imaging</QualifierName><QualifierName UI=\"Q000473\" MajorTopicYN=\"N\">pathology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008875\" MajorTopicYN=\"N\">Middle Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D012189\" MajorTopicYN=\"N\">Retrospective Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000328\" MajorTopicYN=\"N\">Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008279\" MajorTopicYN=\"N\">Magnetic Resonance Imaging</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D006984\" MajorTopicYN=\"N\">Hypertrophy</DescriptorName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"N\">diagnostic imaging</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000368\" MajorTopicYN=\"N\">Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D001327\" MajorTopicYN=\"Y\">Autoimmune Diseases</DescriptorName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"N\">diagnostic imaging</QualifierName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Eiffel-by-night sign</Keyword><Keyword MajorTopicYN=\"N\">Idiopathic hypertrophic pachymeningitis</Keyword><Keyword MajorTopicYN=\"N\">Magnetic resonance imaging</Keyword><Keyword MajorTopicYN=\"N\">Pachymeningitis</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>10</Month><Day>1</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>11</Month><Day>17</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2025</Year><Month>12</Month><Day>23</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>27</Day><Hour>0</Hour><Minute>52</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2025</Year><Month>12</Month><Day>28</Day><Hour>1</Hour><Minute>36</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2025</Year><Month>12</Month><Day>27</Day><Hour>18</Hour><Minute>11</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41455465</ArticleId><ArticleId IdType=\"doi\">10.1016/j.clineuro.2025.109291</ArticleId><ArticleId IdType=\"pii\">S0303-8467(25)00574-8</ArticleId></ArticleIdList></PubmedData></PubmedArticle><PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">38519435</PMID><DateCompleted><Year>2024</Year><Month>03</Month><Day>25</Day></DateCompleted><DateRevised><Year>2024</Year><Month>03</Month><Day>25</Day></DateRevised><Article PubModel=\"Print\"><Journal><ISSN IssnType=\"Electronic\">1756-185X</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>27</Volume><Issue>3</Issue><PubDate><Year>2024</Year><Month>Mar</Month></PubDate></JournalIssue><Title>International journal of rheumatic diseases</Title><ISOAbbreviation>Int J Rheum Dis</ISOAbbreviation></Journal><ArticleTitle>The Eiffel-by-night sign in granulomatosis with polyangiitis-associated hypertrophic pachymeningitis.</ArticleTitle><Pagination><StartPage>e15133</StartPage><MedlinePgn>e15133</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1111/1756-185X.15133</ELocationID><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Mart&#xed;n-Nares</LastName><ForeName>Eduardo</ForeName><Initials>E</Initials><Identifier Source=\"ORCID\">0000-0002-7911-1269</Identifier><AffiliationInfo><Affiliation>Department of Immunology and Rheumatology, Instituto Nacional de Ciencias M&#xe9;dicas y Nutrici&#xf3;n Salvador Zubir&#xe1;n, Mexico City, Mexico.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hinojosa-Azaola</LastName><ForeName>Andrea</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Department of Immunology and Rheumatology, Instituto Nacional de Ciencias M&#xe9;dicas y Nutrici&#xf3;n Salvador Zubir&#xe1;n, Mexico City, Mexico.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D002363\">Case Reports</PublicationType><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Int J Rheum Dis</MedlineTA><NlmUniqueID>101474930</NlmUniqueID><ISSNLinking>1756-1841</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D019268\">Antibodies, Antineutrophil Cytoplasmic</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D014890\" MajorTopicYN=\"Y\">Granulomatosis with Polyangiitis</DescriptorName><QualifierName UI=\"Q000150\" MajorTopicYN=\"N\">complications</QualifierName><QualifierName UI=\"Q000175\" MajorTopicYN=\"N\">diagnosis</QualifierName><QualifierName UI=\"Q000188\" MajorTopicYN=\"N\">drug therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008581\" MajorTopicYN=\"Y\">Meningitis</DescriptorName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"N\">diagnostic imaging</QualifierName><QualifierName UI=\"Q000188\" MajorTopicYN=\"N\">drug therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D006984\" MajorTopicYN=\"N\">Hypertrophy</DescriptorName><QualifierName UI=\"Q000150\" MajorTopicYN=\"N\">complications</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D019268\" MajorTopicYN=\"N\">Antibodies, Antineutrophil Cytoplasmic</DescriptorName></MeshHeading></MeshHeadingList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"revised\"><Year>2024</Year><Month>3</Month><Day>5</Day></PubMedPubDate><PubMedPubDate PubStatus=\"received\"><Year>2024</Year><Month>2</Month><Day>3</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2024</Year><Month>3</Month><Day>12</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2024</Year><Month>3</Month><Day>25</Day><Hour>6</Hour><Minute>43</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2024</Year><Month>3</Month><Day>23</Day><Hour>5</Hour><Minute>42</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2024</Year><Month>3</Month><Day>22</Day><Hour>23</Hour><Minute>43</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">38519435</ArticleId><ArticleId IdType=\"doi\">10.1111/1756-185X.15133</ArticleId></ArticleIdList><ReferenceList><Title>REFERENCES</Title><Reference><Citation>De Luna G, Terrier B, Kaminsky P, et&#xa0;al. Central nervous system involvement of granulomatosis with polyangiitis: clinical&#x2010;radiological presentation distinguishes different outcomes. Rheumatology (Oxford). 2015;54(3):424&#x2010;432. doi:10.1093/rheumatology/keu336</Citation></Reference><Reference><Citation>Shimojima Y, Sekijima Y. Hypertrophic pachymeningitis in ANCA&#x2010;associated vasculitis: clinical and immunopathological features and insights. Autoimmun Rev. 2023;22(6):103338. doi:10.1016/j.autrev.2023.103338</Citation></Reference><Reference><Citation>Yokoseki A, Saji E, Arakawa M, et&#xa0;al. Hypertrophic pachymeningitis: significance of myeloperoxidase anti&#x2010;neutrophil cytoplasmic antibody. Brain. 2014;137(Pt 2):520&#x2010;536. doi:10.1093/brain/awt314</Citation></Reference><Reference><Citation>Dash GK, Thomas B, Nair M, Radhakrishnan A. Clinico&#x2010;radiological spectrum and outcome in idiopathic hypertrophic pachymeningitis. J Neurol Sci. 2015;350(1&#x2013;2):51&#x2010;60. doi:10.1016/j.jns.2015.02.013</Citation></Reference><Reference><Citation>Kurokawa R, Kurokawa M, Isshiki S, et&#xa0;al. Dural and leptomeningeal diseases: anatomy, causes, and neuroimaging findings. Radiographics. 2023;43(9):e230039. doi:10.1148/rg.230039</Citation></Reference></ReferenceList></PubmedData></PubmedArticle><PubmedArticle><MedlineCitation Status=\"PubMed-not-MEDLINE\" Owner=\"NLM\"><PMID Version=\"1\">24299643</PMID><DateCompleted><Year>2013</Year><Month>12</Month><Day>05</Day></DateCompleted><DateRevised><Year>2017</Year><Month>02</Month><Day>14</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Print\">1971-4009</ISSN><JournalIssue CitedMedium=\"Print\"><Volume>20</Volume><Issue>2</Issue><PubDate><Year>2007</Year><Month>Apr</Month><Day>30</Day></PubDate></JournalIssue><Title>The neuroradiology journal</Title><ISOAbbreviation>Neuroradiol J</ISOAbbreviation></Journal><ArticleTitle>'Eiffel-by-Night': A New MR Sign Demonstrating Reactivation in Idiopathic Hypertrophic Pachymeningitis.</ArticleTitle><Pagination><StartPage>194</StartPage><EndPage>195</EndPage><MedlinePgn>194-5</MedlinePgn></Pagination><Abstract><AbstractText>A forty- seven-year-old man presented with chronic headache with lower cranial nerve palsies of ten year duration with recent aggravation of symptoms. MRI revealed hypointensity - predominantly of the posterior falx cerebri and the tentorium cerebelli - on all sequences with intense peripheral contrast enhancement on CE SE T1, which on coronal images mimicked the illuminated Eiffel tower by night.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Thomas</LastName><ForeName>B</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Department of Imaging Sciences and Interventional Radiology, Sree Chitra Tirunal Institute for Medical Sciences and Technology; Trivandrum, Kerala, India - drbejoy2002@yahoo.com.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Thamburaj</LastName><ForeName>K</ForeName><Initials>K</Initials></Author><Author ValidYN=\"Y\"><LastName>Kesavadas</LastName><ForeName>C</ForeName><Initials>C</Initials></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2007</Year><Month>04</Month><Day>30</Day></ArticleDate></Article><MedlineJournalInfo><Country>United States</Country><MedlineTA>Neuroradiol J</MedlineTA><NlmUniqueID>101295103</NlmUniqueID><ISSNLinking>1971-4009</ISSNLinking></MedlineJournalInfo></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2007</Year><Month>3</Month><Day>20</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2007</Year><Month>3</Month><Day>20</Day></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2013</Year><Month>12</Month><Day>5</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2007</Year><Month>4</Month><Day>30</Day><Hour>0</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2007</Year><Month>4</Month><Day>30</Day><Hour>0</Hour><Minute>1</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">24299643</ArticleId><ArticleId IdType=\"doi\">10.1177/197140090702000211</ArticleId><ArticleId IdType=\"pii\">NRJ.v20.i2.p194</ArticleId></ArticleIdList></PubmedData></PubmedArticle><PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Manual\"><PMID Version=\"1\">25703277</PMID><DateCompleted><Year>2015</Year><Month>12</Month><Day>04</Day></DateCompleted><DateRevised><Year>2016</Year><Month>11</Month><Day>25</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1878-5883</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>350</Volume><Issue>1-2</Issue><PubDate><Year>2015</Year><Month>Mar</Month><Day>15</Day></PubDate></JournalIssue><Title>Journal of the neurological sciences</Title><ISOAbbreviation>J Neurol Sci</ISOAbbreviation></Journal><ArticleTitle>Clinico-radiological spectrum and outcome in idiopathic hypertrophic pachymeningitis.</ArticleTitle><Pagination><StartPage>51</StartPage><EndPage>60</EndPage><MedlinePgn>51-60</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1016/j.jns.2015.02.013</ELocationID><ELocationID EIdType=\"pii\" ValidYN=\"Y\">S0022-510X(15)00080-5</ELocationID><Abstract><AbstractText Label=\"OBJECTIVE\" NlmCategory=\"OBJECTIVE\">To elucidate the clinico-radiological features, treatment response and outcome of a large cohort of patients (n=20) with idiopathic hypertrophic pachymeningitis (IHP) and to examine if any of these features could differentiate between IHP and secondary causes of hypertrophic pachymeningitis (SHP).</AbstractText><AbstractText Label=\"METHODS\" NlmCategory=\"METHODS\">20 patients with IHP diagnosed between 1998 and 2009 formed the study cohort. We adopted a validated clinical score to quantitatively assess and document their neurological disability and to compare their pre- and post-treatment outcomes. Appropriate statistical analysis was done to look for any clinical and/or radiological features to differentiate IHP from SHP.</AbstractText><AbstractText Label=\"RESULTS\" NlmCategory=\"RESULTS\">Out of the twenty eight consecutive patients with pachymeningitis, 20 were having IHP and 8 were having SHP (Tuberculosis-5, Sarcoidosis-2, Wegener's granulomatosis-1). In IHP, headache and visual symptoms dominated the clinical symptomatology (80% and 75%). In MRI, the peripheral pattern of contrast enhancement was more common with IHP (p=0.03). The posterior falx and tentorium showing a hypointense center (\"fibrosis\") and enhancing periphery (\"active inflammation\") together mimicking \"Eiffel-by-night\" sign was found to be more commonly associated with IHP (60% vs 12.5%, p=0.03). Biopsy was done in 9 patients. At a mean follow-up of 51 months (range 24-144 months), the mean pretreatment clinical score improved from 6.55 to 1.80 in 20 patients with IHP (p&lt;0.001).</AbstractText><AbstractText Label=\"CONCLUSIONS\" NlmCategory=\"CONCLUSIONS\">Our data on the largest cohort of patients with IHP would shed light into its clinico-radiological spectrum, treatment and outcome. The prognosis is satisfactory if managed appropriately. We have highlighted the role of MRI in differentiating between IHP and other causes of SHP.</AbstractText><CopyrightInformation>Copyright &#xa9; 2015. Published by Elsevier B.V.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Dash</LastName><ForeName>Gopal Krishna</ForeName><Initials>GK</Initials><AffiliationInfo><Affiliation>Department of Neurology and Imaging &amp; Interventional Radiology, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum, India.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Thomas</LastName><ForeName>Bejoy</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Department of Neurology and Imaging &amp; Interventional Radiology, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum, India.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Nair</LastName><ForeName>Muralidharan</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Department of Neurology and Imaging &amp; Interventional Radiology, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum, India.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Radhakrishnan</LastName><ForeName>Ashalatha</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Department of Neurology and Imaging &amp; Interventional Radiology, Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum, India. Electronic address: drashalatha@sctimst.ac.in.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2015</Year><Month>02</Month><Day>14</Day></ArticleDate></Article><MedlineJournalInfo><Country>Netherlands</Country><MedlineTA>J Neurol Sci</MedlineTA><NlmUniqueID>0375403</NlmUniqueID><ISSNLinking>0022-510X</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D000328\" MajorTopicYN=\"N\">Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000368\" MajorTopicYN=\"N\">Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000369\" MajorTopicYN=\"N\">Aged, 80 and over</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D015331\" MajorTopicYN=\"N\">Cohort Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D005260\" MajorTopicYN=\"N\">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D005500\" MajorTopicYN=\"N\">Follow-Up Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D006984\" MajorTopicYN=\"N\">Hypertrophy</DescriptorName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"N\">diagnostic imaging</QualifierName><QualifierName UI=\"Q000628\" MajorTopicYN=\"N\">therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008297\" MajorTopicYN=\"N\">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008581\" MajorTopicYN=\"N\">Meningitis</DescriptorName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"Y\">diagnostic imaging</QualifierName><QualifierName UI=\"Q000628\" MajorTopicYN=\"Y\">therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008875\" MajorTopicYN=\"N\">Middle Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D011859\" MajorTopicYN=\"N\">Radiography</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D016896\" MajorTopicYN=\"N\">Treatment Outcome</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Clinical features</Keyword><Keyword MajorTopicYN=\"N\">Hypertrophic pachymeningitis</Keyword><Keyword MajorTopicYN=\"N\">Outcome</Keyword><Keyword MajorTopicYN=\"N\">Radiological features</Keyword><Keyword MajorTopicYN=\"N\">Treatment modalities</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2014</Year><Month>10</Month><Day>31</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2015</Year><Month>1</Month><Day>25</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2015</Year><Month>2</Month><Day>5</Day></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2015</Year><Month>2</Month><Day>24</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2015</Year><Month>2</Month><Day>24</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2015</Year><Month>12</Month><Day>15</Day><Hour>6</Hour><Minute>0</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">25703277</ArticleId><ArticleId IdType=\"doi\">10.1016/j.jns.2015.02.013</ArticleId><ArticleId IdType=\"pii\">S0022-510X(15)00080-5</ArticleId></ArticleIdList></PubmedData></PubmedArticle><PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">38759113</PMID><DateCompleted><Year>2025</Year><Month>04</Month><Day>22</Day></DateCompleted><DateRevised><Year>2026</Year><Month>05</Month><Day>01</Day></DateRevised><Article PubModel=\"Print\"><Journal><ISSN IssnType=\"Electronic\">1462-0332</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>64</Volume><Issue>3</Issue><PubDate><Year>2025</Year><Month>Mar</Month><Day>01</Day></PubDate></JournalIssue><Title>Rheumatology (Oxford, England)</Title><ISOAbbreviation>Rheumatology (Oxford)</ISOAbbreviation></Journal><ArticleTitle>Distinct features of ANCA-associated hypertrophic pachymeningitis compared with other etiologies: findings from a study of 74 patients.</ArticleTitle><Pagination><StartPage>1292</StartPage><EndPage>1301</EndPage><MedlinePgn>1292-1301</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1093/rheumatology/keae293</ELocationID><Abstract><AbstractText Label=\"OBJECTIVES\">We aimed to characterize the clinical and radiological features, and outcomes, of a large cohort of hypertrophic pachymeningitis (HP) patients from a single centre.</AbstractText><AbstractText Label=\"METHODS\">We conducted a retrospective study at a tertiary referral centre, encompassing patients diagnosed with HP between 2003 and 2022. The diagnosis of HP relied on the identification of thickening of the dura mater via MRI of the brain or spine.</AbstractText><AbstractText Label=\"RESULTS\">We included 74 patients, with a mean age of 43.6&#x2009;&#xb1;&#x2009;14.2&#x2009;years, of whom 37 (50%) were male. Among the 74, 32 (43.2%) had an immune-mediated origin, including 21 with granulomatosis with polyangiitis (GPA) (predominantly PR3-ANCA positive), four with SLE, three with IgG4-related disease, three with idiopathic HP, and one with RA. Non-immune-mediated HP accounted for 45 cases (56.8%). Within this category, 21 (28.4%) were infectious cases, with 14 having Mycobacterium tuberculosis infection (TB-HP), and 21 (28.4%) having malignancy-associated HP. The clinical and MRI characteristics exhibited variations among the four etiological groups. Hypoglycorrhachia was primarily observed in infectious HP and malignancy-associated HP. Immune-mediated HP was associated with a peripheral pattern of contrast enhancement and the Eiffel-by-night sign. MRI features strongly indicative of TB-HP included leptomeningeal involvement, brain parenchymal lesions, and arterial stroke. MPO-ANCA GPA was associated with a higher prevalence of spinal HP.</AbstractText><AbstractText Label=\"CONCLUSIOS\">Within our cohort, GPA and Mycobacterium tuberculosis emerged as the predominant causes of HP. We identified significant disparities in clinical and radiological features among the various etiologies, which could have implications for diagnosis.</AbstractText><CopyrightInformation>&#xa9; The Author(s) 2024. Published by Oxford University Press on behalf of the British Society for Rheumatology. All rights reserved. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site&#x2014;for further information please contact journals.permissions@oup.com.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Mart&#xed;n-Nares</LastName><ForeName>Eduardo</ForeName><Initials>E</Initials><Identifier Source=\"ORCID\">0000-0002-7911-1269</Identifier><AffiliationInfo><Affiliation>Department of Immunology and Rheumatology, Instituto Nacional de Ciencias M&#xe9;dicas y Nutrici&#xf3;n Salvador Zubir&#xe1;n, Mexico City, Mexico.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Romero-S&#xe1;nchez</LastName><ForeName>Griselda</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Department of Radiology, Instituto Nacional de Ciencias M&#xe9;dicas y Nutrici&#xf3;n Salvador Zubir&#xe1;n, Mexico City, Mexico.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Radiology, University of British Columbia, Vancouver, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cortez-Dom&#xed;nguez</LastName><ForeName>Edwin Ulises</ForeName><Initials>EU</Initials><AffiliationInfo><Affiliation>Department of Immunology and Rheumatology, Instituto Nacional de Ciencias M&#xe9;dicas y Nutrici&#xf3;n Salvador Zubir&#xe1;n, Mexico City, Mexico.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cano-Cruz</LastName><ForeName>Lilian Guadalupe</ForeName><Initials>LG</Initials><AffiliationInfo><Affiliation>Department of Immunology and Rheumatology, Instituto Nacional de Ciencias M&#xe9;dicas y Nutrici&#xf3;n Salvador Zubir&#xe1;n, Mexico City, Mexico.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hinojosa-Azaola</LastName><ForeName>Andrea</ForeName><Initials>A</Initials><Identifier Source=\"ORCID\">0000-0002-4001-3995</Identifier><AffiliationInfo><Affiliation>Department of Immunology and Rheumatology, Instituto Nacional de Ciencias M&#xe9;dicas y Nutrici&#xf3;n Salvador Zubir&#xe1;n, Mexico City, Mexico.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Rheumatology (Oxford)</MedlineTA><NlmUniqueID>100883501</NlmUniqueID><ISSNLinking>1462-0324</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D019268\">Antibodies, Antineutrophil Cytoplasmic</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008297\" MajorTopicYN=\"N\">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D005260\" MajorTopicYN=\"N\">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008581\" MajorTopicYN=\"Y\">Meningitis</DescriptorName><QualifierName UI=\"Q000209\" MajorTopicYN=\"N\">etiology</QualifierName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"N\">diagnostic imaging</QualifierName><QualifierName UI=\"Q000276\" MajorTopicYN=\"N\">immunology</QualifierName><QualifierName UI=\"Q000473\" MajorTopicYN=\"N\">pathology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D012189\" MajorTopicYN=\"N\">Retrospective Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000328\" MajorTopicYN=\"N\">Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008875\" MajorTopicYN=\"N\">Middle Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008279\" MajorTopicYN=\"N\">Magnetic Resonance Imaging</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D019268\" MajorTopicYN=\"Y\">Antibodies, Antineutrophil Cytoplasmic</DescriptorName><QualifierName UI=\"Q000276\" MajorTopicYN=\"N\">immunology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D006984\" MajorTopicYN=\"N\">Hypertrophy</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D014890\" MajorTopicYN=\"N\">Granulomatosis with Polyangiitis</DescriptorName><QualifierName UI=\"Q000150\" MajorTopicYN=\"N\">complications</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D004388\" MajorTopicYN=\"N\">Dura Mater</DescriptorName><QualifierName UI=\"Q000000981\" MajorTopicYN=\"N\">diagnostic imaging</QualifierName><QualifierName UI=\"Q000473\" MajorTopicYN=\"N\">pathology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000368\" MajorTopicYN=\"N\">Aged</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">ANCA-associated vasculitis</Keyword><Keyword MajorTopicYN=\"N\">antineutrophil cytoplasmic antibodies</Keyword><Keyword MajorTopicYN=\"N\">granulomatosis with polyangiitis</Keyword><Keyword MajorTopicYN=\"N\">hypertrophic pachymeningitis</Keyword><Keyword MajorTopicYN=\"N\">tuberculous meningitis</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2024</Year><Month>3</Month><Day>27</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2024</Year><Month>5</Month><Day>2</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2025</Year><Month>3</Month><Day>5</Day><Hour>0</Hour><Minute>22</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2024</Year><Month>5</Month><Day>17</Day><Hour>18</Hour><Minute>42</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2024</Year><Month>5</Month><Day>17</Day><Hour>15</Hour><Minute>42</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">38759113</ArticleId><ArticleId IdType=\"doi\">10.1093/rheumatology/keae293</ArticleId><ArticleId IdType=\"pii\">7676136</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>"
+    }
+  ],
+  "accepted_query_attempt_id": "q1",
+  "last_pmids": [
+    "39555834",
+    "41455465",
+    "38519435",
+    "24299643",
+    "25703277",
+    "38759113"
+  ],
+  "final_ranked_pmids": [
+    "39555834",
+    "41455465",
+    "38519435",
+    "24299643",
+    "25703277",
+    "38759113"
+  ],
+  "records": [],
+  "fulltexts": [],
+  "parsed_sources": [],
+  "evidence": [],
+  "diagnostics": {},
+  "evolution_memory": [],
+  "tasks": [],
+  "blockers": [],
+  "errors": [],
+  "budgets": {
+    "max_rounds": 3,
+    "max_records": 50,
+    "max_fulltext_attempts": 30,
+    "max_same_blocker": 2
+  },
+  "counters": {
+    "round": 0,
+    "pubmed_queries": 1,
+    "fulltext_attempts": 0,
+    "same_blocker_repeats": {}
+  },
+  "report_path": "",
+  "task_mode": "retrieval"
+}

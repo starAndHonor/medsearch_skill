@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "(\"phosphodiesterase 5 inhibitors\"[Title/Abstract] OR \"PDE5 inhibitors\"[Title/Abstract]) AND \"half life\"[Title/Abstract]",
+  "pmids": 33,
+  "next": "fetch-records"
+}

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:\\Users\\CGOMI\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\CGOMI\\.codex\\plugins\\cache\\medlit-local\\medlit-cli\\0.2.0+codex.20260915113715\\scripts\\medlit_cli.py",
+    "--state",
+    "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\factoid_04.json",
+    "init",
+    "--question",
+    "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?"
+  ],
+  "started_at": "2026-09-15T14:00:48.430122+00:00",
+  "finished_at": "2026-09-15T14:00:48.619914+00:00",
+  "exit_code": 0
+}

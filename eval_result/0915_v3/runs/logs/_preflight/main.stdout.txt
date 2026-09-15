@@ -1,0 +1,31 @@
+usage: medlit-cli [-h] [--state STATE] [--quiet]
+                  {init,fetch-records,localize-fulltext,parse-fulltext,extract-evidence,diagnose,evolve,report,verify,status,spawn-tasks,search-pubmed,accept-query,recover-feedback,export-retrieval,merge-task-output}
+                  ...
+
+Biomedical literature CLI toolbox for Codex-driven research.
+
+positional arguments:
+  {init,fetch-records,localize-fulltext,parse-fulltext,extract-evidence,diagnose,evolve,report,verify,status,spawn-tasks,search-pubmed,accept-query,recover-feedback,export-retrieval,merge-task-output}
+    init                Create a new research state.
+    fetch-records       Fetch PubMed records for current PMIDs.
+    localize-fulltext   Try open-access full-text localization.
+    parse-fulltext      Parse localized full text or abstract fallback.
+    extract-evidence    Extract grounded evidence from parsed text.
+    diagnose            Print state diagnostics and termination advice.
+    evolve              Append strategy evolution suggestions.
+    report              Write report.md from current state.
+    verify              Verify state/report references.
+    status              Print concise status.
+    spawn-tasks         Create file-based tasks for optional subagents.
+    search-pubmed       Execute one Agent-authored PubMed query.
+    accept-query        Select one query attempt for downstream processing.
+    recover-feedback    Refetch only missing feedback records without changing
+                        ranking.
+    export-retrieval    Export accepted ranking and seal a fresh audit
+                        directory.
+    merge-task-output   Merge a subagent task output JSON into state.
+
+options:
+  -h, --help            show this help message and exit
+  --state STATE         Path to research state JSON.
+  --quiet               Suppress progress messages on stderr.

@@ -1,0 +1,2 @@
+[..] searching PubMed with q1
+[OK] 3 total hits; 3 PMIDs returned

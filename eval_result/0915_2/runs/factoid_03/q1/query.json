@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"zika virus\"[Title/Abstract] AND vector*[Title/Abstract]",
+  "reasoning": "保留病毒和媒介关系，不添加可能的媒介名称。",
+  "added_terms": [
+    {
+      "term": "vector*",
+      "source_term": "Vector",
+      "reason": "词尾通配覆盖单复数及直接词形。"
+    }
+  ]
+}

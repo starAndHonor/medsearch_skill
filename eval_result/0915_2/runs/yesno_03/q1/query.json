@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"Duchenne muscular dystrophy\"[Title/Abstract] AND (respiratory[Title/Abstract] OR pulmonary[Title/Abstract]) AND severity[Title/Abstract]",
+  "reasoning": "疾病、呼吸测量语境和严重程度共现；不添加具体指标。",
+  "added_terms": [
+    {
+      "term": "pulmonary",
+      "source_term": "respiratory",
+      "reason": "肺功能测量语境下的直接对应表述。"
+    }
+  ]
+}

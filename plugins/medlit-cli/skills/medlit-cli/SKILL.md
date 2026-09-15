@@ -32,6 +32,8 @@ and provenance.
 
 1. Run status. If there is no state, run init --question <question>.
    Do not overwrite an existing run merely to change its search query.
+   For a retrieval-only request, initialize with --mode retrieval. Legacy
+   states without task_mode retain the full research workflow.
 2. Read
    [references/pubmed_query_rules.md](references/pubmed_query_rules.md), then
    author a UTF-8 JSON query file containing the complete PubMed query:
@@ -67,6 +69,11 @@ and provenance.
 4. Judge the attempt yourself. Check whether PubMed preserved the intended
    entities and fields, and whether the top records address the question's
    actual relationship. Count alone does not establish quality.
+   Check feedback_coverage: missing_pmids means records were not returned,
+   whereas no_abstract_pmids means the record exists without an abstract.
+   Use recover-feedback --attempt-id <id> to refetch only missing records when
+   needed. Recovery never changes the search ranking. Failed searches remain
+   separate attempts; do not treat api_failed/network_failed as zero hits.
 5. If the result is unsuitable, author a materially changed complete query and
    run search-pubmed again. Use a new attempt ID. Typical corrections include
    removing weak prose, splitting a false phrase, changing a field, relaxing an
@@ -79,6 +86,12 @@ and provenance.
    order becomes available to downstream commands.
 8. Run fetch-records, then localize-fulltext, parse-fulltext, and
    extract-evidence.
+   In retrieval mode, instead run export-retrieval --output-dir <fresh directory>
+   after acceptance, then stop. It exports the unmodified ranking, audit state,
+   integrity check and SHA-256 manifest. Do not download full text merely to
+   complete a retrieval-only task. Read
+   [references/retrieval_audit.md](references/retrieval_audit.md) for recovery
+   and export details.
 9. Run diagnose and follow its current recommendation. When the available
    evidence is sufficient, run report, verify, and optionally diagnose again
    to update the terminal status.

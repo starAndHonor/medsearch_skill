@@ -1,0 +1,6 @@
+{
+  "test_id": "summary_02",
+  "accepted_attempt_id": "q1",
+  "reason": "六条记录均围绕指定征象，包含临床与影像关联研究；两条已返回但无摘要，其余摘要可用，不应恢复或下载全文补足。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

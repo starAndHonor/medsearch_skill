@@ -1,0 +1,216 @@
+[
+  {
+    "pmid": "37869523",
+    "title": "Deep radiomics-based fusion model for prediction of bevacizumab treatment response and outcome in patients with colorectal cancer liver metastases: a multicentre cohort study.",
+    "authors": [
+      "Zhou S",
+      "Sun D",
+      "Mao W",
+      "Liu Y",
+      "Cen W",
+      "Ye L",
+      "Liang F",
+      "Xu J",
+      "Shi H",
+      "Ji Y",
+      "Wang L",
+      "Chang W"
+    ],
+    "journal": "EClinicalMedicine",
+    "pubdate": "2023 Nov",
+    "doi": "10.1016/j.eclinm.2023.102271",
+    "abstract": "BACKGROUND: Accurate tumour response prediction to targeted therapy allows for personalised conversion therapy for patients with unresectable colorectal cancer liver metastases (CRLM). In this study, we aimed to develop and validate a multi-modal deep learning model to predict the efficacy of bevacizumab in patients with initially unresectable CRLM using baseline PET/CT, clinical data, and colonoscopy biopsy specimens.\nMETHODS: In this multicentre cohort study, we retrospectively collected data of 307 patients with CRLM from the BECOME study (NCT01972490) (Zhongshan Hospital of Fudan University, Shanghai) and two independent Chinese cohorts (internal validation cohort from January 1, 2018 to December 31, 2018\u00a0at Zhongshan Hospital of Fudan University; external validation cohort from January 1, 2020 to December 31, 2020\u00a0at Zhongshan Hospital-Xiamen, Shanghai, and the First Hospital of Wenzhou Medical University, Wenzhou). The main inclusion criteria were that patients with CRLM had pre-treatment PET/CT images as well as colonoscopy specimens. After extracting PET/CT features with deep neural networks (DNN) and selecting related clinical factors using LASSO analysis, a random forest classifier was built as the Deep Radiomics Bevacizumab efficacy predicting model (DERBY). Furthermore, by combining histopathological biomarkers into DERBY, we established DERBY+. The performance of model was evaluated using area under the curve (AUC), sensitivity, specificity, positive predictive value, and negative predictive value.\nFINDINGS: DERBY achieved promising performance in predicting bevacizumab sensitivity with an AUC of 0.77 and 95% confidence interval (CI) [0.67-0.87]. After combining histopathological features, we developed DERBY+, which had more robust accuracy for predicting tumour response in external validation cohort (AUC 0.83 and 95% CI [0.75-0.92], sensitivity 80.4%, specificity 76.8%). DERBY+ also had prognostic value: the responders had longer progression-free survival (median progression-free survival: 9.6 vs 6.3 months, p\u00a0=\u00a00.002) and overall survival (median overall survival: 27.6 vs 18.5 months, p\u00a0=\u00a00.010) than non-responders.\nINTERPRETATION: This multi-modal deep radiomics model, using PET/CT, clinical data and histopathological data, was able to identify patients with bevacizumab-sensitive CRLM, providing a favourable approach for precise patient treatment. To further validate and explore the clinical impact of this work, future prospective studies with larger patient cohorts are warranted.\nFUNDING: The National Natural Science Foundation of China; Fujian Provincial Health Commission Project; Xiamen Science and Technology Agency Program; Clinical Research Plan of SHDC; Shanghai Science and Technology Committee Project; Clinical Research Plan of SHDC; Zhejiang Provincial Natural Science Foundation of China; and National Science Foundation of Xiamen."
+  },
+  {
+    "pmid": "40659890",
+    "title": "Genomic and Clinical Predictors of Conversion in Initially Unresectable Colorectal Cancer Liver Metastases.",
+    "authors": [
+      "Zuo D",
+      "Wang L",
+      "Jin K",
+      "Zhang Y",
+      "Wang Y",
+      "Sun Y",
+      "Tang J"
+    ],
+    "journal": "Annals of surgical oncology",
+    "pubdate": "2025 Oct",
+    "doi": "10.1245/s10434-025-17809-5",
+    "abstract": "BACKGROUND: Colorectal cancer liver metastases (CRLM) present significant treatment challenges, requiring multimodal conversion therapies. Identifying factors that influence treatment outcomes is crucial for improving clinical management.\nPATIENTS AND METHODS: This retrospective cohort study included 286 patients with synchronous CRLM who underwent conversion therapies on the basis of sequencing results. Patients were categorized into successful conversion therapy group (SCTG) and failed conversion therapy group (FCTG). Clinical factors and genomic mutations were analyzed for associations with therapy outcomes and survival.\nRESULTS: Among the patients, 106 (37.1%) achieved successful conversion (SCTG), while 180 (62.9%) failed (FCTG). Compared with SCTG, patients in the FCTG had significantly larger metastatic lesions, higher preoperative mesenteric lymph node positivity, and elevated carcinoembryonic antigen (CEA) and carbohydrate antigen 19-9 (CA19-9) levels. Six genes (FAT, BRAF, SERPINA3, GRIN2A, ERBB2, and ALK) showed the highest mutation frequency differences in FCTG, correlating with worse outcomes. Any of these mutations was associated with shorter overall survival compared with wild-type patients. A nomogram model using tumor mutation status, CEA, CA19-9, lesion diameter \u2265 5 cm, and positive lymph nodes at diagnosis predicted conversion efficacy (area under the curve = 89.6, 95% confidence interval 22.6-92.4). An extended conversion-related clinical risk score scoring system incorporating these factors effectively stratified poor prognosis populations, serving as a prognostic tool for patients with unresectable CRLM.\nCONCLUSIONS: Genomic profiling improves precision management of CRLM, facilitating tailored conversion strategies and better prognostic prediction. Future studies should validate these findings in prospective cohorts to refine personalized treatment for patients with initially unresectable CRLM."
+  },
+  {
+    "pmid": "29970651",
+    "title": "Conversion chemotherapy with capecitabine and oxaliplatin for colorectal cancer with potentially resectable liver metastases: A phase II, open-label, single-arm study.",
+    "authors": [
+      "Li Y",
+      "Li GX",
+      "Chu ZH",
+      "Hao CY",
+      "Jiang ZW",
+      "Chen HQ",
+      "Lin JJ",
+      "Li DC",
+      "Hu B",
+      "Wang XS",
+      "Lin F"
+    ],
+    "journal": "Journal of cancer research and therapeutics",
+    "pubdate": "2018",
+    "doi": "10.4103/jcrt.JCRT_738_17",
+    "abstract": "AIM: The aim of this is study is to assess the efficacy and safety of conversion capecitabine plus oxaliplatin (XELOX) in Chinese patients with potentially resectable colorectal liver metastases (CLMs).\nPATIENTS AND METHODS: Thirty patients (median age 57.5 years) with potentially resectable CLMs were treated with XELOX in a single-arm, open-label, nonrandomized, multicenter clinical trial.\nRESULTS: The objective response rate in the 30 patients was 40% (95% confidence interval: 22.7%-59.4%), and the rate of conversion to resectable CLMs was 43.3%. Patients who underwent liver resection (n = 11) had a longer median progression-free survival and overall survival than those who did not. XELOX showed an acceptable safety profile.\nCONCLUSION: XELOX may effectively convert potentially resectable CLM into resectable CLM, providing survival benefits with a favorable safety profile.\nCLINICAL TRIALS.GOV IDENTIFIER: NCT 00997685."
+  },
+  {
+    "pmid": "35196945",
+    "title": "Chemotherapy in resectable or potentially resectable colon cancer with liver metastases.",
+    "authors": [
+      "Samoon Z",
+      "Naher SK",
+      "Sjoquist KM",
+      "Zalcberg J"
+    ],
+    "journal": "Expert opinion on pharmacotherapy",
+    "pubdate": "2022 Apr",
+    "doi": "10.1080/14656566.2022.2043276",
+    "abstract": "INTRODUCTION: The treatment of colorectal cancer liver metastases has seen significant improvement in recent years and, for certain patients, the long-term survival and even cure are possible. Despite this improvement, many more questions are yet to be answered: the optimal combination, duration, sequence of therapies, role of biologics and the timing of surgical resection are debated in the literature, with conflicting trial results.\nAREAS COVERED: In this review, the authors highlight the current trial evidence for systemic chemotherapy and biologic therapy for colorectal cancer liver metastases in both the pre and post-resection setting.\nEXPERT OPINION: The treatment of colorectal liver metastases requires a multidisciplinary approach. The role of adjuvant chemotherapy with 5 fluorouracil and oxaliplatin in stage 3 colon cancer is well established. However, the options for patients with resectable or borderline liver metastases, either in the neoadjuvant or adjuvant settings, require further study. For patients with borderline resectable metastases, the combination of triplet chemotherapy with 5 fluorouracil, oxaliplatin and irinotecan (FOLFOXIRI) offers the best conversion rate. The role of biologic agents such as bevacizumab and EGFR inhibitors in these settings is less clear based on current evidence."
+  },
+  {
+    "pmid": "30558859",
+    "title": "Perioperative Bevacizumab-based Triplet Chemotherapy in Patients With Potentially Resectable Colorectal Cancer Liver Metastases.",
+    "authors": [
+      "Pietrantonio F",
+      "Cotsoglou C",
+      "Fuc\u00e0 G",
+      "Lo Vullo S",
+      "Nichetti F",
+      "Milione M",
+      "Coppa J",
+      "Vaiani M",
+      "Alessi A",
+      "Prisciandaro M",
+      "Droz-Dit Busset M",
+      "Morano F",
+      "Corallo S",
+      "Lazzati S",
+      "Antista M",
+      "Mennitto A",
+      "Randon G",
+      "Raimondi A",
+      "Belfiore A",
+      "Padovano B",
+      "Perrone F",
+      "Mariani L",
+      "Di Bartolomeo M",
+      "de Braud F",
+      "Mazzaferro V"
+    ],
+    "journal": "Clinical colorectal cancer",
+    "pubdate": "2019 Mar",
+    "doi": "10.1016/j.clcc.2018.11.004",
+    "abstract": "BACKGROUND: In colorectal cancer liver metastases (CRCLM), bevacizumab-based neoadjuvant strategies provide increased pathologic response. We aimed at assessing the activity of perioperative capecitabine, oxaliplatin, irinotecan, and bevacizumab (COI-B regimen) in patients with potentially resectable CRCLM, and investigating biomarkers for early prediction of pathologic response.\nPATIENTS AND METHODS: This was a single-center phase II study enrolling patients with liver-limited, borderline resectable disease and/or high-risk features. Patients received 5 preoperative and 4 postoperative cycles of biweekly COI-B (irinotecan 180 mg/m2 and bevacizumab 5 mg/Kg on day 1, oxaliplatin 85 mg/m2 on day 2, and capecitabine 1000 mg/m2 twice a day on days 2 to 6). The primary endpoint was pathologic response rate in the intention-to-treat population. A Simon 2-stage design was adopted to detect an increase from 30% to 50% with a power of 90%. Dynamic imaging biomarkers (early tumor shrinkage [ETS], deepness of response, maximum standardized uptake volume [SUVmax]/regression index) and next generation sequencing data were explored as surrogates.\nRESULTS: From June 2013 to March 2017, 46 patients were enrolled. Pathologic response was achieved in 63% patients (endpoint met), and responders achieved significantly better survival outcomes with respect to non-responders. The most frequent grade 3/4 adverse events were diarrhea and neutropenia (8.7%) in the preoperative phase and thromboembolic events (5.9%) in the postoperative phase. ETS and lower SUV-2 were significantly associated with pathologic response.\nCONCLUSION: The COI-B regimen is a feasible and highly active perioperative strategy in patients with molecularly unselected, potentially resectable CRCLM. ETS and SUV-2 have a promising role as imaging-based biomarkers for pathologic response."
+  },
+  {
+    "pmid": "28052299",
+    "title": "Characterization of Conversion Chemotherapy for Secondary Surgical Resection in Colorectal Cancer Patients with Lung Metastases.",
+    "authors": [
+      "Nozawa H",
+      "Ishihara S",
+      "Kawai K",
+      "Hata K",
+      "Kiyomatsu T",
+      "Tanaka T",
+      "Nishikawa T",
+      "Otani K",
+      "Yasuda K",
+      "Sasaki K",
+      "Murono K",
+      "Nakajima J",
+      "Watanabe T"
+    ],
+    "journal": "Oncology",
+    "pubdate": "2017",
+    "doi": "10.1159/000453335",
+    "abstract": "OBJECTIVE: Clinical trials demonstrated that 6-37% of the patients with colorectal liver-limited metastases underwent surgical resection after first-line chemotherapy. However, limited information is available on the conversion of colorectal cancer patients with lung metastases to resection by systemic chemotherapy.\nMETHODS: We retrospectively investigated 156 patients with unresectable colorectal cancer who received oxaliplatin- or irinotecan-based first-line systemic chemotherapy with or without antibodies in our department between January 2007 and December 2015. The conversion rate to surgery and chemotherapeutic regimens and periods were analyzed with respect to the target organ.\nRESULTS: In addition to 4 patients who achieved complete response, 73 exhibited tumor shrinkage of any extent. Twenty patients underwent secondary surgery, all of whom received targeting antibodies. In 75 patients with liver metastases, 18 (24%) were converted to resection after chemotherapy for a median of 110 days. In contrast, 4 (7%) out of 56 patients with lung metastases underwent resection after chemotherapy for a median of 449 days. Conversion was an independent prognostic factor in patients with lung metastases.\nCONCLUSION: The conversion rate to resection was lower for colorectal cancer patients with lung metastasis by systemic chemotherapy, which required a longer duration than for those with liver metastases."
+  },
+  {
+    "pmid": "33640172",
+    "title": "Conversion therapy in patients with colorectal liver metastases.",
+    "authors": [
+      "Villard C",
+      "Habib M",
+      "Nordenvall C",
+      "Nilsson PJ",
+      "Jorns C",
+      "Sparrelid E"
+    ],
+    "journal": "European journal of surgical oncology : the journal of the European Society of Surgical Oncology and the British Association of Surgical Oncology",
+    "pubdate": "2021 Aug",
+    "doi": "10.1016/j.ejso.2021.02.019",
+    "abstract": "BACKGROUND: The occurrence of colorectal liver metastases (CRLM) impairs prognosis, yet long-term survival can be achieved by enabling liver resection. This study aims to describe factors associated with conversion therapy leading to liver surgery and treatment outcome.\nMETHODS: A retrospective cohort study was conducted including all patients with CRLM discussed at multidisciplinary team conference at Karolinska University Hospital, Stockholm, Sweden, from 2013 to 2018. Factors associated with conversion therapy and outcome following conversion therapy were analysed with logistic regression and survival analyses.\nRESULTS: Out of 1023 patients with CRLM, 100 patients (10%) received conversion chemotherapy, out of whom 31 patients (31%) subsequently underwent liver resection. Patients in whom conversion chemotherapy resulted in liver resection were younger (median age 61 vs. 66 years, p\u00a0=\u00a0.024), less likely to have a KRAS/NRAS-mutated primary tumours (25% vs. 53%, p\u00a0=\u00a0.039) and more likely to have received anti-EGFR agents (32% vs. 4%, p\u00a0=\u00a0.001) than patients progressing during conversion chemotherapy. The median OS for patients treated with conversion chemotherapy leading to liver resection was 24 months, compared to 14 months for patients progressing during conversion chemotherapy, p\u00a0<\u00a0.001. The OS for patients progressing during conversion chemotherapy was similar to patients given palliative chemotherapy, approximately 13 months.\nCONCLUSION: Conversion therapy offers a survival benefit in selected patients. Despite treatment advances, the majority of patients undergoing conversion chemotherapy never become eligible for curative treatment."
+  },
+  {
+    "pmid": "34762175",
+    "title": "Indications for conversion hepatectomy for initially unresectable colorectal cancer with liver metastasis.",
+    "authors": [
+      "Sugiyama M",
+      "Uehara H",
+      "Shin Y",
+      "Shiokawa K",
+      "Fujimoto Y",
+      "Mano Y",
+      "Komoda M",
+      "Nakashima Y",
+      "Sugimachi K",
+      "Yamamoto M",
+      "Morita M",
+      "Toh Y"
+    ],
+    "journal": "Surgery today",
+    "pubdate": "2022 Apr",
+    "doi": "10.1007/s00595-021-02403-5",
+    "abstract": "PURPOSE: Selected patients with initially unresectable colorectal cancer (CRC) and liver metastases undergo conversion surgery after appropriate chemotherapy. The prognosis of these patients is good, with some even cured of the disease. This retrospective, single-institution study analyzes the clinical importance of patient characteristics on the outcomes of conversion hepatectomy.\nMETHODS: We evaluated 229 consecutive patients with initially unresectable CRC and liver metastasis, who underwent systemic chemotherapy. The patients were assigned to groups depending on conversion hepatectomy.\nRESULTS: Conversion hepatectomy was performed in 30 patients (13.1%). The proportion of patients with extrahepatic metastasis was significantly lower in the conversion group than in the unresectable group (30.0 vs. 66.8%; P\u2009<\u20090.01). The rate of left-sided primary colorectal tumors was significantly higher in the conversion group than in the unresectable group (96.7 vs. 65.8%; P\u2009<\u20090.01). Multivariate analyses identified that left-sided tumors, no extrahepatic metastasis, H1 or H2 grade CLM, and treatment with molecular-targeted agents were associated with conversion hepatectomy (odds ratios: 16.314, 4.216, 7.631, and 4.070; P\u2009<\u20090.01). Overall survival was significantly longer in the conversion group than in the unresectable group (MST: 50.0 versus 14.7\u00a0months; P\u2009<\u20090.01).\nCONCLUSION: Left-sided primary tumors, absence of extrahepatic metastases, H1 or H2 grade, and use of molecular-targeted agents were associated with successful conversion hepatectomy; thus, patients with these characteristics may be candidates for conversion therapy."
+  },
+  {
+    "pmid": "29715142",
+    "title": "Chemotherapy Plus Bevacizumab as Neoadjuvant or Conversion Treatment in Patients with Colorectal Liver Metastases.",
+    "authors": [
+      "Garc\u00eda-Alfonso P",
+      "Cavanagh Podesta M",
+      "Mu\u00f1oz Mart\u00edn A",
+      "Blanco Codeisido M",
+      "Calvo A",
+      "Peligros I",
+      "Corcuera A",
+      "Bel\u00e9n R\u00faperez Blanco A",
+      "Custodio-Cabello S",
+      "L\u00f3pez Trabada D",
+      "Mart\u00edn M",
+      "DE Ram\u00f3n E"
+    ],
+    "journal": "Anticancer research",
+    "pubdate": "2018 May",
+    "doi": null,
+    "abstract": "AIM: To evaluate the efficacy of chemotherapy plus bevacizumab as neoadjuvant or conversion treatment for colorectal liver metastases (CLM).\nPATIENTS AND METHODS: A retrospective chart review was carried out of 74 patients with CLM treated with neoadjuvant or conversion chemotherapy plus bevacizumab.\nRESULTS: The overall response rate was 63.4%. An optimal morphological response by computed tomography was reported in 35% of patients. The rate of complete resection was 71.6%. Complete or major pathological response (pR) was attained in 58.2%. The median overall survival (OS) was not reached. Median progression-free (PFS) and relapse-free (RFS) survival were 14.6 and 8.7 months. Among patients reaching an optimal pR, median OS was not reached (p=0.08), and a trend towards longer RFS and PFS was seen.\nCONCLUSION: Neoadjuvant or conversion chemotherapy with bevacizumab is an active and tolerable option for CLM with minimal post-surgery complications. Optimal pR is associated with a longer OS and a trend for prolonged PFS and RFS."
+  },
+  {
+    "pmid": "33002301",
+    "title": "The conversion of RAS status in metastatic colorectal cancer patients after first-line biological agent treatment.",
+    "authors": [
+      "Arici S",
+      "Hamdard J",
+      "Sakin A",
+      "Sengiz Erhan S",
+      "Atci MM",
+      "Cekin R",
+      "Saka B",
+      "K\u00f6se E",
+      "Saydam T",
+      "Geredeli C",
+      "Cihan S",
+      "Bilici A"
+    ],
+    "journal": "Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland",
+    "pubdate": "2021 Jan",
+    "doi": "10.1111/codi.15389",
+    "abstract": "AIM: The aim was to investigate the RAS discordance between initial and recurrent metastasectomy specimens in metastatic colorectal cancer (mCRC) patients treated with chemotherapy (CT) plus biological agents in a first-line setting.\nMETHODS: Patients who had been treated with CT plus bevacizumab or cetuximab or panitumumab followed by R0 resection for potentially resectable colorectal cancer liver metastases were scanned. Among these, patients who developed resectable new metastases after a disease-free interval longer than 6\u00a0months were included in the study. We compared the RAS mutation status between the first biopsy and the second metastasectomy specimen.\nRESULTS: A total of 82 mCRC patients treated with CT plus biological agents in a first-line setting were included in the study. The first biopsy assessment showed wild-type RAS tumours in 39 (47.6%) patients and mutant RAS tumours in 43 (52.4%) patients. The mean time for new operable liver metastasis after R0 resection was 15.5\u00a0months. In the second metastasectomy specimens, the numbers of wild-type and mutant RAS tumours were 30 (36.6%) and 52 (63.4%), respectively. The comparison with the first biopsy specimens showed RAS status conversions in 17 (20.7%) patients. Univariate comparison between patients with and without RAS status conversion revealed that grade, pathological T stage, wild-type RAS tumour and longer biological agent use time in the first-line treatment were significant factors for RAS conversion.\nCONCLUSION: Our results suggest that re-biopsy is needed for an optimal second-line treatment decision in mCRC patients regardless of backbone biological agent, especially in patients with wild-type RAS mCRC."
+  }
+]

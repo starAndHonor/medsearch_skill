@@ -1,0 +1,5 @@
+{
+  "state": "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_v3\\runs\\states\\yesno_01.json",
+  "question": "Is high WEE1 expression linked to PARP inhibition resistance?",
+  "next": "search-pubmed --query-file <query.json>"
+}

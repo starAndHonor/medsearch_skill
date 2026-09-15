@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"Duchenne muscular dystrophy\"[Title/Abstract] AND respiratory[Title/Abstract] AND severity[Title/Abstract]",
+  "reasoning": "Use the question's distinctive entities and relationship; omit question scaffolding and avoid guessing the answer. Wildcards cover lexical endings.",
+  "added_terms": []
+}

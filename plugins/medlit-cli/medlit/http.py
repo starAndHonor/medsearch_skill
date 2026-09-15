@@ -9,6 +9,7 @@ import ssl
 import sys
 import tempfile
 import time
+import threading
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -26,6 +27,23 @@ class ApiError(RuntimeError):
 
 
 _SSL_CONTEXT: ssl.SSLContext | None = None
+_RATE_LOCK = threading.Lock()
+_LAST_REQUEST: dict[str, float] = {}
+
+
+def _pace_request(url: str) -> None:
+    host = urllib.parse.urlparse(url).netloc.lower()
+    if host.endswith("ncbi.nlm.nih.gov"):
+        bucket, gap = "ncbi", (0.11 if os.environ.get("NCBI_API_KEY") else 0.35)
+    elif host.endswith("europepmc.org") or host == "www.ebi.ac.uk":
+        bucket, gap = "europepmc", 1.0
+    else:
+        return
+    with _RATE_LOCK:
+        delay = gap - (time.monotonic() - _LAST_REQUEST.get(bucket, 0.0))
+        if delay > 0:
+            time.sleep(delay)
+        _LAST_REQUEST[bucket] = time.monotonic()
 
 
 @dataclass
@@ -57,6 +75,7 @@ class HttpClient:
             cache_path.parent.mkdir(parents=True, exist_ok=True)
             fd, tmp_name = tempfile.mkstemp(prefix=cache_path.name, suffix=".tmp", dir=str(cache_path.parent))
             try:
+                _pace_request(url)
                 with os.fdopen(fd, "wb") as tmp:
                     tmp.write(data)
                 Path(tmp_name).replace(cache_path)
@@ -80,8 +99,8 @@ class HttpClient:
                     return resp.read()
             except urllib.error.HTTPError as exc:
                 body = exc.read().decode("utf-8", errors="replace")[:500]
-                if exc.code == 429 and attempt < self.retries:
-                    time.sleep(5)
+                if exc.code in {429, 500, 502, 503, 504} and attempt < self.retries:
+                    time.sleep(5 if exc.code == 429 else self.sleep_seconds)
                     continue
                 raise ApiError(f"HTTP {exc.code}: {body}") from exc
             except urllib.error.URLError as exc:

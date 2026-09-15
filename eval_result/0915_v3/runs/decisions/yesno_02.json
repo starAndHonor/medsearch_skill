@@ -1,0 +1,6 @@
+{
+  "test_id": "yesno_02",
+  "accepted_attempt_id": "q2",
+  "reason": "q1缩写映射到多种无关主题；q2删除歧义缩写后前10条均研究指定综合征，多篇说明遗传方式。未以待判断的遗传方式限定查询。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

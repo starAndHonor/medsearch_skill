@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"irritable bowel syndrome\"[Title/Abstract] AND pathophysiology[Title/Abstract]",
+  "reasoning": "完整病名与病理生理主题共现，避免IBS缩写歧义。",
+  "added_terms": []
+}

@@ -1,0 +1,6 @@
+{
+  "test_id": "summary_04",
+  "accepted_attempt_id": "q1",
+  "reason": "前列综合综述和机制研究覆盖AXL与恶性肿瘤关系；直接同义词cancer已审计。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

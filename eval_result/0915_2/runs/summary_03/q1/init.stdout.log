@@ -1,0 +1,5 @@
+{
+  "state": "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\summary_03.json",
+  "question": "Pathophysiology of irritable bowel syndrome (IBS).",
+  "next": "search-pubmed --query-file <query.json>"
+}

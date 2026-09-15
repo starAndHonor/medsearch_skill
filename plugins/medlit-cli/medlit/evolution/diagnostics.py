@@ -61,6 +61,14 @@ class Diagnoser:
             blocked = True
             reason = "The accepted query attempt is missing from state."
             actions = ["repair_accepted_query_attempt_id"]
+        elif state.get("task_mode") == "retrieval":
+            if state.get("retrieval_export"):
+                status = "complete"
+                termination_ready = True
+                actions = []
+            else:
+                status = "ready_to_export_retrieval"
+                actions = ["export-retrieval"]
         elif not records:
             status = "needs_records"
             actions = ["fetch-records"]

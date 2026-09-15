@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"colorectal cancer\"[Title/Abstract] AND \"conversion therapy\"[Title/Abstract] AND (\"liver metastasis\"[Title/Abstract] OR \"liver metastases\"[Title/Abstract])",
+  "reasoning": "保留疾病、转化治疗和肝转移，不添加待比较的具体药物；潜在可切除性留给摘要检查。",
+  "added_terms": [
+    {
+      "term": "liver metastases",
+      "source_term": "liver metastasis",
+      "reason": "复数形式。"
+    }
+  ]
+}

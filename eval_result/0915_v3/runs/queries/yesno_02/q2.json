@@ -1,0 +1,1 @@
+{"attempt_id":"q2","exact_query":"\"mucopolysaccharidosis-plus\"[Title/Abstract]","reasoning":"q1's MPSPS abbreviation retrieves unrelated scaffold particles, polystyrene and sports studies. Remove the ambiguous acronym and retain the full named syndrome without assuming inheritance.","added_terms":[]}

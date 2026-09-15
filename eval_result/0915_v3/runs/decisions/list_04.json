@@ -1,0 +1,6 @@
+{
+  "test_id": "list_04",
+  "accepted_attempt_id": "q2",
+  "reason": "q1混入其他疾病并发CDI的记录；q2以标题限定疾病并加入同一菌种新名称，前列以CDI临床综述及并发症研究为主。q1恢复后仍缺一条；q2反馈完整。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

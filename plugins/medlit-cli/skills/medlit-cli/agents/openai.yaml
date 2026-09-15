@@ -4,4 +4,4 @@ interface:
   default_prompt: "Use $medlit-cli to research a biomedical literature question with the bundled workflow."
 
 policy:
-  allow_implicit_invocation: false
+  allow_implicit_invocation: true

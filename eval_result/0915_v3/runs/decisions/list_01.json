@@ -1,0 +1,6 @@
+{
+  "test_id": "list_01",
+  "accepted_attempt_id": "q1",
+  "reason": "全部3条反馈均针对该基因的双等位变异及其表型关系；稀有实体的少量命中适合本题。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

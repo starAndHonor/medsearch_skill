@@ -1,0 +1,6 @@
+usage: medlit-cli init [-h] --question QUESTION [--mode {research,retrieval}]
+
+options:
+  -h, --help            show this help message and exit
+  --question QUESTION
+  --mode {research,retrieval}
