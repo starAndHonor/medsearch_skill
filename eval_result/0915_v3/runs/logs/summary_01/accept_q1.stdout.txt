@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "RankMHC[Title/Abstract]",
+  "pmids": 1,
+  "next": "fetch-records"
+}

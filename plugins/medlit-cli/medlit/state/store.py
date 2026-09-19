@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 
-SCHEMA_VERSION = "medlit-state/v0.1"
+SCHEMA_VERSION = "medlit-state/v0.2"
 DEFAULT_STATE = Path("workspace/latest/state.json")
 
 
@@ -45,15 +45,10 @@ class StateStore:
             "created_at": utc_now(),
             "updated_at": utc_now(),
             "status": "running",
-            "pico": {},
-            "term_plan": {"concepts": [], "filters": {}, "warnings": []},
-            "mesh_validation": [],
-            "mesh_validation_status": {"completed": False},
-            "query_configuration": {"mesh_enabled": False, "filters": {}},
-            "query_ladder": [],
-            "retrieval_runs": [],
+            "query_attempts": [],
+            "accepted_query_attempt_id": "",
+            "last_pmids": [],
             "final_ranked_pmids": [],
-            "fusion": {"method": "reciprocal_rank_fusion", "rrf_k": 60, "query_ids": [], "candidate_count": 0},
             "records": [],
             "fulltexts": [],
             "parsed_sources": [],
@@ -65,7 +60,6 @@ class StateStore:
             "errors": [],
             "budgets": {
                 "max_rounds": 3,
-                "max_pubmed_queries": 6,
                 "max_records": 50,
                 "max_fulltext_attempts": 30,
                 "max_same_blocker": 2,
@@ -152,3 +146,25 @@ class StateOps:
                 if item_key:
                     index[item_key] = len(out) - 1
         return out
+
+    @staticmethod
+    def clear_downstream(state: dict[str, Any]) -> None:
+        """Invalidate every artifact derived from the accepted PMID ranking."""
+        for key in (
+            "records",
+            "fulltexts",
+            "parsed_sources",
+            "evidence",
+            "tasks",
+            "blockers",
+            "errors",
+        ):
+            state[key] = []
+        state["diagnostics"] = {}
+        state["report_path"] = ""
+        state.pop("verification", None)
+        state.pop("retrieval_export", None)
+        state["status"] = "running"
+        counters = state.setdefault("counters", {})
+        counters["fulltext_attempts"] = 0
+        counters["same_blocker_repeats"] = {}

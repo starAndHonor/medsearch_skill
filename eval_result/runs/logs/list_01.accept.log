@@ -1,0 +1,7 @@
+[OK] accepted q001 with 3 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(CRELD1[Title/Abstract]) AND (biallelic[Title/Abstract] OR bi-allelic[Title/Abstract]) AND (variant[Title/Abstract] OR variants[Title/Abstract])",
+  "pmids": 3,
+  "next": "fetch-records"
+}

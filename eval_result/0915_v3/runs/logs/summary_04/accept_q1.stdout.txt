@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "AXL[Title/Abstract] AND (malignan*[Title/Abstract] OR cancer*[Title/Abstract])",
+  "pmids": 100,
+  "next": "fetch-records"
+}

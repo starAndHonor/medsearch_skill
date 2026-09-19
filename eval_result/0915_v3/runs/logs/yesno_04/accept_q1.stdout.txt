@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "colorectal[Title/Abstract] AND \"consensus molecular\"[Title/Abstract] AND subtype*[Title/Abstract] AND clinical[Title/Abstract]",
+  "pmids": 100,
+  "next": "fetch-records"
+}

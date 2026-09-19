@@ -1,0 +1,5 @@
+{
+  "state": "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\yesno_04.json",
+  "question": "Does the consensus molecular subtype (CMS) classification for colorectal cancer have any use in routine clinical practice?",
+  "next": "search-pubmed --query-file <query.json>"
+}

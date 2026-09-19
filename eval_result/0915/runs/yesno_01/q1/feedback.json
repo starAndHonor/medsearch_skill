@@ -1,0 +1,222 @@
+[
+  {
+    "pmid": "36202931",
+    "title": "Targeting replication stress in cancer therapy.",
+    "authors": [
+      "da Costa AABA",
+      "Chowdhury D",
+      "Shapiro GI",
+      "D'Andrea AD",
+      "Konstantinopoulos PA"
+    ],
+    "journal": "Nature reviews. Drug discovery",
+    "pubdate": "2023 Jan",
+    "doi": "10.1038/s41573-022-00558-5",
+    "abstract": "Replication stress is a major cause of genomic instability and a crucial vulnerability of cancer cells. This vulnerability can be therapeutically targeted by inhibiting kinases that coordinate the DNA damage response with cell cycle control, including ATR, CHK1, WEE1 and MYT1 checkpoint kinases. In addition, inhibiting the DNA damage response releases DNA fragments into the cytoplasm, eliciting an innate immune response. Therefore, several ATR, CHK1, WEE1 and MYT1 inhibitors are undergoing clinical evaluation as monotherapies or in combination with chemotherapy, poly[ADP-ribose]polymerase (PARP) inhibitors, or immune checkpoint inhibitors to capitalize on high replication stress, overcome therapeutic resistance and promote effective antitumour immunity. Here, we review current and emerging approaches for targeting replication stress in cancer, from preclinical and biomarker development to clinical trial evaluation."
+  },
+  {
+    "pmid": "30356138",
+    "title": "State-of-the-art strategies for targeting the DNA damage response in cancer.",
+    "authors": [
+      "Pili\u00e9 PG",
+      "Tang C",
+      "Mills GB",
+      "Yap TA"
+    ],
+    "journal": "Nature reviews. Clinical oncology",
+    "pubdate": "2019 Feb",
+    "doi": "10.1038/s41571-018-0114-z",
+    "abstract": "Genomic instability is a key hallmark of cancer that arises owing to defects in the DNA damage response (DDR) and/or increased replication stress. These alterations promote the clonal evolution of cancer cells via the accumulation of driver aberrations, including gene copy-number changes, rearrangements and mutations; however, these same defects also create vulnerabilities that are relatively specific to cancer cells, which could potentially be exploited to increase the therapeutic index of anticancer treatments and thereby improve patient outcomes. The discovery that BRCA-mutant cancer cells are exquisitely sensitive to inhibition of poly(ADP-ribose) polymerase has ushered in a new era of research on biomarker-driven synthetic lethal treatment strategies for different cancers. The therapeutic landscape of antitumour agents targeting the DDR has rapidly expanded to include inhibitors of other key mediators of DNA repair and replication, such as ATM, ATR, CHK1 and CHK2, DNA-PK and WEE1. Efforts to optimize these therapies are ongoing across a range of cancers, involving the development of predictive biomarker assays of responsiveness (beyond BRCA mutations), assessment of the mechanisms underlying intrinsic and acquired resistance, and evaluation of rational, tolerable combinations with standard-of-care treatments (such as chemotherapeutics and radiation), novel molecularly targeted agents and immune-checkpoint inhibitors. In this Review, we discuss the current status of anticancer therapies targeting the DDR."
+  },
+  {
+    "pmid": "39375715",
+    "title": "Proapoptotic activity of JNK-sensitive BH3-only proteins underpins ovarian cancer response to replication checkpoint inhibitors.",
+    "authors": [
+      "Venkatachalam A",
+      "Correia C",
+      "Peterson KL",
+      "Hou X",
+      "Schneider PA",
+      "Strathman AR",
+      "Flatten KS",
+      "Sine CC",
+      "Balczewski EA",
+      "McGehee CD",
+      "Larson MC",
+      "Duffield LN",
+      "Meng XW",
+      "Vincelette ND",
+      "Ding H",
+      "Oberg AL",
+      "Couch FJ",
+      "Swisher EM",
+      "Li H",
+      "Weroha SJ",
+      "Kaufmann SH"
+    ],
+    "journal": "Molecular cancer",
+    "pubdate": "2024 Oct 07",
+    "doi": "10.1186/s12943-024-02125-5",
+    "abstract": "Recent studies indicate that replication checkpoint modulators (RCMs) such as inhibitors of CHK1, ATR, and WEE1 have promising monotherapy activity in solid tumors, including platinum-resistant high grade serous ovarian cancer (HGSOC). However, clinical response rates are generally below 30%. While RCM-induced DNA damage has been extensively examined in preclinical and clinical studies, the link between replication checkpoint interruption and tumor shrinkage remains incompletely understood. Here we utilized HGSOC cell lines and patient-derived xenografts (PDXs) to study events leading from RCM treatment to ovarian cancer cell death. These studies show that RCMs increase CDC25A levels and CDK2 signaling in vitro, leading to dysregulated cell cycle progression and increased replication stress in HGSOC cell lines independent of homologous recombination status. These events lead to sequential activation of JNK and multiple BH3-only proteins, including BCL2L11/BIM, BBC3/PUMA and the BMF, all of which are required to fully initiate RCM-induced apoptosis. Activation of the same signaling pathway occurs in HGSOC PDXs that are resistant to poly(ADP-ribose) polymerase inhibitors but respond to RCMs ex vivo with a decrease in cell number in 3-dimensional culture and in vivo with xenograft shrinkage or a significantly diminished growth rate. These findings identify key cell death-initiating events that link replication checkpoint inhibition to antitumor response in ovarian cancer."
+  },
+  {
+    "pmid": "37978129",
+    "title": "Mechanisms of PARP Inhibitor Resistance.",
+    "authors": [
+      "O'Connor MJ",
+      "Forment JV"
+    ],
+    "journal": "Cancer treatment and research",
+    "pubdate": "2023",
+    "doi": "10.1007/978-3-031-30065-3_3",
+    "abstract": "Poly(ADP-ribose) polymerase (PARP) inhibitors (PARPi) represent the first medicines based on the targeting of the DNA damage response (DDR). PARPi have become standard of care for first-line maintenance treatment in ovarian cancer and have also been approved in other cancer indications including breast, pancreatic and prostate. Despite their efficacy, resistance to PARPi has been reported clinically and represents a growing patient population with unmet clinical need. Here, we describe the various mechanisms of PARPi resistance that have been identified in pre-clinical models and in the clinic."
+  },
+  {
+    "pmid": "40203475",
+    "title": "PARP inhibitors in ovarian cancer: Mechanisms of resistance and implications to therapy.",
+    "authors": [
+      "Kulkarni S",
+      "Seneviratne N",
+      "Tosun \u00c7",
+      "Madhusudan S"
+    ],
+    "journal": "DNA repair",
+    "pubdate": "2025 May",
+    "doi": "10.1016/j.dnarep.2025.103830",
+    "abstract": "Advanced epithelial ovarian cancer of the high-grade serous subtype (HGSOC) remains a significant clinical challenge due to the development of resistance to current platinum-based chemotherapies. PARP1/2 inhibitors (PARPi) exploit the well-characterised homologous recombination repair deficiency (HRD) in HGSOC and offer an effective targeted approach to treatment. Several clinical trials demonstrated that PARPi (olaparib, rucaparib, niraparib) significantly improved progression-free survival (PFS) in HGSOC in the recurrent maintenance setting. However, 40-70\u202f% of patients develop Resistance to PARPi presenting an ongoing challenge in the clinic. Therefore, there is an unmet need for novel targeted therapies and biomarkers to identify intrinsic or acquired resistance to PARPi in ovarian cancer. Understanding the mechanisms of resistance to PARPi is crucial for identifying molecular vulnerabilities, developing effective biomarkers for patient stratification and guiding treatment decisions. Here, we summarise the current landscape of mechanisms associated with PARPi resistance such as restored homologous recombination repair functionality, replication fork stability and alterations to PARP1 and PARP2 and the DNA damage response. We highlight the role of circulating tumour DNA (ctDNA) in identifying acquired resistance biomarkers and its potential in guiding 'real-time' treatment decisions. Moreover, we explore other innovative treatment strategies aimed at overcoming specific resistance mechanisms, including the inhibition of ATR, WEE1 and POLQ. We also examine the role of PARPi rechallenge in patients with acquired resistance."
+  },
+  {
+    "pmid": "41354716",
+    "title": "PLK1 or WEE1 inhibition targets homologous recombination repair proficiency in BRCA1/2 wild-type high-grade serous ovarian cancer.",
+    "authors": [
+      "Xi Q",
+      "Kunita A",
+      "Ogawa M",
+      "Kawakami M",
+      "Ka M",
+      "Nagai S",
+      "Duong AQ",
+      "Taguchi A",
+      "Watanabe K",
+      "Fukuda T",
+      "Sone K",
+      "Shinozaki-Ushiku A",
+      "Ushiku T",
+      "Hirota Y",
+      "Kage H",
+      "Katayama K",
+      "Oda K"
+    ],
+    "journal": "Cell death & disease",
+    "pubdate": "2025 Dec 07",
+    "doi": "10.1038/s41419-025-08324-2",
+    "abstract": "High-grade serous ovarian cancer (HGSOC) is a poor prognostic disease, especially in BRCA1/2 wild-type (BRCA-WT) patients with homologous recombination (HR) proficiency. These patients often show limited response to both platinum-based chemotherapy and PARP inhibitors. HR and non-homologous end joining (NHEJ) are the two major DNA double-strand break (DSB) repair pathways. HR is a precise repair mechanism for DSBs but is limited to S and G2 phases. In contrast, NHEJ functions more broadly throughout the cell cycle, including G1. We investigated whether inhibiting the G2/M checkpoint kinases PLK1 or WEE1 individually could disrupt mitotic control and expose therapeutic vulnerabilities in BRCA-WT/HR-proficient HGSOC cells. We evaluated cell cycle-targeted strategies to overcome HR-proficient chemoresistance using either volasertib (a selective PLK1 inhibitor) or adavosertib (a potent WEE1 inhibitor) in BRCA-WT/HR-proficient and BRCA-mutant/HR-deficient HGSOC models. Both agents induced DNA damage, impaired HR repair (reduced RAD51 foci), and triggered mitotic catastrophe-a form of cell death caused by defective mitosis and unresolved DNA damage-in BRCA-WT cells. Volasertib caused polyploidy and abnormal spindle formation, indicating mitotic slippage and cytokinesis failure, whereas adavosertib abrogated the G2/M checkpoint, forcing premature mitotic entry. In contrast, BRCA-mutant cells were resistant to either volasertib or adavosertib, consistent with sustained and functional NHEJ activity. This resistance was restored by the pharmacological or genetic inhibition of DNA-PKcs (DNA-dependent protein kinase, catalytic subunit), a prominent component of NHEJ. Functional and xenograft models confirmed selective vulnerability of BRCA-WT tumors to either PLK1 or WEE1 inhibition. Our work highlights a mechanistic framework linking cell cycle checkpoint inhibition to DNA repair pathway selectivity, providing a rationale for targeting mitotic regulators in HR-proficient ovarian cancer-a subgroup with high clinical unmet need."
+  },
+  {
+    "pmid": "41053053",
+    "title": "Increased efficacy of PARP inhibitors against cisplatin-sensitive and -resistant ovarian cancer cells mediated via ATR and ATM inhibition.",
+    "authors": [
+      "K\u00f6nig P",
+      "Bade L",
+      "Eichhorn JM",
+      "Skalski H",
+      "Cinatl J",
+      "Michaelis M",
+      "Bendas G"
+    ],
+    "journal": "Cell death discovery",
+    "pubdate": "2025 Oct 06",
+    "doi": "10.1038/s41420-025-02740-1",
+    "abstract": "PARP inhibitors (PARPi) are approved for the treatment of platinum-based therapy-responsive ovarian cancer. However, this severely restricts their therapeutic potential, since there is only limited knowledge on the efficacy of PARPi in platinum drug-resistant ovarian cancer cells. Here, we studied three approved PARPi, niraparib, olaparib, and rucaparib in three ovarian cancer cell lines and their cisplatin-resistant sublines. Complex response profiles demonstrated that cisplatin resistance was not consistently associated with cross-resistance to PARPi. The combination of PARPi with inhibitors of relevant DNA damage response kinases which are potentially involved in PARPi resistance, such as ATR, ATM, CHK1, and WEE1 again resulted in complex activity patterns, but also identified ATR and ATM as the most promising targets for increasing PARPi activity. Cell adhesion-mediated resistance via collagen I is known to mediate cisplatin resistance. Here, we show that collagen I can also mediate PARPi resistance, which can also be tackled by ATR and ATM inhibition in cisplatin-sensitive and cisplatin-resistant ovarian cancer cell lines. In conclusion, our findings revealed complex, cell line-specific PARPi response profiles. This complexity is in line with other studies investigating drug-resistant cancer cell lines and with the complex evolutionary processes in tumors from cancer patients. Notably, cisplatin resistance was not directly correlated with PARPi resistance, and ATM and ATR inhibitors can increase PARPi activity against cisplatin-sensitive and -resistant ovarian cancer cells. Moreover, we demonstrated for the first time that cell adhesion-mediated resistance can contribute to PARPi resistance, which can also be alleviated by ATR and ATM."
+  },
+  {
+    "pmid": "33315700",
+    "title": "Current and future landscape of poly (ADP-ribose) polymerase inhibition resistance.",
+    "authors": [
+      "Hinchcliff E",
+      "Chelariu-Raicu A",
+      "Westin SN"
+    ],
+    "journal": "Current opinion in obstetrics & gynecology",
+    "pubdate": "2021 Feb 01",
+    "doi": "10.1097/GCO.0000000000000678",
+    "abstract": "PURPOSE OF REVIEW: To highlight relevant strategies to overcome poly(ADP-ribose) polymerase (PARP) inhibitor resistance and present key clinical trials.\nRECENT FINDINGS: The use of PARP inhibition (PARPi) for frontline maintenance offers substantial clinical benefit in patients with homologous recombination-deficient tumors. However, expanding PARPi from recurrent therapy to frontline maintenance may potentially result in more PARPi resistant tumors earlier in the treatment continuum and data for the use of PARPi after PARPi remain limited. Clinical evidence demonstrates tumors may develop resistance to PARPi through demethylation of the BRCA promoter or BRCA reversion mutations. Multiple clinical trials investigating therapeutic strategies to overcome resistance, such as combinations of PARPi with antiangiogenic drugs, PI3K/AKT/mTOR, or MEK inhibitors have already been reported and more are ongoing. Furthermore, increasing the amount of DNA damage in the tumor using chemotherapy or cell cycle inhibitors such as ATM, ATR/CHK1/WEE1 is also under exploration.\nSUMMARY: There is increasing clinical interest to identify options to enhance PARPi efficacy and overcome adaptive resistance. PARPi represent a class of drugs that have significantly impacted the treatment and maintenance of ovarian cancer; as the use of PARPi increases, better understanding of resistance mechanisms is essential."
+  },
+  {
+    "pmid": "28619759",
+    "title": "Modeling Therapy Resistance in ",
+    "authors": [
+      "Dr\u00e9an A",
+      "Williamson CT",
+      "Brough R",
+      "Brandsma I",
+      "Menon M",
+      "Konde A",
+      "Garcia-Murillas I",
+      "Pemberton HN",
+      "Frankum J",
+      "Rafiq R",
+      "Badham N",
+      "Campbell J",
+      "Gulati A",
+      "Turner NC",
+      "Pettitt SJ",
+      "Ashworth A",
+      "Lord CJ"
+    ],
+    "journal": "Molecular cancer therapeutics",
+    "pubdate": "2017 Sep",
+    "doi": "10.1158/1535-7163.MCT-17-0098",
+    "abstract": "Although PARP inhibitors target BRCA1- or BRCA2-mutant tumor cells, drug resistance is a problem. PARP inhibitor resistance is sometimes associated with the presence of secondary or \"revertant\" mutations in BRCA1 or BRCA2 Whether secondary mutant tumor cells are selected for in a Darwinian fashion by treatment is unclear. Furthermore, how PARP inhibitor resistance might be therapeutically targeted is also poorly understood. Using CRISPR mutagenesis, we generated isogenic tumor cell models with secondary BRCA1 or BRCA2 mutations. Using these in heterogeneous in vitro culture or in vivo xenograft experiments in which the clonal composition of tumor cell populations in response to therapy was monitored, we established that PARP inhibitor or platinum salt exposure selects for secondary mutant clones in a Darwinian fashion, with the periodicity of PARP inhibitor administration and the pretreatment frequency of secondary mutant tumor cells influencing the eventual clonal composition of the tumor cell population. In xenograft studies, the presence of secondary mutant cells in tumors impaired the therapeutic effect of a clinical PARP inhibitor. However, we found that both PARP inhibitor-sensitive and PARP inhibitor-resistant BRCA2 mutant tumor cells were sensitive to AZD-1775, a WEE1 kinase inhibitor. In mice carrying heterogeneous tumors, AZD-1775 delivered a greater therapeutic benefit than olaparib treatment. This suggests that despite the restoration of some BRCA1 or BRCA2 gene function in \"revertant\" tumor cells, vulnerabilities still exist that could be therapeutically exploited. Mol Cancer Ther; 16(9); 2022-34. \u00a92017 AACR."
+  },
+  {
+    "pmid": "35921524",
+    "title": "Identification of a Molecularly-Defined Subset of Breast and Ovarian Cancer Models that Respond to WEE1 or ATR Inhibition, Overcoming PARP Inhibitor Resistance.",
+    "authors": [
+      "Serra V",
+      "Wang AT",
+      "Castroviejo-Bermejo M",
+      "Polanska UM",
+      "Palafox M",
+      "Herencia-Ropero A",
+      "Jones GN",
+      "Lai Z",
+      "Armenia J",
+      "Michopoulos F",
+      "Llop-Guevara A",
+      "Brough R",
+      "Gulati A",
+      "Pettitt SJ",
+      "Bulusu KC",
+      "Nikkil\u00e4 J",
+      "Wilson Z",
+      "Hughes A",
+      "Wijnhoven PWG",
+      "Ahmed A",
+      "Bruna A",
+      "Gris-Oliver A",
+      "Guzman M",
+      "Rodr\u00edguez O",
+      "Grueso J",
+      "Arribas J",
+      "Cort\u00e9s J",
+      "Saura C",
+      "Lau A",
+      "Critchlow S",
+      "Dougherty B",
+      "Caldas C",
+      "Mills GB",
+      "Barrett JC",
+      "Forment JV",
+      "Cadogan E",
+      "Lord CJ",
+      "Cruz C",
+      "Balma\u00f1a J",
+      "O'Connor MJ"
+    ],
+    "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+    "pubdate": "2022 Oct 14",
+    "doi": "10.1158/1078-0432.CCR-22-0568",
+    "abstract": "PURPOSE: PARP inhibitors (PARPi) induce synthetic lethality in homologous recombination repair (HRR)-deficient tumors and are used to treat breast, ovarian, pancreatic, and prostate cancers. Multiple PARPi resistance mechanisms exist, most resulting in restoration of HRR and protection of stalled replication forks. ATR inhibition was highlighted as a unique approach to reverse both aspects of resistance. Recently, however, a PARPi/WEE1 inhibitor (WEE1i) combination demonstrated enhanced antitumor activity associated with the induction of replication stress, suggesting another approach to tackling PARPi resistance.\nEXPERIMENTAL DESIGN: We analyzed breast and ovarian patient-derived xenoimplant models resistant to PARPi to quantify WEE1i and ATR inhibitor (ATRi) responses as single agents and in combination with PARPi. Biomarker analysis was conducted at the genetic and protein level. Metabolite analysis by mass spectrometry and nucleoside rescue experiments ex vivo were also conducted in patient-derived models.\nRESULTS: Although WEE1i response was linked to markers of replication stress, including STK11/RB1 and phospho-RPA, ATRi response associated with ATM mutation. When combined with olaparib, WEE1i could be differentiated from the ATRi/olaparib combination, providing distinct therapeutic strategies to overcome PARPi resistance by targeting the replication stress response. Mechanistically, WEE1i sensitivity was associated with shortage of the dNTP pool and a concomitant increase in replication stress.\nCONCLUSIONS: Targeting the replication stress response is a valid therapeutic option to overcome PARPi resistance including tumors without an underlying HRR deficiency. These preclinical insights are now being tested in several clinical trials where the PARPi is administered with either the WEE1i or the ATRi."
+  }
+]

@@ -1,0 +1,439 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "\"colorectal cancer\"[Title/Abstract] AND \"conversion therapy\"[Title/Abstract] AND (\"liver metastasis\"[Title/Abstract] OR \"liver metastases\"[Title/Abstract]) AND systemic[Title/Abstract]",
+  "reasoning": "q1\u524d10\u7bc7\u591a\u4e3a\u9884\u6d4b\u6a21\u578b\u3001\u5f71\u50cf\u3001\u9884\u540e\u53ca\u624b\u672f\u7814\u7a76\uff1b\u589e\u52a0\u9898\u76ee\u5df2\u6709systemic\u4ee5\u805a\u7126\u5168\u8eab\u6cbb\u7597\u3002",
+  "added_terms": [
+    {
+      "term": "liver metastases",
+      "source_term": "liver metastasis",
+      "reason": "\u590d\u6570\u5f62\u5f0f\u3002"
+    }
+  ],
+  "lint_warnings": [],
+  "effective_query": "\"colorectal cancer\"[Title/Abstract] AND \"conversion therapy\"[Title/Abstract] AND (\"liver metastasis\"[Title/Abstract] OR \"liver metastases\"[Title/Abstract]) AND systemic[Title/Abstract]",
+  "query_translation": "\"colorectal cancer\"[Title/Abstract] AND \"conversion therapy\"[Title/Abstract] AND (\"liver metastasis\"[Title/Abstract] OR \"liver metastases\"[Title/Abstract]) AND \"systemic\"[Title/Abstract]",
+  "translationset": [],
+  "warninglist": {},
+  "errorlist": {},
+  "count": 27,
+  "retmax": 100,
+  "sort": "relevance",
+  "max_date": "",
+  "pmids": [
+    "34762175",
+    "35466587",
+    "34325107",
+    "29113730",
+    "34619906",
+    "40135301",
+    "39779611",
+    "38239856",
+    "26862487",
+    "36428606",
+    "30510936",
+    "27931834",
+    "35067035",
+    "36388681",
+    "21840871",
+    "40741206",
+    "33220806",
+    "33189037",
+    "34124665",
+    "42161640",
+    "42459976",
+    "42274217",
+    "39510674",
+    "31579770",
+    "38776011",
+    "41681961",
+    "42512000"
+  ],
+  "feedback_records": [
+    {
+      "pmid": "34762175",
+      "pmcid": "",
+      "doi": "10.1007/s00595-021-02403-5",
+      "title": "Indications for conversion hepatectomy for initially unresectable colorectal cancer with liver metastasis.",
+      "abstract": "PURPOSE: Selected patients with initially unresectable colorectal cancer (CRC) and liver metastases undergo conversion surgery after appropriate chemotherapy. The prognosis of these patients is good, with some even cured of the disease. This retrospective, single-institution study analyzes the clinical importance of patient characteristics on the outcomes of conversion hepatectomy.\nMETHODS: We evaluated 229 consecutive patients with initially unresectable CRC and liver metastasis, who underwent systemic chemotherapy. The patients were assigned to groups depending on conversion hepatectomy.\nRESULTS: Conversion hepatectomy was performed in 30 patients (13.1%). The proportion of patients with extrahepatic metastasis was significantly lower in the conversion group than in the unresectable group (30.0 vs. 66.8%; P < 0.01). The rate of left-sided primary colorectal tumors was significantly higher in the conversion group than in the unresectable group (96.7 vs. 65.8%; P < 0.01). Multivariate analyses identified that left-sided tumors, no extrahepatic metastasis, H1 or H2 grade CLM, and treatment with molecular-targeted agents were associated with conversion hepatectomy (odds ratios: 16.314, 4.216, 7.631, and 4.070; P < 0.01). Overall survival was significantly longer in the conversion group than in the unresectable group (MST: 50.0 versus 14.7 months; P < 0.01).\nCONCLUSION: Left-sided primary tumors, absence of extrahepatic metastases, H1 or H2 grade, and use of molecular-targeted agents were associated with successful conversion hepatectomy; thus, patients with these characteristics may be candidates for conversion therapy.",
+      "journal": "Surgery today",
+      "year": "2022",
+      "authors": [
+        "Sugiyama Masahiko",
+        "Uehara Hideo",
+        "Shin Yuki",
+        "Shiokawa Keiichi",
+        "Fujimoto Yoshiaki",
+        "Mano Yohei",
+        "Komoda Masato",
+        "Nakashima Yuichiro",
+        "Sugimachi Keishi",
+        "Yamamoto Manabu",
+        "Morita Masaru",
+        "Toh Yasushi"
+      ],
+      "mesh_terms": [
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Colorectal Neoplasms",
+        "Hepatectomy",
+        "Humans",
+        "Liver Neoplasms",
+        "Retrospective Studies",
+        "Survival Rate"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "35466587",
+      "pmcid": "PMC9678090",
+      "doi": "10.1002/cam4.4775",
+      "title": "Conversion therapy with the intent to perform radical local treatment may not be suitable for patients with 10 or more liver metastases from colorectal cancer.",
+      "abstract": "BACKGROUND: The number of colorectal cancer liver metastases (CRLMs) is usually considered a contradictory indicator to surgical resection. However, some patients with initially unresectable CRLMs can receive radical local treatment after conversion therapy. This study aimed to evaluate the effect of radical local treatment after conversion therapy and the prognosis of patients with more than 10 initially unresectable CRLMs.\nMETHODS: Data for a total of 229 patients with initially unresectable CRLMs were retrospectively reviewed between December 2012 and January 2020. Among these patients, 107 had \u226510 CRLMs, and 122 had <10 CRLMs. Overall survival (OS) and progression-free survival (PFS) were used to reflect the prognosis of different groups of patients. Conversion therapy was defined as an initially unresectable liver metastasis converted into an R0 resectable lesion after systemic chemotherapy. Radical local treatment included hepatectomy and radiofrequency ablation (RFA).\nRESULTS: Patients with \u226510 CRLMs had a lower conversion rate (42.7% vs. 56.6%, p = 0.001). Baseline clinical N stage 1-2, \u22658 first-line chemotherapy courses, and stable disease (SD) according to the Response Evaluation Criteria in Solid Tumours (RECIST) were independent factors predictive of conversion failure. Primary tumour location in the right colon, RECIST response of SD, and the absence of targeted therapy were independent factors predictive of unfavourable OS. The survival curves revealed that the OS of patients with or without conversion could be distinguished only among patients with <10 CRLMs (89.9% [95% CI, 82.5%-98.0%] vs. 58.9% [95% CI, 45.2%-76.7%], p < 0.001); this cut-off point could also distinguish patients with a successful conversion outcome according to OS (89.9% [95% CI, 82.5-98.0%] vs. 58.2% [95% CI, 42.2-80.4%], p = 0.008).\nCONCLUSION: For CRLMs \u2265 10, patients with a successful conversion outcome cannot be distinguished from those without successful conversion outcome according to OS. Thus, conversion therapy with the intent to perform radical local treatment may not be suitable for patients with 10 or more liver metastases from colorectal cancer.",
+      "journal": "Cancer medicine",
+      "year": "2022",
+      "authors": [
+        "Lin Junzhong",
+        "Sun Hui",
+        "Zhang Weili",
+        "Hong Zhigang",
+        "Lu Zhenhai",
+        "Pan Zhizhong",
+        "Hou Zhenlin",
+        "Peng Jianhong"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Retrospective Studies",
+        "Liver Neoplasms",
+        "Hepatectomy",
+        "Colorectal Neoplasms",
+        "Catheter Ablation",
+        "Prognosis"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "34325107",
+      "pmcid": "PMC8332656",
+      "doi": "10.1016/j.esmoop.2021.100208",
+      "title": "Treatment response of colorectal cancer liver metastases to neoadjuvant or conversion therapy: a prospective multicentre follow-up study using MRI, diffusion-weighted imaging and 1H-MR spectroscopy compared with histology (subgroup in the RAXO trial).",
+      "abstract": "BACKGROUND: Colorectal cancer liver metastases respond to chemotherapy and targeted agents not only by shrinking, but also by morphologic and metabolic changes. The aim of this study was to evaluate the value of advanced magnetic resonance imaging (MRI) methods in predicting treatment response and survival.\nPATIENTS AND METHODS: We investigated contrast-enhanced MRI, apparent diffusion coefficient (ADC) in diffusion-weighted imaging and 1H-magnetic resonance spectroscopy (1H-MRS) in detecting early morphologic and metabolic changes in borderline or resectable liver metastases, as a response to first-line neoadjuvant or conversion therapy in a prospective substudy of the RAXO trial (NCT01531621, EudraCT2011-003158-24). MRI findings were compared with histology of resected liver metastases and Kaplan-Meier estimates of overall survival (OS).\nRESULTS: In 2012-2018, 52 patients at four Finnish university hospitals were recruited. Forty-seven patients received neoadjuvant or conversion chemotherapy and 40 liver resections were carried out. Low ADC values (below median) of the representative liver metastases, at baseline and after systemic therapy, were associated with partial response according to RECIST criteria, but not with morphologic MRI changes or histology. Decreasing ADC values following systemic therapy were associated with improved OS compared to unchanged or increasing ADC, both in the liver resected subgroup (5-year OS rate 100% and 34%, respectively, P = 0.022) and systemic therapy subgroup (5-year OS rate 62% and 23%, P = 0.049). 1H-MRS revealed steatohepatosis induced by systemic therapy.\nCONCLUSIONS: Low ADC values at baseline or during systemic therapy were associated with treatment response by RECIST but not with histology, morphologic or detectable metabolic changes. A decreasing ADC during systemic therapy is associated with improved OS both in all patients receiving systemic therapy and in the resected subgroup.",
+      "journal": "ESMO open",
+      "year": "2021",
+      "authors": [
+        "Uutela A",
+        "Ovissi A",
+        "Hakkarainen A",
+        "Ristim\u00e4ki A",
+        "Lundbom N",
+        "Kallio R",
+        "Soveri L M",
+        "Salminen T",
+        "\u00c5lgars A",
+        "Halonen P",
+        "Ristam\u00e4ki R",
+        "Nordin A",
+        "Blanco Sequeiros R",
+        "Rinta-Kiikka I",
+        "Lantto E",
+        "Virtanen J",
+        "P\u00e4\u00e4kk\u00f6 E",
+        "Liukkonen E",
+        "Saunavaara J",
+        "Ryymin P",
+        "Lammentausta E",
+        "Osterlund P",
+        "Isoniemi H",
+        "RAXO Study Group"
+      ],
+      "mesh_terms": [
+        "Colorectal Neoplasms",
+        "Diffusion Magnetic Resonance Imaging",
+        "Follow-Up Studies",
+        "Humans",
+        "Liver Neoplasms",
+        "Magnetic Resonance Spectroscopy",
+        "Neoadjuvant Therapy",
+        "Prospective Studies"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Multicenter Study",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "trial_ids": [
+        "NCT01531621"
+      ],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "29113730",
+      "pmcid": "",
+      "doi": "10.1016/j.clcc.2017.10.002",
+      "title": "Conversion to Resection in Patients Receiving Systemic Chemotherapy for Unresectable and/or Metastatic Colorectal Cancer-Predictive Factors and Prognosis.",
+      "abstract": "BACKGROUND: Systemic chemotherapy increases the possibility of resection in patients with initially unresectable colorectal cancer (CRC), especially patients with hepatic metastasis. However, the predictive factors and prognosis of conversion to resection after chemotherapy in patients with various organ metastases remain largely unknown.\nPATIENTS AND METHODS: We reviewed the data from metastatic CRC (mCRC) patients who had received oxaliplatin- or irinotecan-based systemic chemotherapy from 2005 to 2016. The predictors for conversion to surgery were assessed by multivariate analyses. Cancer-free survival and overall survival after the initiation of treatment were compared between patients who had undergone successful conversion therapy and those who had undergone surgery first for resectable stage IV CRC.\nRESULTS: Of 99 mCRC patients receiving first-line chemotherapy, 23 underwent secondary surgical resection. Single organ metastasis, the presence of liver metastases, and the use of biologic agents were independent predictors of successful conversion therapy. The long-term survival of patients who underwent successful secondary surgery did not differ significantly from that of the 112 patients with resectable stage IV CRC who had undergone surgery first.\nCONCLUSION: Liver metastases and single organ metastasis were more likely to be resected after chemotherapy than were other metastatic lesions in mCRC. The use of biologic agents contributed to the increased conversion rate. Successful conversion resulted in outcomes similar to those of resectable stage IV CRC.",
+      "journal": "Clinical colorectal cancer",
+      "year": "2018",
+      "authors": [
+        "Nozawa Hiroaki",
+        "Ishihara Soichiro",
+        "Kawai Kazushige",
+        "Hata Keisuke",
+        "Kiyomatsu Tomomichi",
+        "Tanaka Toshiaki",
+        "Nishikawa Takeshi",
+        "Otani Kensuke",
+        "Yasuda Koji",
+        "Sasaki Kazuhito",
+        "Kaneko Manabu",
+        "Murono Koji"
+      ],
+      "mesh_terms": [
+        "Adult",
+        "Aged",
+        "Antineoplastic Combined Chemotherapy Protocols",
+        "Colorectal Neoplasms",
+        "Disease-Free Survival",
+        "Female",
+        "Humans",
+        "Male",
+        "Middle Aged",
+        "Neoplasm Metastasis",
+        "Prognosis",
+        "Retrospective Studies"
+      ],
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "34619906",
+      "pmcid": "",
+      "doi": "10.3760/cma.j.cn112139-20210608-00248",
+      "title": "[Role of hepatic surgery in colorectal cancer multiple liver metastasis].",
+      "abstract": "Colorectal cancer liver metastasis can be categorized as initially resectable and initially unresectable liver metastasis. Patients with initially resectable colorectal cancer liver metastases may benefit from hepatic surgery significantly,while those with initially unresectable metastases also have an opportunity to be treated radically by liver surgery after conversion therapy,so as to have a prolonged survival time. It is crucial to choose the right time and right way of surgical intervention. The timing depends on determination of tumor resectability,controlling of pre-operative systemic therapy and evaluation of liver function after systemic treatment. The selection of right way contains the election between synchronous operation and staged operation, resection margin and using of technologies such as laparoscope and associating liver partition and portal vein ligation for staged hepatectomy. This paper aims to explore the optimal timing for operation and the approaches of surgical method based on the research progress worldwide for prolonging the survival time of patients with colorectal cancer multiple liver metastases.",
+      "journal": "Zhonghua wai ke za zhi [Chinese journal of surgery]",
+      "year": "2021",
+      "authors": [
+        "Xu Y X X",
+        "Ye Y B",
+        "Chen T",
+        "Chen Y J"
+      ],
+      "mesh_terms": [
+        "Colorectal Neoplasms",
+        "Hepatectomy",
+        "Humans",
+        "Liver Neoplasms",
+        "Treatment Outcome"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "40135301",
+      "pmcid": "",
+      "doi": "10.12968/hmed.2024.0695",
+      "title": "Circulating Tumor DNA Predicts Conversion Therapy Response and Prognosis in Initially Unresectable Colorectal Liver-Limited Metastases: A Retrospective Study.",
+      "abstract": "Aims/Background Effective molecular biomarkers for predicting prognosis and guiding treatment in patients with initially unresectable colorectal liver metastases (CRLMs) undergoing conversion therapy are currently lacking. This study investigated the predictive value of circulating tumor DNA (ctDNA) conversion therapy outcomes in initially unresectable CRLMs. Methods A retrospective analysis was conducted on 81 patients with CRLMs treated at the Sixth Affiliated Hospital, Sun Yat-sen University from January 2017 to April 2021. The relationships between baseline and treatment ctDNA levels and clinical responses were evaluated using group comparisons based on data type. The impact of ctDNA on survival outcomes was analyzed through Cox regression survival analysis. Results Analysis of 81 patients with ctDNA-positive at baseline showed that patients in the ctDNA low-level group had a significantly longer median progression-free survival (mPFS) (p = 0.039). Among 45 patients who underwent ctDNA testing during systemic therapy, the proportion of patients in the ctDNA-negative group receiving local ablative treatment (LAT) was significantly higher (70.0% vs 26.7%, p = 0.006). Furthermore, 50% of patients in the ctDNA-negative group achieved no evidence of disease (NED) status, compared to 6.7% in the ctDNA-positive group (p = 0.004). Both mPFS and median overall survival (mOS) were significantly longer in ctDNA-negative patients compared to ctDNA-positive patients (p < 0.05). Of the 61 patients who underwent LAT, 37 received ctDNA testing at the same time as imaging assessment for NED. The proportion of patients with ctDNA clearance who achieved NED status was markedly higher than that of patients with ctDNA non-clearance (78.6% vs 33.3%, p = 0.036). Patients with ctDNA clearance demonstrated significantly improved mOS compared to those with ctDNA non-clearance (not reached vs 30.1 months, p = 0.036). Conclusion Dynamic changes in ctDNA levels can predict both long-term survival and the effectiveness of conversion therapy in patients with initially unresectable CRLMs.",
+      "journal": "British journal of hospital medicine (London, England : 2005)",
+      "year": "2025",
+      "authors": [
+        "Han Bohan",
+        "Shen Cailu",
+        "Hu Huabin",
+        "Zhang Jianwei",
+        "Xie Xiaoyu",
+        "Mo Qinli",
+        "Deng Yanhong"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Colorectal Neoplasms",
+        "Liver Neoplasms",
+        "Retrospective Studies",
+        "Female",
+        "Male",
+        "Circulating Tumor DNA",
+        "Middle Aged",
+        "Aged",
+        "Prognosis",
+        "Biomarkers, Tumor",
+        "Adult",
+        "Predictive Value of Tests"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "39779611",
+      "pmcid": "PMC11711644",
+      "doi": "10.1007/s00384-024-04799-1",
+      "title": "Treatment outcomes and prognostic factors in patients with colorectal cancer and synchronous lung metastases in the conversion therapy era.",
+      "abstract": "PURPOSE: The Japanese Grade Classification based on the status of pulmonary and mesenteric nodal metastases and the presence of extrapulmonary metastases had a prognostic value in patients with colorectal lung metastases previously. Because the survival of such patients has improved in the era of conversion therapy, this classification needs to be reaudited.\nMETHODS: This study reviewed the treatment sequences of 126 colorectal cancer patients with synchronous lung metastases between 2010 and 2022 at our hospital. Patients were divided into Japanese Classification Grade A, B, and C. Prognostic factors for overall survival (OS) were analyzed.\nRESULTS: Thirty patients were initially diagnosed with resectable disease. Among these, 6 (35%) of 17 patients who were scheduled to undergo upfront surgery developed unresectable disease. In contrast, 3 (23%) of 13 patients receiving neoadjuvant therapy could not undergo curative resection. Twelve (13%) of 96 patients with initially unresectable metastases underwent conversion to complete resection after systemic therapy. On multivariate analysis, curative resection and H3 (> 5 liver metastases and maximum diameter > 5 cm) at diagnosis were independent prognostic factors, whereas the Japanese Grade Classification was not associated with OS.\nCONCLUSION: Instead of the Japanese classification, a new prognostic classification incorporating H3 should be established.",
+      "journal": "International journal of colorectal disease",
+      "year": "2025",
+      "authors": [
+        "Nozawa Hiroaki",
+        "Suzuki Nobumi",
+        "Tsushima Tatsuya",
+        "Murono Koji",
+        "Sasaki Kazuhito",
+        "Emoto Shigenobu",
+        "Fujishiro Mitsuhiro",
+        "Sato Masaaki",
+        "Ishihara Soichiro"
+      ],
+      "mesh_terms": [
+        "Humans",
+        "Colorectal Neoplasms",
+        "Male",
+        "Lung Neoplasms",
+        "Female",
+        "Prognosis",
+        "Aged",
+        "Middle Aged",
+        "Treatment Outcome",
+        "Adult",
+        "Aged, 80 and over",
+        "Multivariate Analysis"
+      ],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "38239856",
+      "pmcid": "PMC10794467",
+      "doi": "10.3389/or.2023.11799",
+      "title": "Multimodal Management of Colorectal Liver Metastases: State of the Art.",
+      "abstract": "Liver is the most common site of colorectal cancer (CRC) metastases. Treatment of CRC liver metastases (CRLM) includes different strategies, prevalently based on the clinical and oncological intent. Valid approaches in liver-limited or liver-prevalent disease include surgery, percutaneous ablative procedures (radiofrequency ablation, microwave ablation), intra-arterial perfusional techniques (chemo-embolization, radio-embolization) as well as stereotactic radiotherapy. Systemic treatments, including chemotherapy, immunotherapy and other biological agents, are the only options for patients with no chance of locoregional approaches. The use of chemotherapy in other settings, such as neoadjuvant, adjuvant or conversion therapy of CRLM, is commonly accepted in the clinical practice, although data from several clinical trials have been mostly inconclusive. The optimal integration of all these strategies, when applicable and clinically indicated, should be ever considered in patients affected by CRLM based on clinical evidence and multidisciplinary experience. Here we revised in detail all the possible therapeutic approaches of CRLM focusing on the current evidences, the studies still in progress and the often contradictory data.",
+      "journal": "Oncology reviews",
+      "year": "2023",
+      "authors": [
+        "Filoni Elisabetta",
+        "Musci Vittoria",
+        "Di Rito Alessia",
+        "Inchingolo Riccardo",
+        "Memeo Riccardo",
+        "Mannavola Francesco"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "26862487",
+      "pmcid": "PMC4734940",
+      "doi": "10.5306/wjco.v7.i1.9",
+      "title": "Current treatment options for patients with initially unresectable isolated colorectal liver metastases.",
+      "abstract": "The development of liver metastases is a common clinical entity in the clinical course of colorectal cancer. For patients with isolated liver involvement, surgical resection is the only treatment that can provide a chance of prolonged survival and cure. However, most of these patients are not initially eligible for the surgery. Selected patients with initially considered to have unresectable disease may become resectable after systemic (chemotherapy \u00b1 biological therapy) and loco-regional treatment modalities including hepatic arterial infusion. Patients who have colorectal liver metastases ideally should be referred to a multidisciplinary cancer care team in order to identify the most optimal management approach.",
+      "journal": "World journal of clinical oncology",
+      "year": "2016",
+      "authors": [
+        "Kanat Ozkan"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    },
+    {
+      "pmid": "36428606",
+      "pmcid": "PMC9688791",
+      "doi": "10.3390/cancers14225513",
+      "title": "Conversion Strategy in Left-Sided RAS/BRAF Wild-Type Metastatic Colorectal Cancer Patients with Unresectable Liver-Limited Disease: A Multicenter Cohort Study.",
+      "abstract": "Colorectal cancer (CRC) patients frequently develop liver metastases. Different treatment strategies are available according to the timing of appearance, the burden of metastatic disease, and the performance status of the patient. Systemic treatment (ST) represents the cornerstone of metastatic disease management. However, in select cases, combined ST and surgical resection can lead to remarkable survival outcomes. In the present multicentric cohort study, we explored the efficacy of a conversion strategy in a selected population of left-sided RAS/BRAF wild-type CRC patients with liver-limited metastatic disease. Methods: The primary endpoint was to compare survival outcomes of patients undergoing ST not leading to surgery, liver resection after conversion ST, and hepatic resection with perioperative ST. Furthermore, we explored survival outcomes depending on whether the case was discussed within a multidisciplinary team. Results: Between 2012 and 2020, data from 690 patients respecting the inclusion criteria were collected. Among these, 272 patients were deemed eligible for the analysis. The conversion rate was 24.1% of cases. Fifty-six (20.6%) patients undergoing surgical resection after induction treatment (i.e., ultimately resectable) had a significant survival advantage compared to those receiving systemic treatment not leading to surgery (176 pts, 64.7%) (5-year OS 60.8% and 11.7%, respectively, Log Rank test p < 0.001; HR = 0.273; 95% CI: 0.16\u22120.46; p < 0.001; 5-year PFS 22.2% and 6.3%, respectively, Log Rank test p < 0.001; HR = 0.447; 95% CI: 0.32\u22120.63; p < 0.001). There was no difference in survival between ultimately resectable patients and those who had liver resection with perioperative systemic treatment (potentially resectable\u201440 pts) (5-year OS 71.1%, Log Rank test p = 0.311. HR = 0.671; 95% CI: 0.31\u22121.46; p = 0.314; 5-year PFS 25.7%, Log Rank test p = 0.305. HR = 0.782; 95% CI: 0.49\u22121.25; p = 0.306). Conclusions: In our selected population of left-sided RAS/BRAF wild-type colorectal cancer patients with liver-limited disease, a conversion strategy was confirmed to provide a survival benefit. Patients not deemed surgical candidates at the time of diagnosis and patients judged resectable with perioperative systemic treatment have similar survival outcomes.",
+      "journal": "Cancers",
+      "year": "2022",
+      "authors": [
+        "Granieri Stefano",
+        "Cotsoglou Christian",
+        "Bonomi Alessandro",
+        "Salvatore Lisa",
+        "Filippi Roberto",
+        "Nigro Olga",
+        "Gelsomino Fabio",
+        "Zurlo Ina Valeria",
+        "Depetris Ilaria",
+        "Giampieri Riccardo",
+        "Berardi Rossana",
+        "Morelli Cristina",
+        "De Tursi Michele",
+        "Roberto Michela",
+        "Gjoni Elson",
+        "Germini Alessandro",
+        "de Angelis Nicola",
+        "Memeo Riccardo",
+        "Facciorusso Antonio",
+        "Garrone Ornella",
+        "Ramai Daryl",
+        "Ghidini Michele",
+        "Parisi Alessandro"
+      ],
+      "mesh_terms": [],
+      "publication_types": [
+        "Journal Article"
+      ],
+      "trial_ids": [],
+      "source": "pubmed",
+      "verified": true,
+      "verified_by": "pubmed",
+      "verified_on": "2026-09-15"
+    }
+  ],
+  "feedback_error": "",
+  "executed_at": "2026-09-15T14:01:19+00:00"
+}

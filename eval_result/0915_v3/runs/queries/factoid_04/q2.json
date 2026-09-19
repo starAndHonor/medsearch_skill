@@ -1,0 +1,1 @@
+{"attempt_id":"q2","exact_query":"colorectal[Title/Abstract] AND liver[Title/Abstract] AND conversion[Title/Abstract] AND systemic[Title/Abstract]","reasoning":"q1 feedback emphasized prognosis and imaging; use the explicit systemic concept and relax the fixed conversion therapy phrase to find systemic treatment discussions.","added_terms":[]}

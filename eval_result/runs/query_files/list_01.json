@@ -1,0 +1,1 @@
+{"test_id":"list_01","question":"What is caused by biallelic CRELD1 variants?","exact_query":"(CRELD1[Title/Abstract]) AND (biallelic[Title/Abstract] OR bi-allelic[Title/Abstract]) AND (variant[Title/Abstract] OR variants[Title/Abstract])","reasoning":"Co-occur the gene, zygosity, and variant terms.","added_terms":[]}

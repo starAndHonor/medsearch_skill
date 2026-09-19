@@ -1,0 +1,5 @@
+usage: medlit-cli export-retrieval [-h] --output-dir OUTPUT_DIR
+
+options:
+  -h, --help            show this help message and exit
+  --output-dir OUTPUT_DIR

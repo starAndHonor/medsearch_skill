@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "WEE1[Title/Abstract] AND PARP[Title/Abstract] AND resistan*[Title/Abstract] AND expression[Title/Abstract]",
+  "reasoning": "q1前列多数讨论药物联合和逆转耐药，不直接讨论WEE1表达水平；增加题目已有expression以聚焦表达与耐药关系。",
+  "added_terms": [
+    {
+      "term": "resistan*",
+      "source_term": "resistance",
+      "reason": "覆盖resistance和resistant。"
+    }
+  ]
+}

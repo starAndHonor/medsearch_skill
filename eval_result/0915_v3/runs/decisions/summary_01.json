@@ -1,0 +1,6 @@
+{
+  "test_id": "summary_01",
+  "accepted_attempt_id": "q1",
+  "reason": "唯一命中标题和摘要明确描述指定方法的建模和评价，翻译正确，不因结果少而扩大。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

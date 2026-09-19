@@ -1,0 +1,6 @@
+{
+  "test_id": "factoid_03",
+  "accepted_attempt_id": "q1",
+  "reason": "前列综述和媒介能力研究覆盖病毒与传播媒介关系。命中数大但前列相关，无需按数量缩窄。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

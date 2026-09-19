@@ -1,0 +1,27 @@
+polite-http
+Copyright 2026 polite-http contributors
+
+This product includes software developed by Google LLC as part of the
+science-skills project (https://github.com/google-deepmind/science-skills),
+licensed under the Apache License, Version 2.0.
+
+The file `src/polite_http/http_client.py` is derived from
+`skills/scienceskillscommon/http_client.py` in that project.
+
+Modifications made by the polite-http contributors include:
+
+  * Repackaged as the standalone, installable `polite_http` Python package.
+  * Renamed the project/lock-file prefix from "science-skills" to
+    "polite-http".
+  * Renamed the User-Agent environment variable from
+    "SCIENCE_SKILLS_USER_AGENT" to "POLITE_HTTP_USER_AGENT" (exposed as
+    `polite_http.USER_AGENT_ENV_VAR`).
+  * Replaced the science-skills-specific `referer_skill` parameter and Referer
+    template with a generic `referer` string parameter.
+  * Added cross-platform cross-process locking: `fcntl` on POSIX and `msvcrt`
+    on Windows, with a best-effort in-process timer fallback on the rare
+    platform that provides neither (still standard-library only).
+  * Made the rate-limit lock directory configurable via the
+    "POLITE_HTTP_LOCK_DIR" environment variable (defaulting to the system temp
+    directory).
+  * Added input validation for non-positive `qps`.

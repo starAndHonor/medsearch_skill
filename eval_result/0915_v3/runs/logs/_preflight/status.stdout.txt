@@ -1,0 +1,4 @@
+usage: medlit-cli status [-h]
+
+options:
+  -h, --help  show this help message and exit

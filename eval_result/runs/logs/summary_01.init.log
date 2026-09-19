@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/summary_01.json
+{
+  "state": "eval_result/runs/states/summary_01.json",
+  "question": "Describe RankMHC.",
+  "next": "search-pubmed --query-file <query.json>"
+}

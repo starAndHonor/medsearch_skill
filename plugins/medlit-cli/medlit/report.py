@@ -27,12 +27,23 @@ class ReportWriter:
             f"- Evidence items: {len(state.get('evidence', []))}",
             f"- Full-text hit rate: {diag.get('metrics', {}).get('fulltext_hit_rate', 'N/A')}",
             "",
-            "## PICO",
+            "## Accepted PubMed Query",
             "",
         ]
-        pico = state.get("pico", {})
-        for key in ("population", "intervention_or_exposure", "comparator", "outcome"):
-            lines.append(f"- {key}: {pico.get(key, '')}")
+        accepted_id = state.get("accepted_query_attempt_id", "")
+        accepted = next(
+            (
+                item
+                for item in state.get("query_attempts", [])
+                if item.get("attempt_id") == accepted_id
+            ),
+            {},
+        )
+        lines.extend([
+            f"- Attempt: {accepted_id or 'none'}",
+            f"- Query: `{accepted.get('exact_query', '')}`",
+            f"- PubMed hits: {accepted.get('count', 0)}",
+        ])
         lines.extend(["", "## Evidence", ""])
         for idx, item in enumerate(state.get("evidence", []), 1):
             lines.extend([
@@ -61,8 +72,12 @@ class ReportWriter:
                 lines.append(f"- {blocker.get('kind')}: {blocker.get('message')} {blocker.get('advice', '')}")
             lines.append("")
         lines.extend(["## Search Audit", ""])
-        for run in state.get("retrieval_runs", []):
-            lines.append(f"- {run.get('query_id')}: {run.get('count')} hits; query `{run.get('query')}`")
+        for attempt in state.get("query_attempts", []):
+            marker = " (accepted)" if attempt.get("attempt_id") == accepted_id else ""
+            lines.append(
+                f"- {attempt.get('attempt_id')}{marker}: "
+                f"{attempt.get('count')} hits; query `{attempt.get('exact_query')}`"
+            )
         path.write_text("\n".join(lines), encoding="utf-8")
         return str(path)
 

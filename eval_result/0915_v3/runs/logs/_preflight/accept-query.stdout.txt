@@ -1,0 +1,6 @@
+usage: medlit-cli accept-query [-h] --attempt-id ATTEMPT_ID
+
+options:
+  -h, --help            show this help message and exit
+  --attempt-id ATTEMPT_ID
+                        Attempt id returned by search-pubmed.

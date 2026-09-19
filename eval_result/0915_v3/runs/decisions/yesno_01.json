@@ -1,0 +1,6 @@
+{
+  "test_id": "yesno_01",
+  "accepted_attempt_id": "q2",
+  "reason": "q1偏抑制剂联用和一般耐药，q2加入原题expression后前列出现明确研究表达与PARP抑制耐药关系的记录，保留全部7条排名。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

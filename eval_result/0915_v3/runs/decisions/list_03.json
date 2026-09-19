@@ -1,0 +1,6 @@
+{
+  "test_id": "list_03",
+  "accepted_attempt_id": "q2",
+  "reason": "q1混入其他物质半衰期及长效制剂，q2的前列记录直接涉及短半衰期药物与长短效比较。q2恢复一次后仍缺PMID 20641200，基于其余9条完整可用反馈接受查询；不删除缺失PMID、不补位或重复恢复。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

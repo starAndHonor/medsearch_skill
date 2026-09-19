@@ -1,0 +1,5 @@
+{
+  "state": "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\list_03.json",
+  "question": "Please list the short half life phosphodiesterase 5 inhibitors.",
+  "next": "search-pubmed --query-file <query.json>"
+}

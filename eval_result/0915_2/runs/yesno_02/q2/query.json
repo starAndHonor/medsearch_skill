@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q2",
+  "exact_query": "\"mucopolysaccharidosis-plus syndrome\"[Title/Abstract]",
+  "reasoning": "q1的MPSPS分支引入蛋白支架、聚苯乙烯、运动员及微粒等同形缩写；删除歧义缩写，仅保留完整病名。",
+  "added_terms": []
+}

@@ -32,8 +32,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--max-questions", type=int, default=0, help="Limit number of questions to run (0 = all).")
     parser.add_argument("--resume", action="store_true", help="Skip questions already in a terminal state.")
     parser.add_argument("--clear-cache", action="store_true", help="Clear HTTP cache before running.")
-    parser.add_argument("--pico-dir", default="", help="Directory containing pre-generated PICO JSON files named <question-id>.json.")
-    parser.add_argument("--retmax", type=int, default=100, help="Per-lane retrieval depth (validated balanced default: 100).")
+    parser.add_argument("--query-dir", required=True, help="Directory containing Agent-authored query JSON files named <question-id>.json.")
+    parser.add_argument("--retmax", type=int, default=100, help="Retrieval depth for the accepted Agent query.")
     parser.add_argument(
         "--default-max-date",
         default="",
@@ -48,31 +48,6 @@ def safe_id(raw_id: str) -> str:
 
 def load_benchmark(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def heuristic_pico(question: str) -> dict[str, Any]:
-    """Build a minimal PICO from a BioASQ question.
-
-    This is intentionally simple: it treats the whole question as the population
-    and leaves I/C/O empty when they cannot be reliably inferred. The downstream
-    term planner can still extract controlled terms from the full text.
-    """
-    return {
-        "question": question,
-        "population": question,
-        "intervention_or_exposure": "",
-        "comparator": "",
-        "outcome": "",
-        "study_designs": ["randomized controlled trial", "systematic review", "meta-analysis"],
-        "notes": "Auto-generated from BioASQ question for batch evaluation.",
-    }
-
-
-def write_pico(work_dir: Path, pico: dict[str, Any]) -> Path:
-    work_dir.mkdir(parents=True, exist_ok=True)
-    pico_path = work_dir / "pico.json"
-    pico_path.write_text(json.dumps(pico, ensure_ascii=False, indent=2), encoding="utf-8")
-    return pico_path
 
 
 def run_cli_command(args: list[str], env: dict[str, str]) -> tuple[int, str]:
@@ -103,7 +78,7 @@ def run_cli_command(args: list[str], env: dict[str, str]) -> tuple[int, str]:
 def run_pipeline(
     question: dict[str, Any],
     work_dir: Path,
-    pico_dir: Path | None,
+    query_dir: Path,
     retmax: int,
     max_date: str,
     env: dict[str, str],
@@ -119,41 +94,43 @@ def run_pipeline(
     # 1. init
     steps.append((["init", "--question", question["question"], "--state", str(state_path)], True))
 
-    # 2. decompose with PICO
-    pico: dict[str, Any] | None = None
-    if pico_dir:
-        candidate = pico_dir / f"{safe_qid}.json"
-        if not candidate.exists():
-            candidate = pico_dir / f"{qid}.json"
-        if candidate.exists():
-            pico = json.loads(candidate.read_text(encoding="utf-8"))
-    if pico is None:
-        pico = heuristic_pico(question["question"])
-    pico_path = write_pico(work_dir / safe_qid, pico)
-    steps.append((["decompose", "--pico-file", str(pico_path), "--state", str(state_path)], True))
+    # Agent-authored queries are generated outside this deterministic runner.
+    query_path = query_dir / f"{safe_qid}.json"
+    if not query_path.exists():
+        query_path = query_dir / f"{qid}.json"
+    if not query_path.exists():
+        return {
+            "id": qid,
+            "safe_id": safe_qid,
+            "state_path": str(state_path),
+            "report_path": "",
+            "status": "missing_query_file",
+            "records_count": 0,
+            "evidence_count": 0,
+            "report_exists": False,
+            "stop_reason": f"missing_query_file:{query_path}",
+            "steps": [],
+            "completed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        }
+    query_payload = json.loads(query_path.read_text(encoding="utf-8"))
+    attempt_id = str(query_payload.get("attempt_id", "")).strip() or "q001"
 
-    # 3. planning and validation
-    steps.extend([
-        (["plan-terms", "--state", str(state_path)], True),
-        (["validate-mesh", "--state", str(state_path)], False),
-        (["build-query", "--state", str(state_path)], True),
-    ])
-
-    # 4. retrieval; cap publication date so questions never see post-question literature.
-    # Execute every ladder query (broad, AND, drugclass) and merge PMIDs so
-    # gold papers ranking highly in any variant are kept.
+    # Execute and explicitly accept the single Agent-authored query.
     cutoff = str(question.get("question_date", "")).strip() or max_date
-    ladder_qids = ["Q0_cleaned_natural", "Q1_structured_recall", "Q1b_entity_anchor", "Q2_explicit_filters"]
-    search_cmds = []
-    for qid in ladder_qids:
-        cmd = ["search-pubmed", "--query-id", qid, "--retmax", str(retmax), "--state", str(state_path)]
-        if cutoff:
-            cmd += ["--max-date", cutoff]
-        search_cmds.append((cmd, False))
-    steps.extend(search_cmds)
+    search_cmd = [
+        "search-pubmed",
+        "--query-file",
+        str(query_path),
+        "--retmax",
+        str(retmax),
+        "--state",
+        str(state_path),
+    ]
+    if cutoff:
+        search_cmd += ["--max-date", cutoff]
+    steps.append((search_cmd, True))
+    steps.append((["accept-query", "--attempt-id", attempt_id, "--state", str(state_path)], True))
     steps.append((["fetch-records", "--state", str(state_path)], False))
-    # retrieval steps are non-critical: empty results are expected for
-    # narrow AND queries, so don't let them abort the pipeline
     retrieval_step_names = {"search-pubmed", "fetch-records"}
 
     # 5. fulltext and evidence extraction
@@ -239,7 +216,7 @@ def main(argv: list[str] | None = None) -> int:
     benchmark_path = Path(args.benchmark)
     work_dir = Path(args.work_dir)
     cache_dir = Path(args.cache_dir)
-    pico_dir = Path(args.pico_dir) if args.pico_dir else None
+    query_dir = Path(args.query_dir)
 
     if args.clear_cache and cache_dir.exists():
         import shutil
@@ -275,7 +252,7 @@ def main(argv: list[str] | None = None) -> int:
             console.ok(f"[{qid}] already terminal; skipping")
             continue
 
-        result = run_pipeline(question, work_dir, pico_dir, args.retmax, args.default_max_date, env, console)
+        result = run_pipeline(question, work_dir, query_dir, args.retmax, args.default_max_date, env, console)
         # Use the actual question id, not the last search query id.
         result["id"] = qid
         result["safe_id"] = safe_id(qid)

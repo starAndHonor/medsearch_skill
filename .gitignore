@@ -24,6 +24,7 @@ htmlcov/
 
 # Project runtime artifacts (run state, HTTP caches, local config)
 evals/cache/
+evals/cache_*/
 evals/__pycache__/
 evals/runs_13b/
 evals/runs_smoke/
@@ -39,7 +40,6 @@ Thumbs.db
 .vscode/
 
 # Local review documents
-doc/
 
 # Keep frozen eval inputs and runners; exclude reproducible run outputs.
 evals/**/cache/

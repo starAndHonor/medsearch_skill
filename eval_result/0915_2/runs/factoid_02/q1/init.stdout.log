@@ -1,0 +1,5 @@
+{
+  "state": "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\factoid_02.json",
+  "question": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?",
+  "next": "search-pubmed --query-file <query.json>"
+}

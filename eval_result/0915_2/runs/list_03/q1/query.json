@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "(\"phosphodiesterase 5 inhibitors\"[Title/Abstract] OR \"PDE5 inhibitors\"[Title/Abstract]) AND \"half life\"[Title/Abstract]",
+  "reasoning": "以药物类别和半衰期定位药代比较，不添加具体药物；short作为摘要判断而非强制词。",
+  "added_terms": [
+    {
+      "term": "PDE5 inhibitors",
+      "source_term": "phosphodiesterase 5 inhibitors",
+      "reason": "直接缩写。"
+    }
+  ]
+}

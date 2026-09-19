@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "AXL[Title/Abstract] AND (malignan*[Title/Abstract] OR cancer*[Title/Abstract])",
+  "reasoning": "Use the question's distinctive entities and relationship; omit question scaffolding and avoid guessing the answer. Wildcards cover lexical endings.",
+  "added_terms": [
+    {
+      "term": "cancer*",
+      "source_term": "malignancy",
+      "reason": "Direct synonym for the malignancy context."
+    }
+  ]
+}

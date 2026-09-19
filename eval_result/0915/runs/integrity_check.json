@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-09-15T21:38:35.400295+08:00",
+  "status": "passed",
+  "question_count": 16,
+  "completed_questions": 16,
+  "search_attempts": 20,
+  "raw_response_files": 40,
+  "abstract_records_fetched": 183,
+  "accepted_ranked_entries": 968,
+  "question_text_and_order_preserved": true,
+  "all_rankings_equal_raw_responses": true,
+  "feedback_matches_first_10_in_original_order": true,
+  "screening_and_fulltext_arrays_empty": true,
+  "null_or_empty_abstract_records": [
+    {
+      "test_id": "factoid_01",
+      "attempt_id": "q1",
+      "pmid": "37650884"
+    },
+    {
+      "test_id": "summary_02",
+      "attempt_id": "q1",
+      "pmid": "39555834"
+    },
+    {
+      "test_id": "summary_02",
+      "attempt_id": "q1",
+      "pmid": "24441344"
+    },
+    {
+      "test_id": "summary_02",
+      "attempt_id": "q1",
+      "pmid": "38519435"
+    }
+  ],
+  "blank_title_records": [
+    {
+      "test_id": "list_01",
+      "attempt_id": "q1",
+      "pmid": "40870020"
+    },
+    {
+      "test_id": "list_04",
+      "attempt_id": "q1",
+      "pmid": "39282548"
+    }
+  ],
+  "no_relevance_scores_computed": true
+}

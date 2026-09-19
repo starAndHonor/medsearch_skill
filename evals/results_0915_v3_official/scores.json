@@ -1,0 +1,592 @@
+{
+  "upstream": "https://github.com/BioASQ/Evaluation-Measures",
+  "commit": "8c8e689068a41c1370fec55260e5fbfe3a6a6016",
+  "evaluator": "evaluation.EvaluatorTask1b",
+  "edition_mode": 9,
+  "submission_depth": 10,
+  "question_count": 16,
+  "compiled_from_unmodified_source": true,
+  "summary": {
+    "medlit_0904": {
+      "mean_precision": 0.17500000000000002,
+      "mean_recall": 0.3094246031746032,
+      "mean_f1": 0.1955042033989402,
+      "MAP": 0.25487103174603176,
+      "GMAP": 0.004260360261557445
+    },
+    "science_pubmed_0915": {
+      "mean_precision": 0.2015625,
+      "mean_recall": 0.47075892857142854,
+      "mean_f1": 0.24062770734597358,
+      "MAP": 0.3173940617913832,
+      "GMAP": 0.046773938803368977
+    },
+    "medlit_astra_0915_2": {
+      "mean_precision": 0.24226190476190476,
+      "mean_recall": 0.4877728174603174,
+      "mean_f1": 0.2843461416894079,
+      "MAP": 0.3335342261904761,
+      "GMAP": 0.08746309428646604
+    },
+    "medlit_astra_0915_v3": {
+      "mean_precision": 0.24226190476190476,
+      "mean_recall": 0.5010416666666666,
+      "mean_f1": 0.28470954462634024,
+      "MAP": 0.3312896825396824,
+      "GMAP": 0.0905758235055896
+    }
+  },
+  "questions": [
+    {
+      "test_id": "factoid_01",
+      "type": "factoid",
+      "medlit_0904": {
+        "mean_precision": 0.2,
+        "mean_recall": 1.0,
+        "mean_f1": 0.33333333333333337,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.1,
+        "mean_recall": 1.0,
+        "mean_f1": 0.18181818181818182,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.2,
+        "mean_recall": 1.0,
+        "mean_f1": 0.33333333333333337,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.1,
+        "mean_recall": 1.0,
+        "mean_f1": 0.18181818181818182,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      }
+    },
+    {
+      "test_id": "factoid_02",
+      "type": "factoid",
+      "medlit_0904": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.6666666666666666,
+        "mean_f1": 0.30769230769230765,
+        "MAP": 0.4666666666666666,
+        "GMAP": 0.46667666666666663
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.6666666666666666,
+        "mean_f1": 0.30769230769230765,
+        "MAP": 0.4666666666666666,
+        "GMAP": 0.46667666666666663
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.6666666666666666,
+        "mean_f1": 0.30769230769230765,
+        "MAP": 0.4444444444444444,
+        "GMAP": 0.44445444444444443
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.6666666666666666,
+        "mean_f1": 0.30769230769230765,
+        "MAP": 0.42857142857142855,
+        "GMAP": 0.42858142857142856
+      }
+    },
+    {
+      "test_id": "factoid_03",
+      "type": "factoid",
+      "medlit_0904": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.02857142857142857,
+        "mean_f1": 0.04444444444444444,
+        "MAP": 0.05,
+        "GMAP": 0.05001000000000001
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.02857142857142857,
+        "mean_f1": 0.04444444444444444,
+        "MAP": 0.02,
+        "GMAP": 0.020010000000000003
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.02857142857142857,
+        "mean_f1": 0.04444444444444444,
+        "MAP": 0.05,
+        "GMAP": 0.05001000000000001
+      }
+    },
+    {
+      "test_id": "factoid_04",
+      "type": "factoid",
+      "medlit_0904": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.03571428571428571,
+        "mean_f1": 0.05263157894736841,
+        "MAP": 0.03333333333333333,
+        "GMAP": 0.033343333333333336
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.03571428571428571,
+        "mean_f1": 0.05263157894736841,
+        "MAP": 0.025,
+        "GMAP": 0.02501
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.03571428571428571,
+        "mean_f1": 0.05263157894736841,
+        "MAP": 0.03333333333333333,
+        "GMAP": 0.033343333333333336
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.03571428571428571,
+        "mean_f1": 0.05263157894736841,
+        "MAP": 0.016666666666666666,
+        "GMAP": 0.016676666666666663
+      }
+    },
+    {
+      "test_id": "list_01",
+      "type": "list",
+      "medlit_0904": {
+        "mean_precision": 0.3333333333333333,
+        "mean_recall": 1.0,
+        "mean_f1": 0.5,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.25,
+        "mean_recall": 1.0,
+        "mean_f1": 0.4,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.3333333333333333,
+        "mean_recall": 1.0,
+        "mean_f1": 0.5,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.3333333333333333,
+        "mean_recall": 1.0,
+        "mean_f1": 0.5,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      }
+    },
+    {
+      "test_id": "list_02",
+      "type": "list",
+      "medlit_0904": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.4,
+        "mean_f1": 0.26666666666666666,
+        "MAP": 0.16666666666666666,
+        "GMAP": 0.16667666666666667
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.4,
+        "mean_f1": 0.26666666666666666,
+        "MAP": 0.10666666666666666,
+        "GMAP": 0.10667666666666664
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.4,
+        "mean_f1": 0.26666666666666666,
+        "MAP": 0.14666666666666667,
+        "GMAP": 0.1466766666666667
+      }
+    },
+    {
+      "test_id": "list_03",
+      "type": "list",
+      "medlit_0904": {
+        "mean_precision": 0.16666666666666666,
+        "mean_recall": 0.14285714285714285,
+        "mean_f1": 0.15384615384615383,
+        "MAP": 0.03571428571428571,
+        "GMAP": 0.03572428571428572
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.14285714285714285,
+        "mean_f1": 0.11764705882352941,
+        "MAP": 0.02040816326530612,
+        "GMAP": 0.020418163265306117
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.14285714285714285,
+        "mean_f1": 0.11764705882352941,
+        "MAP": 0.017857142857142856,
+        "GMAP": 0.01786714285714286
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.2857142857142857,
+        "mean_f1": 0.23529411764705882,
+        "MAP": 0.055555555555555546,
+        "GMAP": 0.055565555555555556
+      }
+    },
+    {
+      "test_id": "list_04",
+      "type": "list",
+      "medlit_0904": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      }
+    },
+    {
+      "test_id": "summary_01",
+      "type": "summary",
+      "medlit_0904": {
+        "mean_precision": 1.0,
+        "mean_recall": 1.0,
+        "mean_f1": 1.0,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 1.0,
+        "mean_recall": 1.0,
+        "mean_f1": 1.0,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 1.0,
+        "mean_recall": 1.0,
+        "mean_f1": 1.0,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 1.0,
+        "mean_recall": 1.0,
+        "mean_f1": 1.0,
+        "MAP": 1.0,
+        "GMAP": 1.00001
+      }
+    },
+    {
+      "test_id": "summary_02",
+      "type": "summary",
+      "medlit_0904": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.375,
+        "mean_recall": 1.0,
+        "mean_f1": 0.5454545454545454,
+        "MAP": 0.36944444444444446,
+        "GMAP": 0.3694544444444445
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.5,
+        "mean_recall": 1.0,
+        "mean_f1": 0.6666666666666666,
+        "MAP": 0.3833333333333333,
+        "GMAP": 0.3833433333333333
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.5,
+        "mean_recall": 1.0,
+        "mean_f1": 0.6666666666666666,
+        "MAP": 0.3833333333333333,
+        "GMAP": 0.3833433333333333
+      }
+    },
+    {
+      "test_id": "summary_03",
+      "type": "summary",
+      "medlit_0904": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.022222222222222223,
+        "mean_f1": 0.03636363636363636,
+        "MAP": 0.03333333333333333,
+        "GMAP": 0.033343333333333336
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.022222222222222223,
+        "mean_f1": 0.03636363636363636,
+        "MAP": 0.03333333333333333,
+        "GMAP": 0.033343333333333336
+      }
+    },
+    {
+      "test_id": "summary_04",
+      "type": "summary",
+      "medlit_0904": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.022222222222222223,
+        "mean_f1": 0.03636363636363636,
+        "MAP": 0.0125,
+        "GMAP": 0.012510000000000002
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.022222222222222223,
+        "mean_f1": 0.03636363636363636,
+        "MAP": 0.1,
+        "GMAP": 0.10001000000000003
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.022222222222222223,
+        "mean_f1": 0.03636363636363636,
+        "MAP": 0.1,
+        "GMAP": 0.10001000000000003
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.022222222222222223,
+        "mean_f1": 0.03636363636363636,
+        "MAP": 0.1,
+        "GMAP": 0.10001000000000003
+      }
+    },
+    {
+      "test_id": "yesno_01",
+      "type": "yesno",
+      "medlit_0904": {
+        "mean_precision": 0.0,
+        "mean_recall": 0.0,
+        "mean_f1": 0.0,
+        "MAP": 0.0,
+        "GMAP": 9.999999999999997e-06
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.1,
+        "mean_recall": 1.0,
+        "mean_f1": 0.18181818181818182,
+        "MAP": 0.3333333333333333,
+        "GMAP": 0.3333433333333333
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.14285714285714285,
+        "mean_recall": 1.0,
+        "mean_f1": 0.25,
+        "MAP": 0.3333333333333333,
+        "GMAP": 0.3333433333333333
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.14285714285714285,
+        "mean_recall": 1.0,
+        "mean_f1": 0.25,
+        "MAP": 0.3333333333333333,
+        "GMAP": 0.3333433333333333
+      }
+    },
+    {
+      "test_id": "yesno_02",
+      "type": "yesno",
+      "medlit_0904": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.6666666666666666,
+        "mean_f1": 0.30769230769230765,
+        "MAP": 0.38888888888888884,
+        "GMAP": 0.38889888888888885
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.3,
+        "mean_recall": 1.0,
+        "mean_f1": 0.4615384615384615,
+        "MAP": 0.49999999999999994,
+        "GMAP": 0.50001
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.3,
+        "mean_recall": 1.0,
+        "mean_f1": 0.4615384615384615,
+        "MAP": 0.5888888888888889,
+        "GMAP": 0.5888988888888889
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.3,
+        "mean_recall": 1.0,
+        "mean_f1": 0.4615384615384615,
+        "MAP": 0.5138888888888888,
+        "GMAP": 0.5138988888888888
+      }
+    },
+    {
+      "test_id": "yesno_03",
+      "type": "yesno",
+      "medlit_0904": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.25,
+        "mean_f1": 0.22222222222222224,
+        "MAP": 0.04583333333333334,
+        "GMAP": 0.04584333333333333
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.125,
+        "mean_f1": 0.11111111111111112,
+        "MAP": 0.0125,
+        "GMAP": 0.012510000000000002
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.3,
+        "mean_recall": 0.375,
+        "mean_f1": 0.33333333333333326,
+        "MAP": 0.24107142857142858,
+        "GMAP": 0.24108142857142856
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.4,
+        "mean_recall": 0.5,
+        "mean_f1": 0.4444444444444445,
+        "MAP": 0.22499999999999998,
+        "GMAP": 0.22501000000000002
+      }
+    },
+    {
+      "test_id": "yesno_04",
+      "type": "yesno",
+      "medlit_0904": {
+        "mean_precision": 0.3,
+        "mean_recall": 0.16666666666666666,
+        "mean_f1": 0.21428571428571427,
+        "MAP": 0.095,
+        "GMAP": 0.09501
+      },
+      "science_pubmed_0915": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.1111111111111111,
+        "mean_f1": 0.14285714285714285,
+        "MAP": 0.03428571428571429,
+        "GMAP": 0.0342957142857143
+      },
+      "medlit_astra_0915_2": {
+        "mean_precision": 0.2,
+        "mean_recall": 0.1111111111111111,
+        "mean_f1": 0.14285714285714285,
+        "MAP": 0.03428571428571429,
+        "GMAP": 0.0342957142857143
+      },
+      "medlit_astra_0915_v3": {
+        "mean_precision": 0.1,
+        "mean_recall": 0.05555555555555555,
+        "mean_f1": 0.07142857142857142,
+        "MAP": 0.014285714285714285,
+        "GMAP": 0.01429571428571428
+      }
+    }
+  ],
+  "medlit_astra_metadata": {
+    "skill": "medlit-cli",
+    "plugin_version": "0.2.0+codex.20260915113715",
+    "model": "Codex (GPT-6 family per runtime instructions; exact model ID / 6 Astra selection not independently verifiable)",
+    "started_at": "2026-09-15T13:59:27.617130+00:00",
+    "finished_at": "2026-09-15T14:07:45.197036+00:00",
+    "retmax": 100,
+    "sort": "relevance",
+    "max_date": "",
+    "feedback_records": 10,
+    "environment_notes": "Initial workspace Set-Content and directory creation denied; workspace-scoped elevated execution succeeded. list_03 q1 HTTP 500 recovered using q2 after subsequent successful requests. list_04 q1 returned 9 of 10 requested feedback records (PMID 29262007 missing); all available abstracts read. Exact runtime model ID / 6 Astra selection cannot be independently verified. Online retrieval is date-dependent; no historical outputs accessed.",
+    "plugin_execution_root": "C:\\Users\\CGOMI\\.codex\\plugins\\cache\\medlit-local\\medlit-cli\\0.2.0+codex.20260915113715",
+    "search_attempt_count": 20,
+    "successful_search_count": 19,
+    "failed_search_count": 1,
+    "accepted_query_count": 16,
+    "semantic_revision_count": 3,
+    "infrastructure_retry_count": 1,
+    "search_date": "2026-09-15",
+    "timezone": "Asia/Shanghai",
+    "model_exact_id_verified": false,
+    "plugin_version_verified": true,
+    "redactions": []
+  },
+  "medlit_v3_metadata": {
+    "skill": "medlit-cli",
+    "plugin_version": "0.2.0+codex.20260915142801",
+    "model": "User-selected: 6 Astra; session describes Codex / GPT-6; exact runtime model ID not independently exposed or verified",
+    "started_at": "2026-09-15T14:33:26+00:00",
+    "finished_at": "2026-09-15T14:39:32.451127+00:00",
+    "retmax": 100,
+    "sort": "relevance",
+    "max_date": "",
+    "feedback_records": 10,
+    "environment_notes": "Installed pinned plugin and Python 3.12.1 verified. Full access limitations and logging notes in observations.md. Missing feedback retained after one recovery per affected attempt.",
+    "query_attempt_count": 23,
+    "feedback_recovery_count": 3
+  },
+  "note": "Official source evaluated locally on a project-selected sample, not an official leaderboard result. Non-document fields are empty; their raw NaN outputs are not reported as scores."
+}

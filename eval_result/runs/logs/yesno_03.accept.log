@@ -1,0 +1,7 @@
+[OK] accepted q002 with 100 ranked PMIDs
+{
+  "attempt_id": "q002",
+  "exact_query": "(Duchenne muscular dystrophy[Title/Abstract] OR DMD[Title/Abstract]) AND (respiratory[Title/Abstract]) AND (severity[Title/Abstract] OR disease progression[Title/Abstract])",
+  "pmids": 100,
+  "next": "fetch-records"
+}

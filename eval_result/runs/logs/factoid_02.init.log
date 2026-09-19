@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/factoid_02.json
+{
+  "state": "eval_result/runs/states/factoid_02.json",
+  "question": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?",
+  "next": "search-pubmed --query-file <query.json>"
+}

@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:\\Users\\CGOMI\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\CGOMI\\.codex\\plugins\\cache\\medlit-local\\medlit-cli\\0.2.0+codex.20260915113715\\scripts\\medlit_cli.py",
+    "--state",
+    "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\list_02.json",
+    "init",
+    "--question",
+    "What are the targets of ivonescimab?"
+  ],
+  "started_at": "2026-09-15T14:01:44.211051+00:00",
+  "finished_at": "2026-09-15T14:01:44.398428+00:00",
+  "exit_code": 0
+}

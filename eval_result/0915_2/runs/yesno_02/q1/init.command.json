@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:\\Users\\CGOMI\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\CGOMI\\.codex\\plugins\\cache\\medlit-local\\medlit-cli\\0.2.0+codex.20260915113715\\scripts\\medlit_cli.py",
+    "--state",
+    "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_2\\runs\\states\\yesno_02.json",
+    "init",
+    "--question",
+    "Is mucopolysaccharidosis-plus syndrome (MPSPS) an X-linked disease?"
+  ],
+  "started_at": "2026-09-15T14:04:42.774949+00:00",
+  "finished_at": "2026-09-15T14:04:42.956118+00:00",
+  "exit_code": 0
+}

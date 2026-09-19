@@ -1,0 +1,7 @@
+[OK] accepted q002 with 32 ranked PMIDs
+{
+  "attempt_id": "q002",
+  "exact_query": "(mucopolysaccharidosis-plus syndrome[Title/Abstract] OR mucopolysaccharidosis plus syndrome[Title/Abstract] OR MPSPS[Title/Abstract])",
+  "pmids": 32,
+  "next": "fetch-records"
+}

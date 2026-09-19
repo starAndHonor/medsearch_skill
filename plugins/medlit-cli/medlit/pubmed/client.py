@@ -31,6 +31,8 @@ class PubMedClient:
         params.update(ncbi_identity())
         url = f"{EUTILS_BASE}/esearch.fcgi?{urlencode(params)}"
         data = self.http.get_json(url)
+        if not isinstance(data, dict) or "esearchresult" not in data or data.get("error"):
+            raise ApiError("Unexpected or unsuccessful PubMed ESearch response")
         result = data.get("esearchresult", {})
         return {
             "query": query,
@@ -39,7 +41,11 @@ class PubMedClient:
             "pmids": [str(pmid) for pmid in result.get("idlist", [])],
             "query_translation": result.get("querytranslation", ""),
             "translationset": result.get("translationset", []),
+            "warninglist": result.get("warninglist", {}),
+            "errorlist": result.get("errorlist", {}),
             "retmax": requested_retmax,
+            "sort": "relevance",
+            "raw_esearch": data,
         }
 
     def fetch_records(self, pmids: list[str]) -> list[dict[str, Any]]:
@@ -49,7 +55,10 @@ class PubMedClient:
         params.update(ncbi_identity())
         url = f"{EUTILS_BASE}/efetch.fcgi?{urlencode(params)}"
         xml_text = self.http.get_text(url)
-        return self.parse_records(xml_text)
+        self.last_fetch_xml = xml_text
+        records = self.parse_records(xml_text)
+        by_pmid = {record.get("pmid"): record for record in records}
+        return [by_pmid[pmid] for pmid in pmids if pmid in by_pmid]
 
     def parse_records(self, xml_text: str) -> list[dict[str, Any]]:
         root = ET.fromstring(xml_text)

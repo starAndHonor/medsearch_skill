@@ -1,0 +1,143 @@
+[
+  {
+    "pmid": "36844708",
+    "title": "Fecal Microbiota Transplantation.",
+    "authors": [
+      "Cheng YW",
+      "Fischer M"
+    ],
+    "journal": "Clinics in colon and rectal surgery",
+    "pubdate": "2023 Mar",
+    "doi": "10.1055/s-0043-1760865",
+    "abstract": "Fecal microbiota transplantation (FMT) is the process of transplanting stool from a healthy donor into the gut of a patient for therapeutic purposes. Current guidelines recommend FMT for the prevention of multiply recurrent Clostridioides difficile infection (CDI) after two recurrences, with cure rates approaching 90%. Emerging evidence also supports the use of FMT in the management of severe and fulminant CDI, resulting in decreased mortality and colectomy rates compared with standard of care approach. FMT shows promise as salvage therapy for critically-ill, refractory CDI patients who are poor surgical candidates. FMT should be considered early in the clinical course of severe CDI, preferably within 48\u2009hours of failing to respond to antibiotic therapy and volume resuscitation. Besides CDI, ulcerative colitis was more recently identified as a potential treatment target for FMT. Several live biotherapeutics for microbiome restoration are on the horizon."
+  },
+  {
+    "pmid": "41039149",
+    "title": "Clostridioides difficile pathogenesis and control.",
+    "authors": [
+      "Chilton CH",
+      "Viprey V",
+      "Normington C",
+      "Moura IB",
+      "Buckley AM",
+      "Freeman J",
+      "Davies K",
+      "Wilcox MH"
+    ],
+    "journal": "Nature reviews. Microbiology",
+    "pubdate": "2026 Mar",
+    "doi": "10.1038/s41579-025-01242-2",
+    "abstract": "Clostridioides difficile infection (CDI) continues to be a notable burden worldwide, both in terms of patient mortality and morbidity, and the economic costs associated with treatment, diagnosis and management. The epidemiology of C. difficile has changed markedly over the decades, with high CDI rates driven by clinical pressures exacerbated by the severe acute respiratory syndrome coronavirus 2 pandemic, antibiotic resistance and selective pressures caused by antimicrobial use. C. difficile is challenging to diagnose and treat as it forms spores and can persist asymptomatically within the gut. Some strains express multiple virulence factors, including adhesins and toxins. The gut microbiota is crucially important in CDI, as a healthy microbiota is resistant to colonization with C. difficile. Dysbiosis, often caused by antimicrobial exposure, enables C. difficile spores to germinate and produce toxin, causing symptoms that can range from mild diarrhoea to fulminant colitis and death. This Review describes changes in epidemiology and effects on diagnosis, discusses recent breakthroughs in the understanding of pathogenesis and antibiotic resistance and explores the role of microbiota dysbiosis in CDI and novel microbiota therapies in CDI treatment."
+  },
+  {
+    "pmid": "39282548",
+    "title": "",
+    "authors": [
+      "Salvati F",
+      "Catania F",
+      "Murri R",
+      "Fantoni M",
+      "Torti C"
+    ],
+    "journal": "Le infezioni in medicina",
+    "pubdate": "2024",
+    "doi": "10.53854/liim-3203-3",
+    "abstract": "Clostridioides difficile (C. difficile) is a Gram-positive, spore-forming anaerobic bacterium emerged as a leading cause of diarrhea globally. CDI's (Clostridioides difficile infection) impact on healthcare systems is concerning due to high treatment cost and increased hospitalisation time. The incidence of CDI has been influenced by hypervirulent strains such as the 027 ribotype, responsible for significant outbreaks in North America and Europe. CDI's epidemiology has evolved, showing increased community-acquired cases alongside traditional hospital-acquired infections. Mortality rates remain high, with recurrent infections further elevating the risk. Transmission of C. difficile primarily occurs via spores, which survive in healthcare settings and play a pivotal role in transmission. Not only health workers, but also the food chain could have a significant impact on the transmission of infection, although no confirmed foodborne cases have been documented. Pathogenicity of C. difficile involves spore germination and toxin production. Toxins A and B can cause cellular damage and inflammatory responses in the host, leading to colitis. Clinical picture can range from mild diarrhea to fulminant colitis with toxic megacolon, and bowel perforation. Risk factors for CDI include antibiotic exposure, advanced age, hospitalization, and use of proton pump inhibitors. Patients who experience abdominal surgery or patients with inflammatory bowel disease (IBD) are particularly susceptible due to their compromised gut microbiota. Management of CDI has evolved, with fidaxomicin emerging as a superior treatment option over vancomycin for initial and recurrent infections due to its reduction of recurrence rate. Faecal microbiota transplantation (FMT) is effective for recurrent CDI, restoring gut eubiosis. Bezlotoxumab, a monoclonal antibody against C. difficile toxin B, has shown promise in reducing recurrence rates. Severe cases of CDI may require surgical intervention, particularly in instances of toxic megacolon or bowel perforation. In conclusion, CDI remains a significant clinical entity. Further research are needed to improve patients' outcome and reduce the burden on healthcare systems."
+  },
+  {
+    "pmid": "37560802",
+    "title": "Clostridioides difficile Infection in Children: Recent Updates on Epidemiology, Diagnosis, Therapy.",
+    "authors": [
+      "Shirley DA",
+      "Tornel W",
+      "Warren CA",
+      "Moonah S"
+    ],
+    "journal": "Pediatrics",
+    "pubdate": "2023 Sep 01",
+    "doi": "10.1542/peds.2023-062307",
+    "abstract": "Clostridioides (formerly Clostridium) difficile is the most important infectious cause of antibiotic-associated diarrhea worldwide and a leading cause of healthcare-associated infection in the United States. The incidence of C. difficile infection (CDI) in children has increased, with 20\u2009000 cases now reported annually, also posing indirect educational and economic consequences. In contrast to infection in adults, CDI in children is more commonly community-associated, accounting for three-quarters of all cases. A wide spectrum of disease severity ranging from asymptomatic carriage to severe diarrhea can occur, varying by age. Fulminant disease, although rare in children, is associated with high morbidity and even fatality. Diagnosis of CDI can be challenging as currently available tests detect either the presence of organism or disease-causing toxin but cannot distinguish colonization from infection. Since colonization can be high in specific pediatric groups, such as infants and young children, biomarkers to aid in accurate diagnosis are urgently needed. Similar to disease in adults, recurrence of CDI in children is common, affecting 20% to 30% of incident cases. Metronidazole has long been considered the mainstay therapy for CDI in children. However, new evidence supports the safety and efficacy of oral vancomycin and fidaxomicin as additional treatment options, whereas fecal microbiota transplantation is gaining popularity for recurrent infection. Recent advancements in our understanding of emerging epidemiologic trends and management of CDI unique to children are highlighted in this review. Despite encouraging therapeutic advancements, there remains a pressing need to optimize CDI therapy in children, particularly as it pertains to severe and recurrent disease."
+  },
+  {
+    "pmid": "34837014",
+    "title": "Clostridioides difficile toxins: mechanisms of action and antitoxin therapeutics.",
+    "authors": [
+      "Kordus SL",
+      "Thomas AK",
+      "Lacy DB"
+    ],
+    "journal": "Nature reviews. Microbiology",
+    "pubdate": "2022 May",
+    "doi": "10.1038/s41579-021-00660-2",
+    "abstract": "Clostridioides difficile is a Gram-positive anaerobe that can cause a spectrum of disorders that range in severity from mild diarrhoea to fulminant colitis and/or death. The bacterium produces up to three toxins, which are considered the major virulence factors in C. difficile infection. These toxins promote inflammation, tissue damage and diarrhoea. In this Review, we highlight recent biochemical and structural advances in our understanding of the mechanisms that govern host-toxin interactions. Understanding how C. difficile toxins affect the host forms a foundation for developing novel strategies for treatment and prevention of C. difficile infection."
+  },
+  {
+    "pmid": "38726585",
+    "title": "Clostridioides Difficile: A Concise Review of Best Practices and Updates.",
+    "authors": [
+      "Yakout A",
+      "Bi Y",
+      "Harris DM"
+    ],
+    "journal": "Journal of primary care & community health",
+    "pubdate": "2024",
+    "doi": "10.1177/21501319241249645",
+    "abstract": "Clostridioides difficile infection (CDI) is one of the most common and severe nosocomial infections worldwide. It can also affect healthy individuals in the community. The incidence of CDI has been on the rise globally for the past decade, necessitating a proactive approach to combat its spread; new strategies are being developed to enhance diagnostic accuracy and optimize treatment outcomes. Implementing the 2-step testing has increased diagnostic specificity, reducing the usage of CD-specific antibiotics with no concomitant increase in surgical complication rates. In 2021, the Infectious Diseases Society of America/Society for Healthcare Epidemiology of America (IDSA/SHEA) shifted its preference for initial treatment to fidaxomicin over vancomycin and metronidazole due to its lower recurrence rate. It also prioritized fidaxomicin for the treatment of recurrent CDI. There are new developments on the frontiers of fecal microbiota therapies, with RBX2660 and SER-109 approved recently by the FDA for prevention, with other microbiome-based therapies in various development and clinical trials. This review offers providers an updated and practical guide for CDI management."
+  },
+  {
+    "pmid": "30285209",
+    "title": "Clostridioides difficile Infection.",
+    "authors": [
+      "Guh AY",
+      "Kutty PK"
+    ],
+    "journal": "Annals of internal medicine",
+    "pubdate": "2018 Oct 02",
+    "doi": "10.7326/AITC201810020",
+    "abstract": "Clostridioides difficile (formerly Clostridium difficile) infection is the most frequently identified health care-associated infection in the United States. C difficile has also emerged as a cause of community-associated diarrhea, resulting in increased incidence of community-associated infection. Clinical illness ranges in severity from mild diarrhea to fulminant colitis and death. Appropriate management of infection requires understanding of the various diagnostic assays and therapeutic options as well as relevant measures to infection prevention. This article provides updated recommendations regarding the prevention, diagnosis, and treatment of incident and recurrent C difficile infection."
+  },
+  {
+    "pmid": "38395525",
+    "title": "AGA Clinical Practice Guideline on Fecal Microbiota-Based Therapies for Select Gastrointestinal Diseases.",
+    "authors": [
+      "Peery AF",
+      "Kelly CR",
+      "Kao D",
+      "Vaughn BP",
+      "Lebwohl B",
+      "Singh S",
+      "Imdad A",
+      "Altayar O",
+      "AGA Clinical Guidelines Committee. Electronic address: clinicalpractice@gastro.org"
+    ],
+    "journal": "Gastroenterology",
+    "pubdate": "2024 Mar",
+    "doi": "10.1053/j.gastro.2024.01.008",
+    "abstract": "BACKGROUND & AIMS: Fecal microbiota-based therapies include\u00a0conventional fecal microbiota transplant and US Food and Drug Administration-approved therapies, fecal microbiota live-jslm and fecal microbiota spores live-brpk. The American Gastroenterological Association (AGA) developed this guideline to provide recommendations on the use of fecal microbiota-based therapies in adults with recurrent Clostridioides difficile infection; severe to fulminant C difficile infection; inflammatory bowel diseases, including pouchitis; and irritable bowel syndrome.\nMETHODS: The\u00a0guideline was developed using the GRADE (Grading of Recommendations, Assessment, Development, and Evaluation) framework to prioritize clinical questions, identify patient-centered outcomes, and conduct an evidence synthesis. The guideline panel used the Evidence-to-Decision framework to develop recommendations for the use of fecal microbiota-based therapies in the specified gastrointestinal conditions and provided implementation considerations for clinical practice.\nRESULTS: The guideline panel made 7 recommendations. In immunocompetent adults with recurrent C difficile infection, the AGA suggests select use of fecal microbiota-based therapies on completion of standard of care antibiotics to prevent recurrence. In mildly or moderately immunocompromised adults with recurrent C difficile infection, the AGA suggests select use of conventional fecal microbiota transplant. In severely immunocompromised adults, the AGA suggests against the use of any fecal microbiota-based therapies to prevent recurrent C difficile. In adults hospitalized with severe or fulminant C difficile not responding to standard of care antibiotics, the AGA suggests select use of conventional fecal microbiota transplant. The AGA suggests against the use of conventional fecal microbiota transplant as treatment for inflammatory bowel diseases or irritable bowel syndrome, except in the context of clinical trials.\nCONCLUSIONS: Fecal microbiota-based therapies are effective therapy to prevent recurrent C difficile in select patients. Conventional fecal microbiota transplant is an adjuvant treatment for select adults hospitalized with severe or fulminant C difficile infection not responding to standard of care antibiotics. Fecal microbiota transplant cannot yet be recommended in other gastrointestinal conditions."
+  },
+  {
+    "pmid": "38677819",
+    "title": "Clostridioides difficile Colitis.",
+    "authors": [
+      "Pumiglia L",
+      "Wilson L",
+      "Rashidi L"
+    ],
+    "journal": "The Surgical clinics of North America",
+    "pubdate": "2024 Jun",
+    "doi": "10.1016/j.suc.2023.11.005",
+    "abstract": "Clostridioides difficile colitis is an important source of hospital-acquired diarrhea associated with antibiotic use. Symptoms are profuse watery diarrhea, typically following a course of antibiotics; however, some cases of fulminant disease may manifest with shock, ileus, or megacolon. Nonfulminant colitis is treated with oral fidaxomicin. C difficile colitis has a high potential for recurrence, and recurrent episodes are also treated with fidaxomicin. Bezlotoxumab is another medication that may be used in populations at high risk for further recurrence. Fulminant disease is treated with maximal medical therapy and early surgical consultation. Antibiotic stewardship is critical to preventing C difficile colitis."
+  },
+  {
+    "pmid": "41247039",
+    "title": "Diagnosis and Management of Clostridioides difficile.",
+    "authors": [
+      "Kelly CR",
+      "Feuerstadt P"
+    ],
+    "journal": "The American journal of gastroenterology",
+    "pubdate": "2026 Mar 01",
+    "doi": "10.14309/ajg.0000000000003844",
+    "abstract": "Clostridioides difficile infection (CDI) is challenging to diagnose and treat. Recently published studies and clinical observations have improved our understanding around diagnostic testing and positioning of antibiotics and microbiota-based therapies. This review synthesizes current evidence and guidelines on CDI diagnosis, highlighting the limitations of individual tests and the value of algorithmic approaches. Treatment paradigms are discussed across the spectrum of disease severity, with vancomycin and fidaxomicin as first-line therapies and the diminishing role of metronidazole. For recurrent CDI, newer fecal microbiota-based therapies, including fecal microbiota, live-jslm (Rebyota), and fecal microbiota spores, live-brpk (Vowst), are reviewed. The role of conventional fecal microbiota transplantation, particularly in fulminant CDI, is also addressed, including challenges resulting from US Food and Drug Administration policies around stool bank material. We aim to clarify diagnostic and therapeutic approaches and optimize care for patients with CDI."
+  }
+]

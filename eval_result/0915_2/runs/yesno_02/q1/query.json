@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"mucopolysaccharidosis-plus syndrome\"[Title/Abstract] OR MPSPS[Title/Abstract]",
+  "reasoning": "以罕见病名称和题目给定缩写检索遗传研究；不将待验证X-linked设为必须条件。",
+  "added_terms": []
+}

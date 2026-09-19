@@ -1,0 +1,7 @@
+[OK] accepted q001 with 6 ranked PMIDs
+{
+  "attempt_id": "q001",
+  "exact_query": "(phosphodiesterase 5[Title/Abstract] OR PDE5[Title/Abstract]) AND (inhibitor[Title/Abstract] OR inhibitors[Title/Abstract]) AND (short half-life[Title/Abstract] OR short half life[Title/Abstract])",
+  "pmids": 6,
+  "next": "fetch-records"
+}

@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"colorectal cancer\"[Title/Abstract] AND \"conversion therapy\"[Title/Abstract] AND (\"liver metastasis\"[Title/Abstract] OR \"liver metastases\"[Title/Abstract])",
+  "pmids": 76,
+  "next": "fetch-records"
+}

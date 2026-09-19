@@ -1,0 +1,13 @@
+usage: medlit-cli search-pubmed [-h] --query-file QUERY_FILE [--retmax RETMAX]
+                                [--max-date MAX_DATE]
+                                [--feedback-records FEEDBACK_RECORDS]
+
+options:
+  -h, --help            show this help message and exit
+  --query-file QUERY_FILE
+                        JSON file containing exact_query and optional audit
+                        metadata.
+  --retmax RETMAX       Number of ranked PMIDs to return.
+  --max-date MAX_DATE   Optional publication cutoff (YYYY/MM/DD).
+  --feedback-records FEEDBACK_RECORDS
+                        Top records returned for Agent review.

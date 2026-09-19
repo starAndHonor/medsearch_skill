@@ -1,0 +1,1 @@
+{"test_id":"factoid_02","question":"What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?","exact_query":"(colorectal cancer[Title/Abstract]) AND (consensus molecular subtype[Title/Abstract] OR CMS[Title/Abstract])","reasoning":"Retrieve studies describing CMS assignment and unclassifiable cases.","added_terms":[]}

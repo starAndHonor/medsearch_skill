@@ -1,0 +1,307 @@
+{
+  "questions": [
+    {
+      "id": "67d3518718b1e36f2e000008",
+      "type": "factoid",
+      "body": "Which disease is caused by heterozygous UCHL1 loss-of-function variants?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35986737",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38549004",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28007905",
+        "http://www.ncbi.nlm.nih.gov/pubmed/15325839",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41958053",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37650884",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38131667",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35213010",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36774704",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35512140"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "65f7741fc4010b4d78000027",
+      "type": "factoid",
+      "body": "What proportion of colorectal cancer cases are not assignable to any of the consensus molecular subtype (CMS) groups?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35538548",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38319359",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35773407",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27325016",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40446800",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41361128",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39227409",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38200223",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36197901"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67d7fe2618b1e36f2e000044",
+      "type": "factoid",
+      "body": "Vector of zika virus.",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/28846489",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27029595",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27070380",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36151059",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39472938",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28189390",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36867568",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27337468",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29406975",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28316896"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "662154f0b9f8b89d7e000009",
+      "type": "factoid",
+      "body": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37869523",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40659890",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29970651",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35196945",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30558859",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28052299",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33640172",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34762175",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29715142",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33002301"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67d34e2518b1e36f2e000006",
+      "type": "list",
+      "body": "What is caused by biallelic CRELD1 variants?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37947183",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40980404",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36436375",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40870020"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67e6ba8e18b1e36f2e0000bf",
+      "type": "list",
+      "body": "What are the targets of ivonescimab?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38820549",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40057343",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39073550",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38642937",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41125109",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39711140",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40114411",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40528044",
+        "http://www.ncbi.nlm.nih.gov/pubmed/42218899",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40034861"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67cc973e81b1027333000011",
+      "type": "list",
+      "body": "Please list the short half life phosphodiesterase 5 inhibitors.",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/38423706",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36011039",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25951512",
+        "http://www.ncbi.nlm.nih.gov/pubmed/19154494",
+        "http://www.ncbi.nlm.nih.gov/pubmed/8858389",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39844934",
+        "http://www.ncbi.nlm.nih.gov/pubmed/16959227",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26739178",
+        "http://www.ncbi.nlm.nih.gov/pubmed/29739235",
+        "http://www.ncbi.nlm.nih.gov/pubmed/23321580"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67cddce881b102733300001c",
+      "type": "list",
+      "body": "Please list major complications of Clostridium difficile infection.",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/36844708",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41039149",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39282548",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37560802",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34837014",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38726585",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30285209",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38395525",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38677819",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41247039"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67d74cde18b1e36f2e00003c",
+      "type": "summary",
+      "body": "Describe RankMHC.",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555889"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67e6b63118b1e36f2e0000bc",
+      "type": "summary",
+      "body": "What is the clinical significance of the Eiffel-by-Night Sign?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39555834",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41455465",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25703277",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38085425",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24299643",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24441344",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38519435",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38759113"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67d722e818b1e36f2e000036",
+      "type": "summary",
+      "body": "Pathophysiology of irritable bowel syndrome (IBS).",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/35419092",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34238582",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36307180",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24944467",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37475846",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30023410",
+        "http://www.ncbi.nlm.nih.gov/pubmed/25339801",
+        "http://www.ncbi.nlm.nih.gov/pubmed/30522596",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35125827",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41226634"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67da17c918b1e36f2e000055",
+      "type": "summary",
+      "body": "What is the role of the receptor tyrosine kinase AXL in malignancy?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/37328828",
+        "http://www.ncbi.nlm.nih.gov/pubmed/34103328",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39924521",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38310091",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39664584",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39216477",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38773967",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38342232",
+        "http://www.ncbi.nlm.nih.gov/pubmed/22071539",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41297351"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67d34ad518b1e36f2e000005",
+      "type": "yesno",
+      "body": "Is high WEE1 expression linked to PARP inhibition resistance?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/42446852",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40187712",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39558144",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38197544",
+        "http://www.ncbi.nlm.nih.gov/pubmed/42136469",
+        "http://www.ncbi.nlm.nih.gov/pubmed/24536047",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33425022",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41910001",
+        "http://www.ncbi.nlm.nih.gov/pubmed/26054341",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39004472"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "67c7708481b1027333000002",
+      "type": "yesno",
+      "body": "Is mucopolysaccharidosis-plus syndrome (MPSPS) an X-linked disease?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/31936524",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39273517",
+        "http://www.ncbi.nlm.nih.gov/pubmed/37628632",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35628659",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41310305",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40822349",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36153662",
+        "http://www.ncbi.nlm.nih.gov/pubmed/40758165",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35327996",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36232726"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "66301d1d187cba990d000026",
+      "type": "yesno",
+      "body": "Are respiratory measurements correlated with disease severity in Duchenne muscular dystrophy?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/39503119",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39379403",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35860996",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27149418",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35953292",
+        "http://www.ncbi.nlm.nih.gov/pubmed/31487757",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28904987",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35549789",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33305168",
+        "http://www.ncbi.nlm.nih.gov/pubmed/36596294"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    },
+    {
+      "id": "662fc277187cba990d000013",
+      "type": "yesno",
+      "body": "Does the consensus molecular subtype (CMS) classification for colorectal cancer have any use in routine clinical practice?",
+      "documents": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/26457759",
+        "http://www.ncbi.nlm.nih.gov/pubmed/35538548",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38319359",
+        "http://www.ncbi.nlm.nih.gov/pubmed/27325016",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41121208",
+        "http://www.ncbi.nlm.nih.gov/pubmed/38336371",
+        "http://www.ncbi.nlm.nih.gov/pubmed/28825047",
+        "http://www.ncbi.nlm.nih.gov/pubmed/33456404",
+        "http://www.ncbi.nlm.nih.gov/pubmed/41361128",
+        "http://www.ncbi.nlm.nih.gov/pubmed/39227409"
+      ],
+      "concepts": [],
+      "snippets": [],
+      "triples": []
+    }
+  ]
+}

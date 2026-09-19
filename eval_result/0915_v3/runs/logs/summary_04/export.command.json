@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\CGOMI\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\CGOMI\\.codex\\plugins\\cache\\medlit-local\\medlit-cli\\0.2.0+codex.20260915142801\\scripts\\medlit_cli.py",
+    "--state",
+    "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_v3\\runs\\states\\summary_04.json",
+    "export-retrieval",
+    "--output-dir",
+    "D:\\GZIC_study\\SRP\\medlit-cli-v2\\medsearch_skill\\eval_result\\0915_v3\\runs\\exports\\summary_04"
+  ],
+  "started_at": "2026-09-15T14:38:20.330364+00:00",
+  "finished_at": "2026-09-15T14:38:20.538891+00:00",
+  "returncode": 0
+}

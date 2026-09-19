@@ -1,0 +1,28 @@
+[..] searching PubMed with q001
+[OK] 0 total hits; 0 PMIDs returned
+{
+  "attempt_id": "q001",
+  "exact_query": "(mucopolysaccharidosis-plus syndrome[Title/Abstract] OR MPSPS[Title/Abstract]) AND (X-linked[Title/Abstract] OR X linked[Title/Abstract])",
+  "reasoning": "Co-occur the syndrome name and inheritance descriptor.",
+  "added_terms": [],
+  "lint_warnings": [],
+  "effective_query": "(mucopolysaccharidosis-plus syndrome[Title/Abstract] OR MPSPS[Title/Abstract]) AND (X-linked[Title/Abstract] OR X linked[Title/Abstract])",
+  "query_translation": "(\"mucopolysaccharidosis plus syndrome\"[Title/Abstract] OR \"MPSPS\"[Title/Abstract]) AND (\"X-linked\"[Title/Abstract] OR \"X-linked\"[Title/Abstract])",
+  "translationset": [],
+  "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+      "No items found."
+    ]
+  },
+  "errorlist": {},
+  "count": 0,
+  "retmax": 100,
+  "sort": "relevance",
+  "max_date": "",
+  "pmids": [],
+  "feedback_records": [],
+  "feedback_error": "",
+  "executed_at": "2026-09-04T07:25:04+00:00"
+}

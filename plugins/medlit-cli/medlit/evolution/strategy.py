@@ -12,15 +12,21 @@ class StrategyEvolver:
 
     def evolve(self, state: dict[str, Any], diagnostics: dict[str, Any]) -> dict[str, Any]:
         metrics = diagnostics.get("metrics", {})
-        coverage = diagnostics.get("coverage", {})
         suggestions = []
-        if metrics.get("records", 0) == 0:
-            suggestions.append("Use Q1_broad_conceptual or remove strict publication type/date filters.")
-        if metrics.get("records", 0) > state.get("budgets", {}).get("max_records", 50):
-            suggestions.append("Prefer focused query and add outcome or study-design terms.")
-        missing = [k for k, ok in coverage.items() if not ok]
-        if missing:
-            suggestions.append("Add visible Title/Abstract terms for: " + ", ".join(missing))
+        attempts = state.get("query_attempts", [])
+        latest = attempts[-1] if attempts else {}
+        if not attempts:
+            suggestions.append(
+                "Author a PubMed query from the question's distinctive biomedical entities."
+            )
+        elif not latest.get("pmids"):
+            suggestions.append(
+                "Inspect PubMed warnings and translation, then remove an unsupported or overly strict condition."
+            )
+        elif not state.get("accepted_query_attempt_id"):
+            suggestions.append(
+                "Inspect the latest titles and abstracts, then accept the attempt or author a materially improved query."
+            )
         if metrics.get("fulltext_hit_rate", 0.0) < 0.25 and metrics.get("records", 0):
             suggestions.append("Prioritize PMC/Europe PMC records or reviews with PMCID to improve full-text hit rate.")
         if not suggestions:

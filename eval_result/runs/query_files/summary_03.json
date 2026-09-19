@@ -1,0 +1,1 @@
+{"test_id":"summary_03","question":"Pathophysiology of irritable bowel syndrome (IBS).","exact_query":"(irritable bowel syndrome[Title/Abstract] OR IBS[Title/Abstract]) AND (pathophysiology[Title/Abstract])","reasoning":"Co-occur IBS terminology and the requested pathophysiology concept.","added_terms":[]}

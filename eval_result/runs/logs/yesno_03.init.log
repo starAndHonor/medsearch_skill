@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/yesno_03.json
+{
+  "state": "eval_result/runs/states/yesno_03.json",
+  "question": "Are respiratory measurements correlated with disease severity in Duchenne muscular dystrophy?",
+  "next": "search-pubmed --query-file <query.json>"
+}

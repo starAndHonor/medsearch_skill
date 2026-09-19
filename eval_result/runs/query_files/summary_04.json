@@ -1,0 +1,1 @@
+{"test_id":"summary_04","question":"What is the role of the receptor tyrosine kinase AXL in malignancy?","exact_query":"(AXL[Title/Abstract] OR receptor tyrosine kinase AXL[Title/Abstract]) AND (malignancy[Title/Abstract])","reasoning":"Co-occur the named receptor and malignancy context.","added_terms":[]}

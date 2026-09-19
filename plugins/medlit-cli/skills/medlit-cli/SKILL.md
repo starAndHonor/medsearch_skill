@@ -1,199 +1,159 @@
 ---
 name: medlit-cli
-description: "Use when the user explicitly invokes $medlit-cli to run the bundled stateful biomedical literature workflow: accept a PICO JSON, build and run PubMed searches, fetch records, attempt open-access localization, parse supported sources, extract deterministic evidence, diagnose progress, and write and integrity-check a report. Does not extract PDF text or validate medical correctness."
+description: "Use when the user explicitly invokes $medlit-cli to run the bundled stateful biomedical literature workflow: author and iteratively assess PubMed queries, select retrieved records, attempt open-access localization, extract evidence, and write an integrity-checked report. Does not validate medical correctness."
 ---
 
 # MedLit CLI
 
-Run the bundled MedLit implementation for an explicitly requested
-biomedical literature task. Codex operates the workflow and inspects its state;
-do not ask the user to imitate CLI execution.
+Use the bundled CLI as a toolbox. Codex decides which PubMed query to try,
+reads the returned search evidence, and decides whether to revise or accept it.
+The Python package executes atomic commands; it is not a query-planning
+orchestrator.
 
-## Execution path
+## Execution
 
-Resolve the execution root by walking upward from this `SKILL.md` until the
-same directory contains both of these implemented paths:
+Resolve the execution root by walking upward from this file until one directory
+contains both scripts/medlit_cli.py and medlit/cli.py. Stop with a
+missing-installation blocker if no such directory exists. Use the active Python
+interpreter unless the user supplied another one, and confirm the entrypoint
+with --help before its first use.
 
-- `scripts/medlit_cli.py`
-- `medlit/cli.py`
+Invoke commands with the global state argument before the subcommand:
 
-Stop with a missing-installation blocker if no such ancestor exists. Do not
-guess the root from the current working directory or a fixed number of parent
-directories. Convert the resolved entrypoint to an absolute path before use.
+~~~text
+python "<execution root>/scripts/medlit_cli.py" --state "<workspace/state.json>" <command> [arguments]
+~~~
 
-The implemented call chain is:
+Keep the state and generated artifacts in a dedicated workspace directory. The
+state records query attempts, the accepted attempt, records, evidence, blockers,
+and provenance.
 
-`scripts/medlit_cli.py` -> `medlit.cli.main()` -> the selected command handler
+## Workflow
 
-Honor a Python interpreter explicitly supplied by the user or environment;
-otherwise use the active interpreter. Confirm the entrypoint with `--help`
-before its first use. Invoke every stage in this form, with the global
-`--state` option before the command:
+1. Run status. If there is no state, run init --question <question>.
+   Do not overwrite an existing run merely to change its search query.
+   For a retrieval-only request, initialize with --mode retrieval. Legacy
+   states without task_mode retain the full research workflow.
+2. Read
+   [references/pubmed_query_rules.md](references/pubmed_query_rules.md), then
+   author a UTF-8 JSON query file containing the complete PubMed query:
 
-```text
-python "<resolved execution root>/scripts/medlit_cli.py" --state "<workspace state.json>" <command> [arguments]
-```
+   ~~~json
+   {
+     "attempt_id": "q1",
+     "exact_query": "(UCHL1[Title/Abstract]) AND (heterozygous[Title/Abstract])",
+     "reasoning": "Search the explicit gene and inheritance state together.",
+     "added_terms": []
+   }
+   ~~~
 
-Store `state.json`, downloaded sources, parsed text, and `report.md` in a
-dedicated directory inside the user's workspace. The JSON state is the source
-of truth for completed stages, records, evidence, blockers, and provenance.
+   For every term not visibly present in the question, add an audit item:
 
-## Step-by-step instructions
+   ~~~json
+   {
+     "term": "expanded term",
+     "source_term": "term from the question",
+     "reason": "Why this is a direct synonym or spelling variant."
+   }
+   ~~~
 
-1. Inspect the request and choose a workspace-local state path. Run `status`
-   first when that path may contain an earlier run. Resume from the recommended
-   next action instead of reinitializing an existing state.
-2. If no state exists, run `init --question <question>`. This creates a
-   `medlit-state/v0.1` JSON state with workflow budgets and counters.
-3. Create a UTF-8 PICO JSON file from the user's question or user-supplied
-   concepts, then run `decompose --pico-file <file>`. The code does not perform
-   local PICO decomposition. Include `question` with the original question and
-   use these implemented concept keys: `population`,
-   `intervention_or_exposure`, `comparator`, and `outcome`. Filters are opt-in:
-   add `filters: {"humans": true, "language": "english"}` only when the user or
-   protocol explicitly requires them.
-4. Run `plan-terms`. It keeps rare entity tokens separate from adjacent verbs,
-   excludes generic prose terms from structured OR blocks, and prepares an
-   untagged cleaned-question lane alongside structured entity terms. It does
-   not apply humans or English filters by default.
-5. MeSH is experimental. Skip `validate-mesh` in the default retrieval path.
-   When explicitly testing MeSH, run it and inspect each result; failed lookups
-   become per-term `fallback` entries and do not block the workflow.
-6. Run `build-query` (or experimental `build-query --use-mesh`). Inspect
-   `query_ladder`; an empty ladder cannot be searched. The normal ladder can
-   contain a cleaned natural-language lane, a structured recall lane, an entity
-   co-occurrence lane, and only explicitly requested filter/comparator lanes.
-7. Execute each applicable retrieval lane with `search-pubmed --query-id <id>`.
-   The balanced per-lane depth defaults to 100 and remains configurable with
-   `--retmax`. Every search stores PubMed's query translation and recomputes
-   `final_ranked_pmids` using reciprocal rank fusion (RRF); re-running one lane
-   replaces its prior result rather than double-weighting it.
-8. Run `fetch-records`. It consumes `final_ranked_pmids` in fused order and
-   stores parsed PubMed metadata. Older states without a fused ranking retain a
-   sequential compatibility fallback.
-9. Run `localize-fulltext`. For at most `budgets.max_records`, the code writes
-   per-paper metadata and tries open-access sources: Europe PMC XML, Europe PMC
-   PDF, then an Unpaywall PDF when an email is configured. Otherwise it records
-   abstract-only or unavailable status.
-10. Run `parse-fulltext`. The parser uses existing XML first, then existing
-    HTML, then a PDF placeholder, then the PubMed abstract. Inspect
-    `parse_method` for every parsed source.
-11. Run `extract-evidence`. This is deterministic first-pass extraction from
-    `parsed_text`, not expert interpretation. Inspect every item and its local
-    source before relying on it.
-12. Run `diagnose` and follow `recommended_next_actions`. A blocked diagnosis
-    exits with code 8. A termination-ready diagnosis sets the state to
-    `ready_to_stop` until a report exists.
-13. When the available evidence is sufficient for the requested deliverable,
-    run `report`, then `verify`. The report is written beside the state as
-    `report.md`. After reporting, run `diagnose` again if the final state status
-    must be updated to `done`.
+3. Run:
 
-Do not use `evolve`, `spawn-tasks`, or `merge-task-output` as part of the
-default research workflow. They are separate helpers and are not required to
-produce or verify a report.
+   ~~~text
+   search-pubmed --query-file "<query.json>" --retmax 100 --feedback-records 10
+   ~~~
 
-## Evidence and reporting rules
+   Add --max-date YYYY/MM/DD only when the user or task requires a cutoff.
+   The command performs one real ESearch and returns count, ranked PMIDs,
+   Query Translation, warnings, errors, and top title/abstract records.
+4. Judge the attempt yourself. Check whether PubMed preserved the intended
+   entities and fields, and whether the top records address the question's
+   actual relationship. Count alone does not establish quality.
+   Check feedback_coverage: missing_pmids means records were not returned,
+   whereas no_abstract_pmids means the record exists without an abstract.
+   Use recover-feedback --attempt-id <id> to refetch only missing records when
+   needed. Recovery never changes the search ranking. Failed searches remain
+   separate attempts; do not treat api_failed/network_failed as zero hits.
+5. If the result is unsuitable, author a materially changed complete query and
+   run search-pubmed again. Use a new attempt ID. Typical corrections include
+   removing weak prose, splitting a false phrase, changing a field, relaxing an
+   unsupported condition, or adding a directly justified synonym.
+6. Do not create fixed broad/narrow lanes, merge attempts, or run RRF. Earlier
+   attempts are comparison context only. There is no prescribed number of
+   attempts; stop retrying when an attempt is suitable, infrastructure blocks
+   progress, or another query cannot be justified from observed evidence.
+7. Run accept-query --attempt-id <id> for the chosen attempt. Only its PMID
+   order becomes available to downstream commands.
+8. Run fetch-records, then localize-fulltext, parse-fulltext, and
+   extract-evidence.
+   In retrieval mode, instead run export-retrieval --output-dir <fresh directory>
+   after acceptance, then stop. It exports the unmodified ranking, audit state,
+   integrity check and SHA-256 manifest. Do not download full text merely to
+   complete a retrieval-only task. Read
+   [references/retrieval_audit.md](references/retrieval_audit.md) for recovery
+   and export details.
+9. Run diagnose and follow its current recommendation. When the available
+   evidence is sufficient, run report, verify, and optionally diagnose again
+   to update the terminal status.
 
-- Treat PMID, DOI, and local file paths in state as provenance. Do not invent
-  records, retrieved text, or citations.
-- Distinguish XML/HTML full text from abstract fallback in the response.
-- Never use `parse_method: pdf_placeholder` as article evidence. The current
-  PDF branch writes only a message containing the PDF path; it does not extract
-  the PDF's text, even though the current state labels its granularity as
-  `fulltext`.
-- The extractor reads at most the first 20,000 characters of each parsed source
-  and uses heuristics for study design, methods, results, numbers, and
-  limitations. Present its output as a draft extraction requiring inspection.
-- `report` serializes the current state into sections; it does not independently
-  synthesize or medically validate an answer.
-- `verify` checks reference integrity and the presence of local paths for
-  full-text-labelled evidence. It does not verify factual accuracy, study
-  quality, clinical applicability, or medical correctness.
-- Use only open-access material or user-provided local files. Do not bypass
-  paywalls or access controls.
-- Do not turn literature findings into diagnosis or patient-specific medical
-  advice.
+Do not use evolve, spawn-tasks, or merge-task-output in the default workflow.
+They are separate helpers.
 
-## Examples of inputs and outputs
+## Query Decisions
 
-### New run
+- Begin with distinctive entities and noun phrases from the question. Do not
+  submit the untouched natural-language question to PubMed ATM.
+- Write the complete PubMed syntax yourself, including Boolean relationships,
+  parentheses, phrases, and field tags.
+- Preserve rare genes, drugs, diseases, variants, named methods, and other
+  discriminative entities. Remove question scaffolding such as describe,
+  what is, and which.
+- Add a synonym only when it is a direct, defensible form of a visible source
+  term. Do not add a guessed answer, mechanism, phenotype, broader disease, or
+  drug class merely because it is medically related.
+- Add human, language, year, publication-type, or study-design restrictions
+  only when explicitly requested.
+- Prefer [Title/Abstract] for explicit entity co-occurrence, but use other
+  valid PubMed syntax when the question and observed Query Translation justify
+  it.
+- Treat zero results, unexpected author/journal mappings, ignored phrases, and
+  irrelevant top records as reasons to revise. A large result count is only a
+  warning; inspect the ranking before narrowing.
 
-User input:
+## Supporting References
 
-```text
-$medlit-cli Find studies comparing intervention X with standard care for
-outcome Y in adults with condition Z.
-```
+- Read [references/pubmed_query_rules.md](references/pubmed_query_rules.md)
+  before authoring or revising a query.
+- Read
+  [references/fulltext_download_policy.md](references/fulltext_download_policy.md)
+  before localization, parsing, or evidence extraction.
+- Read [references/termination_policy.md](references/termination_policy.md)
+  when diagnose reports a blocker or readiness to report.
+- Read [references/subagents_design.md](references/subagents_design.md) only
+  when the user explicitly requests file-based task helpers.
 
-Codex-created PICO input:
+## Evidence Rules
 
-```json
-{
-  "population": "adults with condition Z",
-  "intervention_or_exposure": "intervention X",
-  "comparator": "standard care",
-  "outcome": "outcome Y"
-}
-```
+- Treat PMID, DOI, PubMed responses, and local paths in state as provenance. Do
+  not invent records, retrieved text, or citations.
+- Distinguish XML/HTML full text from abstract fallback. Never treat
+  pdf_placeholder as article evidence.
+- Evidence extraction and report are deterministic first passes, not expert
+  medical synthesis. verify checks reference integrity, not factual or
+  clinical correctness.
+- Use only open-access or user-provided material. Do not bypass paywalls,
+  authentication, CAPTCHAs, or access controls.
+- Do not turn literature findings into diagnosis or patient-specific advice.
 
-Expected artifact flow:
+## Recovery
 
-```text
-state.json
-  -> query_ladder and retrieval_runs
-  -> PubMed records
-  -> papers/<identifier>/metadata.json and any open-access files
-  -> parsed_sources and evidence
-  -> report.md and verification in state.json
-```
-
-The final response must report what was actually retrieved, whether each relied
-on full text or abstract, where the report was written, and any blocker or
-degradation. It must not claim a successful medical review solely because
-`verify` returned `ok: true`.
-
-### Resume
-
-User input:
-
-```text
-$medlit-cli Continue the literature run in research/condition-z/state.json.
-```
-
-Run `status` against that exact state, inspect its JSON, and continue with the
-diagnosed next stage. Do not overwrite it with `init`.
-
-## Common edge cases
-
-- **Missing state:** `status` reports `no_state`; initialize only if the user is
-  starting a new run.
-- **Missing PICO file:** `decompose` records `codex_required` and exits 8.
-  Create or obtain explicit PICO JSON rather than claiming local decomposition.
-- **Incomplete PICO:** `diagnose` blocks when population, intervention/exposure,
-  or outcome is absent. Ask for or infer only information justified by the
-  request, then update the PICO file explicitly.
-- **MeSH service failure:** validation entries may fall back to
-  Title/Abstract terms. Report the degradation; do not describe fallback terms
-  as validated MeSH headings.
-- **No query or PMIDs:** search/fetch commands exit 5 and add a blocker. Return
-  to the preceding stage instead of fabricating results.
-- **Network or API failure:** network failures exit 7; PubMed API failures exit
-  6 and are recorded as recoverable errors. Retry only when the network or
-  configuration has changed, and respect the stored budgets.
-- **No open-access full text:** localization can still exit 0 with
-  `abstract_only` or `unavailable` items. Continue only with the provenance that
-  actually exists and disclose abstract-only evidence.
-- **Unpaywall email absent:** DOI-based Unpaywall retrieval is skipped unless
-  `UNPAYWALL_EMAIL` or `MEDLIT_EMAIL` is configured.
-- **Localized PDF:** the parser creates `pdf_placeholder`, not extracted text.
-  Exclude the placeholder from evidence and use an actual abstract or supported
-  XML/HTML source instead.
-- **Zero parsed or extracted items:** parse and extraction commands can exit 0
-  even when no usable items were produced. Inspect counts and state, then use
-  `diagnose`; never equate exit code 0 with research success.
-- **Verification issues:** exit code 9 means referential-integrity problems.
-  Fix state provenance before presenting the report as verified.
-- **Budget exhaustion or repeated blockers:** stop when `diagnose` reports a
-  blocked state. Return the partial supported result and the exact unresolved
-  blocker instead of looping.
+- **Invalid query file:** fix the JSON or definite syntax error and submit a new
+  attempt.
+- **Zero or irrelevant results:** inspect Query Translation and feedback
+  records, then make one explainable change at a time.
+- **No accepted query:** inspect attempts and either submit another query or
+  explicitly accept the best suitable attempt.
+- **Network failure:** preserve state and report the blocker; do not fabricate
+  a successful search.
+- **Resume:** run status on the exact state and continue from its live
+  recommendation.

@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "UCHL1[Title/Abstract] AND heterozygous[Title/Abstract] AND \"loss-of-function\"[Title/Abstract]",
+  "pmids": 5,
+  "next": "fetch-records"
+}

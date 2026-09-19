@@ -3,7 +3,7 @@
   "$id": "https://medlit-cli.local/research_state.schema.json",
   "title": "medlit-cli research state",
   "type": "object",
-  "required": ["schema_version", "question", "status", "records"],
+  "required": ["schema_version", "question", "status", "query_attempts", "accepted_query_attempt_id", "records"],
   "additionalProperties": true,
   "properties": {
     "schema_version": {"type": "string"},
@@ -11,14 +11,10 @@
     "created_at": {"type": "string"},
     "updated_at": {"type": "string"},
     "status": {"type": "string", "enum": ["running", "blocked", "ready_to_stop", "done"]},
-    "pico": {"type": "object"},
-    "term_plan": {"type": "object"},
-    "mesh_validation": {"type": "array"},
-    "query_ladder": {"type": "array"},
-    "query_configuration": {"type": "object"},
-    "retrieval_runs": {"type": "array"},
+    "query_attempts": {"type": "array", "items": {"$ref": "#/$defs/query_attempt"}},
+    "accepted_query_attempt_id": {"type": "string"},
+    "last_pmids": {"type": "array", "items": {"type": "string"}},
     "final_ranked_pmids": {"type": "array", "items": {"type": "string"}},
-    "fusion": {"type": "object"},
     "records": {"type": "array", "items": {"$ref": "#/$defs/record"}},
     "fulltexts": {"type": "array", "items": {"$ref": "#/$defs/fulltext_manifest"}},
     "parsed_sources": {"type": "array"},
@@ -30,6 +26,24 @@
     "report_path": {"type": "string"}
   },
   "$defs": {
+    "query_attempt": {
+      "type": "object",
+      "required": ["attempt_id", "exact_query", "count", "pmids"],
+      "additionalProperties": true,
+      "properties": {
+        "attempt_id": {"type": "string"},
+        "exact_query": {"type": "string"},
+        "reasoning": {"type": "string"},
+        "added_terms": {"type": "array"},
+        "effective_query": {"type": "string"},
+        "query_translation": {"type": "string"},
+        "warninglist": {"type": "object"},
+        "errorlist": {"type": "object"},
+        "count": {"type": "integer"},
+        "pmids": {"type": "array", "items": {"type": "string"}},
+        "feedback_records": {"type": "array", "items": {"$ref": "#/$defs/record"}}
+      }
+    },
     "record": {
       "type": "object",
       "required": ["pmid", "title", "source", "verified"],
@@ -82,4 +96,3 @@
     }
   }
 }
-

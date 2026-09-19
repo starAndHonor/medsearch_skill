@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/factoid_04.json
+{
+  "state": "eval_result/runs/states/factoid_04.json",
+  "question": "What is the most appropriate systemic treatment for conversion therapy in colorectal cancer with potentially resectable liver metastasis?",
+  "next": "search-pubmed --query-file <query.json>"
+}

@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "CRELD1[Title/Abstract] AND biallelic[Title/Abstract]",
+  "reasoning": "保留罕见基因及双等位状态，不预设表型。",
+  "added_terms": []
+}

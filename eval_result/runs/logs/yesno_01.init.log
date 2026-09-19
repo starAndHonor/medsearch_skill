@@ -1,0 +1,7 @@
+[..] initializing state
+[OK] state created: eval_result/runs/states/yesno_01.json
+{
+  "state": "eval_result/runs/states/yesno_01.json",
+  "question": "Is high WEE1 expression linked to PARP inhibition resistance?",
+  "next": "search-pubmed --query-file <query.json>"
+}

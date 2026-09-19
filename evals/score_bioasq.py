@@ -38,19 +38,9 @@ def safe_id(raw_id: str) -> str:
 
 
 def pred_pmids_from_state(state: dict[str, Any]) -> list[str]:
-    """Return the plugin's final fused ranking, with v0.1 fallback."""
-    fused = [str(pmid) for pmid in state.get("final_ranked_pmids", []) if str(pmid)]
-    if fused:
-        return list(dict.fromkeys(fused))
-    seen: set[str] = set()
-    out: list[str] = []
-    for run in state.get("retrieval_runs", []):
-        for pmid in run.get("pmids", []):
-            s = str(pmid)
-            if s and s not in seen:
-                seen.add(s)
-                out.append(s)
-    return out
+    """Return the accepted Agent query's PubMed ranking."""
+    ranked = [str(pmid) for pmid in state.get("final_ranked_pmids", []) if str(pmid)]
+    return list(dict.fromkeys(ranked))
 
 
 def tokens(text: str) -> set[str]:

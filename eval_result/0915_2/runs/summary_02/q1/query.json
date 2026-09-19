@@ -1,0 +1,6 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"Eiffel-by-Night\"[Title/Abstract]",
+  "reasoning": "以独特征象名定位，移除clinical significance及sign等泛化条件。",
+  "added_terms": []
+}

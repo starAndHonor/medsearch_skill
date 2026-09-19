@@ -1,0 +1,17 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "AXL[Title/Abstract] AND (malignan*[Title/Abstract] OR cancer[Title/Abstract])",
+  "reasoning": "保留受体名称及恶性肿瘤语境，不预设机制。",
+  "added_terms": [
+    {
+      "term": "malignan*",
+      "source_term": "malignancy",
+      "reason": "覆盖malignancy、malignancies与malignant词形。"
+    },
+    {
+      "term": "cancer",
+      "source_term": "malignancy",
+      "reason": "恶性肿瘤的直接同义表述。"
+    }
+  ]
+}

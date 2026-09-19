@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "WEE1[Title/Abstract] AND PARP[Title/Abstract] AND resistan*[Title/Abstract]",
+  "reasoning": "保留两个分子实体和耐药关系；不强制high等可能仅在结果部分出现的措辞。",
+  "added_terms": [
+    {
+      "term": "resistan*",
+      "source_term": "resistance",
+      "reason": "覆盖resistance和resistant。"
+    }
+  ]
+}

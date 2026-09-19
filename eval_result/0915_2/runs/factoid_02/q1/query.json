@@ -1,0 +1,12 @@
+{
+  "attempt_id": "q1",
+  "exact_query": "\"colorectal cancer\"[Title/Abstract] AND \"consensus molecular subtype*\"[Title/Abstract]",
+  "reasoning": "以疾病和独特分类名称定位原始分类及分组研究；不强制要求比例或不可分类的特定表述。",
+  "added_terms": [
+    {
+      "term": "consensus molecular subtype*",
+      "source_term": "consensus molecular subtype",
+      "reason": "词尾通配覆盖单复数。"
+    }
+  ]
+}

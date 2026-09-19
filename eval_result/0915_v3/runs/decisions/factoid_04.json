@@ -1,0 +1,6 @@
+{
+  "test_id": "factoid_04",
+  "accepted_attempt_id": "q4",
+  "reason": "q1偏预后及影像，q2引入conversion的代谢歧义，q3仍偏预测因素；q4聚焦原题的潜在可切除人群，包含治疗综述、方案比较及转化治疗研究。仍有局部治疗与预后记录，保留全部原始排序，不继续添加具体方案。",
+  "reviewed_feedback": "All returned top titles and full available abstracts; query translation, warnings/errors, count and coverage checked. No record-level selection or reordering."
+}

@@ -1,0 +1,28 @@
+[..] searching PubMed with q001
+[OK] 0 total hits; 0 PMIDs returned
+{
+  "attempt_id": "q001",
+  "exact_query": "(WEE1[Title/Abstract]) AND (high expression[Title/Abstract]) AND (PARP inhibition[Title/Abstract] OR PARP inhibitor[Title/Abstract]) AND (resistance[Title/Abstract])",
+  "reasoning": "Search the stated biomarker, treatment, and resistance relationship.",
+  "added_terms": [],
+  "lint_warnings": [],
+  "effective_query": "(WEE1[Title/Abstract]) AND (high expression[Title/Abstract]) AND (PARP inhibition[Title/Abstract] OR PARP inhibitor[Title/Abstract]) AND (resistance[Title/Abstract])",
+  "query_translation": "\"WEE1\"[Title/Abstract] AND \"high expression\"[Title/Abstract] AND (\"parp inhibition\"[Title/Abstract] OR \"parp inhibitor\"[Title/Abstract]) AND \"resistance\"[Title/Abstract]",
+  "translationset": [],
+  "warninglist": {
+    "phrasesignored": [],
+    "quotedphrasesnotfound": [],
+    "outputmessages": [
+      "No items found."
+    ]
+  },
+  "errorlist": {},
+  "count": 0,
+  "retmax": 100,
+  "sort": "relevance",
+  "max_date": "",
+  "pmids": [],
+  "feedback_records": [],
+  "feedback_error": "",
+  "executed_at": "2026-09-04T07:25:03+00:00"
+}

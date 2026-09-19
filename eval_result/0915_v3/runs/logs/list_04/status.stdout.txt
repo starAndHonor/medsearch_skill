@@ -1,0 +1,14 @@
+{
+  "status": "running",
+  "diagnostic_status": "needs_query_decision",
+  "next": [
+    "inspect_query_attempts",
+    "run_another_query_or_accept-query"
+  ],
+  "records": 0,
+  "evidence": 0,
+  "blockers": 0,
+  "report_path": "",
+  "query_attempts": 1,
+  "accepted_query_attempt_id": ""
+}
